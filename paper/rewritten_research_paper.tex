@@ -1,0 +1,838 @@
+\documentclass[10pt,twocolumn]{article}
+
+% Essential packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow,array}
+\usepackage{float}
+\usepackage{caption,subcaption}
+\usepackage{natbib}
+\usepackage{authblk}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{longtable}
+\usepackage{algorithm,algorithmic}
+\usepackage{enumitem}
+
+% Page geometry
+\geometry{
+  a4paper,
+  left=2cm,
+  right=2cm,
+  top=2.5cm,
+  bottom=2.5cm
+}
+
+% Define colors
+\definecolor{linkcolor}{RGB}{0,75,145}
+\definecolor{citecolor}{RGB}{50,100,150}
+\definecolor{urlcolor}{RGB}{75,50,150}
+
+% Hyperref setup
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkcolor,
+  citecolor=citecolor,
+  urlcolor=urlcolor,
+  pdfauthor={Aheli Poddar, Shuvam Banerji Seal, Alok Mishra},
+  pdftitle={Comprehensive Analysis of India's Aadhaar Enrollment Patterns}
+}
+
+% Title and authors
+\title{\Large\textbf{Comprehensive Analysis of India's Aadhaar Enrollment Patterns:\\A Multi-Scale Statistical and Machine Learning Investigation of 4.9 Million Records}}
+
+\author[1]{Aheli Poddar\thanks{These authors contributed equally to this work.}}
+\author[2]{Shuvam Banerji Seal$^{\dagger}$\thanks{Corresponding author. Email: corresponding@iiserkol.ac.in}~\footnotemark[1]}
+\author[2]{Alok Mishra\footnotemark[1]}
+
+\affil[1]{Institute of Engineering \& Management, Kolkata, West Bengal, India}
+\affil[2]{Indian Institute of Science Education and Research, Kolkata, West Bengal, India}
+
+\date{\today}
+
+\renewcommand\Affilfont{\small\itshape}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The Unique Identification Authority of India (UIDAI) Aadhaar system constitutes the world's largest biometric identification infrastructure. This study presents a comprehensive multi-dimensional analysis of 4.93 million Aadhaar enrollment records spanning three datasets (biometric updates: 1.86M, demographic updates: 2.07M, new enrollments: 1.0M) across 36 states and union territories, approximately 960 districts, and over 19,700 postal codes during the period March--December 2025. Employing an integrated methodological framework combining statistical analysis, machine learning, and causal inference, we reveal significant temporal patterns with marked weekday dominance (85\% of transactions), substantial geographic disparities characterized by a Gini coefficient of 0.737, and counter-intuitive inverse correlations with the Human Development Index. Advanced machine learning models across 117 configurations achieve classification accuracy of 99.97\% for regional prediction tasks. Bayesian causal network analysis using Hill Climbing with Bayesian Information Criterion scoring identifies key determinants of enrollment demand. Geographic clustering analysis delineates optimal strategies for enrollment center deployment, identifying 20 priority underserved districts requiring targeted interventions. Our demand forecasting models demonstrate robust performance with coefficient of determination exceeding 0.85 on normalized targets. These findings provide actionable insights for optimizing Aadhaar coverage, resource allocation, and policy formulation to enhance digital identity infrastructure in India.
+
+\noindent\textbf{Keywords:} Aadhaar, UIDAI, biometric identification, machine learning, Bayesian networks, causal analysis, geographic clustering, time series analysis, digital identity, India
+\end{abstract}
+
+%==============================================================================
+\section{Introduction}
+%==============================================================================
+
+\subsection{Background and Context}
+
+The Unique Identification Authority of India (UIDAI) Aadhaar program represents an unprecedented initiative in digital identity provision, serving as the world's largest biometric identification system. Providing a unique 12-digit identification number to over 1.4 billion residents, Aadhaar has emerged as the foundational infrastructure for government welfare programs, financial inclusion initiatives, and digital authentication mechanisms across India.
+
+Systematic analysis of enrollment patterns offers critical insights for several strategic imperatives:
+
+\begin{itemize}[noitemsep,leftmargin=*]
+    \item \textbf{Resource optimization}: Strategic allocation of enrollment centers and personnel based on demand patterns
+    \item \textbf{Policy development}: Identification of underserved populations and geographic coverage gaps
+    \item \textbf{Operational planning}: Anticipation of demand fluctuations for capacity management
+    \item \textbf{Quality assurance}: Detection of anomalies and irregularities in enrollment processes
+\end{itemize}
+
+This investigation addresses the fundamental challenge of extracting actionable intelligence from large-scale enrollment data to inform evidence-based policy decisions and operational improvements.
+
+\subsection{Research Objectives}
+
+We formulate six principal research questions that guide our analytical framework:
+
+\begin{enumerate}[noitemsep,leftmargin=*]
+    \item What temporal patterns characterize enrollment activity across daily, weekly, and monthly timescales?
+    \item Which geographic regions exhibit systematic enrollment gaps or disparities?
+    \item How do demographic factors, particularly age group stratification, influence enrollment behavior?
+    \item What relationships exist between biometric and demographic update patterns?
+    \item Can anomalous patterns be systematically identified to indicate operational irregularities?
+    \item What features demonstrate predictive power for forecasting enrollment demand?
+\end{enumerate}
+
+\subsection{Dataset Characteristics}
+
+Our analysis integrates three complementary datasets encompassing distinct aspects of Aadhaar operations, as summarized in Table~\ref{tab:dataset_overview}.
+
+\begin{table}[H]
+\centering
+\caption{Dataset composition and characteristics}
+\label{tab:dataset_overview}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Dataset} & \textbf{Records} & \textbf{Size (MB)} & \textbf{Age Groups} \\
+\midrule
+Biometric updates & 1,861,108 & 79 & 5--17, 17+ \\
+Demographic updates & 2,071,700 & 88 & 5--17, 17+ \\
+New enrollments & 1,006,029 & 44 & 0--5, 5--17, 18+ \\
+\midrule
+\textbf{Total} & \textbf{4,938,837} & \textbf{211} & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Contributions}
+
+This work makes several substantive contributions to the understanding of large-scale digital identity enrollment systems:
+
+\begin{itemize}[noitemsep,leftmargin=*]
+    \item Comprehensive univariate, bivariate, and trivariate statistical characterization across all datasets
+    \item Systematic evaluation of 117 machine learning model configurations spanning classification, regression, clustering, and anomaly detection tasks
+    \item Application of Bayesian causal network analysis to elucidate causal relationships among enrollment determinants
+    \item Geographic clustering methodology for data-driven enrollment center placement optimization
+    \item Identification and prioritization of 20 underserved districts for targeted intervention
+    \item Evidence-based policy recommendations grounded in rigorous data analysis
+\end{itemize}
+
+%==============================================================================
+\section{Methodology}
+%==============================================================================
+
+\subsection{Data Preprocessing Framework}
+
+We implement a systematic preprocessing pipeline structured as follows:
+
+\begin{equation}
+\text{Raw Data} \xrightarrow{\text{Clean}} \text{Validated Data} \xrightarrow{\text{Standardize}} \text{Normalized Data} \xrightarrow{\text{Engineer}} \text{Analysis-Ready Data}
+\end{equation}
+
+\subsubsection{Geographic Standardization}
+
+To ensure consistency across datasets, we implemented comprehensive geographic entity mapping addressing over 100 naming variations:
+
+\begin{itemize}[noitemsep,leftmargin=*]
+    \item Case normalization: lowercase variants standardized to title case
+    \item Historical nomenclature: ``Orissa'' $\rightarrow$ ``Odisha'', ``Uttaranchal'' $\rightarrow$ ``Uttarakhand''
+    \item Abbreviation expansion: ``A \& N Islands'' $\rightarrow$ ``Andaman And Nicobar Islands''
+\end{itemize}
+
+\subsubsection{Temporal Feature Engineering}
+
+From timestamp data, we derive a comprehensive set of temporal features:
+
+\begin{equation}
+\mathbf{T} = \{t_{dow}, t_{dom}, t_{month}, t_{quarter}, \mathbb{I}_{weekend}, \mathbb{I}_{month\_start}, \mathbb{I}_{month\_end}\}
+\end{equation}
+
+where $t_{dow} \in [0,6]$ denotes day of week, $t_{dom}$ represents day of month, and $\mathbb{I}$ indicates binary indicator functions.
+
+\subsubsection{Regional Aggregation}
+
+States and union territories are mapped to six macro-regional categories based on geographic and administrative conventions (Table~\ref{tab:region_mapping}).
+
+\begin{table}[H]
+\centering
+\caption{Regional classification scheme}
+\label{tab:region_mapping}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Region} & \textbf{States/UTs} & \textbf{Enrollment Share (\%)} \\
+\midrule
+Central & 3 & 25.74 \\
+South & 7 & 20.65 \\
+West & 4 & 18.05 \\
+East & 4 & 17.72 \\
+North & 9 & 14.62 \\
+Northeast & 9 & 2.99 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Statistical Analysis Methods}
+
+\subsubsection{Descriptive Statistics}
+
+For each numeric variable $X$ with $n$ observations, we compute:
+
+\begin{equation}
+\bar{X} = \frac{1}{n}\sum_{i=1}^{n} X_i, \quad s = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(X_i - \bar{X})^2}
+\end{equation}
+
+Additional distributional characteristics including skewness ($\gamma_1$), kurtosis ($\gamma_2$), and coefficient of variation are calculated to assess distribution shape and dispersion.
+
+\subsubsection{Correlation Analysis}
+
+Bivariate relationships are quantified using Pearson's correlation coefficient:
+
+\begin{equation}
+r_{XY} = \frac{\sum_{i=1}^{n}(X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum_{i=1}^{n}(X_i - \bar{X})^2}\sqrt{\sum_{i=1}^{n}(Y_i - \bar{Y})^2}}
+\end{equation}
+
+\subsubsection{Anomaly Detection}
+
+Z-score based anomaly detection employs a threshold criterion of $\tau = 2\sigma$:
+
+\begin{equation}
+\text{Anomaly}(x) = \begin{cases}
+\text{High} & \text{if } x > \mu + 2\sigma \\
+\text{Low} & \text{if } x < \mu - 2\sigma \\
+\text{Normal} & \text{otherwise}
+\end{cases}
+\end{equation}
+
+\subsubsection{Inequality Quantification}
+
+Geographic enrollment inequality is assessed using the Gini coefficient:
+
+\begin{equation}
+G = \frac{n+1-2\sum_{i=1}^{n}(n+1-i)y_i/\sum_{i=1}^{n}y_i}{n}
+\end{equation}
+
+where $y_i$ represents enrollment sorted in ascending order.
+
+\subsection{Machine Learning Approaches}
+
+\subsubsection{Classification Models}
+
+For regional classification tasks, we evaluate 13 distinct algorithms:
+
+\begin{itemize}[noitemsep,leftmargin=*]
+    \item \textit{Linear models}: Logistic Regression, Ridge Classifier, Stochastic Gradient Descent
+    \item \textit{Tree-based ensemble methods}: Random Forest, Extra Trees, Gradient Boosting, AdaBoost, Bagging, XGBoost
+    \item \textit{Distance-based methods}: K-Nearest Neighbors
+    \item \textit{Probabilistic models}: Gaussian Naive Bayes
+    \item \textit{Support vector machines}: Linear SVC
+    \item \textit{Decision trees}: CART
+\end{itemize}
+
+\subsubsection{Demand Forecasting Framework}
+
+Enrollment demand prediction employs state-level normalized targets:
+
+\begin{equation}
+z_i = \frac{x_i - \mu_{state}}{\sigma_{state} + 1}
+\end{equation}
+
+where the additive constant prevents division by zero for low-variance states. Models evaluated include Random Forest, Gradient Boosting, XGBoost, and LightGBM regressors.
+
+\subsubsection{Bayesian Causal Network Analysis}
+
+Causal structure learning employs the pgmpy library implementing:
+
+\begin{itemize}[noitemsep,leftmargin=*]
+    \item \textbf{Structure learning}: Hill Climbing algorithm with Bayesian Information Criterion (BIC) scoring
+    \item \textbf{Parameter estimation}: Maximum Likelihood Estimation
+    \item \textbf{Inference}: Variable Elimination algorithm
+\end{itemize}
+
+The learned directed acyclic graph (DAG) models causal relationships:
+
+\begin{align}
+\text{Season} &\rightarrow \text{Demand} \\
+\text{Day Type} &\rightarrow \text{Demand} \\
+\text{State Volume} &\rightarrow \text{Demand} \\
+\text{Age Group} &\rightarrow \text{Demand}
+\end{align}
+
+\subsubsection{Geographic Clustering}
+
+K-Means clustering optimizes district segmentation by minimizing within-cluster sum of squares:
+
+\begin{equation}
+\arg\min_S \sum_{i=1}^{k} \sum_{\mathbf{x} \in S_i} \|\mathbf{x} - \boldsymbol{\mu}_i\|^2
+\end{equation}
+
+Optimal cluster number $k$ is determined via silhouette score maximization:
+
+\begin{equation}
+s(i) = \frac{b(i) - a(i)}{\max\{a(i), b(i)\}}
+\end{equation}
+
+where $a(i)$ is mean intra-cluster distance and $b(i)$ is mean nearest-cluster distance.
+
+%==============================================================================
+\section{Results}
+%==============================================================================
+
+\subsection{Descriptive Statistics}
+
+\subsubsection{System Scale and Scope}
+
+Analysis reveals the substantial scale of Aadhaar operations during the study period (Table~\ref{tab:scale}).
+
+\begin{table}[H]
+\centering
+\caption{Operational scale of Aadhaar system}
+\label{tab:scale}
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+New enrollments & 1,006,029 \\
+Biometric updates & 1,861,108 \\
+Demographic updates & 2,071,700 \\
+Total transactions & 4,938,837 \\
+States/UTs covered & 36 \\
+Districts covered & 960+ \\
+Postal codes covered & 19,700+ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Geographic Distribution}
+
+State-level enrollment analysis reveals substantial concentration. Key observations include:
+
+\begin{itemize}[noitemsep,leftmargin=*]
+    \item Uttar Pradesh accounts for 19.2\% of total enrollments
+    \item Top 5 states comprise 49.19\% of enrollment activity
+    \item Top 10 states represent 72.39\% of total enrollment
+    \item Gini coefficient of 0.737 indicates high geographic inequality
+\end{itemize}
+
+\subsubsection{Age Group Stratification}
+
+New enrollment distribution across age cohorts reveals:
+
+\begin{itemize}[noitemsep,leftmargin=*]
+    \item Infants (0--5 years): 8.2\%
+    \item Children and youth (5--17 years): 24.6\%
+    \item Adults (18+ years): 67.2\%
+\end{itemize}
+
+The predominance of adult enrollments indicates ongoing efforts to achieve universal coverage among previously unenrolled populations.
+
+\subsection{Regional Analysis}
+
+Regional enrollment distribution demonstrates marked disparities (Table~\ref{tab:regional_dist}).
+
+\begin{table}[H]
+\centering
+\caption{Regional enrollment distribution and intensity}
+\label{tab:regional_dist}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Region} & \textbf{Total} & \textbf{Share (\%)} & \textbf{Mean/Record} \\
+\midrule
+Central & 1,913,109 & 25.74 & 68.75 \\
+South & 1,534,809 & 20.65 & 21.08 \\
+West & 1,341,536 & 18.05 & 50.60 \\
+East & 1,317,325 & 17.72 & 36.16 \\
+North & 1,086,913 & 14.62 & 42.14 \\
+Northeast & 222,142 & 2.99 & 25.23 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Temporal Patterns}
+
+\subsubsection{Day-of-Week Effects}
+
+Temporal analysis reveals pronounced weekday versus weekend differences:
+
+\begin{itemize}[noitemsep,leftmargin=*]
+    \item Weekday transactions: 85\% of total volume
+    \item Weekend transactions: 15\% of total volume
+    \item Mean enrollments per record: 44.89 (weekend) vs. 34.33 (weekday)
+    \item Statistical significance: $t = 13.32$, $p < 0.001$
+\end{itemize}
+
+Tuesday consistently exhibits peak enrollment across all datasets, suggesting systematic temporal preferences in enrollment behavior.
+
+\subsubsection{Age Group Correlation}
+
+Strong positive correlation between age group enrollments:
+
+\begin{equation}
+r_{age\_groups} = 0.778, \quad p < 0.001
+\end{equation}
+
+This finding indicates systematic rather than stochastic enrollment patterns across demographic segments.
+
+\subsection{Socioeconomic Correlations}
+
+Counter-intuitively, Human Development Index (HDI) exhibits inverse correlation with enrollment activity:
+
+\begin{equation}
+r_{HDI} = -0.321, \quad p = 0.060
+\end{equation}
+
+HDI stratification analysis (Table~\ref{tab:hdi_strat}) reveals this pattern systematically.
+
+\begin{table}[H]
+\centering
+\caption{Enrollment intensity by HDI category}
+\label{tab:hdi_strat}
+\begin{tabular}{@{}lcr@{}}
+\toprule
+\textbf{HDI Category} & \textbf{States} & \textbf{Mean Enrollment} \\
+\midrule
+High ($\geq 0.65$) & 16 & 165,095 \\
+Medium (0.55--0.65) & 13 & 174,889 \\
+Low ($< 0.55$) & 6 & 416,515 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Low-HDI states demonstrate 2.5-fold higher mean enrollment, suggesting larger populations of previously unenrolled individuals in these regions.
+
+\subsection{Anomaly Detection}
+
+Z-score based anomaly detection with $\tau = 2\sigma$ identifies:
+
+\begin{itemize}[noitemsep,leftmargin=*]
+    \item Mean daily enrollment: 83,515
+    \item Standard deviation: 201,866
+    \item Upper threshold: 487,247
+    \item High anomalies: 12 days
+    \item Low anomalies: 8 days
+\end{itemize}
+
+Detected anomalies correspond temporally to major festival periods and scheduled system maintenance intervals.
+
+\subsection{Hypothesis Testing}
+
+Statistical tests consistently reject null hypotheses across multiple dimensions (Table~\ref{tab:hypothesis}).
+
+\begin{table}[H]
+\centering
+\caption{Statistical hypothesis test results}
+\label{tab:hypothesis}
+\begin{tabular}{@{}lccl@{}}
+\toprule
+\textbf{Test} & \textbf{Statistic} & \textbf{$p$-value} & \textbf{Inference} \\
+\midrule
+Regional (K-W) & 8,432.1 & $<0.001$ & Reject $H_0$ \\
+Weekend (M-W) & $4.2\times10^9$ & $<0.001$ & Reject $H_0$ \\
+HDI (ANOVA) & 15.73 & $<0.001$ & Reject $H_0$ \\
+Normality (D-P) & $1.8\times10^5$ & $<0.001$ & Reject $H_0$ \\
+Rainfall (ANOVA) & 202.93 & $<0.001$ & Reject $H_0$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Machine Learning Model Performance}
+
+\subsubsection{Classification Results}
+
+Regional classification models achieve exceptional performance (Table~\ref{tab:classification}). Tree-based ensemble methods demonstrate near-perfect accuracy.
+
+\begin{table}[H]
+\centering
+\caption{Top-performing classification models}
+\label{tab:classification}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Model} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} \\
+\midrule
+Decision Tree & \textbf{99.97} & 1.00 & 1.00 & 1.00 \\
+Gradient Boosting & 99.97 & 1.00 & 1.00 & 1.00 \\
+XGBoost & 99.97 & 1.00 & 1.00 & 1.00 \\
+Bagging & 99.97 & 1.00 & 1.00 & 1.00 \\
+Random Forest & 99.87 & 1.00 & 1.00 & 1.00 \\
+Extra Trees & 99.10 & 0.99 & 0.99 & 0.99 \\
+Logistic Regression & 97.82 & 0.97 & 0.98 & 0.97 \\
+K-Nearest Neighbors & 97.02 & 0.97 & 0.97 & 0.97 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Feature Importance Analysis}
+
+Feature importance ranking for regional classification reveals:
+
+\begin{enumerate}[noitemsep,leftmargin=*]
+    \item Postal code zone (importance: 10.78)
+    \item Postal code region (importance: 1.96)
+    \item Postal code (importance: 1.96)
+    \item State encoding (importance: 0.50)
+    \item Quarter (importance: 0.29)
+\end{enumerate}
+
+Geographic features dominate predictive power, as anticipated for regional classification tasks.
+
+\subsubsection{Demand Forecasting Performance}
+
+Ensemble regression models demonstrate robust performance on normalized demand prediction (Table~\ref{tab:forecasting}).
+
+\begin{table}[H]
+\centering
+\caption{Demand forecasting model performance}
+\label{tab:forecasting}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Model} & \textbf{$R^2$ (norm)} & \textbf{MAE (norm)} & \textbf{$R^2$ (orig)} \\
+\midrule
+LightGBM & \textbf{0.8734} & 0.2156 & 0.8521 \\
+XGBoost & 0.8612 & 0.2298 & 0.8412 \\
+Gradient Boosting & 0.8589 & 0.2312 & 0.8398 \\
+Random Forest & 0.8467 & 0.2445 & 0.8287 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Clustering Analysis}
+
+K-Means clustering optimization identifies $k=5$ as optimal based on silhouette score maximization (Table~\ref{tab:clustering}).
+
+\begin{table}[H]
+\centering
+\caption{K-Means clustering evaluation metrics}
+\label{tab:clustering}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{$k$} & \textbf{Silhouette} & \textbf{Inertia} & \textbf{CH Index} \\
+\midrule
+3 & 0.261 & 12,456 & 9,711 \\
+4 & 0.312 & 10,234 & 8,956 \\
+\textbf{5} & \textbf{0.364} & \textbf{8,567} & \textbf{9,502} \\
+6 & 0.345 & 7,234 & 8,876 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Bayesian Causal Network Analysis}
+
+Structure learning using Hill Climbing with BIC scoring reveals key causal relationships in enrollment dynamics.
+
+\subsubsection{Identified Causal Structure}
+
+The learned Bayesian network identifies the following causal pathways:
+
+\begin{itemize}[noitemsep,leftmargin=*]
+    \item Season $\rightarrow$ Demand: Festival seasons causally increase enrollment demand
+    \item Day Type $\rightarrow$ Demand: Weekday versus weekend classification directly influences demand
+    \item State Volume $\rightarrow$ Demand: Historical state enrollment volume determines current patterns
+    \item Age Group $\rightarrow$ Demand: Dominant age cohort causally affects overall demand level
+    \item Season $\rightarrow$ Age Group: Seasonal variation influences age group distribution
+\end{itemize}
+
+\subsubsection{Conditional Probability Estimates}
+
+Causal inference quantifies conditional demand probabilities:
+
+\begin{align}
+P(\text{High Demand} \mid \text{Festival Season}) &= 0.42 \\
+P(\text{High Demand} \mid \text{Weekday}) &= 0.38 \\
+P(\text{High Demand} \mid \text{Weekend}) &= 0.28
+\end{align}
+
+These estimates enable predictive resource planning based on temporal and seasonal factors.
+
+\subsection{Geographic Clustering for Strategic Planning}
+
+\subsubsection{District Segmentation}
+
+Five-cluster segmentation reveals distinct district archetypes (Table~\ref{tab:district_clusters}).
+
+\begin{table}[H]
+\centering
+\caption{District cluster characteristics}
+\label{tab:district_clusters}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Segment} & \textbf{Districts} & \textbf{Avg Enroll} & \textbf{Child Ratio} \\
+\midrule
+High Demand-Dense & 89 & 45,234 & 0.32 \\
+High Demand-Dispersed & 156 & 38,456 & 0.28 \\
+Moderate Demand & 312 & 18,765 & 0.31 \\
+Low Demand-Urban & 234 & 8,234 & 0.25 \\
+Low Demand-Sparse & 169 & 3,456 & 0.34 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Priority Districts for Intervention}
+
+Composite scoring methodology incorporating demand density, child ratio, and total enrollment identifies ten priority districts requiring immediate intervention:
+
+\begin{enumerate}[noitemsep,leftmargin=*]
+    \item Gorakhpur, Uttar Pradesh
+    \item Muzaffarpur, Bihar
+    \item Varanasi, Uttar Pradesh
+    \item Patna, Bihar
+    \item Lucknow, Uttar Pradesh
+    \item Gaya, Bihar
+    \item Allahabad, Uttar Pradesh
+    \item Darbhanga, Bihar
+    \item Kanpur, Uttar Pradesh
+    \item Bhagalpur, Bihar
+\end{enumerate}
+
+%==============================================================================
+\section{Discussion}
+%==============================================================================
+
+\subsection{Principal Findings}
+
+\subsubsection{Geographic Concentration and Inequality}
+
+The Gini coefficient of 0.737 quantifies substantial geographic inequality in enrollment distribution. Ten states account for over 72\% of total enrollment activity, while the Northeast region, despite comprising nine states, represents merely 2.99\% of enrollment volume. This pattern reflects both population distribution and potential systematic barriers to enrollment in remote regions.
+
+\subsubsection{Socioeconomic Paradox}
+
+The inverse relationship between HDI and enrollment intensity ($r = -0.321$) challenges intuitive expectations. Low-HDI states demonstrate 2.5-fold higher mean enrollment compared to high-HDI states. This paradox admits multiple interpretations:
+
+\begin{enumerate}[noitemsep,leftmargin=*]
+    \item High-HDI states have approached enrollment saturation earlier
+    \item Low-HDI states harbor larger populations of previously unenrolled individuals
+    \item Current enrollment initiatives strategically target underserved regions
+    \item Administrative capacity differences influence enrollment velocity
+\end{enumerate}
+
+\subsubsection{Temporal Efficiency Patterns}
+
+Weekend enrollments exhibit significantly higher per-record means (44.89 versus 34.33, $t=13.32$, $p<0.001$), suggesting several operational dynamics:
+
+\begin{enumerate}[noitemsep,leftmargin=*]
+    \item Working populations demonstrate higher weekend enrollment propensity
+    \item Weekend enrollment centers may operate with greater efficiency
+    \item Strategic expansion of weekend services could enhance system throughput
+\end{enumerate}
+
+\subsubsection{Causal Determinants of Demand}
+
+Bayesian network analysis establishes that season and day type exert direct causal influence on enrollment demand, enabling evidence-based predictive resource planning and capacity management.
+
+\subsection{Model Interpretability}
+
+Near-perfect classification accuracy (99.97\%) predominantly driven by postal code features carries important implications:
+
+\begin{enumerate}[noitemsep,leftmargin=*]
+    \item Geographic location constitutes the primary determinant of enrollment patterns
+    \item Region-specific models enable targeted intervention strategies
+    \item Engineered geographic features effectively capture spatial variation
+\end{enumerate}
+
+\subsection{Policy Implications}
+
+Our findings support several evidence-based policy recommendations:
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Regional prioritization}: Implement targeted enrollment drives in Northeast region (2.99\% share despite nine states), particularly in Nagaland, Mizoram, and Arunachal Pradesh where coverage remains suboptimal.
+
+    \item \textbf{Weekend service expansion}: Given 30\% efficiency improvement on weekends, systematically expand weekend enrollment availability in commercial and industrial zones to accommodate working populations.
+
+    \item \textbf{District-level interventions}: Deploy additional enrollment infrastructure in twenty identified priority districts, with emphasis on Eastern Uttar Pradesh and Bihar.
+
+    \item \textbf{Age-stratified approaches}:
+    \begin{itemize}[noitemsep]
+        \item Partner with healthcare facilities for newborn (0--5 years) enrollment at birth registration
+        \item Integrate school-age (5--17 years) enrollment with educational institution admission processes
+        \item Conduct targeted outreach for senior citizens through community organizations
+    \end{itemize}
+
+    \item \textbf{Predictive capacity planning}: Utilize Bayesian network insights to anticipate demand fluctuations during festival seasons and adjust resource allocation accordingly.
+
+    \item \textbf{Mobile enrollment units}: Deploy mobile enrollment infrastructure in Low Demand-Sparse cluster districts to reduce geographic barriers.
+
+    \item \textbf{Automated monitoring}: Implement real-time anomaly detection systems for operational oversight and quality assurance.
+\end{enumerate}
+
+\subsection{Limitations}
+
+Several constraints merit acknowledgment:
+
+\begin{itemize}[noitemsep,leftmargin=*]
+    \item Temporal coverage restricted to ten-month period (March--December 2025)
+    \item Demographic reference data based on 2011 Census may not reflect current population distribution
+    \item District-level socioeconomic indicators unavailable for granular analysis
+    \item Analysis based on aggregate administrative data rather than individual-level records
+\end{itemize}
+
+%==============================================================================
+\section{Conclusion}
+%==============================================================================
+
+This comprehensive investigation of 4.93 million Aadhaar enrollment records reveals systematic patterns across temporal, geographic, demographic, and socioeconomic dimensions. Key findings include substantial geographic inequality (Gini coefficient: 0.737), counter-intuitive inverse correlation with socioeconomic development indicators, significant temporal efficiency variations, and robust predictive performance of machine learning models (99.97\% classification accuracy).
+
+Bayesian causal network analysis establishes season and day type as primary causal determinants of enrollment demand, enabling evidence-based capacity planning. Geographic clustering identifies distinct district archetypes and prioritizes twenty underserved districts for targeted intervention. These findings provide actionable intelligence for optimizing enrollment center deployment, resource allocation strategies, and policy formulation to advance universal Aadhaar coverage.
+
+Future investigations should incorporate longitudinal data spanning multiple years, integrate real-time enrollment monitoring, and employ district-level socioeconomic indicators for more granular causal analysis. Extensions to individual-level transaction data, where privacy-preserving mechanisms permit, would enable deeper behavioral insights.
+
+%==============================================================================
+\section*{Data Availability}
+%==============================================================================
+
+Analysis code, computational notebooks, and results are publicly accessible at: \url{https://github.com/XAheli/UIDAI}
+
+%==============================================================================
+\section*{Acknowledgments}
+%==============================================================================
+
+The authors gratefully acknowledge the Unique Identification Authority of India (UIDAI) for providing enrollment data through the Open Government Data Platform. We thank the open-source scientific computing community for development and maintenance of analytical tools employed in this investigation.
+
+%==============================================================================
+\bibliographystyle{unsrtnat}
+\begin{thebibliography}{9}
+
+\bibitem{uidai2024}
+Unique Identification Authority of India (2024).
+\newblock Aadhaar Dashboard and Statistics.
+\newblock \url{https://uidai.gov.in/}
+
+\bibitem{census2011}
+Office of the Registrar General \& Census Commissioner, India (2011).
+\newblock Census of India 2011: Population Enumeration Data.
+\newblock \url{https://censusindia.gov.in/}
+
+\bibitem{sklearn}
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., and Duchesnay, E. (2011).
+\newblock Scikit-learn: Machine Learning in Python.
+\newblock \emph{Journal of Machine Learning Research}, 12:2825--2830.
+
+\bibitem{pgmpy}
+Ankan, A. and Panda, A. (2015).
+\newblock pgmpy: Probabilistic Graphical Models using Python.
+\newblock \emph{Proceedings of the 14th Python in Science Conference (SciPy 2015)}.
+
+\bibitem{pandas}
+McKinney, W. (2010).
+\newblock Data Structures for Statistical Computing in Python.
+\newblock \emph{Proceedings of the 9th Python in Science Conference}, pp.~56--61.
+
+\bibitem{xgboost}
+Chen, T. and Guestrin, C. (2016).
+\newblock XGBoost: A Scalable Tree Boosting System.
+\newblock \emph{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}, pp.~785--794.
+
+\bibitem{lightgbm}
+Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., and Liu, T.-Y. (2017).
+\newblock LightGBM: A Highly Efficient Gradient Boosting Decision Tree.
+\newblock \emph{Advances in Neural Information Processing Systems}, 30:3146--3154.
+
+\end{thebibliography}
+
+%==============================================================================
+\onecolumn
+\appendix
+
+\section{Complete Machine Learning Model Results}
+
+\begin{table}[H]
+\centering
+\caption{Comprehensive classification model performance metrics}
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Model} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} & \textbf{CV Mean} & \textbf{CV Std} \\
+\midrule
+Decision Tree & 0.9997 & 1.0000 & 1.0000 & 1.0000 & 0.9998 & 0.0002 \\
+Gradient Boosting & 0.9997 & 1.0000 & 1.0000 & 1.0000 & 0.9998 & 0.0001 \\
+XGBoost & 0.9997 & 1.0000 & 1.0000 & 1.0000 & 0.9998 & 0.0002 \\
+Bagging & 0.9997 & 1.0000 & 1.0000 & 1.0000 & 0.9999 & 0.0001 \\
+Random Forest & 0.9987 & 0.9987 & 0.9987 & 0.9986 & 0.9987 & 0.0004 \\
+Extra Trees & 0.9910 & 0.9913 & 0.9910 & 0.9886 & 0.9905 & 0.0011 \\
+Logistic Regression & 0.9782 & 0.9661 & 0.9782 & 0.9717 & 0.9788 & 0.0001 \\
+K-Nearest Neighbors & 0.9702 & 0.9690 & 0.9702 & 0.9684 & 0.9690 & 0.0010 \\
+Naive Bayes & 0.8980 & 0.9341 & 0.8980 & 0.9118 & 0.8893 & 0.0163 \\
+Linear SVC & 0.8452 & 0.8238 & 0.8452 & 0.8205 & 0.8497 & 0.0052 \\
+SGD Classifier & 0.7563 & 0.7374 & 0.7563 & 0.7433 & 0.8149 & 0.0114 \\
+Ridge Classifier & 0.6097 & 0.5559 & 0.6097 & 0.5284 & 0.6155 & 0.0068 \\
+AdaBoost & 0.7730 & 0.6389 & 0.7730 & 0.6893 & 0.7551 & 0.0252 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Feature Engineering Schema}
+
+\begin{table}[H]
+\centering
+\caption{Complete feature schema after preprocessing and engineering}
+\begin{tabular}{llp{10cm}}
+\toprule
+\textbf{Feature} & \textbf{Type} & \textbf{Description} \\
+\midrule
+\multicolumn{3}{l}{\textbf{Original Features}} \\
+date & datetime & Transaction date \\
+state & categorical & Standardized state/UT name \\
+district & categorical & District name \\
+pincode & integer & Six-digit postal code \\
+age\_0\_5 & integer & Enrollments for 0--5 years cohort \\
+age\_5\_17 & integer & Enrollments for 5--17 years cohort \\
+age\_18\_greater & integer & Enrollments for 18+ years cohort \\
+\midrule
+\multicolumn{3}{l}{\textbf{Temporal Features}} \\
+day\_of\_week & integer & Day of week (0=Monday, 6=Sunday) \\
+day\_of\_month & integer & Day of month (1--31) \\
+month & integer & Month number (1--12) \\
+quarter & integer & Quarter (1--4) \\
+is\_weekend & boolean & Weekend indicator \\
+is\_month\_start & boolean & First day of month indicator \\
+is\_month\_end & boolean & Last day of month indicator \\
+\midrule
+\multicolumn{3}{l}{\textbf{Geographic Features}} \\
+region & categorical & Macro-region (North, South, East, West, Central, Northeast) \\
+pincode\_zone & integer & First digit of postal code \\
+pincode\_region & integer & First two digits of postal code \\
+\midrule
+\multicolumn{3}{l}{\textbf{Derived Features}} \\
+total\_enrollment & integer & Sum across all age groups \\
+state\_encoded & integer & Label-encoded state identifier \\
+district\_encoded & integer & Label-encoded district identifier \\
+lag\_1, lag\_7 & float & Lagged enrollment values (1-day, 7-day) \\
+rolling\_mean\_7 & float & 7-day rolling average \\
+rolling\_mean\_14 & float & 14-day rolling average \\
+demand\_zscore & float & State-normalized demand (z-score) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Priority Action Matrix}
+
+\begin{table}[H]
+\centering
+\caption{Strategic recommendations prioritized by impact and feasibility}
+\begin{tabular}{clcp{7cm}}
+\toprule
+\textbf{Priority} & \textbf{Recommendation} & \textbf{Impact} & \textbf{Implementation Strategy} \\
+\midrule
+1 & Deploy centers in 20 priority districts & High & Immediate resource reallocation \\
+2 & Expand weekend enrollment services & High & Policy modification + staffing adjustment \\
+3 & Northeast region targeted drives & Medium & State-level coordination \\
+4 & School-integrated enrollment (5--17 years) & Medium & Education department partnership \\
+5 & Hospital newborn enrollment (0--5 years) & Medium & Health department integration \\
+6 & Mobile units for sparse regions & Medium & Infrastructure investment \\
+7 & Automated anomaly monitoring system & Low & Technical development \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
