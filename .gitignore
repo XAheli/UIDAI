@@ -280,3 +280,6 @@ Thumbs.db
 .vscode/settings.json
 *.sublime-project
 *.sublime-workspace
+
+UIDAI_report.pdf
+IDs_UIDAI_id_card_merged.pdf
