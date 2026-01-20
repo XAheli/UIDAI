@@ -1,0 +1,423 @@
+{
+  "correlations": {
+    "matrix": {
+      "temperature_c": {
+        "temperature_c": 1.0,
+        "humidity_pct": -0.004411806456823632,
+        "aqi": -0.0739806897992094,
+        "pm2_5": -0.11481663753310539,
+        "elevation_m": -0.639779480618189,
+        "hospitals_per_100k": 0.7149918122001657,
+        "schools_per_100k": 0.7401995838561899,
+        "mobile_penetration": 0.48816451517053433,
+        "sdg_score": 0.6251524119966275,
+        "health_index": 0.5997864721889066
+      },
+      "humidity_pct": {
+        "temperature_c": -0.004411806456823632,
+        "humidity_pct": 1.0,
+        "aqi": 0.2854992493321315,
+        "pm2_5": 0.19254428006829458,
+        "elevation_m": -0.3966688901111459,
+        "hospitals_per_100k": 0.19377037051915671,
+        "schools_per_100k": 0.2093456262510232,
+        "mobile_penetration": 0.11112728347938919,
+        "sdg_score": 0.11679128756253684,
+        "health_index": 0.18024163878647584
+      },
+      "aqi": {
+        "temperature_c": -0.0739806897992094,
+        "humidity_pct": 0.2854992493321315,
+        "aqi": 1.0,
+        "pm2_5": 0.9485182941436195,
+        "elevation_m": -0.42576943594507005,
+        "hospitals_per_100k": -0.5208177736082854,
+        "schools_per_100k": -0.571190233883877,
+        "mobile_penetration": -0.43336873740649967,
+        "sdg_score": -0.5824200586091928,
+        "health_index": -0.541769772631105
+      },
+      "pm2_5": {
+        "temperature_c": -0.11481663753310539,
+        "humidity_pct": 0.19254428006829458,
+        "aqi": 0.9485182941436195,
+        "pm2_5": 1.0,
+        "elevation_m": -0.3357579330670906,
+        "hospitals_per_100k": -0.5135829636787107,
+        "schools_per_100k": -0.5624023888106302,
+        "mobile_penetration": -0.4278186852314145,
+        "sdg_score": -0.6037360572309075,
+        "health_index": -0.5293698963488347
+      },
+      "elevation_m": {
+        "temperature_c": -0.639779480618189,
+        "humidity_pct": -0.3966688901111459,
+        "aqi": -0.42576943594507005,
+        "pm2_5": -0.3357579330670906,
+        "elevation_m": 1.0,
+        "hospitals_per_100k": -0.07684730315579358,
+        "schools_per_100k": -0.07160555109400298,
+        "mobile_penetration": -0.00805640829812638,
+        "sdg_score": -0.007539063692760338,
+        "health_index": -0.013587257050411056
+      },
+      "hospitals_per_100k": {
+        "temperature_c": 0.7149918122001657,
+        "humidity_pct": 0.19377037051915671,
+        "aqi": -0.5208177736082854,
+        "pm2_5": -0.5135829636787107,
+        "elevation_m": -0.07684730315579358,
+        "hospitals_per_100k": 1.0,
+        "schools_per_100k": 0.9863113942725548,
+        "mobile_penetration": 0.7741674672126442,
+        "sdg_score": 0.8931946946838665,
+        "health_index": 0.9316968527616863
+      },
+      "schools_per_100k": {
+        "temperature_c": 0.7401995838561899,
+        "humidity_pct": 0.2093456262510232,
+        "aqi": -0.571190233883877,
+        "pm2_5": -0.5624023888106302,
+        "elevation_m": -0.07160555109400298,
+        "hospitals_per_100k": 0.9863113942725548,
+        "schools_per_100k": 1.0,
+        "mobile_penetration": 0.8155066374121127,
+        "sdg_score": 0.9231498808018246,
+        "health_index": 0.9560169679077495
+      },
+      "mobile_penetration": {
+        "temperature_c": 0.48816451517053433,
+        "humidity_pct": 0.11112728347938919,
+        "aqi": -0.43336873740649967,
+        "pm2_5": -0.4278186852314145,
+        "elevation_m": -0.00805640829812638,
+        "hospitals_per_100k": 0.7741674672126442,
+        "schools_per_100k": 0.8155066374121127,
+        "mobile_penetration": 1.0,
+        "sdg_score": 0.7437578930716602,
+        "health_index": 0.7773961352139112
+      },
+      "sdg_score": {
+        "temperature_c": 0.6251524119966275,
+        "humidity_pct": 0.11679128756253684,
+        "aqi": -0.5824200586091928,
+        "pm2_5": -0.6037360572309075,
+        "elevation_m": -0.007539063692760338,
+        "hospitals_per_100k": 0.8931946946838665,
+        "schools_per_100k": 0.9231498808018246,
+        "mobile_penetration": 0.7437578930716602,
+        "sdg_score": 1.0,
+        "health_index": 0.9761669350180487
+      },
+      "health_index": {
+        "temperature_c": 0.5997864721889066,
+        "humidity_pct": 0.18024163878647584,
+        "aqi": -0.541769772631105,
+        "pm2_5": -0.5293698963488347,
+        "elevation_m": -0.013587257050411056,
+        "hospitals_per_100k": 0.9316968527616863,
+        "schools_per_100k": 0.9560169679077495,
+        "mobile_penetration": 0.7773961352139112,
+        "sdg_score": 0.9761669350180487,
+        "health_index": 1.0
+      }
+    },
+    "strong_correlations": [
+      {
+        "var1": "hospitals_per_100k",
+        "var2": "schools_per_100k",
+        "r": 0.9863113942725548,
+        "p": 0.0
+      },
+      {
+        "var1": "sdg_score",
+        "var2": "health_index",
+        "r": 0.9761669350180487,
+        "p": 0.0
+      },
+      {
+        "var1": "schools_per_100k",
+        "var2": "health_index",
+        "r": 0.9560169679077495,
+        "p": 0.0
+      },
+      {
+        "var1": "aqi",
+        "var2": "pm2_5",
+        "r": 0.9485182941436195,
+        "p": 0.0
+      },
+      {
+        "var1": "hospitals_per_100k",
+        "var2": "health_index",
+        "r": 0.9316968527616863,
+        "p": 0.0
+      },
+      {
+        "var1": "schools_per_100k",
+        "var2": "sdg_score",
+        "r": 0.9231498808018246,
+        "p": 0.0
+      },
+      {
+        "var1": "hospitals_per_100k",
+        "var2": "sdg_score",
+        "r": 0.8931946946838665,
+        "p": 0.0
+      },
+      {
+        "var1": "schools_per_100k",
+        "var2": "mobile_penetration",
+        "r": 0.8155066374121127,
+        "p": 0.0
+      },
+      {
+        "var1": "mobile_penetration",
+        "var2": "health_index",
+        "r": 0.7773961352139112,
+        "p": 0.0
+      },
+      {
+        "var1": "hospitals_per_100k",
+        "var2": "mobile_penetration",
+        "r": 0.7741674672126442,
+        "p": 0.0
+      },
+      {
+        "var1": "mobile_penetration",
+        "var2": "sdg_score",
+        "r": 0.7437578930716602,
+        "p": 0.0
+      },
+      {
+        "var1": "temperature_c",
+        "var2": "schools_per_100k",
+        "r": 0.7401995838561899,
+        "p": 0.0
+      },
+      {
+        "var1": "temperature_c",
+        "var2": "hospitals_per_100k",
+        "r": 0.7149918122001657,
+        "p": 0.0
+      },
+      {
+        "var1": "temperature_c",
+        "var2": "elevation_m",
+        "r": -0.639779480618189,
+        "p": 0.0
+      },
+      {
+        "var1": "temperature_c",
+        "var2": "sdg_score",
+        "r": 0.6251524119966275,
+        "p": 0.0
+      },
+      {
+        "var1": "pm2_5",
+        "var2": "sdg_score",
+        "r": -0.6037360572309075,
+        "p": 0.0
+      },
+      {
+        "var1": "temperature_c",
+        "var2": "health_index",
+        "r": 0.5997864721889066,
+        "p": 0.0
+      },
+      {
+        "var1": "aqi",
+        "var2": "sdg_score",
+        "r": -0.5824200586091928,
+        "p": 0.0
+      },
+      {
+        "var1": "aqi",
+        "var2": "schools_per_100k",
+        "r": -0.571190233883877,
+        "p": 0.0
+      },
+      {
+        "var1": "pm2_5",
+        "var2": "schools_per_100k",
+        "r": -0.5624023888106302,
+        "p": 0.0
+      },
+      {
+        "var1": "aqi",
+        "var2": "health_index",
+        "r": -0.541769772631105,
+        "p": 0.0
+      },
+      {
+        "var1": "pm2_5",
+        "var2": "health_index",
+        "r": -0.5293698963488347,
+        "p": 0.0
+      },
+      {
+        "var1": "aqi",
+        "var2": "hospitals_per_100k",
+        "r": -0.5208177736082854,
+        "p": 0.0
+      },
+      {
+        "var1": "pm2_5",
+        "var2": "hospitals_per_100k",
+        "r": -0.5135829636787107,
+        "p": 0.0
+      },
+      {
+        "var1": "temperature_c",
+        "var2": "mobile_penetration",
+        "r": 0.48816451517053433,
+        "p": 0.0
+      },
+      {
+        "var1": "aqi",
+        "var2": "mobile_penetration",
+        "r": -0.43336873740649967,
+        "p": 0.0
+      },
+      {
+        "var1": "pm2_5",
+        "var2": "mobile_penetration",
+        "r": -0.4278186852314145,
+        "p": 0.0
+      },
+      {
+        "var1": "aqi",
+        "var2": "elevation_m",
+        "r": -0.42576943594507005,
+        "p": 0.0
+      },
+      {
+        "var1": "humidity_pct",
+        "var2": "elevation_m",
+        "r": -0.3966688901111459,
+        "p": 0.0
+      },
+      {
+        "var1": "pm2_5",
+        "var2": "elevation_m",
+        "r": -0.3357579330670906,
+        "p": 0.0
+      }
+    ],
+    "interpretations": [
+      "\n**Correlation Analysis: temperature_c vs elevation_m**\n- Pearson's r = -0.6398 (p = 0.00e+00)\n- **Strength**: Strong negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a strong negative association between temperature_c and elevation_m. As temperature_c increases, elevation_m tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 40.9% of the variance in the data.",
+      "\n**Correlation Analysis: temperature_c vs hospitals_per_100k**\n- Pearson's r = 0.7150 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between temperature_c and hospitals_per_100k. As temperature_c increases, hospitals_per_100k tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 51.1% of the variance in the data.",
+      "\n**Correlation Analysis: temperature_c vs schools_per_100k**\n- Pearson's r = 0.7402 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between temperature_c and schools_per_100k. As temperature_c increases, schools_per_100k tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 54.8% of the variance in the data.",
+      "\n**Correlation Analysis: temperature_c vs mobile_penetration**\n- Pearson's r = 0.4882 (p = 0.00e+00)\n- **Strength**: Moderate positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a moderate positive association between temperature_c and mobile_penetration. As temperature_c increases, mobile_penetration tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 23.8% of the variance in the data.",
+      "\n**Correlation Analysis: temperature_c vs sdg_score**\n- Pearson's r = 0.6252 (p = 0.00e+00)\n- **Strength**: Strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a strong positive association between temperature_c and sdg_score. As temperature_c increases, sdg_score tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 39.1% of the variance in the data.",
+      "\n**Correlation Analysis: temperature_c vs health_index**\n- Pearson's r = 0.5998 (p = 0.00e+00)\n- **Strength**: Strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a strong positive association between temperature_c and health_index. As temperature_c increases, health_index tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 36.0% of the variance in the data.",
+      "\n**Correlation Analysis: humidity_pct vs elevation_m**\n- Pearson's r = -0.3967 (p = 0.00e+00)\n- **Strength**: Moderate negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a moderate negative association between humidity_pct and elevation_m. As humidity_pct increases, elevation_m tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 15.7% of the variance in the data.",
+      "\n**Correlation Analysis: aqi vs pm2_5**\n- Pearson's r = 0.9485 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between aqi and pm2_5. As aqi increases, pm2_5 tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 90.0% of the variance in the data.",
+      "\n**Correlation Analysis: aqi vs elevation_m**\n- Pearson's r = -0.4258 (p = 0.00e+00)\n- **Strength**: Moderate negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a moderate negative association between aqi and elevation_m. As aqi increases, elevation_m tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 18.1% of the variance in the data.",
+      "\n**Correlation Analysis: aqi vs hospitals_per_100k**\n- Pearson's r = -0.5208 (p = 0.00e+00)\n- **Strength**: Strong negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a strong negative association between aqi and hospitals_per_100k. As aqi increases, hospitals_per_100k tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 27.1% of the variance in the data.",
+      "\n**Correlation Analysis: aqi vs schools_per_100k**\n- Pearson's r = -0.5712 (p = 0.00e+00)\n- **Strength**: Strong negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a strong negative association between aqi and schools_per_100k. As aqi increases, schools_per_100k tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 32.6% of the variance in the data.",
+      "\n**Correlation Analysis: aqi vs mobile_penetration**\n- Pearson's r = -0.4334 (p = 0.00e+00)\n- **Strength**: Moderate negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a moderate negative association between aqi and mobile_penetration. As aqi increases, mobile_penetration tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 18.8% of the variance in the data.",
+      "\n**Correlation Analysis: aqi vs sdg_score**\n- Pearson's r = -0.5824 (p = 0.00e+00)\n- **Strength**: Strong negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a strong negative association between aqi and sdg_score. As aqi increases, sdg_score tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 33.9% of the variance in the data.",
+      "\n**Correlation Analysis: aqi vs health_index**\n- Pearson's r = -0.5418 (p = 0.00e+00)\n- **Strength**: Strong negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a strong negative association between aqi and health_index. As aqi increases, health_index tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 29.4% of the variance in the data.",
+      "\n**Correlation Analysis: pm2_5 vs elevation_m**\n- Pearson's r = -0.3358 (p = 0.00e+00)\n- **Strength**: Moderate negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a moderate negative association between pm2_5 and elevation_m. As pm2_5 increases, elevation_m tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 11.3% of the variance in the data.",
+      "\n**Correlation Analysis: pm2_5 vs hospitals_per_100k**\n- Pearson's r = -0.5136 (p = 0.00e+00)\n- **Strength**: Strong negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a strong negative association between pm2_5 and hospitals_per_100k. As pm2_5 increases, hospitals_per_100k tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 26.4% of the variance in the data.",
+      "\n**Correlation Analysis: pm2_5 vs schools_per_100k**\n- Pearson's r = -0.5624 (p = 0.00e+00)\n- **Strength**: Strong negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a strong negative association between pm2_5 and schools_per_100k. As pm2_5 increases, schools_per_100k tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 31.6% of the variance in the data.",
+      "\n**Correlation Analysis: pm2_5 vs mobile_penetration**\n- Pearson's r = -0.4278 (p = 0.00e+00)\n- **Strength**: Moderate negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a moderate negative association between pm2_5 and mobile_penetration. As pm2_5 increases, mobile_penetration tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 18.3% of the variance in the data.",
+      "\n**Correlation Analysis: pm2_5 vs sdg_score**\n- Pearson's r = -0.6037 (p = 0.00e+00)\n- **Strength**: Strong negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a strong negative association between pm2_5 and sdg_score. As pm2_5 increases, sdg_score tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 36.4% of the variance in the data.",
+      "\n**Correlation Analysis: pm2_5 vs health_index**\n- Pearson's r = -0.5294 (p = 0.00e+00)\n- **Strength**: Strong negative correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a strong negative association between pm2_5 and health_index. As pm2_5 increases, health_index tends to decrease. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 28.0% of the variance in the data.",
+      "\n**Correlation Analysis: hospitals_per_100k vs schools_per_100k**\n- Pearson's r = 0.9863 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between hospitals_per_100k and schools_per_100k. As hospitals_per_100k increases, schools_per_100k tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 97.3% of the variance in the data.",
+      "\n**Correlation Analysis: hospitals_per_100k vs mobile_penetration**\n- Pearson's r = 0.7742 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between hospitals_per_100k and mobile_penetration. As hospitals_per_100k increases, mobile_penetration tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 59.9% of the variance in the data.",
+      "\n**Correlation Analysis: hospitals_per_100k vs sdg_score**\n- Pearson's r = 0.8932 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between hospitals_per_100k and sdg_score. As hospitals_per_100k increases, sdg_score tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 79.8% of the variance in the data.",
+      "\n**Correlation Analysis: hospitals_per_100k vs health_index**\n- Pearson's r = 0.9317 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between hospitals_per_100k and health_index. As hospitals_per_100k increases, health_index tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 86.8% of the variance in the data.",
+      "\n**Correlation Analysis: schools_per_100k vs mobile_penetration**\n- Pearson's r = 0.8155 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between schools_per_100k and mobile_penetration. As schools_per_100k increases, mobile_penetration tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 66.5% of the variance in the data.",
+      "\n**Correlation Analysis: schools_per_100k vs sdg_score**\n- Pearson's r = 0.9231 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between schools_per_100k and sdg_score. As schools_per_100k increases, sdg_score tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 85.2% of the variance in the data.",
+      "\n**Correlation Analysis: schools_per_100k vs health_index**\n- Pearson's r = 0.9560 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between schools_per_100k and health_index. As schools_per_100k increases, health_index tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 91.4% of the variance in the data.",
+      "\n**Correlation Analysis: mobile_penetration vs sdg_score**\n- Pearson's r = 0.7438 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between mobile_penetration and sdg_score. As mobile_penetration increases, sdg_score tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 55.3% of the variance in the data.",
+      "\n**Correlation Analysis: mobile_penetration vs health_index**\n- Pearson's r = 0.7774 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between mobile_penetration and health_index. As mobile_penetration increases, health_index tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 60.4% of the variance in the data.",
+      "\n**Correlation Analysis: sdg_score vs health_index**\n- Pearson's r = 0.9762 (p = 0.00e+00)\n- **Strength**: Very strong positive correlation\n- **Statistical Significance**: statistically significant at \u03b1 = 0.05\n- **Interpretation**: There is a very strong positive association between sdg_score and health_index. As sdg_score increases, health_index tends to increase as well. This relationship is unlikely due to random chance (p = 0.00e+00 < 0.05). The correlation explains approximately 95.3% of the variance in the data."
+    ]
+  },
+  "hypothesis_tests": {
+    "interpretations": []
+  },
+  "pca": {
+    "n_components": 5,
+    "variance_explained": [
+      0.5936110020932812,
+      0.22973356724462185,
+      0.06038002842157039,
+      0.05195733127613201,
+      0.03573949324095271
+    ],
+    "cumulative_variance": [
+      0.5936110020932812,
+      0.8233445693379031,
+      0.8837245977594735,
+      0.9356819290356055,
+      0.9714214222765583
+    ],
+    "loadings": {
+      "PC1": {
+        "temperature_c": 0.32953660949618907,
+        "humidity_pct": 0.05877721459216878,
+        "aqi": -0.2728992904357239,
+        "pm2_5": -0.2787632847177814,
+        "elevation_m": -0.009588422008859954,
+        "hospitals_per_100k": 0.3870427012155669,
+        "schools_per_100k": 0.39882503862011015,
+        "mobile_penetration": 0.32855717151394603,
+        "sdg_score": 0.3999301653210656,
+        "health_index": 0.3986458534857713
+      },
+      "PC2": {
+        "temperature_c": -0.21514925244182578,
+        "humidity_pct": -0.5228574813072541,
+        "aqi": -0.4406074159212474,
+        "pm2_5": -0.3763036607773139,
+        "elevation_m": 0.5690643946921818,
+        "hospitals_per_100k": -0.06968360452820455,
+        "schools_per_100k": -0.058555747100758226,
+        "mobile_penetration": -0.02302506199309498,
+        "sdg_score": -0.05830347655676629,
+        "health_index": -0.09242942665736723
+      },
+      "PC3": {
+        "temperature_c": -0.2684189026402621,
+        "humidity_pct": -0.2932545865567226,
+        "aqi": 0.3245163042978173,
+        "pm2_5": 0.5011838178508804,
+        "elevation_m": 0.2815241627101791,
+        "hospitals_per_100k": 0.1922138898830505,
+        "schools_per_100k": 0.14809616503805548,
+        "mobile_penetration": 0.5830904318915886,
+        "sdg_score": -0.04408131185624206,
+        "health_index": 0.07338165688398485
+      },
+      "PC4": {
+        "temperature_c": -0.5169520567084933,
+        "humidity_pct": 0.6853232440019106,
+        "aqi": -0.21577402824397235,
+        "pm2_5": -0.19917086291358937,
+        "elevation_m": 0.12057261566679592,
+        "hospitals_per_100k": 0.04401210908986372,
+        "schools_per_100k": 0.08918240518940063,
+        "mobile_penetration": 0.3009465854864887,
+        "sdg_score": -0.21881861427650473,
+        "health_index": -0.11826412108784029
+      },
+      "PC5": {
+        "temperature_c": 0.28200113308681396,
+        "humidity_pct": 0.38291750579920925,
+        "aqi": 0.11895768900100398,
+        "pm2_5": 0.24964329430439314,
+        "elevation_m": 0.739111003485322,
+        "hospitals_per_100k": 0.057939434060629985,
+        "schools_per_100k": 0.02490058729481341,
+        "mobile_penetration": -0.3536046050348599,
+        "sdg_score": 0.05712840239299519,
+        "health_index": 0.13716732382330993
+      }
+    },
+    "interpretation": "\n**Principal Component Analysis (PCA)**\n\n**Variance Explained**:\n- PC1: 59.4% (cumulative: 59.4%)\n- PC2: 23.0% (cumulative: 82.3%)\n- PC3: 6.0% (cumulative: 88.4%)\n- PC4: 5.2% (cumulative: 93.6%)\n- PC5: 3.6% (cumulative: 97.1%)\n\n**Top Loadings for PC1** (most variance):\n- sdg_score: 0.400\n- schools_per_100k: 0.399\n- health_index: 0.399\n- hospitals_per_100k: 0.387\n- temperature_c: 0.330\n\n**Interpretation**: \nThe first two components capture 82.3% of the variance, suggesting a relatively low-dimensional structure in the data. The primary factors driving variation are: sdg_score, schools_per_100k, health_index."
+  }
+}

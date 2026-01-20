@@ -1,0 +1,798 @@
+{
+  "summary": {
+    "biometric": {
+      "total_records": 1765636,
+      "unique_states": 41,
+      "unique_districts": 948,
+      "unique_pincodes": 19707,
+      "date_range": {
+        "start": "2025-03-01",
+        "end": "2025-12-29",
+        "unique_days": 89
+      },
+      "total_count_stats": {
+        "sum": 68260241,
+        "mean": 38.660426611147486,
+        "std": 166.47281548649707,
+        "median": 8.0,
+        "min": 0,
+        "max": 13381
+      }
+    },
+    "demographic": {
+      "total_records": 1597310,
+      "unique_states": 45,
+      "unique_districts": 960,
+      "unique_pincodes": 19742,
+      "date_range": {
+        "start": "2025-03-01",
+        "end": "2025-12-29",
+        "unique_days": 95
+      },
+      "total_count_stats": {
+        "sum": 36596266,
+        "mean": 22.911185680926057,
+        "std": 129.77965710673672,
+        "median": 7.0,
+        "min": 0,
+        "max": 16942
+      }
+    },
+    "enrollment": {
+      "total_records": 982523,
+      "unique_states": 38,
+      "unique_districts": 964,
+      "unique_pincodes": 19463,
+      "date_range": {
+        "start": "2025-03-02",
+        "end": "2025-12-31",
+        "unique_days": 92
+      },
+      "total_count_stats": {
+        "sum": 5331130,
+        "mean": 5.425959494078001,
+        "std": 31.94130152543753,
+        "median": 2.0,
+        "min": 1,
+        "max": 3965
+      }
+    }
+  },
+  "temporal": {
+    "biometric": {
+      "dataset": "biometric",
+      "day_of_week": {
+        "mean": {
+          "Monday": 15.370005523478758,
+          "Tuesday": 75.99084571485616,
+          "Wednesday": 15.261010069614265,
+          "Thursday": 44.849369984192606,
+          "Friday": 15.962498844696386,
+          "Saturday": 43.667537308114426,
+          "Sunday": 52.37334937112674
+        },
+        "std": {
+          "Monday": 25.56862297996749,
+          "Tuesday": 277.1426809190794,
+          "Wednesday": 24.882773807596767,
+          "Thursday": 175.1613510328829,
+          "Friday": 26.170205771009364,
+          "Saturday": 175.09713342073613,
+          "Sunday": 202.3762966117685
+        },
+        "sum": {
+          "Monday": 3867908,
+          "Tuesday": 22836389,
+          "Wednesday": 3338758,
+          "Thursday": 11802919,
+          "Friday": 4145014,
+          "Saturday": 12254683,
+          "Sunday": 10014570
+        },
+        "count": {
+          "Monday": 251653,
+          "Tuesday": 300515,
+          "Wednesday": 218777,
+          "Thursday": 263168,
+          "Friday": 259672,
+          "Saturday": 280636,
+          "Sunday": 191215
+        }
+      },
+      "kruskal_wallis": {
+        "statistic": 18448.026680056748,
+        "p_value": 0.0
+      },
+      "weekend_vs_weekday": {
+        "weekend_mean": 47.19551934826884,
+        "weekday_mean": 35.54762808349146,
+        "weekend_total": 22269253,
+        "weekday_total": 45990988,
+        "weekend_records": 471851,
+        "weekday_records": 1293785,
+        "mann_whitney_u": 302566806524.0,
+        "mann_whitney_p": 4.3342850071026273e-19,
+        "t_statistic": 41.161864858296425,
+        "t_p_value": 0.0
+      }
+    },
+    "demographic": {
+      "dataset": "demographic",
+      "day_of_week": {
+        "mean": {
+          "Monday": 15.539751599429382,
+          "Tuesday": 25.72410399683089,
+          "Wednesday": 16.014910921766074,
+          "Thursday": 19.719478027250048,
+          "Friday": 16.585167377847227,
+          "Saturday": 48.844833873238244,
+          "Sunday": 16.344540194509417
+        },
+        "std": {
+          "Monday": 28.95616396739252,
+          "Tuesday": 182.88240854249065,
+          "Wednesday": 30.627567308320174,
+          "Thursday": 99.8713867120341,
+          "Friday": 29.53214067283599,
+          "Saturday": 224.98357093526073,
+          "Sunday": 152.19726412183033
+        },
+        "sum": {
+          "Monday": 3932474,
+          "Tuesday": 6169026,
+          "Wednesday": 3556143,
+          "Thursday": 4624119,
+          "Friday": 4139409,
+          "Saturday": 11519761,
+          "Sunday": 2655334
+        },
+        "count": {
+          "Monday": 253059,
+          "Tuesday": 239815,
+          "Wednesday": 222052,
+          "Thursday": 234495,
+          "Friday": 249585,
+          "Saturday": 235844,
+          "Sunday": 162460
+        }
+      },
+      "kruskal_wallis": {
+        "statistic": 16314.982320463,
+        "p_value": 0.0
+      },
+      "weekend_vs_weekday": {
+        "weekend_mean": 35.58863330521411,
+        "weekday_mean": 18.699798833366973,
+        "weekend_total": 14175095,
+        "weekday_total": 22421171,
+        "weekend_records": 398304,
+        "weekday_records": 1199006,
+        "mann_whitney_u": 228326543819.0,
+        "mann_whitney_p": 0.0,
+        "t_statistic": 71.26983502977296,
+        "t_p_value": 0.0
+      }
+    },
+    "enrollment": {
+      "dataset": "enrollment",
+      "day_of_week": {
+        "mean": {
+          "Monday": 4.300386847195358,
+          "Tuesday": 10.037750878340896,
+          "Wednesday": 4.634456619633744,
+          "Thursday": 5.581462138960018,
+          "Friday": 4.049199780477314,
+          "Saturday": 4.012988552997723,
+          "Sunday": 5.727519511367492
+        },
+        "std": {
+          "Monday": 6.39730699107356,
+          "Tuesday": 71.64148983770812,
+          "Wednesday": 6.951996462521269,
+          "Thursday": 30.41470117337935,
+          "Friday": 5.6431225374214815,
+          "Saturday": 5.9907089478486215,
+          "Sunday": 35.523884340480215
+        },
+        "sum": {
+          "Monday": 800388,
+          "Tuesday": 1411368,
+          "Wednesday": 740994,
+          "Thursday": 717123,
+          "Friday": 545986,
+          "Saturday": 507627,
+          "Sunday": 607644
+        },
+        "count": {
+          "Monday": 186120,
+          "Tuesday": 140606,
+          "Wednesday": 159888,
+          "Thursday": 128483,
+          "Friday": 134838,
+          "Saturday": 126496,
+          "Sunday": 106092
+        }
+      },
+      "kruskal_wallis": {
+        "statistic": 1583.6104643219596,
+        "p_value": 0.0
+      },
+      "weekend_vs_weekday": {
+        "weekend_mean": 4.795049615629353,
+        "weekday_mean": 5.621632541486929,
+        "weekend_total": 1115271,
+        "weekday_total": 4215859,
+        "weekend_records": 232588,
+        "weekday_records": 749935,
+        "mann_whitney_u": 83500971346.0,
+        "mann_whitney_p": 7.822597951018752e-225,
+        "t_statistic": -10.904204260975911,
+        "t_p_value": 1.1045514217036061e-27
+      }
+    }
+  },
+  "geographic": {
+    "biometric": {
+      "dataset": "biometric",
+      "regional": {
+        "mean": {
+          "Central": 72.9666414479906,
+          "East": 34.804061348489036,
+          "Islands": 11.848251333728513,
+          "North": 46.00514141069098,
+          "Northeast": 25.72899625723035,
+          "Other": 3.53757225433526,
+          "South": 21.79280428995795,
+          "West": 52.34223084632279
+        },
+        "std": {
+          "Central": 274.8607838413297,
+          "East": 145.66815853991906,
+          "Islands": 34.79907717805897,
+          "North": 204.81346578075042,
+          "Northeast": 105.20348303042432,
+          "Other": 13.59612756520982,
+          "South": 76.78594288772535,
+          "West": 192.206984324887
+        },
+        "sum": {
+          "Central": 17745925,
+          "East": 11702622,
+          "Islands": 19988,
+          "North": 10504906,
+          "Northeast": 1890438,
+          "Other": 612,
+          "South": 14122282,
+          "West": 12273468
+        },
+        "count": {
+          "Central": 243206,
+          "East": 336243,
+          "Islands": 1687,
+          "North": 228342,
+          "Northeast": 73475,
+          "Other": 173,
+          "South": 648025,
+          "West": 234485
+        },
+        "percentage": {
+          "Central": 25.997454359998525,
+          "East": 17.14412640295249,
+          "Islands": 0.029282053076841615,
+          "North": 15.389494449631375,
+          "Northeast": 2.7694569669040576,
+          "Other": 0.0008965687654105996,
+          "South": 20.688883884837146,
+          "West": 17.980405313834154
+        }
+      },
+      "state_top10": {
+        "mean": {
+          "Uttar Pradesh": 63.661888839049055,
+          "Maharashtra": 62.814377928959885,
+          "Madhya Pradesh": 88.15110572553772,
+          "Bihar": 61.20761289992059,
+          "Tamil Nadu": 26.136290622231115,
+          "Rajasthan": 51.21381261571358,
+          "Andhra Pradesh": 22.53480911933396,
+          "Gujarat": 37.19588798298476,
+          "Karnataka": 19.164922333600938,
+          "Chhattisgarh": 85.16726570820022
+        },
+        "std": {
+          "Uttar Pradesh": 234.2803858615553,
+          "Maharashtra": 213.93027099196786,
+          "Madhya Pradesh": 347.6029323985281,
+          "Bihar": 219.6591113332948,
+          "Tamil Nadu": 85.5130674241142,
+          "Rajasthan": 156.1960249316635,
+          "Andhra Pradesh": 89.43798355685199,
+          "Gujarat": 153.80947969182722,
+          "Karnataka": 67.73958415411721,
+          "Chhattisgarh": 275.97490395473505
+        },
+        "sum": {
+          "Uttar Pradesh": 9367083,
+          "Maharashtra": 9020710,
+          "Madhya Pradesh": 5819736,
+          "Bihar": 4778968,
+          "Tamil Nadu": 4572152,
+          "Rajasthan": 3927997,
+          "Andhra Pradesh": 3610775,
+          "Gujarat": 3147888,
+          "Karnataka": 2602079,
+          "Chhattisgarh": 2559106
+        },
+        "count": {
+          "Uttar Pradesh": 147138,
+          "Maharashtra": 143609,
+          "Madhya Pradesh": 66020,
+          "Bihar": 78078,
+          "Tamil Nadu": 174935,
+          "Rajasthan": 76698,
+          "Andhra Pradesh": 160231,
+          "Gujarat": 84630,
+          "Karnataka": 135773,
+          "Chhattisgarh": 30048
+        }
+      },
+      "gini_coefficient": 0.6535849701292442,
+      "concentration": {
+        "top5_share": 49.16280474310074,
+        "top10_share": 72.37960674648072
+      },
+      "regional_kruskal": {
+        "statistic": 109418.97201485344,
+        "p_value": 0.0
+      }
+    },
+    "demographic": {
+      "dataset": "demographic",
+      "regional": {
+        "mean": {
+          "Central": 45.4322804591217,
+          "East": 26.707116901252004,
+          "Islands": 4.081568627450981,
+          "North": 27.236096925027333,
+          "Northeast": 16.81150120901833,
+          "Other": 1.0,
+          "South": 10.971619385585253,
+          "West": 25.186187562726783
+        },
+        "std": {
+          "Central": 222.45746484345884,
+          "East": 111.36674963317671,
+          "Islands": 13.126528224186504,
+          "North": 198.7908661707396,
+          "Northeast": 60.9148485869696,
+          "Other": 0.0,
+          "South": 49.63458503156115,
+          "West": 109.71201738550502
+        },
+        "sum": {
+          "Central": 9986515,
+          "East": 8415279,
+          "Islands": 5204,
+          "North": 5306436,
+          "Northeast": 1244505,
+          "Other": 11,
+          "South": 6418529,
+          "West": 5219787
+        },
+        "count": {
+          "Central": 219811,
+          "East": 315095,
+          "Islands": 1275,
+          "North": 194831,
+          "Northeast": 74027,
+          "Other": 11,
+          "South": 585012,
+          "West": 207248
+        },
+        "percentage": {
+          "Central": 27.288344116856074,
+          "East": 22.99491155737036,
+          "Islands": 0.014220029988851869,
+          "North": 14.499938327041342,
+          "Northeast": 3.400633824226767,
+          "Other": 3.0057711352300256e-05,
+          "South": 17.5387538171244,
+          "West": 14.263168269680845
+        }
+      },
+      "state_top10": {
+        "mean": {
+          "Uttar Pradesh": 48.80793406161703,
+          "Maharashtra": 30.283453282978236,
+          "Bihar": 48.81991252549104,
+          "West Bengal": 22.75507412177892,
+          "Madhya Pradesh": 34.98570407433881,
+          "Rajasthan": 30.07663428529691,
+          "Tamil Nadu": 10.999549999021736,
+          "Andhra Pradesh": 10.608899857224996,
+          "Chhattisgarh": 52.08769422456758,
+          "Gujarat": 18.069410997724884
+        },
+        "std": {
+          "Uttar Pradesh": 226.8519980495166,
+          "Maharashtra": 104.16486918287241,
+          "Bihar": 145.030266475473,
+          "West Bengal": 92.26352955874908,
+          "Madhya Pradesh": 162.80739076453943,
+          "Rajasthan": 176.46882246751997,
+          "Tamil Nadu": 42.32068466067614,
+          "Andhra Pradesh": 52.739326584572815,
+          "Chhattisgarh": 300.3932042313447,
+          "Gujarat": 121.65173875158192
+        },
+        "sum": {
+          "Uttar Pradesh": 6460511,
+          "Maharashtra": 3824891,
+          "Bihar": 3638841,
+          "West Bengal": 2844316,
+          "Madhya Pradesh": 2104635,
+          "Rajasthan": 2058896,
+          "Tamil Nadu": 1686594,
+          "Andhra Pradesh": 1642141,
+          "Chhattisgarh": 1421369,
+          "Gujarat": 1358115
+        },
+        "count": {
+          "Uttar Pradesh": 132366,
+          "Maharashtra": 126303,
+          "Bihar": 74536,
+          "West Bengal": 124997,
+          "Madhya Pradesh": 60157,
+          "Rajasthan": 68455,
+          "Tamil Nadu": 153333,
+          "Andhra Pradesh": 154789,
+          "Chhattisgarh": 27288,
+          "Gujarat": 75161
+        }
+      },
+      "gini_coefficient": 0.7071069005297488,
+      "concentration": {
+        "top5_share": 51.571365231633195,
+        "top10_share": 73.8881638908188
+      },
+      "regional_kruskal": {
+        "statistic": 131524.03728484843,
+        "p_value": 0.0
+      }
+    },
+    "enrollment": {
+      "dataset": "enrollment",
+      "regional": {
+        "mean": {
+          "Central": 9.055891212864944,
+          "East": 6.099910376615191,
+          "Islands": 1.3163538873994638,
+          "North": 5.483935339160028,
+          "Northeast": 8.334555235017245,
+          "Other": 40.43478260869565,
+          "South": 2.5069172257749748,
+          "West": 5.232691429689538
+        },
+        "std": {
+          "Central": 49.884477179131906,
+          "East": 29.346753703846865,
+          "Islands": 0.7805950330420043,
+          "North": 30.980593793917823,
+          "Northeast": 49.20220973318569,
+          "Other": 110.49674042372823,
+          "South": 8.847895679285111,
+          "West": 31.951417626907464
+        },
+        "sum": {
+          "Central": 1590296,
+          "East": 1238721,
+          "Islands": 491,
+          "North": 709018,
+          "Northeast": 384248,
+          "Other": 930,
+          "South": 765605,
+          "West": 641821
+        },
+        "count": {
+          "Central": 175609,
+          "East": 203072,
+          "Islands": 373,
+          "North": 129290,
+          "Northeast": 46103,
+          "Other": 23,
+          "South": 305397,
+          "West": 122656
+        },
+        "percentage": {
+          "Central": 29.83037367312371,
+          "East": 23.235617964671654,
+          "Islands": 0.009210054903932188,
+          "North": 13.299581889768211,
+          "Northeast": 7.207627651173391,
+          "Other": 0.01744470684451514,
+          "South": 14.361026649134423,
+          "West": 12.039117410380165
+        }
+      },
+      "state_top10": {
+        "mean": {
+          "Uttar Pradesh": 9.277950511724317,
+          "Bihar": 10.142342250008541,
+          "Madhya Pradesh": 9.844074089019813,
+          "West Bengal": 4.899448012313571,
+          "Maharashtra": 4.811878566416438,
+          "Rajasthan": 6.207914114902304,
+          "Gujarat": 6.07921667440267,
+          "Assam": 7.340923157106094,
+          "Karnataka": 3.193554017103962,
+          "Tamil Nadu": 2.386489356994291
+        },
+        "std": {
+          "Uttar Pradesh": 56.02531189595639,
+          "Bihar": 45.115613818715985,
+          "Madhya Pradesh": 42.377277395386486,
+          "West Bengal": 22.69159440476619,
+          "Maharashtra": 30.53595224461893,
+          "Rajasthan": 28.56329570962691,
+          "Gujarat": 34.77580188052276,
+          "Assam": 33.63972231256057,
+          "Karnataka": 14.348282287877394,
+          "Tamil Nadu": 3.5025115189861316
+        },
+        "sum": {
+          "Uttar Pradesh": 1002631,
+          "Bihar": 593753,
+          "Madhya Pradesh": 487892,
+          "West Bengal": 369242,
+          "Maharashtra": 363446,
+          "Rajasthan": 340591,
+          "Gujarat": 275042,
+          "Assam": 225359,
+          "Karnataka": 219576,
+          "Tamil Nadu": 215710
+        },
+        "count": {
+          "Uttar Pradesh": 108066,
+          "Bihar": 58542,
+          "Madhya Pradesh": 49562,
+          "West Bengal": 75364,
+          "Maharashtra": 75531,
+          "Rajasthan": 54864,
+          "Gujarat": 45243,
+          "Assam": 30699,
+          "Karnataka": 68756,
+          "Tamil Nadu": 90388
+        }
+      },
+      "gini_coefficient": 0.6639198246407125,
+      "concentration": {
+        "top5_share": 52.839904485540586,
+        "top10_share": 76.78000724049123
+      },
+      "regional_kruskal": {
+        "statistic": 90275.9044165792,
+        "p_value": 0.0
+      }
+    }
+  },
+  "socioeconomic": {
+    "biometric": {
+      "dataset": "biometric",
+      "hdi_correlation": {
+        "r": -0.3654397491684622,
+        "p": 0.051246059462262974
+      },
+      "literacy_correlation": {
+        "r": -0.3381961336545646,
+        "p": 0.0727449888955046
+      },
+      "hdi_category": {
+        "mean": {
+          "Low": NaN,
+          "Medium": 44.037024540410805,
+          "High": 35.68785258586636,
+          "Very High": 16.680695768050395
+        },
+        "sum": {
+          "Low": 0,
+          "Medium": 37979952,
+          "High": 27645024,
+          "Very High": 1652323
+        },
+        "count": {
+          "Low": 0,
+          "Medium": 862455,
+          "High": 774634,
+          "Very High": 99056
+        }
+      },
+      "hdi_anova": {
+        "f_statistic": 1429.7621927552766,
+        "p_value": 0.0
+      }
+    },
+    "demographic": {
+      "dataset": "demographic",
+      "hdi_correlation": {
+        "r": -0.4511396880077934,
+        "p": 0.014035905044246323
+      },
+      "literacy_correlation": {
+        "r": -0.40580496842568414,
+        "p": 0.02895070978583958
+      },
+      "hdi_category": {
+        "mean": {
+          "Low": NaN,
+          "Medium": 28.350947175826875,
+          "High": 18.746150492401146,
+          "Very High": 6.929800103692609
+        },
+        "sum": {
+          "Low": 0,
+          "Medium": 22871106,
+          "High": 12727099,
+          "Very High": 601472
+        },
+        "count": {
+          "Low": 0,
+          "Medium": 806714,
+          "High": 678918,
+          "Very High": 86795
+        }
+      },
+      "hdi_anova": {
+        "f_statistic": 1703.4410462432813,
+        "p_value": 0.0
+      }
+    },
+    "enrollment": {
+      "dataset": "enrollment",
+      "hdi_correlation": {
+        "r": -0.5344021879188824,
+        "p": 0.002823688573246988
+      },
+      "literacy_correlation": {
+        "r": -0.4481023675222183,
+        "p": 0.014777337172672237
+      },
+      "hdi_category": {
+        "mean": {
+          "Low": NaN,
+          "Medium": 6.661062348668281,
+          "High": 4.205900424074172,
+          "Very High": 1.9023732874148387
+        },
+        "sum": {
+          "Low": 0,
+          "Medium": 3521304,
+          "High": 1677107,
+          "Very High": 76230
+        },
+        "count": {
+          "Low": 0,
+          "Medium": 528640,
+          "High": 398751,
+          "Very High": 40071
+        }
+      },
+      "hdi_anova": {
+        "f_statistic": 918.2326407976075,
+        "p_value": 0.0
+      }
+    }
+  },
+  "climate": {
+    "biometric": {
+      "dataset": "biometric",
+      "rainfall_zone": {
+        "mean": {
+          "High": 22.2569479040966,
+          "Low": 46.98256029009587,
+          "Moderate": 43.25053582529746,
+          "Very High": 18.364871328805126,
+          "Very Low": 51.21381261571358
+        },
+        "sum": {
+          "High": 6031210,
+          "Low": 7747941,
+          "Moderate": 47865541,
+          "Very High": 2687552,
+          "Very Low": 3927997
+        },
+        "count": {
+          "High": 270981,
+          "Low": 164911,
+          "Moderate": 1106704,
+          "Very High": 146342,
+          "Very Low": 76698
+        },
+        "percentage": {
+          "High": 8.835611934039319,
+          "Low": 11.350591334712691,
+          "Moderate": 70.12213888902033,
+          "Very High": 3.937214344145078,
+          "Very Low": 5.754443498082581
+        }
+      },
+      "rainfall_anova": {
+        "f_statistic": 1629.938778061787,
+        "p_value": 0.0
+      }
+    },
+    "demographic": {
+      "dataset": "demographic",
+      "rainfall_zone": {
+        "mean": {
+          "High": 16.830048471819417,
+          "Low": 26.421160338286988,
+          "Moderate": 25.139165841883283,
+          "Very High": 10.34495057576684,
+          "Very Low": 30.07663428529691
+        },
+        "sum": {
+          "High": 4149196,
+          "Low": 3795796,
+          "Moderate": 25171168,
+          "Very High": 1421210,
+          "Very Low": 2058896
+        },
+        "count": {
+          "High": 246535,
+          "Low": 143665,
+          "Moderate": 1001273,
+          "Very High": 137382,
+          "Very Low": 68455
+        },
+        "percentage": {
+          "High": 11.337757792010802,
+          "Low": 10.37208550183781,
+          "Moderate": 68.78070019493245,
+          "Very High": 3.883483631909332,
+          "Very Low": 5.625972879309599
+        }
+      },
+      "rainfall_anova": {
+        "f_statistic": 610.4776420729846,
+        "p_value": 0.0
+      }
+    },
+    "enrollment": {
+      "dataset": "enrollment",
+      "rainfall_zone": {
+        "mean": {
+          "High": 3.8584409679298632,
+          "Low": 6.157990992844569,
+          "Moderate": 5.594298680765808,
+          "Very High": 5.5399605427386565,
+          "Very Low": 6.207914114902304
+        },
+        "sum": {
+          "High": 543091,
+          "Low": 538738,
+          "Moderate": 3495922,
+          "Very High": 412788,
+          "Very Low": 340591
+        },
+        "count": {
+          "High": 140754,
+          "Low": 87486,
+          "Moderate": 624908,
+          "Very High": 74511,
+          "Very Low": 54864
+        },
+        "percentage": {
+          "High": 10.187164822467281,
+          "Low": 10.105512339785374,
+          "Moderate": 65.57562843149576,
+          "Very High": 7.742973816057759,
+          "Very Low": 6.388720590193824
+        }
+      },
+      "rainfall_anova": {
+        "f_statistic": 109.07885867559762,
+        "p_value": 4.13907055346193e-93
+      }
+    }
+  }
+}
