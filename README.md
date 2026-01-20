@@ -1,6 +1,6 @@
 # UIDAI Aadhaar Data Analysis & Visualization Platform
 
-**Author: Shuvam Banerji Seal's Team**
+**Authors: Aheli Poddar, Shuvam Banerji Seal, Alok Mishra**
 
 A comprehensive, production-grade data analysis pipeline for Aadhaar enrollment, demographic, and biometric datasets with ML-powered insights and interactive web visualization.
 
@@ -77,8 +77,8 @@ UIDAI_hackathon/
 
 ```bash
 # Clone the repository
-git clone https://github.com/Shuvam-Banerji-Seal/UIDAI_hackathon.git
-cd UIDAI_hackathon
+git clone git@github.com:XAheli/UIDAI.git
+cd UIDAI
 
 # If using Git LFS, pull large files
 git lfs pull
@@ -368,13 +368,3 @@ ls -la Dataset/corrected_dataset/enrollement/
 ## 📝 License
 
 MIT License - See [LICENSE](LICENSE) file for details.
-
----
-
-## 👥 Authors
-
-**Shuvam Banerji Seal's Team**
-
----
-
-Made with ❤️ for UIDAI Hackathon
