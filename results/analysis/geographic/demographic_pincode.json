@@ -1,0 +1,5116 @@
+{
+  "dataset_name": "demographic",
+  "summary": {
+    "total_unique_pincodes": 7733,
+    "avg_enrollment_per_pincode": 15.546747704642442,
+    "median_enrollment_per_pincode": 7.0,
+    "max_enrollment_pincode": 625,
+    "min_enrollment_pincode": 0
+  },
+  "top_50_pincodes": [
+    {
+      "pincode": 226003,
+      "total_enrollment": 625,
+      "record_count": 2,
+      "state": "Uttar Pradesh",
+      "district": "Lucknow"
+    },
+    {
+      "pincode": 244001,
+      "total_enrollment": 539,
+      "record_count": 1,
+      "state": "Uttar Pradesh",
+      "district": "Moradabad"
+    },
+    {
+      "pincode": 400612,
+      "total_enrollment": 400,
+      "record_count": 2,
+      "state": "Maharashtra",
+      "district": "Thane"
+    },
+    {
+      "pincode": 491995,
+      "total_enrollment": 348,
+      "record_count": 3,
+      "state": "Chhattisgarh",
+      "district": "Kabeerdham"
+    },
+    {
+      "pincode": 421301,
+      "total_enrollment": 334,
+      "record_count": 2,
+      "state": "Maharashtra",
+      "district": "Thane"
+    },
+    {
+      "pincode": 743329,
+      "total_enrollment": 302,
+      "record_count": 6,
+      "state": "West Bengal",
+      "district": "North 24 Parganas"
+    },
+    {
+      "pincode": 247001,
+      "total_enrollment": 294,
+      "record_count": 1,
+      "state": "Uttar Pradesh",
+      "district": "Saharanpur"
+    },
+    {
+      "pincode": 733129,
+      "total_enrollment": 271,
+      "record_count": 3,
+      "state": "West Bengal",
+      "district": "Uttar Dinajpur"
+    },
+    {
+      "pincode": 401107,
+      "total_enrollment": 268,
+      "record_count": 2,
+      "state": "Maharashtra",
+      "district": "Thane"
+    },
+    {
+      "pincode": 122001,
+      "total_enrollment": 266,
+      "record_count": 2,
+      "state": "Haryana",
+      "district": "Gurgaon"
+    },
+    {
+      "pincode": 247776,
+      "total_enrollment": 247,
+      "record_count": 3,
+      "state": "Uttar Pradesh",
+      "district": "Muzaffarnagar"
+    },
+    {
+      "pincode": 262001,
+      "total_enrollment": 235,
+      "record_count": 1,
+      "state": "Uttar Pradesh",
+      "district": "Pilibhit"
+    },
+    {
+      "pincode": 394210,
+      "total_enrollment": 222,
+      "record_count": 1,
+      "state": "Gujarat",
+      "district": "Surat"
+    },
+    {
+      "pincode": 494010,
+      "total_enrollment": 221,
+      "record_count": 3,
+      "state": "Chhattisgarh",
+      "district": "Bastar"
+    },
+    {
+      "pincode": 733134,
+      "total_enrollment": 210,
+      "record_count": 2,
+      "state": "West Bengal",
+      "district": "Uttar Dinajpur"
+    },
+    {
+      "pincode": 445305,
+      "total_enrollment": 206,
+      "record_count": 2,
+      "state": "Maharashtra",
+      "district": "Yavatmal"
+    },
+    {
+      "pincode": 431122,
+      "total_enrollment": 205,
+      "record_count": 2,
+      "state": "Maharashtra",
+      "district": "Beed"
+    },
+    {
+      "pincode": 110092,
+      "total_enrollment": 202,
+      "record_count": 2,
+      "state": "Delhi",
+      "district": "East Delhi"
+    },
+    {
+      "pincode": 795149,
+      "total_enrollment": 200,
+      "record_count": 5,
+      "state": "Manipur",
+      "district": "Imphal East"
+    },
+    {
+      "pincode": 243503,
+      "total_enrollment": 183,
+      "record_count": 1,
+      "state": "Uttar Pradesh",
+      "district": "Bareilly"
+    },
+    {
+      "pincode": 203131,
+      "total_enrollment": 180,
+      "record_count": 2,
+      "state": "Uttar Pradesh",
+      "district": "Bulandshahr"
+    },
+    {
+      "pincode": 416404,
+      "total_enrollment": 176,
+      "record_count": 2,
+      "state": "Maharashtra",
+      "district": "Sangli"
+    },
+    {
+      "pincode": 110042,
+      "total_enrollment": 175,
+      "record_count": 2,
+      "state": "Delhi",
+      "district": "North West Delhi"
+    },
+    {
+      "pincode": 445103,
+      "total_enrollment": 174,
+      "record_count": 2,
+      "state": "Maharashtra",
+      "district": "Yavatmal"
+    },
+    {
+      "pincode": 202411,
+      "total_enrollment": 169,
+      "record_count": 4,
+      "state": "Uttar Pradesh",
+      "district": "Moradabad"
+    },
+    {
+      "pincode": 395010,
+      "total_enrollment": 167,
+      "record_count": 1,
+      "state": "Gujarat",
+      "district": "Surat"
+    },
+    {
+      "pincode": 247667,
+      "total_enrollment": 165,
+      "record_count": 1,
+      "state": "Uttarakhand",
+      "district": "Haridwar"
+    },
+    {
+      "pincode": 444505,
+      "total_enrollment": 164,
+      "record_count": 2,
+      "state": "Maharashtra",
+      "district": "Washim"
+    },
+    {
+      "pincode": 823003,
+      "total_enrollment": 162,
+      "record_count": 2,
+      "state": "Bihar",
+      "district": "Gaya"
+    },
+    {
+      "pincode": 241504,
+      "total_enrollment": 162,
+      "record_count": 2,
+      "state": "Uttar Pradesh",
+      "district": "Unnao"
+    },
+    {
+      "pincode": 110085,
+      "total_enrollment": 160,
+      "record_count": 2,
+      "state": "Delhi",
+      "district": "North West Delhi"
+    },
+    {
+      "pincode": 743368,
+      "total_enrollment": 158,
+      "record_count": 3,
+      "state": "West Bengal",
+      "district": "South 24 Parganas"
+    },
+    {
+      "pincode": 302016,
+      "total_enrollment": 154,
+      "record_count": 2,
+      "state": "Rajasthan",
+      "district": "Jaipur"
+    },
+    {
+      "pincode": 251002,
+      "total_enrollment": 153,
+      "record_count": 1,
+      "state": "Uttar Pradesh",
+      "district": "Muzaffarnagar"
+    },
+    {
+      "pincode": 821109,
+      "total_enrollment": 152,
+      "record_count": 2,
+      "state": "Bihar",
+      "district": "Kaimur (Bhabua)"
+    },
+    {
+      "pincode": 457001,
+      "total_enrollment": 148,
+      "record_count": 2,
+      "state": "Madhya Pradesh",
+      "district": "Ratlam"
+    },
+    {
+      "pincode": 248001,
+      "total_enrollment": 146,
+      "record_count": 1,
+      "state": "Uttarakhand",
+      "district": "Dehradun"
+    },
+    {
+      "pincode": 141008,
+      "total_enrollment": 146,
+      "record_count": 2,
+      "state": "Punjab",
+      "district": "Ludhiana"
+    },
+    {
+      "pincode": 413305,
+      "total_enrollment": 145,
+      "record_count": 3,
+      "state": "Maharashtra",
+      "district": "Solapur"
+    },
+    {
+      "pincode": 421601,
+      "total_enrollment": 145,
+      "record_count": 1,
+      "state": "Maharashtra",
+      "district": "Thane"
+    },
+    {
+      "pincode": 723202,
+      "total_enrollment": 145,
+      "record_count": 2,
+      "state": "West Bengal",
+      "district": "Puruliya"
+    },
+    {
+      "pincode": 733128,
+      "total_enrollment": 142,
+      "record_count": 4,
+      "state": "West Bengal",
+      "district": "North Dinajpur"
+    },
+    {
+      "pincode": 285001,
+      "total_enrollment": 142,
+      "record_count": 1,
+      "state": "Uttar Pradesh",
+      "district": "Jalaun"
+    },
+    {
+      "pincode": 493890,
+      "total_enrollment": 140,
+      "record_count": 1,
+      "state": "Chhattisgarh",
+      "district": "Gariyaband"
+    },
+    {
+      "pincode": 413304,
+      "total_enrollment": 139,
+      "record_count": 2,
+      "state": "Maharashtra",
+      "district": "Solapur"
+    },
+    {
+      "pincode": 795002,
+      "total_enrollment": 139,
+      "record_count": 2,
+      "state": "Manipur",
+      "district": "Imphal East"
+    },
+    {
+      "pincode": 464001,
+      "total_enrollment": 137,
+      "record_count": 4,
+      "state": "Madhya Pradesh",
+      "district": "Vidisha"
+    },
+    {
+      "pincode": 400097,
+      "total_enrollment": 137,
+      "record_count": 5,
+      "state": "Maharashtra",
+      "district": "Mumbai"
+    },
+    {
+      "pincode": 110094,
+      "total_enrollment": 136,
+      "record_count": 3,
+      "state": "Delhi",
+      "district": "North East Delhi"
+    },
+    {
+      "pincode": 431001,
+      "total_enrollment": 131,
+      "record_count": 2,
+      "state": "Maharashtra",
+      "district": "Chatrapati Sambhaji Nagar"
+    }
+  ],
+  "postal_circles": [
+    {
+      "postal_circle": "41",
+      "total_enrollment": 7963,
+      "unique_pincodes": 398,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "24",
+      "total_enrollment": 5719,
+      "unique_pincodes": 140,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "84",
+      "total_enrollment": 5365,
+      "unique_pincodes": 236,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "49",
+      "total_enrollment": 5072,
+      "unique_pincodes": 155,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "40",
+      "total_enrollment": 4387,
+      "unique_pincodes": 182,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "44",
+      "total_enrollment": 4328,
+      "unique_pincodes": 195,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "42",
+      "total_enrollment": 3882,
+      "unique_pincodes": 140,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "20",
+      "total_enrollment": 3645,
+      "unique_pincodes": 111,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "27",
+      "total_enrollment": 3550,
+      "unique_pincodes": 106,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "22",
+      "total_enrollment": 3500,
+      "unique_pincodes": 131,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "73",
+      "total_enrollment": 3181,
+      "unique_pincodes": 137,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "74",
+      "total_enrollment": 3091,
+      "unique_pincodes": 119,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "43",
+      "total_enrollment": 2999,
+      "unique_pincodes": 98,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "78",
+      "total_enrollment": 2986,
+      "unique_pincodes": 321,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "85",
+      "total_enrollment": 2705,
+      "unique_pincodes": 89,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "50",
+      "total_enrollment": 2580,
+      "unique_pincodes": 312,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "11",
+      "total_enrollment": 2344,
+      "unique_pincodes": 57,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "75",
+      "total_enrollment": 2329,
+      "unique_pincodes": 312,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "72",
+      "total_enrollment": 2160,
+      "unique_pincodes": 149,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "80",
+      "total_enrollment": 2140,
+      "unique_pincodes": 114,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "76",
+      "total_enrollment": 2031,
+      "unique_pincodes": 218,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "47",
+      "total_enrollment": 1935,
+      "unique_pincodes": 90,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "38",
+      "total_enrollment": 1803,
+      "unique_pincodes": 197,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "82",
+      "total_enrollment": 1758,
+      "unique_pincodes": 84,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "79",
+      "total_enrollment": 1743,
+      "unique_pincodes": 147,
+      "unique_states": 6
+    },
+    {
+      "postal_circle": "48",
+      "total_enrollment": 1737,
+      "unique_pincodes": 132,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "12",
+      "total_enrollment": 1680,
+      "unique_pincodes": 80,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "30",
+      "total_enrollment": 1676,
+      "unique_pincodes": 89,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "26",
+      "total_enrollment": 1664,
+      "unique_pincodes": 57,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "39",
+      "total_enrollment": 1657,
+      "unique_pincodes": 131,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "71",
+      "total_enrollment": 1621,
+      "unique_pincodes": 173,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "14",
+      "total_enrollment": 1619,
+      "unique_pincodes": 165,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "45",
+      "total_enrollment": 1528,
+      "unique_pincodes": 99,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "81",
+      "total_enrollment": 1518,
+      "unique_pincodes": 70,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "28",
+      "total_enrollment": 1352,
+      "unique_pincodes": 44,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "21",
+      "total_enrollment": 1296,
+      "unique_pincodes": 44,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "32",
+      "total_enrollment": 1282,
+      "unique_pincodes": 70,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "53",
+      "total_enrollment": 1210,
+      "unique_pincodes": 198,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "23",
+      "total_enrollment": 1060,
+      "unique_pincodes": 40,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "52",
+      "total_enrollment": 1058,
+      "unique_pincodes": 184,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "46",
+      "total_enrollment": 1056,
+      "unique_pincodes": 65,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "51",
+      "total_enrollment": 1011,
+      "unique_pincodes": 157,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "36",
+      "total_enrollment": 1008,
+      "unique_pincodes": 128,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "60",
+      "total_enrollment": 950,
+      "unique_pincodes": 144,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "70",
+      "total_enrollment": 846,
+      "unique_pincodes": 72,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "33",
+      "total_enrollment": 782,
+      "unique_pincodes": 63,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "25",
+      "total_enrollment": 734,
+      "unique_pincodes": 18,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "67",
+      "total_enrollment": 718,
+      "unique_pincodes": 91,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "57",
+      "total_enrollment": 707,
+      "unique_pincodes": 162,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "31",
+      "total_enrollment": 687,
+      "unique_pincodes": 46,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "13",
+      "total_enrollment": 677,
+      "unique_pincodes": 40,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "58",
+      "total_enrollment": 648,
+      "unique_pincodes": 107,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "63",
+      "total_enrollment": 620,
+      "unique_pincodes": 103,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "62",
+      "total_enrollment": 608,
+      "unique_pincodes": 136,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "56",
+      "total_enrollment": 552,
+      "unique_pincodes": 62,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "34",
+      "total_enrollment": 503,
+      "unique_pincodes": 35,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "83",
+      "total_enrollment": 430,
+      "unique_pincodes": 26,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "68",
+      "total_enrollment": 382,
+      "unique_pincodes": 112,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "15",
+      "total_enrollment": 272,
+      "unique_pincodes": 27,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "19",
+      "total_enrollment": 261,
+      "unique_pincodes": 21,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "17",
+      "total_enrollment": 233,
+      "unique_pincodes": 71,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "69",
+      "total_enrollment": 219,
+      "unique_pincodes": 51,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "37",
+      "total_enrollment": 202,
+      "unique_pincodes": 25,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "16",
+      "total_enrollment": 186,
+      "unique_pincodes": 14,
+      "unique_states": 2
+    },
+    {
+      "postal_circle": "64",
+      "total_enrollment": 179,
+      "unique_pincodes": 29,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "61",
+      "total_enrollment": 172,
+      "unique_pincodes": 35,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "77",
+      "total_enrollment": 160,
+      "unique_pincodes": 27,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "59",
+      "total_enrollment": 145,
+      "unique_pincodes": 33,
+      "unique_states": 1
+    },
+    {
+      "postal_circle": "18",
+      "total_enrollment": 121,
+      "unique_pincodes": 19,
+      "unique_states": 1
+    }
+  ],
+  "region_codes": [
+    {
+      "region_code": "1",
+      "total_enrollment": 7393,
+      "unique_pincodes": 494
+    },
+    {
+      "region_code": "2",
+      "total_enrollment": 22520,
+      "unique_pincodes": 691
+    },
+    {
+      "region_code": "3",
+      "total_enrollment": 9600,
+      "unique_pincodes": 784
+    },
+    {
+      "region_code": "4",
+      "total_enrollment": 34887,
+      "unique_pincodes": 1554
+    },
+    {
+      "region_code": "5",
+      "total_enrollment": 7911,
+      "unique_pincodes": 1215
+    },
+    {
+      "region_code": "6",
+      "total_enrollment": 3848,
+      "unique_pincodes": 701
+    },
+    {
+      "region_code": "7",
+      "total_enrollment": 20148,
+      "unique_pincodes": 1675
+    },
+    {
+      "region_code": "8",
+      "total_enrollment": 13916,
+      "unique_pincodes": 619
+    }
+  ],
+  "pincode_density": {
+    "mean_per_district": 9.938228438228439,
+    "max_per_district": 77,
+    "distribution": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "district": "South Andaman",
+        "pincode_count": 2
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Adilabad",
+        "pincode_count": 12
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Alluri Sitharama Raju",
+        "pincode_count": 7
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Anakapalli",
+        "pincode_count": 5
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Anantapur",
+        "pincode_count": 16
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Ananthapur",
+        "pincode_count": 14
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Ananthapuramu",
+        "pincode_count": 14
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Annamayya",
+        "pincode_count": 5
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Bapatla",
+        "pincode_count": 10
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Chittoor",
+        "pincode_count": 22
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Cuddapah",
+        "pincode_count": 23
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Dr. B. R. Ambedkar Konaseema",
+        "pincode_count": 16
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "East Godavari",
+        "pincode_count": 40
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Eluru",
+        "pincode_count": 9
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Guntur",
+        "pincode_count": 34
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Hyderabad",
+        "pincode_count": 11
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "K.V.Rangareddy",
+        "pincode_count": 1
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Kakinada",
+        "pincode_count": 5
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Karim Nagar",
+        "pincode_count": 1
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Karimnagar",
+        "pincode_count": 11
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Khammam",
+        "pincode_count": 13
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Krishna",
+        "pincode_count": 28
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Kurnool",
+        "pincode_count": 37
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Mahabub Nagar",
+        "pincode_count": 17
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Mahabubnagar",
+        "pincode_count": 1
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Mahbubnagar",
+        "pincode_count": 13
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Medak",
+        "pincode_count": 10
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "N. T. R",
+        "pincode_count": 15
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Nalgonda",
+        "pincode_count": 15
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Nandyal",
+        "pincode_count": 9
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Nellore",
+        "pincode_count": 34
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Nizamabad",
+        "pincode_count": 4
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Palnadu",
+        "pincode_count": 18
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Parvathipuram Manyam",
+        "pincode_count": 5
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Prakasam",
+        "pincode_count": 36
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Rangareddi",
+        "pincode_count": 19
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Sri Potti Sriramulu Nellore",
+        "pincode_count": 24
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Sri Sathya Sai",
+        "pincode_count": 14
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Srikakulam",
+        "pincode_count": 27
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Tirupati",
+        "pincode_count": 19
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Visakhapatnam",
+        "pincode_count": 29
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Vizianagaram",
+        "pincode_count": 27
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Warangal",
+        "pincode_count": 28
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "West Godavari",
+        "pincode_count": 56
+      },
+      {
+        "state": "Andhra Pradesh",
+        "district": "Y. S. R",
+        "pincode_count": 14
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Changlang",
+        "pincode_count": 4
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Kra Daadi",
+        "pincode_count": 1
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Kurung Kumey",
+        "pincode_count": 1
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Longding",
+        "pincode_count": 1
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Lower Subansiri",
+        "pincode_count": 1
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Namsai",
+        "pincode_count": 1
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Papum Pare",
+        "pincode_count": 3
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Shi-Yomi",
+        "pincode_count": 1
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Siang",
+        "pincode_count": 1
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Tawang",
+        "pincode_count": 2
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Tirap",
+        "pincode_count": 2
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "Upper Siang",
+        "pincode_count": 1
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "West Kameng",
+        "pincode_count": 3
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "district": "West Siang",
+        "pincode_count": 1
+      },
+      {
+        "state": "Assam",
+        "district": "Bajali",
+        "pincode_count": 1
+      },
+      {
+        "state": "Assam",
+        "district": "Baksa",
+        "pincode_count": 9
+      },
+      {
+        "state": "Assam",
+        "district": "Barpeta",
+        "pincode_count": 12
+      },
+      {
+        "state": "Assam",
+        "district": "Biswanath",
+        "pincode_count": 9
+      },
+      {
+        "state": "Assam",
+        "district": "Bongaigaon",
+        "pincode_count": 6
+      },
+      {
+        "state": "Assam",
+        "district": "Cachar",
+        "pincode_count": 30
+      },
+      {
+        "state": "Assam",
+        "district": "Charaideo",
+        "pincode_count": 2
+      },
+      {
+        "state": "Assam",
+        "district": "Chirang",
+        "pincode_count": 3
+      },
+      {
+        "state": "Assam",
+        "district": "Darrang",
+        "pincode_count": 7
+      },
+      {
+        "state": "Assam",
+        "district": "Dhemaji",
+        "pincode_count": 8
+      },
+      {
+        "state": "Assam",
+        "district": "Dhubri",
+        "pincode_count": 11
+      },
+      {
+        "state": "Assam",
+        "district": "Dibrugarh",
+        "pincode_count": 12
+      },
+      {
+        "state": "Assam",
+        "district": "Goalpara",
+        "pincode_count": 8
+      },
+      {
+        "state": "Assam",
+        "district": "Golaghat",
+        "pincode_count": 10
+      },
+      {
+        "state": "Assam",
+        "district": "Hailakandi",
+        "pincode_count": 10
+      },
+      {
+        "state": "Assam",
+        "district": "Hojai",
+        "pincode_count": 6
+      },
+      {
+        "state": "Assam",
+        "district": "Jorhat",
+        "pincode_count": 16
+      },
+      {
+        "state": "Assam",
+        "district": "Kamrup",
+        "pincode_count": 24
+      },
+      {
+        "state": "Assam",
+        "district": "Kamrup Metro",
+        "pincode_count": 19
+      },
+      {
+        "state": "Assam",
+        "district": "Karbi Anglong",
+        "pincode_count": 7
+      },
+      {
+        "state": "Assam",
+        "district": "Karimganj",
+        "pincode_count": 13
+      },
+      {
+        "state": "Assam",
+        "district": "Kokrajhar",
+        "pincode_count": 7
+      },
+      {
+        "state": "Assam",
+        "district": "Lakhimpur",
+        "pincode_count": 8
+      },
+      {
+        "state": "Assam",
+        "district": "Majuli",
+        "pincode_count": 3
+      },
+      {
+        "state": "Assam",
+        "district": "Marigaon",
+        "pincode_count": 7
+      },
+      {
+        "state": "Assam",
+        "district": "Nagaon",
+        "pincode_count": 16
+      },
+      {
+        "state": "Assam",
+        "district": "Nalbari",
+        "pincode_count": 14
+      },
+      {
+        "state": "Assam",
+        "district": "North Cachar Hills",
+        "pincode_count": 2
+      },
+      {
+        "state": "Assam",
+        "district": "Sibsagar",
+        "pincode_count": 13
+      },
+      {
+        "state": "Assam",
+        "district": "Sonitpur",
+        "pincode_count": 21
+      },
+      {
+        "state": "Assam",
+        "district": "Sribhumi",
+        "pincode_count": 7
+      },
+      {
+        "state": "Assam",
+        "district": "Tamulpur District",
+        "pincode_count": 1
+      },
+      {
+        "state": "Assam",
+        "district": "Tinsukia",
+        "pincode_count": 10
+      },
+      {
+        "state": "Assam",
+        "district": "Udalguri",
+        "pincode_count": 13
+      },
+      {
+        "state": "Assam",
+        "district": "West Karbi Anglong",
+        "pincode_count": 1
+      },
+      {
+        "state": "Bihar",
+        "district": "Araria",
+        "pincode_count": 8
+      },
+      {
+        "state": "Bihar",
+        "district": "Arwal",
+        "pincode_count": 6
+      },
+      {
+        "state": "Bihar",
+        "district": "Aurangabad",
+        "pincode_count": 15
+      },
+      {
+        "state": "Bihar",
+        "district": "Banka",
+        "pincode_count": 9
+      },
+      {
+        "state": "Bihar",
+        "district": "Begusarai",
+        "pincode_count": 17
+      },
+      {
+        "state": "Bihar",
+        "district": "Bhagalpur",
+        "pincode_count": 21
+      },
+      {
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "pincode_count": 21
+      },
+      {
+        "state": "Bihar",
+        "district": "Buxar",
+        "pincode_count": 16
+      },
+      {
+        "state": "Bihar",
+        "district": "Darbhanga",
+        "pincode_count": 21
+      },
+      {
+        "state": "Bihar",
+        "district": "East Champaran",
+        "pincode_count": 26
+      },
+      {
+        "state": "Bihar",
+        "district": "Gaya",
+        "pincode_count": 16
+      },
+      {
+        "state": "Bihar",
+        "district": "Gopalganj",
+        "pincode_count": 16
+      },
+      {
+        "state": "Bihar",
+        "district": "Jamui",
+        "pincode_count": 8
+      },
+      {
+        "state": "Bihar",
+        "district": "Jehanabad",
+        "pincode_count": 10
+      },
+      {
+        "state": "Bihar",
+        "district": "Kaimur (Bhabua)",
+        "pincode_count": 8
+      },
+      {
+        "state": "Bihar",
+        "district": "Katihar",
+        "pincode_count": 12
+      },
+      {
+        "state": "Bihar",
+        "district": "Khagaria",
+        "pincode_count": 9
+      },
+      {
+        "state": "Bihar",
+        "district": "Kishanganj",
+        "pincode_count": 4
+      },
+      {
+        "state": "Bihar",
+        "district": "Lakhisarai",
+        "pincode_count": 6
+      },
+      {
+        "state": "Bihar",
+        "district": "Madhepura",
+        "pincode_count": 12
+      },
+      {
+        "state": "Bihar",
+        "district": "Madhubani",
+        "pincode_count": 30
+      },
+      {
+        "state": "Bihar",
+        "district": "Munger",
+        "pincode_count": 7
+      },
+      {
+        "state": "Bihar",
+        "district": "Muzaffarpur",
+        "pincode_count": 30
+      },
+      {
+        "state": "Bihar",
+        "district": "Nalanda",
+        "pincode_count": 19
+      },
+      {
+        "state": "Bihar",
+        "district": "Nawada",
+        "pincode_count": 14
+      },
+      {
+        "state": "Bihar",
+        "district": "Patna",
+        "pincode_count": 32
+      },
+      {
+        "state": "Bihar",
+        "district": "Purba Champaran",
+        "pincode_count": 3
+      },
+      {
+        "state": "Bihar",
+        "district": "Purnea",
+        "pincode_count": 2
+      },
+      {
+        "state": "Bihar",
+        "district": "Purnia",
+        "pincode_count": 13
+      },
+      {
+        "state": "Bihar",
+        "district": "Rohtas",
+        "pincode_count": 14
+      },
+      {
+        "state": "Bihar",
+        "district": "Saharsa",
+        "pincode_count": 15
+      },
+      {
+        "state": "Bihar",
+        "district": "Samastipur",
+        "pincode_count": 24
+      },
+      {
+        "state": "Bihar",
+        "district": "Saran",
+        "pincode_count": 32
+      },
+      {
+        "state": "Bihar",
+        "district": "Sheikhpura",
+        "pincode_count": 3
+      },
+      {
+        "state": "Bihar",
+        "district": "Sheohar",
+        "pincode_count": 3
+      },
+      {
+        "state": "Bihar",
+        "district": "Sitamarhi",
+        "pincode_count": 9
+      },
+      {
+        "state": "Bihar",
+        "district": "Siwan",
+        "pincode_count": 20
+      },
+      {
+        "state": "Bihar",
+        "district": "Supaul",
+        "pincode_count": 9
+      },
+      {
+        "state": "Bihar",
+        "district": "Vaishali",
+        "pincode_count": 22
+      },
+      {
+        "state": "Bihar",
+        "district": "West Champaran",
+        "pincode_count": 11
+      },
+      {
+        "state": "Chandigarh",
+        "district": "Chandigarh",
+        "pincode_count": 11
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Balod",
+        "pincode_count": 3
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Baloda Bazar",
+        "pincode_count": 8
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Balrampur",
+        "pincode_count": 3
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Bastar",
+        "pincode_count": 7
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Bemetara",
+        "pincode_count": 4
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Bijapur",
+        "pincode_count": 4
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Bilaspur",
+        "pincode_count": 11
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Dakshin Bastar Dantewada",
+        "pincode_count": 5
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Dantewada",
+        "pincode_count": 3
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Dhamtari",
+        "pincode_count": 8
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Durg",
+        "pincode_count": 12
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Gariyaband",
+        "pincode_count": 12
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Gaurela-Pendra-Marwahi",
+        "pincode_count": 1
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Janjgir - Champa",
+        "pincode_count": 1
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Janjgir-Champa",
+        "pincode_count": 12
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Jashpur",
+        "pincode_count": 9
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Kabeerdham",
+        "pincode_count": 2
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Kanker",
+        "pincode_count": 5
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Kawardha",
+        "pincode_count": 1
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Khairagarh Chhuikhadan Gandai",
+        "pincode_count": 2
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Kondagaon",
+        "pincode_count": 5
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Korba",
+        "pincode_count": 6
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Koriya",
+        "pincode_count": 5
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Mahasamund",
+        "pincode_count": 4
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Manendragarh\u2013Chirmiri\u2013Bharatpur",
+        "pincode_count": 3
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Mohalla-Manpur-Ambagarh Chowki",
+        "pincode_count": 1
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Mohla-Manpur-Ambagarh Chouki",
+        "pincode_count": 3
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Mungeli",
+        "pincode_count": 2
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Narayanpur",
+        "pincode_count": 1
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Raigarh",
+        "pincode_count": 5
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Raipur",
+        "pincode_count": 16
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Rajnandgaon",
+        "pincode_count": 9
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Sakti",
+        "pincode_count": 3
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Sarangarh-Bilaigarh",
+        "pincode_count": 3
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Sukma",
+        "pincode_count": 2
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Surajpur",
+        "pincode_count": 2
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Surguja",
+        "pincode_count": 8
+      },
+      {
+        "state": "Chhattisgarh",
+        "district": "Uttar Bastar Kanker",
+        "pincode_count": 6
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "district": "Dadra & Nagar Haveli",
+        "pincode_count": 1
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "district": "Dadra And Nagar Haveli",
+        "pincode_count": 2
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "district": "Daman",
+        "pincode_count": 2
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "district": "Diu",
+        "pincode_count": 2
+      },
+      {
+        "state": "Delhi",
+        "district": "Central Delhi",
+        "pincode_count": 6
+      },
+      {
+        "state": "Delhi",
+        "district": "East Delhi",
+        "pincode_count": 5
+      },
+      {
+        "state": "Delhi",
+        "district": "New Delhi",
+        "pincode_count": 3
+      },
+      {
+        "state": "Delhi",
+        "district": "North Delhi",
+        "pincode_count": 3
+      },
+      {
+        "state": "Delhi",
+        "district": "North East",
+        "pincode_count": 3
+      },
+      {
+        "state": "Delhi",
+        "district": "North East Delhi",
+        "pincode_count": 3
+      },
+      {
+        "state": "Delhi",
+        "district": "North West Delhi",
+        "pincode_count": 10
+      },
+      {
+        "state": "Delhi",
+        "district": "Shahdara",
+        "pincode_count": 5
+      },
+      {
+        "state": "Delhi",
+        "district": "South Delhi",
+        "pincode_count": 10
+      },
+      {
+        "state": "Delhi",
+        "district": "South East Delhi",
+        "pincode_count": 1
+      },
+      {
+        "state": "Delhi",
+        "district": "South West Delhi",
+        "pincode_count": 15
+      },
+      {
+        "state": "Delhi",
+        "district": "West Delhi",
+        "pincode_count": 5
+      },
+      {
+        "state": "Goa",
+        "district": "North Goa",
+        "pincode_count": 16
+      },
+      {
+        "state": "Goa",
+        "district": "South Goa",
+        "pincode_count": 14
+      },
+      {
+        "state": "Gujarat",
+        "district": "Ahmadabad",
+        "pincode_count": 21
+      },
+      {
+        "state": "Gujarat",
+        "district": "Ahmedabad",
+        "pincode_count": 35
+      },
+      {
+        "state": "Gujarat",
+        "district": "Amreli",
+        "pincode_count": 17
+      },
+      {
+        "state": "Gujarat",
+        "district": "Anand",
+        "pincode_count": 29
+      },
+      {
+        "state": "Gujarat",
+        "district": "Arvalli",
+        "pincode_count": 8
+      },
+      {
+        "state": "Gujarat",
+        "district": "Banas Kantha",
+        "pincode_count": 2
+      },
+      {
+        "state": "Gujarat",
+        "district": "Banaskantha",
+        "pincode_count": 11
+      },
+      {
+        "state": "Gujarat",
+        "district": "Bharuch",
+        "pincode_count": 17
+      },
+      {
+        "state": "Gujarat",
+        "district": "Bhavnagar",
+        "pincode_count": 20
+      },
+      {
+        "state": "Gujarat",
+        "district": "Botad",
+        "pincode_count": 4
+      },
+      {
+        "state": "Gujarat",
+        "district": "Chhotaudepur",
+        "pincode_count": 5
+      },
+      {
+        "state": "Gujarat",
+        "district": "Dahod",
+        "pincode_count": 8
+      },
+      {
+        "state": "Gujarat",
+        "district": "Devbhumi Dwarka",
+        "pincode_count": 5
+      },
+      {
+        "state": "Gujarat",
+        "district": "Dohad",
+        "pincode_count": 3
+      },
+      {
+        "state": "Gujarat",
+        "district": "Gandhinagar",
+        "pincode_count": 17
+      },
+      {
+        "state": "Gujarat",
+        "district": "Gir Somnath",
+        "pincode_count": 6
+      },
+      {
+        "state": "Gujarat",
+        "district": "Jamnagar",
+        "pincode_count": 19
+      },
+      {
+        "state": "Gujarat",
+        "district": "Junagadh",
+        "pincode_count": 19
+      },
+      {
+        "state": "Gujarat",
+        "district": "Kachchh",
+        "pincode_count": 25
+      },
+      {
+        "state": "Gujarat",
+        "district": "Kheda",
+        "pincode_count": 20
+      },
+      {
+        "state": "Gujarat",
+        "district": "Mahesana",
+        "pincode_count": 17
+      },
+      {
+        "state": "Gujarat",
+        "district": "Mahisagar",
+        "pincode_count": 5
+      },
+      {
+        "state": "Gujarat",
+        "district": "Morbi",
+        "pincode_count": 3
+      },
+      {
+        "state": "Gujarat",
+        "district": "Narmada",
+        "pincode_count": 6
+      },
+      {
+        "state": "Gujarat",
+        "district": "Navsari",
+        "pincode_count": 19
+      },
+      {
+        "state": "Gujarat",
+        "district": "Panch Mahals",
+        "pincode_count": 1
+      },
+      {
+        "state": "Gujarat",
+        "district": "Panchmahals",
+        "pincode_count": 9
+      },
+      {
+        "state": "Gujarat",
+        "district": "Patan",
+        "pincode_count": 9
+      },
+      {
+        "state": "Gujarat",
+        "district": "Porbandar",
+        "pincode_count": 7
+      },
+      {
+        "state": "Gujarat",
+        "district": "Rajkot",
+        "pincode_count": 23
+      },
+      {
+        "state": "Gujarat",
+        "district": "Sabar Kantha",
+        "pincode_count": 1
+      },
+      {
+        "state": "Gujarat",
+        "district": "Sabarkantha",
+        "pincode_count": 19
+      },
+      {
+        "state": "Gujarat",
+        "district": "Surat",
+        "pincode_count": 31
+      },
+      {
+        "state": "Gujarat",
+        "district": "Surendra Nagar",
+        "pincode_count": 19
+      },
+      {
+        "state": "Gujarat",
+        "district": "Surendranagar",
+        "pincode_count": 2
+      },
+      {
+        "state": "Gujarat",
+        "district": "Tapi",
+        "pincode_count": 5
+      },
+      {
+        "state": "Gujarat",
+        "district": "The Dangs",
+        "pincode_count": 2
+      },
+      {
+        "state": "Gujarat",
+        "district": "Vadodara",
+        "pincode_count": 35
+      },
+      {
+        "state": "Gujarat",
+        "district": "Valsad",
+        "pincode_count": 12
+      },
+      {
+        "state": "Haryana",
+        "district": "Ambala",
+        "pincode_count": 7
+      },
+      {
+        "state": "Haryana",
+        "district": "Bhiwani",
+        "pincode_count": 10
+      },
+      {
+        "state": "Haryana",
+        "district": "Charkhi Dadri",
+        "pincode_count": 5
+      },
+      {
+        "state": "Haryana",
+        "district": "Faridabad",
+        "pincode_count": 6
+      },
+      {
+        "state": "Haryana",
+        "district": "Fatehabad",
+        "pincode_count": 5
+      },
+      {
+        "state": "Haryana",
+        "district": "Gurgaon",
+        "pincode_count": 12
+      },
+      {
+        "state": "Haryana",
+        "district": "Hisar",
+        "pincode_count": 6
+      },
+      {
+        "state": "Haryana",
+        "district": "Jhajjar",
+        "pincode_count": 7
+      },
+      {
+        "state": "Haryana",
+        "district": "Jind",
+        "pincode_count": 4
+      },
+      {
+        "state": "Haryana",
+        "district": "Kaithal",
+        "pincode_count": 7
+      },
+      {
+        "state": "Haryana",
+        "district": "Karnal",
+        "pincode_count": 6
+      },
+      {
+        "state": "Haryana",
+        "district": "Kurukshetra",
+        "pincode_count": 3
+      },
+      {
+        "state": "Haryana",
+        "district": "Mahendragarh",
+        "pincode_count": 3
+      },
+      {
+        "state": "Haryana",
+        "district": "Mewat",
+        "pincode_count": 4
+      },
+      {
+        "state": "Haryana",
+        "district": "Palwal",
+        "pincode_count": 2
+      },
+      {
+        "state": "Haryana",
+        "district": "Panchkula",
+        "pincode_count": 4
+      },
+      {
+        "state": "Haryana",
+        "district": "Panipat",
+        "pincode_count": 3
+      },
+      {
+        "state": "Haryana",
+        "district": "Rewari",
+        "pincode_count": 7
+      },
+      {
+        "state": "Haryana",
+        "district": "Rohtak",
+        "pincode_count": 4
+      },
+      {
+        "state": "Haryana",
+        "district": "Sirsa",
+        "pincode_count": 6
+      },
+      {
+        "state": "Haryana",
+        "district": "Sonipat",
+        "pincode_count": 7
+      },
+      {
+        "state": "Haryana",
+        "district": "Yamuna Nagar",
+        "pincode_count": 3
+      },
+      {
+        "state": "Haryana",
+        "district": "Yamunanagar",
+        "pincode_count": 1
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Bilaspur",
+        "pincode_count": 5
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Chamba",
+        "pincode_count": 7
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Hamirpur",
+        "pincode_count": 8
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Kangra",
+        "pincode_count": 15
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Kinnaur",
+        "pincode_count": 1
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Kullu",
+        "pincode_count": 6
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Mandi",
+        "pincode_count": 11
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Shimla",
+        "pincode_count": 9
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Sirmaur",
+        "pincode_count": 2
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Solan",
+        "pincode_count": 6
+      },
+      {
+        "state": "Himachal Pradesh",
+        "district": "Una",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Anantnag",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Badgam",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Bandipore",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Baramula",
+        "pincode_count": 5
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Budgam",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Doda",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Jammu",
+        "pincode_count": 8
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Kargil",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Kathua",
+        "pincode_count": 5
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Pulwama",
+        "pincode_count": 4
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Punch",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Reasi",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Srinagar",
+        "pincode_count": 5
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "district": "Udhampur",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Bokaro",
+        "pincode_count": 10
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Chatra",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Deoghar",
+        "pincode_count": 6
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Dhanbad",
+        "pincode_count": 8
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Dumka",
+        "pincode_count": 5
+      },
+      {
+        "state": "Jharkhand",
+        "district": "East Singhbhum",
+        "pincode_count": 4
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Garhwa",
+        "pincode_count": 3
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Garhwa *",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Giridih",
+        "pincode_count": 3
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Godda",
+        "pincode_count": 5
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Gumla",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Hazaribag",
+        "pincode_count": 3
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Hazaribagh",
+        "pincode_count": 3
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Jamtara",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Khunti",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Kodarma",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Latehar",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Lohardaga",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Pakur",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Palamau",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Palamu",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Pashchimi Singhbhum",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Purbi Singhbhum",
+        "pincode_count": 5
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Ramgarh",
+        "pincode_count": 3
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Ranchi",
+        "pincode_count": 4
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Sahebganj",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Sahibganj",
+        "pincode_count": 1
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Seraikela-Kharsawan",
+        "pincode_count": 7
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Simdega",
+        "pincode_count": 2
+      },
+      {
+        "state": "Jharkhand",
+        "district": "West Singhbhum",
+        "pincode_count": 4
+      },
+      {
+        "state": "Karnataka",
+        "district": "Bagalkot",
+        "pincode_count": 8
+      },
+      {
+        "state": "Karnataka",
+        "district": "Bagalkot *",
+        "pincode_count": 1
+      },
+      {
+        "state": "Karnataka",
+        "district": "Ballari",
+        "pincode_count": 3
+      },
+      {
+        "state": "Karnataka",
+        "district": "Bangalore",
+        "pincode_count": 22
+      },
+      {
+        "state": "Karnataka",
+        "district": "Bangalore Rural",
+        "pincode_count": 2
+      },
+      {
+        "state": "Karnataka",
+        "district": "Belagavi",
+        "pincode_count": 16
+      },
+      {
+        "state": "Karnataka",
+        "district": "Belgaum",
+        "pincode_count": 19
+      },
+      {
+        "state": "Karnataka",
+        "district": "Bellary",
+        "pincode_count": 7
+      },
+      {
+        "state": "Karnataka",
+        "district": "Bengaluru",
+        "pincode_count": 20
+      },
+      {
+        "state": "Karnataka",
+        "district": "Bengaluru South",
+        "pincode_count": 6
+      },
+      {
+        "state": "Karnataka",
+        "district": "Bidar",
+        "pincode_count": 6
+      },
+      {
+        "state": "Karnataka",
+        "district": "Bijapur",
+        "pincode_count": 6
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chamarajanagar",
+        "pincode_count": 2
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chamrajanagar",
+        "pincode_count": 4
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chickmagalur",
+        "pincode_count": 8
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chikkaballapur",
+        "pincode_count": 4
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chikkamagaluru",
+        "pincode_count": 3
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chikmagalur",
+        "pincode_count": 1
+      },
+      {
+        "state": "Karnataka",
+        "district": "Chitradurga",
+        "pincode_count": 5
+      },
+      {
+        "state": "Karnataka",
+        "district": "Dakshina Kannada",
+        "pincode_count": 18
+      },
+      {
+        "state": "Karnataka",
+        "district": "Davanagere",
+        "pincode_count": 2
+      },
+      {
+        "state": "Karnataka",
+        "district": "Davangere",
+        "pincode_count": 11
+      },
+      {
+        "state": "Karnataka",
+        "district": "Dharwad",
+        "pincode_count": 7
+      },
+      {
+        "state": "Karnataka",
+        "district": "Gadag",
+        "pincode_count": 6
+      },
+      {
+        "state": "Karnataka",
+        "district": "Gadag *",
+        "pincode_count": 3
+      },
+      {
+        "state": "Karnataka",
+        "district": "Gulbarga",
+        "pincode_count": 13
+      },
+      {
+        "state": "Karnataka",
+        "district": "Hasan",
+        "pincode_count": 10
+      },
+      {
+        "state": "Karnataka",
+        "district": "Hassan",
+        "pincode_count": 13
+      },
+      {
+        "state": "Karnataka",
+        "district": "Haveri",
+        "pincode_count": 9
+      },
+      {
+        "state": "Karnataka",
+        "district": "Haveri *",
+        "pincode_count": 2
+      },
+      {
+        "state": "Karnataka",
+        "district": "Kalaburagi",
+        "pincode_count": 6
+      },
+      {
+        "state": "Karnataka",
+        "district": "Kodagu",
+        "pincode_count": 7
+      },
+      {
+        "state": "Karnataka",
+        "district": "Kolar",
+        "pincode_count": 7
+      },
+      {
+        "state": "Karnataka",
+        "district": "Koppal",
+        "pincode_count": 4
+      },
+      {
+        "state": "Karnataka",
+        "district": "Mandya",
+        "pincode_count": 17
+      },
+      {
+        "state": "Karnataka",
+        "district": "Mysore",
+        "pincode_count": 11
+      },
+      {
+        "state": "Karnataka",
+        "district": "Mysuru",
+        "pincode_count": 12
+      },
+      {
+        "state": "Karnataka",
+        "district": "Raichur",
+        "pincode_count": 5
+      },
+      {
+        "state": "Karnataka",
+        "district": "Ramanagar",
+        "pincode_count": 7
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shimoga",
+        "pincode_count": 6
+      },
+      {
+        "state": "Karnataka",
+        "district": "Shivamogga",
+        "pincode_count": 7
+      },
+      {
+        "state": "Karnataka",
+        "district": "Tumakuru",
+        "pincode_count": 12
+      },
+      {
+        "state": "Karnataka",
+        "district": "Tumkur",
+        "pincode_count": 16
+      },
+      {
+        "state": "Karnataka",
+        "district": "Udupi",
+        "pincode_count": 12
+      },
+      {
+        "state": "Karnataka",
+        "district": "Uttara Kannada",
+        "pincode_count": 8
+      },
+      {
+        "state": "Karnataka",
+        "district": "Vijayanagara",
+        "pincode_count": 3
+      },
+      {
+        "state": "Karnataka",
+        "district": "Vijayapura",
+        "pincode_count": 9
+      },
+      {
+        "state": "Karnataka",
+        "district": "Yadgir",
+        "pincode_count": 6
+      },
+      {
+        "state": "Kerala",
+        "district": "Alappuzha",
+        "pincode_count": 17
+      },
+      {
+        "state": "Kerala",
+        "district": "Ernakulam",
+        "pincode_count": 32
+      },
+      {
+        "state": "Kerala",
+        "district": "Idukki",
+        "pincode_count": 9
+      },
+      {
+        "state": "Kerala",
+        "district": "Kannur",
+        "pincode_count": 16
+      },
+      {
+        "state": "Kerala",
+        "district": "Kasaragod",
+        "pincode_count": 6
+      },
+      {
+        "state": "Kerala",
+        "district": "Kasargod",
+        "pincode_count": 3
+      },
+      {
+        "state": "Kerala",
+        "district": "Kollam",
+        "pincode_count": 19
+      },
+      {
+        "state": "Kerala",
+        "district": "Kottayam",
+        "pincode_count": 17
+      },
+      {
+        "state": "Kerala",
+        "district": "Kozhikode",
+        "pincode_count": 16
+      },
+      {
+        "state": "Kerala",
+        "district": "Malappuram",
+        "pincode_count": 23
+      },
+      {
+        "state": "Kerala",
+        "district": "Palakkad",
+        "pincode_count": 23
+      },
+      {
+        "state": "Kerala",
+        "district": "Pathanamthitta",
+        "pincode_count": 19
+      },
+      {
+        "state": "Kerala",
+        "district": "Thiruvananthapuram",
+        "pincode_count": 25
+      },
+      {
+        "state": "Kerala",
+        "district": "Thrissur",
+        "pincode_count": 25
+      },
+      {
+        "state": "Kerala",
+        "district": "Wayanad",
+        "pincode_count": 2
+      },
+      {
+        "state": "Ladakh",
+        "district": "Kargil",
+        "pincode_count": 1
+      },
+      {
+        "state": "Lakshadweep",
+        "district": "Lakshadweep",
+        "pincode_count": 1
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Agar Malwa",
+        "pincode_count": 1
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Alirajpur",
+        "pincode_count": 1
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Anuppur",
+        "pincode_count": 6
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Ashok Nagar",
+        "pincode_count": 2
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Balaghat",
+        "pincode_count": 6
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Barwani",
+        "pincode_count": 4
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Betul",
+        "pincode_count": 3
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Bhind",
+        "pincode_count": 6
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Bhopal",
+        "pincode_count": 12
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Burhanpur",
+        "pincode_count": 3
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Chhatarpur",
+        "pincode_count": 11
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Chhindwara",
+        "pincode_count": 11
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Damoh",
+        "pincode_count": 8
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Datia",
+        "pincode_count": 3
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Dewas",
+        "pincode_count": 8
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Dhar",
+        "pincode_count": 11
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Dindori",
+        "pincode_count": 5
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "East Nimar",
+        "pincode_count": 5
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Guna",
+        "pincode_count": 8
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Gwalior",
+        "pincode_count": 8
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Harda",
+        "pincode_count": 1
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Harda *",
+        "pincode_count": 2
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Hoshangabad",
+        "pincode_count": 7
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Indore",
+        "pincode_count": 18
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Jabalpur",
+        "pincode_count": 10
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Jhabua",
+        "pincode_count": 1
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Katni",
+        "pincode_count": 8
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Khandwa",
+        "pincode_count": 8
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Khargone",
+        "pincode_count": 6
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Maihar",
+        "pincode_count": 5
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Mandla",
+        "pincode_count": 7
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Mandsaur",
+        "pincode_count": 10
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Mauganj",
+        "pincode_count": 6
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Morena",
+        "pincode_count": 5
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Narmadapuram",
+        "pincode_count": 5
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Narsimhapur",
+        "pincode_count": 4
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Narsinghpur",
+        "pincode_count": 6
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Neemuch",
+        "pincode_count": 5
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Niwari",
+        "pincode_count": 2
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Pandhurna",
+        "pincode_count": 3
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Panna",
+        "pincode_count": 5
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Raisen",
+        "pincode_count": 6
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Rajgarh",
+        "pincode_count": 6
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Ratlam",
+        "pincode_count": 7
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Rewa",
+        "pincode_count": 14
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Sagar",
+        "pincode_count": 13
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Satna",
+        "pincode_count": 14
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Sehore",
+        "pincode_count": 7
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Seoni",
+        "pincode_count": 9
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Shahdol",
+        "pincode_count": 7
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Shajapur",
+        "pincode_count": 12
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Sheopur",
+        "pincode_count": 4
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Shivpuri",
+        "pincode_count": 13
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Sidhi",
+        "pincode_count": 3
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Singrauli",
+        "pincode_count": 6
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Tikamgarh",
+        "pincode_count": 10
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Ujjain",
+        "pincode_count": 14
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Umaria",
+        "pincode_count": 5
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "Vidisha",
+        "pincode_count": 9
+      },
+      {
+        "state": "Madhya Pradesh",
+        "district": "West Nimar",
+        "pincode_count": 5
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Ahilyanagar",
+        "pincode_count": 19
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Ahmadnagar",
+        "pincode_count": 52
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Ahmed Nagar",
+        "pincode_count": 10
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Akola",
+        "pincode_count": 15
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Amravati",
+        "pincode_count": 24
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Aurangabad",
+        "pincode_count": 23
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Beed",
+        "pincode_count": 13
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Bhandara",
+        "pincode_count": 13
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Bid",
+        "pincode_count": 10
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Buldana",
+        "pincode_count": 16
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Buldhana",
+        "pincode_count": 17
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Chandrapur",
+        "pincode_count": 20
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Chatrapati Sambhaji Nagar",
+        "pincode_count": 1
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Chhatrapati Sambhajinagar",
+        "pincode_count": 13
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Dharashiv",
+        "pincode_count": 9
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Dhule",
+        "pincode_count": 12
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Gadchiroli",
+        "pincode_count": 7
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Gondia",
+        "pincode_count": 3
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Gondiya",
+        "pincode_count": 6
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Gondiya *",
+        "pincode_count": 6
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Hingoli",
+        "pincode_count": 8
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Jalgaon",
+        "pincode_count": 37
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Jalna",
+        "pincode_count": 14
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Kolhapur",
+        "pincode_count": 50
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Latur",
+        "pincode_count": 16
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Mumbai",
+        "pincode_count": 55
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Mumbai City",
+        "pincode_count": 22
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Mumbai Suburban",
+        "pincode_count": 41
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Mumbai( Sub Urban )",
+        "pincode_count": 13
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Nagpur",
+        "pincode_count": 43
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Nanded",
+        "pincode_count": 28
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Nandurbar",
+        "pincode_count": 10
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Nandurbar *",
+        "pincode_count": 1
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Nashik",
+        "pincode_count": 42
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Osmanabad",
+        "pincode_count": 13
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Palghar",
+        "pincode_count": 25
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Parbhani",
+        "pincode_count": 13
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Pune",
+        "pincode_count": 77
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Raigad",
+        "pincode_count": 16
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Raigarh",
+        "pincode_count": 37
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Raigarh(Mh)",
+        "pincode_count": 3
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Ratnagiri",
+        "pincode_count": 34
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Sangli",
+        "pincode_count": 40
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Satara",
+        "pincode_count": 40
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Sindhudurg",
+        "pincode_count": 29
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Solapur",
+        "pincode_count": 38
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Thane",
+        "pincode_count": 49
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Wardha",
+        "pincode_count": 13
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Washim",
+        "pincode_count": 8
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Washim *",
+        "pincode_count": 1
+      },
+      {
+        "state": "Maharashtra",
+        "district": "Yavatmal",
+        "pincode_count": 17
+      },
+      {
+        "state": "Manipur",
+        "district": "Bishnupur",
+        "pincode_count": 3
+      },
+      {
+        "state": "Manipur",
+        "district": "Chandel",
+        "pincode_count": 3
+      },
+      {
+        "state": "Manipur",
+        "district": "Churachandpur",
+        "pincode_count": 6
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal East",
+        "pincode_count": 6
+      },
+      {
+        "state": "Manipur",
+        "district": "Imphal West",
+        "pincode_count": 7
+      },
+      {
+        "state": "Manipur",
+        "district": "Jiribam",
+        "pincode_count": 1
+      },
+      {
+        "state": "Manipur",
+        "district": "Kakching",
+        "pincode_count": 1
+      },
+      {
+        "state": "Manipur",
+        "district": "Senapati",
+        "pincode_count": 5
+      },
+      {
+        "state": "Manipur",
+        "district": "Tamenglong",
+        "pincode_count": 2
+      },
+      {
+        "state": "Manipur",
+        "district": "Thoubal",
+        "pincode_count": 5
+      },
+      {
+        "state": "Manipur",
+        "district": "Ukhrul",
+        "pincode_count": 3
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Garo Hills",
+        "pincode_count": 1
+      },
+      {
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "pincode_count": 10
+      },
+      {
+        "state": "Meghalaya",
+        "district": "Eastern West Khasi Hills",
+        "pincode_count": 1
+      },
+      {
+        "state": "Meghalaya",
+        "district": "North Garo Hills",
+        "pincode_count": 1
+      },
+      {
+        "state": "Meghalaya",
+        "district": "Ri Bhoi",
+        "pincode_count": 4
+      },
+      {
+        "state": "Meghalaya",
+        "district": "South Garo Hills",
+        "pincode_count": 3
+      },
+      {
+        "state": "Meghalaya",
+        "district": "South West Garo Hills",
+        "pincode_count": 3
+      },
+      {
+        "state": "Meghalaya",
+        "district": "West Garo Hills",
+        "pincode_count": 4
+      },
+      {
+        "state": "Meghalaya",
+        "district": "West Jaintia Hills",
+        "pincode_count": 1
+      },
+      {
+        "state": "Meghalaya",
+        "district": "West Khasi Hills",
+        "pincode_count": 1
+      },
+      {
+        "state": "Mizoram",
+        "district": "Aizawl",
+        "pincode_count": 7
+      },
+      {
+        "state": "Mizoram",
+        "district": "Champhai",
+        "pincode_count": 4
+      },
+      {
+        "state": "Mizoram",
+        "district": "Kolasib",
+        "pincode_count": 2
+      },
+      {
+        "state": "Mizoram",
+        "district": "Lawngtlai",
+        "pincode_count": 3
+      },
+      {
+        "state": "Mizoram",
+        "district": "Lunglei",
+        "pincode_count": 1
+      },
+      {
+        "state": "Mizoram",
+        "district": "Mamit",
+        "pincode_count": 1
+      },
+      {
+        "state": "Mizoram",
+        "district": "Mammit",
+        "pincode_count": 1
+      },
+      {
+        "state": "Mizoram",
+        "district": "Saiha",
+        "pincode_count": 3
+      },
+      {
+        "state": "Mizoram",
+        "district": "Serchhip",
+        "pincode_count": 2
+      },
+      {
+        "state": "Nagaland",
+        "district": "Chumukedima",
+        "pincode_count": 1
+      },
+      {
+        "state": "Nagaland",
+        "district": "Dimapur",
+        "pincode_count": 6
+      },
+      {
+        "state": "Nagaland",
+        "district": "Kiphire",
+        "pincode_count": 1
+      },
+      {
+        "state": "Nagaland",
+        "district": "Kohima",
+        "pincode_count": 5
+      },
+      {
+        "state": "Nagaland",
+        "district": "Longleng",
+        "pincode_count": 2
+      },
+      {
+        "state": "Nagaland",
+        "district": "Mokokchung",
+        "pincode_count": 1
+      },
+      {
+        "state": "Nagaland",
+        "district": "Mon",
+        "pincode_count": 3
+      },
+      {
+        "state": "Nagaland",
+        "district": "Niuland",
+        "pincode_count": 1
+      },
+      {
+        "state": "Nagaland",
+        "district": "Noklak",
+        "pincode_count": 1
+      },
+      {
+        "state": "Nagaland",
+        "district": "Peren",
+        "pincode_count": 2
+      },
+      {
+        "state": "Nagaland",
+        "district": "Phek",
+        "pincode_count": 4
+      },
+      {
+        "state": "Nagaland",
+        "district": "Tseminyu",
+        "pincode_count": 1
+      },
+      {
+        "state": "Nagaland",
+        "district": "Wokha",
+        "pincode_count": 2
+      },
+      {
+        "state": "Nagaland",
+        "district": "Zunheboto",
+        "pincode_count": 2
+      },
+      {
+        "state": "Odisha",
+        "district": "Angul",
+        "pincode_count": 11
+      },
+      {
+        "state": "Odisha",
+        "district": "Anugul",
+        "pincode_count": 5
+      },
+      {
+        "state": "Odisha",
+        "district": "Balangir",
+        "pincode_count": 22
+      },
+      {
+        "state": "Odisha",
+        "district": "Baleshwar",
+        "pincode_count": 26
+      },
+      {
+        "state": "Odisha",
+        "district": "Baleswar",
+        "pincode_count": 27
+      },
+      {
+        "state": "Odisha",
+        "district": "Bargarh",
+        "pincode_count": 20
+      },
+      {
+        "state": "Odisha",
+        "district": "Baudh",
+        "pincode_count": 5
+      },
+      {
+        "state": "Odisha",
+        "district": "Bhadrak",
+        "pincode_count": 25
+      },
+      {
+        "state": "Odisha",
+        "district": "Boudh",
+        "pincode_count": 6
+      },
+      {
+        "state": "Odisha",
+        "district": "Cuttack",
+        "pincode_count": 39
+      },
+      {
+        "state": "Odisha",
+        "district": "Debagarh",
+        "pincode_count": 1
+      },
+      {
+        "state": "Odisha",
+        "district": "Dhenkanal",
+        "pincode_count": 14
+      },
+      {
+        "state": "Odisha",
+        "district": "Gajapati",
+        "pincode_count": 8
+      },
+      {
+        "state": "Odisha",
+        "district": "Ganjam",
+        "pincode_count": 45
+      },
+      {
+        "state": "Odisha",
+        "district": "Jagatsinghapur",
+        "pincode_count": 14
+      },
+      {
+        "state": "Odisha",
+        "district": "Jagatsinghpur",
+        "pincode_count": 10
+      },
+      {
+        "state": "Odisha",
+        "district": "Jajapur",
+        "pincode_count": 20
+      },
+      {
+        "state": "Odisha",
+        "district": "Jajpur",
+        "pincode_count": 16
+      },
+      {
+        "state": "Odisha",
+        "district": "Jharsuguda",
+        "pincode_count": 14
+      },
+      {
+        "state": "Odisha",
+        "district": "Kalahandi",
+        "pincode_count": 15
+      },
+      {
+        "state": "Odisha",
+        "district": "Kandhamal",
+        "pincode_count": 15
+      },
+      {
+        "state": "Odisha",
+        "district": "Kendrapara",
+        "pincode_count": 22
+      },
+      {
+        "state": "Odisha",
+        "district": "Kendujhar",
+        "pincode_count": 23
+      },
+      {
+        "state": "Odisha",
+        "district": "Khorda",
+        "pincode_count": 23
+      },
+      {
+        "state": "Odisha",
+        "district": "Khordha",
+        "pincode_count": 24
+      },
+      {
+        "state": "Odisha",
+        "district": "Koraput",
+        "pincode_count": 19
+      },
+      {
+        "state": "Odisha",
+        "district": "Malkangiri",
+        "pincode_count": 7
+      },
+      {
+        "state": "Odisha",
+        "district": "Mayurbhanj",
+        "pincode_count": 34
+      },
+      {
+        "state": "Odisha",
+        "district": "Nabarangapur",
+        "pincode_count": 8
+      },
+      {
+        "state": "Odisha",
+        "district": "Nayagarh",
+        "pincode_count": 14
+      },
+      {
+        "state": "Odisha",
+        "district": "Nuapada",
+        "pincode_count": 3
+      },
+      {
+        "state": "Odisha",
+        "district": "Puri",
+        "pincode_count": 21
+      },
+      {
+        "state": "Odisha",
+        "district": "Rayagada",
+        "pincode_count": 10
+      },
+      {
+        "state": "Odisha",
+        "district": "Sambalpur",
+        "pincode_count": 13
+      },
+      {
+        "state": "Odisha",
+        "district": "Sonapur",
+        "pincode_count": 2
+      },
+      {
+        "state": "Odisha",
+        "district": "Subarnapur",
+        "pincode_count": 2
+      },
+      {
+        "state": "Odisha",
+        "district": "Sundargarh",
+        "pincode_count": 18
+      },
+      {
+        "state": "Odisha",
+        "district": "Sundergarh",
+        "pincode_count": 25
+      },
+      {
+        "state": "Puducherry",
+        "district": "Karaikal",
+        "pincode_count": 7
+      },
+      {
+        "state": "Puducherry",
+        "district": "Pondicherry",
+        "pincode_count": 8
+      },
+      {
+        "state": "Puducherry",
+        "district": "Puducherry",
+        "pincode_count": 15
+      },
+      {
+        "state": "Punjab",
+        "district": "Amritsar",
+        "pincode_count": 23
+      },
+      {
+        "state": "Punjab",
+        "district": "Barnala",
+        "pincode_count": 5
+      },
+      {
+        "state": "Punjab",
+        "district": "Bathinda",
+        "pincode_count": 4
+      },
+      {
+        "state": "Punjab",
+        "district": "Faridkot",
+        "pincode_count": 1
+      },
+      {
+        "state": "Punjab",
+        "district": "Fatehgarh Sahib",
+        "pincode_count": 3
+      },
+      {
+        "state": "Punjab",
+        "district": "Fazilka",
+        "pincode_count": 5
+      },
+      {
+        "state": "Punjab",
+        "district": "Ferozepur",
+        "pincode_count": 6
+      },
+      {
+        "state": "Punjab",
+        "district": "Firozpur",
+        "pincode_count": 8
+      },
+      {
+        "state": "Punjab",
+        "district": "Gurdaspur",
+        "pincode_count": 9
+      },
+      {
+        "state": "Punjab",
+        "district": "Hoshiarpur",
+        "pincode_count": 14
+      },
+      {
+        "state": "Punjab",
+        "district": "Jalandhar",
+        "pincode_count": 19
+      },
+      {
+        "state": "Punjab",
+        "district": "Kapurthala",
+        "pincode_count": 9
+      },
+      {
+        "state": "Punjab",
+        "district": "Ludhiana",
+        "pincode_count": 21
+      },
+      {
+        "state": "Punjab",
+        "district": "Malerkotla",
+        "pincode_count": 4
+      },
+      {
+        "state": "Punjab",
+        "district": "Mansa",
+        "pincode_count": 6
+      },
+      {
+        "state": "Punjab",
+        "district": "Moga",
+        "pincode_count": 5
+      },
+      {
+        "state": "Punjab",
+        "district": "Muktsar",
+        "pincode_count": 1
+      },
+      {
+        "state": "Punjab",
+        "district": "Nawanshahr",
+        "pincode_count": 8
+      },
+      {
+        "state": "Punjab",
+        "district": "Pathankot",
+        "pincode_count": 3
+      },
+      {
+        "state": "Punjab",
+        "district": "Patiala",
+        "pincode_count": 9
+      },
+      {
+        "state": "Punjab",
+        "district": "Rupnagar",
+        "pincode_count": 8
+      },
+      {
+        "state": "Punjab",
+        "district": "S.A.S Nagar(Mohali)",
+        "pincode_count": 4
+      },
+      {
+        "state": "Punjab",
+        "district": "Sangrur",
+        "pincode_count": 5
+      },
+      {
+        "state": "Punjab",
+        "district": "Sas Nagar (Mohali)",
+        "pincode_count": 10
+      },
+      {
+        "state": "Punjab",
+        "district": "Shaheed Bhagat Singh Nagar",
+        "pincode_count": 5
+      },
+      {
+        "state": "Punjab",
+        "district": "Sri Muktsar Sahib",
+        "pincode_count": 4
+      },
+      {
+        "state": "Punjab",
+        "district": "Tarn Taran",
+        "pincode_count": 10
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Ajmer",
+        "pincode_count": 13
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Alwar",
+        "pincode_count": 23
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Balotra",
+        "pincode_count": 3
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Banswara",
+        "pincode_count": 8
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Baran",
+        "pincode_count": 6
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Barmer",
+        "pincode_count": 10
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Beawar",
+        "pincode_count": 3
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Bharatpur",
+        "pincode_count": 11
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Bhilwara",
+        "pincode_count": 10
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Bikaner",
+        "pincode_count": 9
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Bundi",
+        "pincode_count": 6
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Chittaurgarh",
+        "pincode_count": 7
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Chittorgarh",
+        "pincode_count": 10
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Churu",
+        "pincode_count": 8
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Dausa",
+        "pincode_count": 11
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Deeg",
+        "pincode_count": 3
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Dhaulpur",
+        "pincode_count": 1
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Dholpur",
+        "pincode_count": 8
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Didwana-Kuchaman",
+        "pincode_count": 3
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Dungarpur",
+        "pincode_count": 9
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Ganganagar",
+        "pincode_count": 10
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Hanumangarh",
+        "pincode_count": 4
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jaipur",
+        "pincode_count": 27
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jaisalmer",
+        "pincode_count": 5
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jalor",
+        "pincode_count": 3
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jalore",
+        "pincode_count": 2
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jhalawar",
+        "pincode_count": 4
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jhunjhunu",
+        "pincode_count": 3
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jhunjhunun",
+        "pincode_count": 15
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Jodhpur",
+        "pincode_count": 7
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Karauli",
+        "pincode_count": 5
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Khairthal-Tijara",
+        "pincode_count": 2
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Kota",
+        "pincode_count": 6
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Kotputli-Behror",
+        "pincode_count": 1
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Nagaur",
+        "pincode_count": 5
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Pali",
+        "pincode_count": 9
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Pratapgarh",
+        "pincode_count": 3
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Rajsamand",
+        "pincode_count": 4
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Sawai Madhopur",
+        "pincode_count": 5
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Sikar",
+        "pincode_count": 15
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Sirohi",
+        "pincode_count": 3
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Tonk",
+        "pincode_count": 3
+      },
+      {
+        "state": "Rajasthan",
+        "district": "Udaipur",
+        "pincode_count": 8
+      },
+      {
+        "state": "Sikkim",
+        "district": "East",
+        "pincode_count": 2
+      },
+      {
+        "state": "Sikkim",
+        "district": "East Sikkim",
+        "pincode_count": 1
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Ariyalur",
+        "pincode_count": 7
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Chengalpattu",
+        "pincode_count": 8
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Chennai",
+        "pincode_count": 15
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Coimbatore",
+        "pincode_count": 17
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Cuddalore",
+        "pincode_count": 19
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Dharmapuri",
+        "pincode_count": 7
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Dindigul",
+        "pincode_count": 17
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Erode",
+        "pincode_count": 8
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Kallakurichi",
+        "pincode_count": 6
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Kancheepuram",
+        "pincode_count": 18
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Kanniyakumari",
+        "pincode_count": 7
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Kanyakumari",
+        "pincode_count": 8
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Karur",
+        "pincode_count": 12
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Krishnagiri",
+        "pincode_count": 10
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Madurai",
+        "pincode_count": 12
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Mayiladuthurai",
+        "pincode_count": 6
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Nagapattinam",
+        "pincode_count": 13
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Namakkal",
+        "pincode_count": 13
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Perambalur",
+        "pincode_count": 4
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Pudukkottai",
+        "pincode_count": 8
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Ramanathapuram",
+        "pincode_count": 12
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Ranipet",
+        "pincode_count": 2
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Salem",
+        "pincode_count": 17
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Sivaganga",
+        "pincode_count": 9
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Tenkasi",
+        "pincode_count": 3
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Thanjavur",
+        "pincode_count": 15
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "The Nilgiris",
+        "pincode_count": 8
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Theni",
+        "pincode_count": 6
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Thiruvallur",
+        "pincode_count": 2
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Thiruvarur",
+        "pincode_count": 12
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Thoothukkudi",
+        "pincode_count": 11
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Tiruchirappalli",
+        "pincode_count": 11
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Tirunelveli",
+        "pincode_count": 27
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Tirupattur",
+        "pincode_count": 4
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Tiruppur",
+        "pincode_count": 8
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Tiruvallur",
+        "pincode_count": 17
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Tiruvannamalai",
+        "pincode_count": 11
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Vellore",
+        "pincode_count": 17
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Villupuram",
+        "pincode_count": 13
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Viluppuram",
+        "pincode_count": 13
+      },
+      {
+        "state": "Tamil Nadu",
+        "district": "Virudhunagar",
+        "pincode_count": 9
+      },
+      {
+        "state": "Telangana",
+        "district": "Adilabad",
+        "pincode_count": 13
+      },
+      {
+        "state": "Telangana",
+        "district": "Bhadradri Kothagudem",
+        "pincode_count": 3
+      },
+      {
+        "state": "Telangana",
+        "district": "Hanumakonda",
+        "pincode_count": 3
+      },
+      {
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "pincode_count": 16
+      },
+      {
+        "state": "Telangana",
+        "district": "Jagitial",
+        "pincode_count": 3
+      },
+      {
+        "state": "Telangana",
+        "district": "Jangoan",
+        "pincode_count": 4
+      },
+      {
+        "state": "Telangana",
+        "district": "Jayashankar Bhupalpally",
+        "pincode_count": 1
+      },
+      {
+        "state": "Telangana",
+        "district": "Jogulamba Gadwal",
+        "pincode_count": 5
+      },
+      {
+        "state": "Telangana",
+        "district": "K.V. Rangareddy",
+        "pincode_count": 15
+      },
+      {
+        "state": "Telangana",
+        "district": "Kamareddy",
+        "pincode_count": 5
+      },
+      {
+        "state": "Telangana",
+        "district": "Karimnagar",
+        "pincode_count": 12
+      },
+      {
+        "state": "Telangana",
+        "district": "Khammam",
+        "pincode_count": 13
+      },
+      {
+        "state": "Telangana",
+        "district": "Komaram Bheem",
+        "pincode_count": 3
+      },
+      {
+        "state": "Telangana",
+        "district": "Mahabubabad",
+        "pincode_count": 3
+      },
+      {
+        "state": "Telangana",
+        "district": "Mahabubnagar",
+        "pincode_count": 16
+      },
+      {
+        "state": "Telangana",
+        "district": "Mancherial",
+        "pincode_count": 9
+      },
+      {
+        "state": "Telangana",
+        "district": "Medak",
+        "pincode_count": 11
+      },
+      {
+        "state": "Telangana",
+        "district": "Medchal-Malkajgiri",
+        "pincode_count": 3
+      },
+      {
+        "state": "Telangana",
+        "district": "Mulugu",
+        "pincode_count": 3
+      },
+      {
+        "state": "Telangana",
+        "district": "Nagarkurnool",
+        "pincode_count": 10
+      },
+      {
+        "state": "Telangana",
+        "district": "Nalgonda",
+        "pincode_count": 9
+      },
+      {
+        "state": "Telangana",
+        "district": "Narayanpet",
+        "pincode_count": 5
+      },
+      {
+        "state": "Telangana",
+        "district": "Nizamabad",
+        "pincode_count": 10
+      },
+      {
+        "state": "Telangana",
+        "district": "Peddapalli",
+        "pincode_count": 3
+      },
+      {
+        "state": "Telangana",
+        "district": "Rajanna Sircilla",
+        "pincode_count": 2
+      },
+      {
+        "state": "Telangana",
+        "district": "Sangareddy",
+        "pincode_count": 4
+      },
+      {
+        "state": "Telangana",
+        "district": "Siddipet",
+        "pincode_count": 6
+      },
+      {
+        "state": "Telangana",
+        "district": "Suryapet",
+        "pincode_count": 5
+      },
+      {
+        "state": "Telangana",
+        "district": "Vikarabad",
+        "pincode_count": 7
+      },
+      {
+        "state": "Telangana",
+        "district": "Wanaparthy",
+        "pincode_count": 2
+      },
+      {
+        "state": "Telangana",
+        "district": "Warangal",
+        "pincode_count": 8
+      },
+      {
+        "state": "Telangana",
+        "district": "Warangal Rural",
+        "pincode_count": 2
+      },
+      {
+        "state": "Telangana",
+        "district": "Warangal Urban",
+        "pincode_count": 1
+      },
+      {
+        "state": "Telangana",
+        "district": "Yadadri.",
+        "pincode_count": 4
+      },
+      {
+        "state": "Tripura",
+        "district": "Khowai",
+        "pincode_count": 1
+      },
+      {
+        "state": "Tripura",
+        "district": "North Tripura",
+        "pincode_count": 2
+      },
+      {
+        "state": "Tripura",
+        "district": "Sepahijala",
+        "pincode_count": 3
+      },
+      {
+        "state": "Tripura",
+        "district": "South Tripura",
+        "pincode_count": 3
+      },
+      {
+        "state": "Tripura",
+        "district": "Unakoti",
+        "pincode_count": 1
+      },
+      {
+        "state": "Tripura",
+        "district": "West Tripura",
+        "pincode_count": 8
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Agra",
+        "pincode_count": 9
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Aligarh",
+        "pincode_count": 4
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Allahabad",
+        "pincode_count": 7
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Ambedkar Nagar",
+        "pincode_count": 6
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Amethi",
+        "pincode_count": 8
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Amroha",
+        "pincode_count": 3
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Auraiya",
+        "pincode_count": 4
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Ayodhya",
+        "pincode_count": 6
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Azamgarh",
+        "pincode_count": 11
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Baghpat",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Bahraich",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Ballia",
+        "pincode_count": 9
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Balrampur",
+        "pincode_count": 3
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Banda",
+        "pincode_count": 2
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Bara Banki",
+        "pincode_count": 7
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Barabanki",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Bareilly",
+        "pincode_count": 8
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Basti",
+        "pincode_count": 14
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Bhadohi",
+        "pincode_count": 6
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Bijnor",
+        "pincode_count": 10
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Budaun",
+        "pincode_count": 9
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Bulandshahar",
+        "pincode_count": 2
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Bulandshahr",
+        "pincode_count": 12
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Chandauli",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Chitrakoot",
+        "pincode_count": 3
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Deoria",
+        "pincode_count": 11
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Etah",
+        "pincode_count": 6
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Etawah",
+        "pincode_count": 8
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Faizabad",
+        "pincode_count": 15
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Farrukhabad",
+        "pincode_count": 9
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Fatehpur",
+        "pincode_count": 6
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Firozabad",
+        "pincode_count": 9
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "pincode_count": 11
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Ghaziabad",
+        "pincode_count": 9
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Ghazipur",
+        "pincode_count": 13
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Gonda",
+        "pincode_count": 14
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Gorakhpur",
+        "pincode_count": 13
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Hamirpur",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Hapur",
+        "pincode_count": 6
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Hardoi",
+        "pincode_count": 10
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Hathras",
+        "pincode_count": 7
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Jalaun",
+        "pincode_count": 8
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Jaunpur",
+        "pincode_count": 12
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Jhansi",
+        "pincode_count": 11
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Jyotiba Phule Nagar",
+        "pincode_count": 2
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kannauj",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kanpur Dehat",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kanpur Nagar",
+        "pincode_count": 10
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kasganj",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kaushambi",
+        "pincode_count": 8
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kheri",
+        "pincode_count": 8
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Kushinagar",
+        "pincode_count": 4
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Lalitpur",
+        "pincode_count": 4
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Lucknow",
+        "pincode_count": 16
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Maharajganj",
+        "pincode_count": 7
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Mahoba",
+        "pincode_count": 4
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Mainpuri",
+        "pincode_count": 3
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Mathura",
+        "pincode_count": 7
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Mau",
+        "pincode_count": 11
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Meerut",
+        "pincode_count": 8
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Mirzapur",
+        "pincode_count": 4
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Moradabad",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Muzaffarnagar",
+        "pincode_count": 6
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Pilibhit",
+        "pincode_count": 3
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Pratapgarh",
+        "pincode_count": 15
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Prayagraj",
+        "pincode_count": 15
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Rae Bareli",
+        "pincode_count": 13
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Rampur",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Saharanpur",
+        "pincode_count": 8
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Sambhal",
+        "pincode_count": 7
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Sant Kabir Nagar",
+        "pincode_count": 3
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Sant Ravidas Nagar",
+        "pincode_count": 6
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Sant Ravidas Nagar Bhadohi",
+        "pincode_count": 2
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Shahjahanpur",
+        "pincode_count": 8
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Shamli",
+        "pincode_count": 2
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Shrawasti",
+        "pincode_count": 7
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Siddharthnagar",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Sitapur",
+        "pincode_count": 12
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Sonbhadra",
+        "pincode_count": 6
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Sultanpur",
+        "pincode_count": 12
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Unnao",
+        "pincode_count": 13
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Varanasi",
+        "pincode_count": 11
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Almora",
+        "pincode_count": 7
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Bageshwar",
+        "pincode_count": 9
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Chamoli",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Champawat",
+        "pincode_count": 1
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Dehradun",
+        "pincode_count": 13
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Garhwal",
+        "pincode_count": 2
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Hardwar",
+        "pincode_count": 5
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Haridwar",
+        "pincode_count": 10
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Nainital",
+        "pincode_count": 7
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Pauri Garhwal",
+        "pincode_count": 17
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Pithoragarh",
+        "pincode_count": 9
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Rudraprayag",
+        "pincode_count": 4
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Tehri Garhwal",
+        "pincode_count": 8
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Udham Singh Nagar",
+        "pincode_count": 3
+      },
+      {
+        "state": "Uttarakhand",
+        "district": "Uttarkashi",
+        "pincode_count": 4
+      },
+      {
+        "state": "West Bengal",
+        "district": "Alipurduar",
+        "pincode_count": 6
+      },
+      {
+        "state": "West Bengal",
+        "district": "Bankura",
+        "pincode_count": 22
+      },
+      {
+        "state": "West Bengal",
+        "district": "Barddhaman",
+        "pincode_count": 50
+      },
+      {
+        "state": "West Bengal",
+        "district": "Bardhaman",
+        "pincode_count": 23
+      },
+      {
+        "state": "West Bengal",
+        "district": "Birbhum",
+        "pincode_count": 16
+      },
+      {
+        "state": "West Bengal",
+        "district": "Cooch Behar",
+        "pincode_count": 14
+      },
+      {
+        "state": "West Bengal",
+        "district": "Dakshin Dinajpur",
+        "pincode_count": 10
+      },
+      {
+        "state": "West Bengal",
+        "district": "Darjeeling",
+        "pincode_count": 15
+      },
+      {
+        "state": "West Bengal",
+        "district": "Darjiling",
+        "pincode_count": 6
+      },
+      {
+        "state": "West Bengal",
+        "district": "East Midnapore",
+        "pincode_count": 18
+      },
+      {
+        "state": "West Bengal",
+        "district": "Haora",
+        "pincode_count": 17
+      },
+      {
+        "state": "West Bengal",
+        "district": "Hawrah",
+        "pincode_count": 1
+      },
+      {
+        "state": "West Bengal",
+        "district": "Hooghly",
+        "pincode_count": 32
+      },
+      {
+        "state": "West Bengal",
+        "district": "Howrah",
+        "pincode_count": 21
+      },
+      {
+        "state": "West Bengal",
+        "district": "Hugli",
+        "pincode_count": 8
+      },
+      {
+        "state": "West Bengal",
+        "district": "Jalpaiguri",
+        "pincode_count": 25
+      },
+      {
+        "state": "West Bengal",
+        "district": "Jhargram",
+        "pincode_count": 8
+      },
+      {
+        "state": "West Bengal",
+        "district": "Kalimpong",
+        "pincode_count": 3
+      },
+      {
+        "state": "West Bengal",
+        "district": "Koch Bihar",
+        "pincode_count": 14
+      },
+      {
+        "state": "West Bengal",
+        "district": "Kolkata",
+        "pincode_count": 30
+      },
+      {
+        "state": "West Bengal",
+        "district": "Malda",
+        "pincode_count": 17
+      },
+      {
+        "state": "West Bengal",
+        "district": "Maldah",
+        "pincode_count": 8
+      },
+      {
+        "state": "West Bengal",
+        "district": "Medinipur",
+        "pincode_count": 1
+      },
+      {
+        "state": "West Bengal",
+        "district": "Murshidabad",
+        "pincode_count": 30
+      },
+      {
+        "state": "West Bengal",
+        "district": "Nadia",
+        "pincode_count": 22
+      },
+      {
+        "state": "West Bengal",
+        "district": "North 24 Parganas",
+        "pincode_count": 55
+      },
+      {
+        "state": "West Bengal",
+        "district": "North Dinajpur",
+        "pincode_count": 4
+      },
+      {
+        "state": "West Bengal",
+        "district": "North Twenty Four Parganas",
+        "pincode_count": 18
+      },
+      {
+        "state": "West Bengal",
+        "district": "Paschim Bardhaman",
+        "pincode_count": 33
+      },
+      {
+        "state": "West Bengal",
+        "district": "Paschim Medinipur",
+        "pincode_count": 41
+      },
+      {
+        "state": "West Bengal",
+        "district": "Purba Bardhaman",
+        "pincode_count": 31
+      },
+      {
+        "state": "West Bengal",
+        "district": "Purba Medinipur",
+        "pincode_count": 43
+      },
+      {
+        "state": "West Bengal",
+        "district": "Purulia",
+        "pincode_count": 11
+      },
+      {
+        "state": "West Bengal",
+        "district": "Puruliya",
+        "pincode_count": 21
+      },
+      {
+        "state": "West Bengal",
+        "district": "South 24 Parganas",
+        "pincode_count": 44
+      },
+      {
+        "state": "West Bengal",
+        "district": "South Dinajpur",
+        "pincode_count": 5
+      },
+      {
+        "state": "West Bengal",
+        "district": "South Twenty Four Parganas",
+        "pincode_count": 18
+      },
+      {
+        "state": "West Bengal",
+        "district": "Uttar Dinajpur",
+        "pincode_count": 13
+      },
+      {
+        "state": "West Bengal",
+        "district": "West Midnapore",
+        "pincode_count": 14
+      }
+    ]
+  }
+}

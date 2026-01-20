@@ -1,0 +1,226 @@
+{
+  "dataset_name": "demographic",
+  "by_literacy_bin": [
+    {
+      "literacy_bin": "60-70%",
+      "total_enrollment": 52567,
+      "mean_enrollment": 14.942296759522456,
+      "record_count": 3518,
+      "unique_states": 9,
+      "unique_districts": 351
+    },
+    {
+      "literacy_bin": "70-80%",
+      "total_enrollment": 37186,
+      "mean_enrollment": 9.19080573405833,
+      "record_count": 4046,
+      "unique_states": 14,
+      "unique_districts": 341
+    },
+    {
+      "literacy_bin": "80-90%",
+      "total_enrollment": 29072,
+      "mean_enrollment": 13.509293680297398,
+      "record_count": 2152,
+      "unique_states": 10,
+      "unique_districts": 130
+    },
+    {
+      "literacy_bin": "90%+",
+      "total_enrollment": 1398,
+      "mean_enrollment": 4.922535211267606,
+      "record_count": 284,
+      "unique_states": 3,
+      "unique_districts": 25
+    }
+  ],
+  "state_literacy": [
+    {
+      "state": "Andaman And Nicobar Islands",
+      "total_enrollment": 2,
+      "literacy_rate": 86.63
+    },
+    {
+      "state": "Andhra Pradesh",
+      "total_enrollment": 3800,
+      "literacy_rate": 67.02
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "total_enrollment": 48,
+      "literacy_rate": 65.38
+    },
+    {
+      "state": "Assam",
+      "total_enrollment": 2985,
+      "literacy_rate": 72.19
+    },
+    {
+      "state": "Bihar",
+      "total_enrollment": 12471,
+      "literacy_rate": 61.8
+    },
+    {
+      "state": "Chandigarh",
+      "total_enrollment": 154,
+      "literacy_rate": 86.05
+    },
+    {
+      "state": "Chhattisgarh",
+      "total_enrollment": 5072,
+      "literacy_rate": 70.28
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "total_enrollment": 23,
+      "literacy_rate": 77.65
+    },
+    {
+      "state": "Delhi",
+      "total_enrollment": 2344,
+      "literacy_rate": 86.21
+    },
+    {
+      "state": "Goa",
+      "total_enrollment": 126,
+      "literacy_rate": 88.7
+    },
+    {
+      "state": "Gujarat",
+      "total_enrollment": 4647,
+      "literacy_rate": 78.03
+    },
+    {
+      "state": "Haryana",
+      "total_enrollment": 2352,
+      "literacy_rate": 75.55
+    },
+    {
+      "state": "Himachal Pradesh",
+      "total_enrollment": 233,
+      "literacy_rate": 82.8
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "total_enrollment": 379,
+      "literacy_rate": 67.16
+    },
+    {
+      "state": "Jharkhand",
+      "total_enrollment": 1445,
+      "literacy_rate": 66.41
+    },
+    {
+      "state": "Karnataka",
+      "total_enrollment": 2052,
+      "literacy_rate": 75.36
+    },
+    {
+      "state": "Kerala",
+      "total_enrollment": 1304,
+      "literacy_rate": 93.91
+    },
+    {
+      "state": "Ladakh",
+      "total_enrollment": 3,
+      "literacy_rate": 77.2
+    },
+    {
+      "state": "Lakshadweep",
+      "total_enrollment": 3,
+      "literacy_rate": 91.85
+    },
+    {
+      "state": "Madhya Pradesh",
+      "total_enrollment": 6256,
+      "literacy_rate": 69.32
+    },
+    {
+      "state": "Maharashtra",
+      "total_enrollment": 23433,
+      "literacy_rate": 82.34
+    },
+    {
+      "state": "Manipur",
+      "total_enrollment": 980,
+      "literacy_rate": 79.85
+    },
+    {
+      "state": "Meghalaya",
+      "total_enrollment": 195,
+      "literacy_rate": 74.43
+    },
+    {
+      "state": "Mizoram",
+      "total_enrollment": 91,
+      "literacy_rate": 91.33
+    },
+    {
+      "state": "Nagaland",
+      "total_enrollment": 211,
+      "literacy_rate": 79.55
+    },
+    {
+      "state": "Odisha",
+      "total_enrollment": 4520,
+      "literacy_rate": 72.87
+    },
+    {
+      "state": "Puducherry",
+      "total_enrollment": 158,
+      "literacy_rate": 85.85
+    },
+    {
+      "state": "Punjab",
+      "total_enrollment": 1923,
+      "literacy_rate": 75.84
+    },
+    {
+      "state": "Rajasthan",
+      "total_enrollment": 4930,
+      "literacy_rate": 66.11
+    },
+    {
+      "state": "Sikkim",
+      "total_enrollment": 9,
+      "literacy_rate": 81.42
+    },
+    {
+      "state": "Tamil Nadu",
+      "total_enrollment": 2394,
+      "literacy_rate": 80.09
+    },
+    {
+      "state": "Telangana",
+      "total_enrollment": 2048,
+      "literacy_rate": 66.54
+    },
+    {
+      "state": "Tripura",
+      "total_enrollment": 219,
+      "literacy_rate": 87.22
+    },
+    {
+      "state": "Uttar Pradesh",
+      "total_enrollment": 21190,
+      "literacy_rate": 67.68
+    },
+    {
+      "state": "Uttarakhand",
+      "total_enrollment": 1335,
+      "literacy_rate": 78.82
+    },
+    {
+      "state": "West Bengal",
+      "total_enrollment": 10888,
+      "literacy_rate": 76.26
+    }
+  ],
+  "regression": {
+    "slope": -197.4202897644137,
+    "intercept": 18616.019477686867,
+    "r_squared": 0.09343102560926891,
+    "p_value": 0.0698424175142324,
+    "significant": "False"
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "dataset_name": "demographic",
+  "age_columns": {
+    "children": "demo_age_5_17",
+    "adults": "demo_age_17_"
+  },
+  "totals": {
+    "by_age_group": {
+      "children": 11398,
+      "adults": 108825
+    },
+    "total": 120223
+  },
+  "percentages": {
+    "children": 9.48,
+    "adults": 90.52
+  },
+  "by_state": [
+    {
+      "state": "Andaman And Nicobar Islands",
+      "demo_age_5_17": 0,
+      "demo_age_17_": 2,
+      "total": 2,
+      "children_pct": 0.0,
+      "adults_pct": 100.0,
+      "youth_pct": 0.0,
+      "adult_pct": 100.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "demo_age_5_17": 544,
+      "demo_age_17_": 3256,
+      "total": 3800,
+      "children_pct": 14.32,
+      "adults_pct": 85.68,
+      "youth_pct": 14.32,
+      "adult_pct": 85.68
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "demo_age_5_17": 10,
+      "demo_age_17_": 38,
+      "total": 48,
+      "children_pct": 20.83,
+      "adults_pct": 79.17,
+      "youth_pct": 20.83,
+      "adult_pct": 79.17
+    },
+    {
+      "state": "Assam",
+      "demo_age_5_17": 240,
+      "demo_age_17_": 2745,
+      "total": 2985,
+      "children_pct": 8.04,
+      "adults_pct": 91.96,
+      "youth_pct": 8.04,
+      "adult_pct": 91.96000000000001
+    },
+    {
+      "state": "Bihar",
+      "demo_age_5_17": 1203,
+      "demo_age_17_": 11268,
+      "total": 12471,
+      "children_pct": 9.65,
+      "adults_pct": 90.35,
+      "youth_pct": 9.65,
+      "adult_pct": 90.35
+    },
+    {
+      "state": "Chandigarh",
+      "demo_age_5_17": 14,
+      "demo_age_17_": 140,
+      "total": 154,
+      "children_pct": 9.09,
+      "adults_pct": 90.91,
+      "youth_pct": 9.09,
+      "adult_pct": 90.91
+    },
+    {
+      "state": "Chhattisgarh",
+      "demo_age_5_17": 443,
+      "demo_age_17_": 4629,
+      "total": 5072,
+      "children_pct": 8.73,
+      "adults_pct": 91.27,
+      "youth_pct": 8.73,
+      "adult_pct": 91.27
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "demo_age_5_17": 5,
+      "demo_age_17_": 18,
+      "total": 23,
+      "children_pct": 21.74,
+      "adults_pct": 78.26,
+      "youth_pct": 21.74,
+      "adult_pct": 78.26
+    },
+    {
+      "state": "Delhi",
+      "demo_age_5_17": 258,
+      "demo_age_17_": 2086,
+      "total": 2344,
+      "children_pct": 11.01,
+      "adults_pct": 88.99,
+      "youth_pct": 11.01,
+      "adult_pct": 88.99
+    },
+    {
+      "state": "Goa",
+      "demo_age_5_17": 11,
+      "demo_age_17_": 115,
+      "total": 126,
+      "children_pct": 8.73,
+      "adults_pct": 91.27,
+      "youth_pct": 8.73,
+      "adult_pct": 91.27
+    },
+    {
+      "state": "Gujarat",
+      "demo_age_5_17": 445,
+      "demo_age_17_": 4202,
+      "total": 4647,
+      "children_pct": 9.58,
+      "adults_pct": 90.42,
+      "youth_pct": 9.58,
+      "adult_pct": 90.42
+    },
+    {
+      "state": "Haryana",
+      "demo_age_5_17": 259,
+      "demo_age_17_": 2093,
+      "total": 2352,
+      "children_pct": 11.01,
+      "adults_pct": 88.99,
+      "youth_pct": 11.01,
+      "adult_pct": 88.99
+    },
+    {
+      "state": "Himachal Pradesh",
+      "demo_age_5_17": 40,
+      "demo_age_17_": 193,
+      "total": 233,
+      "children_pct": 17.17,
+      "adults_pct": 82.83,
+      "youth_pct": 17.17,
+      "adult_pct": 82.83
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "demo_age_5_17": 58,
+      "demo_age_17_": 321,
+      "total": 379,
+      "children_pct": 15.3,
+      "adults_pct": 84.7,
+      "youth_pct": 15.3,
+      "adult_pct": 84.7
+    },
+    {
+      "state": "Jharkhand",
+      "demo_age_5_17": 184,
+      "demo_age_17_": 1261,
+      "total": 1445,
+      "children_pct": 12.73,
+      "adults_pct": 87.27,
+      "youth_pct": 12.73,
+      "adult_pct": 87.27
+    },
+    {
+      "state": "Karnataka",
+      "demo_age_5_17": 253,
+      "demo_age_17_": 1799,
+      "total": 2052,
+      "children_pct": 12.33,
+      "adults_pct": 87.67,
+      "youth_pct": 12.33,
+      "adult_pct": 87.67
+    },
+    {
+      "state": "Kerala",
+      "demo_age_5_17": 98,
+      "demo_age_17_": 1206,
+      "total": 1304,
+      "children_pct": 7.52,
+      "adults_pct": 92.48,
+      "youth_pct": 7.52,
+      "adult_pct": 92.48
+    },
+    {
+      "state": "Ladakh",
+      "demo_age_5_17": 1,
+      "demo_age_17_": 2,
+      "total": 3,
+      "children_pct": 33.33,
+      "adults_pct": 66.67,
+      "youth_pct": 33.33,
+      "adult_pct": 66.67
+    },
+    {
+      "state": "Lakshadweep",
+      "demo_age_5_17": 1,
+      "demo_age_17_": 2,
+      "total": 3,
+      "children_pct": 33.33,
+      "adults_pct": 66.67,
+      "youth_pct": 33.33,
+      "adult_pct": 66.67
+    },
+    {
+      "state": "Madhya Pradesh",
+      "demo_age_5_17": 814,
+      "demo_age_17_": 5442,
+      "total": 6256,
+      "children_pct": 13.01,
+      "adults_pct": 86.99,
+      "youth_pct": 13.01,
+      "adult_pct": 86.99
+    },
+    {
+      "state": "Maharashtra",
+      "demo_age_5_17": 1424,
+      "demo_age_17_": 22009,
+      "total": 23433,
+      "children_pct": 6.08,
+      "adults_pct": 93.92,
+      "youth_pct": 6.08,
+      "adult_pct": 93.92
+    },
+    {
+      "state": "Manipur",
+      "demo_age_5_17": 156,
+      "demo_age_17_": 824,
+      "total": 980,
+      "children_pct": 15.92,
+      "adults_pct": 84.08,
+      "youth_pct": 15.92,
+      "adult_pct": 84.08
+    },
+    {
+      "state": "Meghalaya",
+      "demo_age_5_17": 13,
+      "demo_age_17_": 182,
+      "total": 195,
+      "children_pct": 6.67,
+      "adults_pct": 93.33,
+      "youth_pct": 6.67,
+      "adult_pct": 93.33
+    },
+    {
+      "state": "Mizoram",
+      "demo_age_5_17": 10,
+      "demo_age_17_": 81,
+      "total": 91,
+      "children_pct": 10.99,
+      "adults_pct": 89.01,
+      "youth_pct": 10.99,
+      "adult_pct": 89.01
+    },
+    {
+      "state": "Nagaland",
+      "demo_age_5_17": 25,
+      "demo_age_17_": 186,
+      "total": 211,
+      "children_pct": 11.85,
+      "adults_pct": 88.15,
+      "youth_pct": 11.85,
+      "adult_pct": 88.15
+    },
+    {
+      "state": "Odisha",
+      "demo_age_5_17": 643,
+      "demo_age_17_": 3877,
+      "total": 4520,
+      "children_pct": 14.23,
+      "adults_pct": 85.77,
+      "youth_pct": 14.23,
+      "adult_pct": 85.77
+    },
+    {
+      "state": "Puducherry",
+      "demo_age_5_17": 15,
+      "demo_age_17_": 143,
+      "total": 158,
+      "children_pct": 9.49,
+      "adults_pct": 90.51,
+      "youth_pct": 9.49,
+      "adult_pct": 90.51
+    },
+    {
+      "state": "Punjab",
+      "demo_age_5_17": 87,
+      "demo_age_17_": 1836,
+      "total": 1923,
+      "children_pct": 4.52,
+      "adults_pct": 95.48,
+      "youth_pct": 4.52,
+      "adult_pct": 95.48
+    },
+    {
+      "state": "Rajasthan",
+      "demo_age_5_17": 668,
+      "demo_age_17_": 4262,
+      "total": 4930,
+      "children_pct": 13.55,
+      "adults_pct": 86.45,
+      "youth_pct": 13.55,
+      "adult_pct": 86.45
+    },
+    {
+      "state": "Sikkim",
+      "demo_age_5_17": 3,
+      "demo_age_17_": 6,
+      "total": 9,
+      "children_pct": 33.33,
+      "adults_pct": 66.67,
+      "youth_pct": 33.33,
+      "adult_pct": 66.67
+    },
+    {
+      "state": "Tamil Nadu",
+      "demo_age_5_17": 287,
+      "demo_age_17_": 2107,
+      "total": 2394,
+      "children_pct": 11.99,
+      "adults_pct": 88.01,
+      "youth_pct": 11.99,
+      "adult_pct": 88.01
+    },
+    {
+      "state": "Telangana",
+      "demo_age_5_17": 270,
+      "demo_age_17_": 1778,
+      "total": 2048,
+      "children_pct": 13.18,
+      "adults_pct": 86.82,
+      "youth_pct": 13.18,
+      "adult_pct": 86.82
+    },
+    {
+      "state": "Tripura",
+      "demo_age_5_17": 19,
+      "demo_age_17_": 200,
+      "total": 219,
+      "children_pct": 8.68,
+      "adults_pct": 91.32,
+      "youth_pct": 8.68,
+      "adult_pct": 91.32
+    },
+    {
+      "state": "Uttar Pradesh",
+      "demo_age_5_17": 1932,
+      "demo_age_17_": 19258,
+      "total": 21190,
+      "children_pct": 9.12,
+      "adults_pct": 90.88,
+      "youth_pct": 9.12,
+      "adult_pct": 90.88
+    },
+    {
+      "state": "Uttarakhand",
+      "demo_age_5_17": 103,
+      "demo_age_17_": 1232,
+      "total": 1335,
+      "children_pct": 7.72,
+      "adults_pct": 92.28,
+      "youth_pct": 7.72,
+      "adult_pct": 92.28
+    },
+    {
+      "state": "West Bengal",
+      "demo_age_5_17": 862,
+      "demo_age_17_": 10026,
+      "total": 10888,
+      "children_pct": 7.92,
+      "adults_pct": 92.08,
+      "youth_pct": 7.92,
+      "adult_pct": 92.08
+    }
+  ],
+  "top_youth_states": [
+    {
+      "state": "Ladakh",
+      "youth_pct": 33.33
+    },
+    {
+      "state": "Lakshadweep",
+      "youth_pct": 33.33
+    },
+    {
+      "state": "Sikkim",
+      "youth_pct": 33.33
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "youth_pct": 21.74
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "youth_pct": 20.83
+    },
+    {
+      "state": "Himachal Pradesh",
+      "youth_pct": 17.17
+    },
+    {
+      "state": "Manipur",
+      "youth_pct": 15.92
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "youth_pct": 15.3
+    },
+    {
+      "state": "Andhra Pradesh",
+      "youth_pct": 14.32
+    },
+    {
+      "state": "Odisha",
+      "youth_pct": 14.23
+    }
+  ],
+  "top_adult_states": [
+    {
+      "state": "Andaman And Nicobar Islands",
+      "adult_pct": 100.0
+    },
+    {
+      "state": "Punjab",
+      "adult_pct": 95.48
+    },
+    {
+      "state": "Maharashtra",
+      "adult_pct": 93.92
+    },
+    {
+      "state": "Meghalaya",
+      "adult_pct": 93.33
+    },
+    {
+      "state": "Kerala",
+      "adult_pct": 92.48
+    },
+    {
+      "state": "Uttarakhand",
+      "adult_pct": 92.28
+    },
+    {
+      "state": "West Bengal",
+      "adult_pct": 92.08
+    },
+    {
+      "state": "Assam",
+      "adult_pct": 91.96000000000001
+    },
+    {
+      "state": "Tripura",
+      "adult_pct": 91.32
+    },
+    {
+      "state": "Chhattisgarh",
+      "adult_pct": 91.27
+    }
+  ]
+}

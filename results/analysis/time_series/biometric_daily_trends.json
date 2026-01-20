@@ -1,0 +1,38 @@
+{
+  "dataset_name": "biometric",
+  "date_range": {
+    "start": "2025-12-19",
+    "end": "2025-12-19",
+    "total_days": 1
+  },
+  "enrollment_stats": {
+    "total": 195864,
+    "daily_mean": 195864.0,
+    "daily_std": NaN,
+    "daily_min": 195864,
+    "daily_max": 195864,
+    "daily_median": 195864.0
+  },
+  "coverage": {
+    "avg_states_per_day": 36.0,
+    "avg_districts_per_day": 846.0,
+    "avg_pincodes_per_day": 8794.0
+  },
+  "trend": {
+    "slope": NaN,
+    "r_squared": NaN,
+    "p_value": NaN,
+    "direction": "decreasing"
+  },
+  "daily_data": [
+    {
+      "date": "2025-12-19 00:00:00",
+      "total_enrollment": 195864,
+      "unique_states": 36,
+      "unique_districts": 846,
+      "unique_pincodes": 8794,
+      "ma_7": 195864.0,
+      "ma_30": 195864.0
+    }
+  ]
+}

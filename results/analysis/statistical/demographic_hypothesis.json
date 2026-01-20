@@ -1,0 +1,31 @@
+{
+  "dataset_name": "demographic",
+  "tests": {
+    "state_anova": {
+      "description": "One-way ANOVA for state differences",
+      "f_statistic": 52.911748865594774,
+      "p_value": 9.09545486780189e-292,
+      "significant": "True",
+      "interpretation": "Significant state-level differences"
+    },
+    "literacy_correlation": {
+      "description": "Pearson correlation: Literacy vs Enrollment",
+      "correlation": -0.0683428187891338,
+      "p_value": 7.840807317281153e-12,
+      "significant": "True"
+    },
+    "chi_square": {
+      "description": "Chi-square: State vs Enrollment Quartile",
+      "chi2_statistic": 1937.294282046555,
+      "p_value": 0.0,
+      "degrees_of_freedom": 105,
+      "significant": "True"
+    },
+    "kruskal_wallis": {
+      "description": "Kruskal-Wallis: Non-parametric state comparison",
+      "h_statistic": 1748.7976346442076,
+      "p_value": 0.0,
+      "significant": "True"
+    }
+  }
+}

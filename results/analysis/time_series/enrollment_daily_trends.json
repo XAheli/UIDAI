@@ -1,0 +1,47 @@
+{
+  "dataset_name": "enrollment",
+  "date_range": {
+    "start": "2025-11-18",
+    "end": "2025-11-19",
+    "total_days": 2
+  },
+  "enrollment_stats": {
+    "total": 52172,
+    "daily_mean": 26086.0,
+    "daily_std": 543.0580079512685,
+    "daily_min": 25702,
+    "daily_max": 26470,
+    "daily_median": 26086.0
+  },
+  "coverage": {
+    "avg_states_per_day": 34.0,
+    "avg_districts_per_day": 748.0,
+    "avg_pincodes_per_day": 4731.5
+  },
+  "trend": {
+    "slope": 768.0,
+    "r_squared": 1.0,
+    "p_value": 0.0,
+    "direction": "increasing"
+  },
+  "daily_data": [
+    {
+      "date": "2025-11-18 00:00:00",
+      "total_enrollment": 25702,
+      "unique_states": 34,
+      "unique_districts": 779,
+      "unique_pincodes": 5666,
+      "ma_7": 25702.0,
+      "ma_30": 25702.0
+    },
+    {
+      "date": "2025-11-19 00:00:00",
+      "total_enrollment": 26470,
+      "unique_states": 34,
+      "unique_districts": 717,
+      "unique_pincodes": 3797,
+      "ma_7": 26086.0,
+      "ma_30": 26086.0
+    }
+  ]
+}

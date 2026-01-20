@@ -1,0 +1,3335 @@
+{
+  "generated_at": "2026-01-20T17:22:17.077522",
+  "author": "Shuvam Banerji Seal, Alok Mishra, Aheli Poddar",
+  "sample_size": 30000,
+  "datasets": {
+    "biometric": {
+      "n_records": 30000,
+      "n_columns": 6,
+      "n_features": 17,
+      "feature_columns": [
+        "pincode",
+        "bio_age_5_17",
+        "bio_age_17_",
+        "day_of_week",
+        "day_of_month",
+        "month",
+        "year",
+        "is_weekend",
+        "quarter",
+        "state_encoded",
+        "district_encoded",
+        "pincode_numeric",
+        "pincode_region",
+        "pincode_zone",
+        "bio_age_5_17_plus_bio_age_17_",
+        "bio_age_5_17_ratio_bio_age_17_",
+        "total_enrollment"
+      ],
+      "classification": {
+        "target": "region",
+        "n_classes": 7,
+        "class_names": [
+          "Central",
+          "East",
+          "North",
+          "Northeast",
+          "Other",
+          "South",
+          "West"
+        ],
+        "models": {
+          "logistic_regression": {
+            "accuracy": 0.9781666666666666,
+            "precision": 0.9660762089112013,
+            "recall": 0.9781666666666666,
+            "f1_score": 0.971733695048292,
+            "cv_mean": 0.9788333333333333,
+            "cv_std": 5.892556509889864e-05,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 1.9602546894928237,
+              "bio_age_5_17": 0.1384420663148129,
+              "bio_age_17_": 0.13403896152727363,
+              "day_of_week": 0.06965062323014115,
+              "day_of_month": 0.10158258616998442,
+              "month": 0.18027182216192086,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.29386759152424385,
+              "state_encoded": 0.5037125673205228,
+              "district_encoded": 0.005991956161057128,
+              "pincode_numeric": 1.9602546894928237,
+              "pincode_region": 1.9617273882456638,
+              "pincode_zone": 10.780083038129048,
+              "bio_age_5_17_plus_bio_age_17_": 0.14501240249481373,
+              "bio_age_5_17_ratio_bio_age_17_": 0.065593996752524,
+              "total_enrollment": 0.14501240249481373
+            }
+          },
+          "ridge_classifier": {
+            "accuracy": 0.6096666666666667,
+            "precision": 0.555859022607981,
+            "recall": 0.6096666666666667,
+            "f1_score": 0.5284345320680954,
+            "cv_mean": 0.6154999999999999,
+            "cv_std": 0.006815270843236288,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.1914316218360662,
+              "bio_age_5_17": 0.018877779681224362,
+              "bio_age_17_": 0.04159507635955923,
+              "day_of_week": 0.002943299993397479,
+              "day_of_month": 0.007719638404576446,
+              "month": 0.00395829564761875,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.010222386425353315,
+              "state_encoded": 0.02152247756286319,
+              "district_encoded": 0.0007470703080253533,
+              "pincode_numeric": 0.19143162183362347,
+              "pincode_region": 0.35776227215961415,
+              "pincode_zone": 0.7761340049826029,
+              "bio_age_5_17_plus_bio_age_17_": 0.013941301819831787,
+              "bio_age_5_17_ratio_bio_age_17_": 0.0017864022412778333,
+              "total_enrollment": 0.013941301820530862
+            }
+          },
+          "sgd_classifier": {
+            "accuracy": 0.7563333333333333,
+            "precision": 0.7373625734620626,
+            "recall": 0.7563333333333333,
+            "f1_score": 0.7433246125795152,
+            "cv_mean": 0.8148750000000001,
+            "cv_std": 0.011379806676741077,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.2532553301160147,
+              "bio_age_5_17": 0.0652010855086324,
+              "bio_age_17_": 0.06734056888666441,
+              "day_of_week": 0.0107206039582928,
+              "day_of_month": 0.007251757240498925,
+              "month": 0.03898829835113707,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.038724400639350724,
+              "state_encoded": 0.01056886135489917,
+              "district_encoded": 0.01097398364714348,
+              "pincode_numeric": 0.2532553301160147,
+              "pincode_region": 0.4785902719158089,
+              "pincode_zone": 0.9869343447574032,
+              "bio_age_5_17_plus_bio_age_17_": 0.00517283257089088,
+              "bio_age_5_17_ratio_bio_age_17_": 0.04686091300703301,
+              "total_enrollment": 0.00517283257089088
+            }
+          },
+          "decision_tree": {
+            "accuracy": 0.9996666666666667,
+            "precision": 0.9996672683513839,
+            "recall": 0.9996666666666667,
+            "f1_score": 0.9996646242412717,
+            "cv_mean": 0.9997916666666667,
+            "cv_std": 0.0001559023911155835,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.30302223036624193,
+              "bio_age_5_17": 0.0,
+              "bio_age_17_": 0.0,
+              "day_of_week": 0.0,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.10043361671419362,
+              "district_encoded": 7.233014706289282e-05,
+              "pincode_numeric": 0.03074550094384104,
+              "pincode_region": 0.3630547710291028,
+              "pincode_zone": 0.2026544103357696,
+              "bio_age_5_17_plus_bio_age_17_": 1.7140463788194852e-05,
+              "bio_age_5_17_ratio_bio_age_17_": 0.0,
+              "total_enrollment": 0.0
+            }
+          },
+          "random_forest": {
+            "accuracy": 0.9986666666666667,
+            "precision": 0.9986727560719375,
+            "recall": 0.9986666666666667,
+            "f1_score": 0.9986316631672953,
+            "cv_mean": 0.9987499999999999,
+            "cv_std": 0.00036799003609701595,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.24056814395576626,
+              "bio_age_5_17": 0.0011447291186821612,
+              "bio_age_17_": 0.0014062288445470768,
+              "day_of_week": 7.540133471483509e-05,
+              "day_of_month": 0.00017133328135022444,
+              "month": 0.0002923041134629266,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 9.250858597701461e-05,
+              "state_encoded": 0.06992161777024304,
+              "district_encoded": 0.009900281272457553,
+              "pincode_numeric": 0.2348580604801777,
+              "pincode_region": 0.2461680682112965,
+              "pincode_zone": 0.18771574219252943,
+              "bio_age_5_17_plus_bio_age_17_": 0.0014042102066643047,
+              "bio_age_5_17_ratio_bio_age_17_": 0.004833179221406891,
+              "total_enrollment": 0.0014481914107240116
+            }
+          },
+          "extra_trees": {
+            "accuracy": 0.991,
+            "precision": 0.991296482580703,
+            "recall": 0.991,
+            "f1_score": 0.9886455831082824,
+            "cv_mean": 0.9904583333333333,
+            "cv_std": 0.0011242281302693692,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.20826354957401746,
+              "bio_age_5_17": 0.0010207686567547277,
+              "bio_age_17_": 0.0016247326221110652,
+              "day_of_week": 0.0003680310884267632,
+              "day_of_month": 0.0002065729526198134,
+              "month": 0.0001392491303745537,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.00014191755316799752,
+              "state_encoded": 0.08742296366435767,
+              "district_encoded": 0.004637991758276413,
+              "pincode_numeric": 0.20776778731413537,
+              "pincode_region": 0.19764184289116163,
+              "pincode_zone": 0.28714772680330347,
+              "bio_age_5_17_plus_bio_age_17_": 0.0010661723188747144,
+              "bio_age_5_17_ratio_bio_age_17_": 0.0015868246431687116,
+              "total_enrollment": 0.0009638690292497338
+            }
+          },
+          "gradient_boosting": {
+            "accuracy": 0.9996666666666667,
+            "precision": 0.9996672683513839,
+            "recall": 0.9996666666666667,
+            "f1_score": 0.9996646242412717,
+            "cv_mean": 0.9998333333333335,
+            "cv_std": 0.00011785113019774494,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.2657752760716599,
+              "bio_age_5_17": 1.5378435056056672e-05,
+              "bio_age_17_": 7.009524092757245e-05,
+              "day_of_week": 1.7449028631474975e-10,
+              "day_of_month": 1.0208426991203409e-08,
+              "month": 7.864873287033118e-08,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 5.2096210143701806e-08,
+              "state_encoded": 0.04929999148822835,
+              "district_encoded": 0.00014756335614461548,
+              "pincode_numeric": 0.2055125511474457,
+              "pincode_region": 0.20602407948817159,
+              "pincode_zone": 0.27301679191864514,
+              "bio_age_5_17_plus_bio_age_17_": 4.363516084827224e-05,
+              "bio_age_5_17_ratio_bio_age_17_": 7.496337486310451e-05,
+              "total_enrollment": 1.9533190149588428e-05
+            }
+          },
+          "adaboost": {
+            "accuracy": 0.773,
+            "precision": 0.6388587493415265,
+            "recall": 0.773,
+            "f1_score": 0.6892551327846658,
+            "cv_mean": 0.755125,
+            "cv_std": 0.025190730768809903,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.2725458471873772,
+              "bio_age_5_17": 0.0,
+              "bio_age_17_": 0.0,
+              "day_of_week": 0.0,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.0,
+              "district_encoded": 0.0,
+              "pincode_numeric": 0.22468812995371423,
+              "pincode_region": 0.24828322895709803,
+              "pincode_zone": 0.25448279390181033,
+              "bio_age_5_17_plus_bio_age_17_": 0.0,
+              "bio_age_5_17_ratio_bio_age_17_": 0.0,
+              "total_enrollment": 0.0
+            }
+          },
+          "bagging": {
+            "accuracy": 0.9996666666666667,
+            "precision": 0.9996672683513839,
+            "recall": 0.9996666666666667,
+            "f1_score": 0.9996646242412717,
+            "cv_mean": 0.999875,
+            "cv_std": 0.00010206207261595452,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "knn": {
+            "accuracy": 0.9701666666666666,
+            "precision": 0.9690200986086401,
+            "recall": 0.9701666666666666,
+            "f1_score": 0.9684340793247423,
+            "cv_mean": 0.969,
+            "cv_std": 0.001005194840151244,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "naive_bayes": {
+            "accuracy": 0.898,
+            "precision": 0.9340922026487501,
+            "recall": 0.898,
+            "f1_score": 0.9118137156472528,
+            "cv_mean": 0.8893333333333332,
+            "cv_std": 0.0162971538074052,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "linear_svc": {
+            "accuracy": 0.8451666666666666,
+            "precision": 0.8237518643900437,
+            "recall": 0.8451666666666666,
+            "f1_score": 0.8205230619110624,
+            "cv_mean": 0.8497083333333334,
+            "cv_std": 0.0051683465011118975,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.37656183989191083,
+              "bio_age_5_17": 0.01905929338499776,
+              "bio_age_17_": 0.05256754385290578,
+              "day_of_week": 0.00906187364134109,
+              "day_of_month": 0.013210321533563513,
+              "month": 0.0010275852696340056,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.022624331864970308,
+              "state_encoded": 0.06506848652882262,
+              "district_encoded": 0.006101645929553257,
+              "pincode_numeric": 0.37656183989191083,
+              "pincode_region": 0.5740968978632727,
+              "pincode_zone": 1.398852605243354,
+              "bio_age_5_17_plus_bio_age_17_": 0.020028883276456026,
+              "bio_age_5_17_ratio_bio_age_17_": 0.012722227185060359,
+              "total_enrollment": 0.02002888327645614
+            }
+          },
+          "xgboost": {
+            "accuracy": 0.9996666666666667,
+            "precision": 0.9996672683513839,
+            "recall": 0.9996666666666667,
+            "f1_score": 0.9996646242412717,
+            "cv_mean": 0.9998333333333335,
+            "cv_std": 0.00023570226039548988,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.029340723529458046,
+              "bio_age_5_17": 0.007198179140686989,
+              "bio_age_17_": 0.0004084744432475418,
+              "day_of_week": 0.0,
+              "day_of_month": 7.959634240251034e-05,
+              "month": 5.710962796001695e-05,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.04451054707169533,
+              "district_encoded": 0.0020406204275786877,
+              "pincode_numeric": 0.0,
+              "pincode_region": 0.904131293296814,
+              "pincode_zone": 0.0,
+              "bio_age_5_17_plus_bio_age_17_": 0.002528140554204583,
+              "bio_age_5_17_ratio_bio_age_17_": 0.009705312550067902,
+              "total_enrollment": 0.0
+            }
+          }
+        },
+        "best_model": {
+          "name": "decision_tree",
+          "accuracy": 0.9996666666666667
+        },
+        "training_info": {
+          "train_samples": 24000,
+          "test_samples": 6000,
+          "n_features": 17,
+          "feature_columns": [
+            "pincode",
+            "bio_age_5_17",
+            "bio_age_17_",
+            "day_of_week",
+            "day_of_month",
+            "month",
+            "year",
+            "is_weekend",
+            "quarter",
+            "state_encoded",
+            "district_encoded",
+            "pincode_numeric",
+            "pincode_region",
+            "pincode_zone",
+            "bio_age_5_17_plus_bio_age_17_",
+            "bio_age_5_17_ratio_bio_age_17_",
+            "total_enrollment"
+          ],
+          "n_classes": 7,
+          "class_names": [
+            "Central",
+            "East",
+            "North",
+            "Northeast",
+            "Other",
+            "South",
+            "West"
+          ]
+        },
+        "interpretations": {
+          "summary": "Classification achieved 100.0% accuracy using decision_tree",
+          "model_insights": {
+            "decision_tree": "Best performing model with 100.0% accuracy"
+          },
+          "feature_insights": "Geographic and demographic features are most predictive of regional classification"
+        }
+      },
+      "regression": {
+        "target": "pincode",
+        "models": {
+          "linear_regression": {
+            "mse": 2.2257767099317003e-20,
+            "rmse": 1.4919037200609496e-10,
+            "mae": 1.1418402815858523e-10,
+            "r2": 1.0,
+            "cv_mean": 1.0,
+            "cv_std": 0.0,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 2.302125841952723e-11,
+              "bio_age_17_": 3.8198777474462986e-11,
+              "day_of_week": 2.523847797419876e-11,
+              "day_of_month": 3.728928277269006e-11,
+              "month": 3.0308910936582834e-10,
+              "year": 2.9103830456733704e-11,
+              "is_weekend": 1.864464138634503e-11,
+              "quarter": 2.4419932742603123e-10,
+              "state_encoded": 2.0406787371030077e-11,
+              "district_encoded": 2.220801320618193e-11,
+              "pincode_numeric": 200535.1870545381,
+              "pincode_region": 4.899902705801651e-11,
+              "pincode_zone": 1.0334133548894897e-10,
+              "bio_age_5_17_plus_bio_age_17_": 2.7284841053187847e-11,
+              "bio_age_5_17_ratio_bio_age_17_": 1.3358203432289883e-11,
+              "total_enrollment": 5.275069270282984e-11
+            }
+          },
+          "ridge": {
+            "mse": 185304.26845084078,
+            "rmse": 430.4698229270442,
+            "mae": 364.10569767878553,
+            "r2": 0.9999953708292932,
+            "cv_mean": 0.9999923211578322,
+            "cv_std": 1.914360114514203e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 2.1230335350952503,
+              "bio_age_17_": 11.576590687388697,
+              "day_of_week": 5.534419613362255,
+              "day_of_month": 4.884862320235493,
+              "month": 4.550312192111878,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 11.106575061197512,
+              "state_encoded": 0.0657045971424038,
+              "district_encoded": 0.6555848626863824,
+              "pincode_numeric": 167166.17089782978,
+              "pincode_region": 33284.20928127798,
+              "pincode_zone": 81.51045226403777,
+              "bio_age_5_17_plus_bio_age_17_": 5.452633820039484,
+              "bio_age_5_17_ratio_bio_age_17_": 15.298370039377213,
+              "total_enrollment": 5.452633820038486
+            }
+          },
+          "lasso": {
+            "mse": 18469.45018264419,
+            "rmse": 135.90235532412302,
+            "mae": 111.63653773257586,
+            "r2": 0.9999995386062153,
+            "cv_mean": 0.9999996012755973,
+            "cv_std": 8.513864008955524e-08,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 9912.283185005768,
+              "bio_age_17_": 11064.990584143252,
+              "day_of_week": 20.00470915821979,
+              "day_of_month": 177.75833169809178,
+              "month": 292.49931127027594,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 451.47759042258696,
+              "state_encoded": 33.8517860352572,
+              "district_encoded": 5.657985857937763,
+              "pincode_numeric": 199772.68951125335,
+              "pincode_region": 0.54333332814826,
+              "pincode_zone": 746.2178657319741,
+              "bio_age_5_17_plus_bio_age_17_": 19677.314279550683,
+              "bio_age_5_17_ratio_bio_age_17_": 0.0,
+              "total_enrollment": 7.909014181704686
+            }
+          },
+          "elastic_net": {
+            "mse": 910728380.0780759,
+            "rmse": 30178.276625381972,
+            "mae": 25937.679910151324,
+            "r2": 0.9772486776794318,
+            "cv_mean": 0.9771614402507381,
+            "cv_std": 0.0003315258010049995,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 859.3391775215692,
+              "bio_age_17_": 276.9587274898822,
+              "day_of_week": 627.9678432257024,
+              "day_of_month": 242.78123022467554,
+              "month": 350.7599013038099,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 217.02817922540953,
+              "state_encoded": 4415.771448278316,
+              "district_encoded": 493.7267066651396,
+              "pincode_numeric": 58065.90493349023,
+              "pincode_region": 58023.93382239166,
+              "pincode_zone": 55199.6195069191,
+              "bio_age_5_17_plus_bio_age_17_": 587.6272342038743,
+              "bio_age_5_17_ratio_bio_age_17_": 531.2980732163035,
+              "total_enrollment": 587.6512330999061
+            }
+          },
+          "bayesian_ridge": {
+            "mse": 1.3646321901768966e+16,
+            "rmse": 116817472.58766116,
+            "mae": 98475200.71798222,
+            "r2": -340904.0106144255,
+            "cv_mean": -419188.1613367998,
+            "cv_std": 410819.6434351618,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 1.418594901395728e+21,
+              "bio_age_17_": 1.590487648421739e+21,
+              "day_of_week": 2.400525279332745e+18,
+              "day_of_month": 5.5963826790533956e+19,
+              "month": 2.2779572369385783e+19,
+              "year": 2.25588084761012e+23,
+              "is_weekend": 1.4844431020044855e+23,
+              "quarter": 3.275035244520892e+19,
+              "state_encoded": 28903374.035417967,
+              "district_encoded": 1414823.9497552556,
+              "pincode_numeric": 37242044.725831576,
+              "pincode_region": 47782694.960251674,
+              "pincode_zone": 27297274.99596333,
+              "bio_age_5_17_plus_bio_age_17_": 1.080929205427176e+21,
+              "bio_age_5_17_ratio_bio_age_17_": 9373016.417009931,
+              "total_enrollment": 3.905380873579785e+21
+            }
+          },
+          "huber": {
+            "mse": 2.1241632427935593e-12,
+            "rmse": 1.4574509400983483e-06,
+            "mae": 1.0493755786834906e-06,
+            "r2": 1.0,
+            "cv_mean": 1.0,
+            "cv_std": 0.0,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 2.1646671763968742e-07,
+              "bio_age_17_": 7.190125132708139e-08,
+              "day_of_week": 5.685521223554466e-09,
+              "day_of_month": 1.153428629912782e-07,
+              "month": 1.948021993328337e-06,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 1.5502672371043685e-06,
+              "state_encoded": 3.943631928617758e-07,
+              "district_encoded": 3.0340023898508766e-07,
+              "pincode_numeric": 200535.1869918001,
+              "pincode_region": 6.234251607166749e-05,
+              "pincode_zone": 1.361813858779022e-07,
+              "bio_age_5_17_plus_bio_age_17_": 6.284666521037945e-08,
+              "bio_age_5_17_ratio_bio_age_17_": 1.1656008986410961e-06,
+              "total_enrollment": 6.284666521037945e-08
+            }
+          },
+          "sgd_regressor": {
+            "mse": 918646.4178941351,
+            "rmse": 958.4604414863114,
+            "mae": 810.1437899528888,
+            "r2": 0.9999770508735543,
+            "cv_mean": 0.9999739013800051,
+            "cv_std": 5.303075080016308e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 2.5382043811919806,
+              "bio_age_17_": 27.184755060224727,
+              "day_of_week": 12.894880398506704,
+              "day_of_month": 13.00896629919588,
+              "month": 8.302775599592978,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 27.059578349425173,
+              "state_encoded": 12.154526556396425,
+              "district_encoded": 7.48686176899358,
+              "pincode_numeric": 126258.73782777948,
+              "pincode_region": 74062.71072433163,
+              "pincode_zone": 218.27133694440224,
+              "bio_age_5_17_plus_bio_age_17_": 14.033284336823728,
+              "bio_age_5_17_ratio_bio_age_17_": 34.35982747481155,
+              "total_enrollment": 14.033284336823728
+            }
+          },
+          "decision_tree": {
+            "mse": 9255.821241770533,
+            "rmse": 96.20717874343127,
+            "mae": 55.87493274378142,
+            "r2": 0.999999768776095,
+            "cv_mean": 0.9999931566117036,
+            "cv_std": 9.36980670911472e-06,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 1.571084833909333e-11,
+              "bio_age_17_": 1.1917216040340525e-10,
+              "day_of_week": 0.0,
+              "day_of_month": 3.450462665101168e-15,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 2.7760225628185692e-05,
+              "district_encoded": 1.5584684335137642e-07,
+              "pincode_numeric": 0.9009124725662017,
+              "pincode_region": 0.012101282638986108,
+              "pincode_zone": 0.08695832855853444,
+              "bio_age_5_17_plus_bio_age_17_": 9.459254780137167e-12,
+              "bio_age_5_17_ratio_bio_age_17_": 5.213836945139786e-13,
+              "total_enrollment": 1.8939142009872375e-11
+            }
+          },
+          "random_forest": {
+            "mse": 15596.843627962584,
+            "rmse": 124.88732372808133,
+            "mae": 42.884276531733875,
+            "r2": 0.9999996103681138,
+            "cv_mean": 0.9999995224993157,
+            "cv_std": 5.177159875803033e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 1.5709777827444374e-10,
+              "bio_age_17_": 1.9811229903076522e-10,
+              "day_of_week": 1.2252223475615976e-11,
+              "day_of_month": 2.24824072109411e-11,
+              "month": 1.3057449025579138e-11,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 7.959257113540281e-12,
+              "state_encoded": 0.0007889932519258507,
+              "district_encoded": 1.7716681799309944e-06,
+              "pincode_numeric": 0.7840049867488931,
+              "pincode_region": 0.18155488403803632,
+              "pincode_zone": 0.0336493630629181,
+              "bio_age_5_17_plus_bio_age_17_": 9.547547464080631e-11,
+              "bio_age_5_17_ratio_bio_age_17_": 6.068484709877191e-10,
+              "total_enrollment": 1.167615013635905e-10
+            }
+          },
+          "extra_trees": {
+            "mse": 38807.971993853724,
+            "rmse": 196.99739083006588,
+            "mae": 150.02912808516487,
+            "r2": 0.999999030520297,
+            "cv_mean": 0.9999988649628326,
+            "cv_std": 1.401498102038037e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 5.115250994206555e-10,
+              "bio_age_17_": 6.553244786018239e-10,
+              "day_of_week": 1.4810185378156297e-09,
+              "day_of_month": 4.1649432287169445e-11,
+              "month": 2.4167462115733047e-11,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 1.8039778695921957e-10,
+              "state_encoded": 0.0038634455333509655,
+              "district_encoded": 4.478638833772382e-06,
+              "pincode_numeric": 0.31328553375196166,
+              "pincode_region": 0.2979273593993575,
+              "pincode_zone": 0.38491916405036575,
+              "bio_age_5_17_plus_bio_age_17_": 9.685685284823055e-10,
+              "bio_age_5_17_ratio_bio_age_17_": 1.362282288323338e-08,
+              "total_enrollment": 1.140656232341924e-09
+            }
+          },
+          "gradient_boosting": {
+            "mse": 26875.486955060558,
+            "rmse": 163.93744829983342,
+            "mae": 101.16385383419201,
+            "r2": 0.9999993286111648,
+            "cv_mean": 0.999999166470466,
+            "cv_std": 2.965343700188467e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 4.816469205455893e-10,
+              "bio_age_17_": 6.499355764936922e-10,
+              "day_of_week": 8.900657671244588e-12,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.00048242206441815466,
+              "district_encoded": 1.247139913316337e-07,
+              "pincode_numeric": 0.7702970381906866,
+              "pincode_region": 0.1959974658212668,
+              "pincode_zone": 0.03322294721632318,
+              "bio_age_5_17_plus_bio_age_17_": 2.4869588687239885e-10,
+              "bio_age_5_17_ratio_bio_age_17_": 1.7613496422946664e-10,
+              "total_enrollment": 4.2799984420700397e-10
+            }
+          },
+          "adaboost": {
+            "mse": 314227190.62067187,
+            "rmse": 17726.454541748382,
+            "mae": 14670.214039864384,
+            "r2": 0.992150146792302,
+            "cv_mean": 0.9923994715511496,
+            "cv_std": 0.0006023107761792989,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 0.0,
+              "bio_age_17_": 0.0,
+              "day_of_week": 0.0,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.0013803342129428367,
+              "district_encoded": 0.0,
+              "pincode_numeric": 0.5342702688751209,
+              "pincode_region": 0.42305874188954945,
+              "pincode_zone": 0.04129065502238669,
+              "bio_age_5_17_plus_bio_age_17_": 0.0,
+              "bio_age_5_17_ratio_bio_age_17_": 0.0,
+              "total_enrollment": 0.0
+            }
+          },
+          "bagging": {
+            "mse": 15640.147294133358,
+            "rmse": 125.0605744994535,
+            "mae": 5.976300000000437,
+            "r2": 0.999999609286325,
+            "cv_mean": 0.999999652925322,
+            "cv_std": 4.6690406602726505e-07,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "knn": {
+            "mse": 144187486.2523933,
+            "rmse": 12007.809386078432,
+            "mae": 5901.341100000001,
+            "r2": 0.9963979864402167,
+            "cv_mean": 0.9950372469242099,
+            "cv_std": 0.00046885144327051285,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "linear_svr": {
+            "mse": 289387792820.0799,
+            "rmse": 537947.7603077086,
+            "mae": 499467.7399921635,
+            "r2": -6.2293288472277695,
+            "cv_mean": -6.500860057362341,
+            "cv_std": 0.1176253874841239,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 60.03366399420996,
+              "bio_age_17_": 57.828626547140054,
+              "day_of_week": 50.35762036181741,
+              "day_of_month": 3.475944732138984,
+              "month": 7.746586676289106,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 4.242640687163687,
+              "state_encoded": 69.60820353458367,
+              "district_encoded": 95.75157448201327,
+              "pincode_numeric": 98.05782261370615,
+              "pincode_region": 97.79126887261404,
+              "pincode_zone": 106.67168626091578,
+              "bio_age_5_17_plus_bio_age_17_": 62.71630274296229,
+              "bio_age_5_17_ratio_bio_age_17_": 37.98851967378908,
+              "total_enrollment": 62.71630274296229
+            }
+          },
+          "xgboost": {
+            "mse": 190757.10254335531,
+            "rmse": 436.7574871062376,
+            "mae": 306.54320052083335,
+            "r2": 0.9999952346095501,
+            "cv_mean": 0.9999945121601034,
+            "cv_std": 5.018705350533171e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "bio_age_5_17": 2.8304313559601724e-07,
+              "bio_age_17_": 2.861471841697494e-07,
+              "day_of_week": 8.521432448560518e-08,
+              "day_of_month": 2.5684337856546335e-07,
+              "month": 2.4827133415783464e-07,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.0034622300881892443,
+              "district_encoded": 1.182816276923404e-06,
+              "pincode_numeric": 0.19779998064041138,
+              "pincode_region": 0.7987349033355713,
+              "pincode_zone": 0.0,
+              "bio_age_5_17_plus_bio_age_17_": 2.91491829784718e-07,
+              "bio_age_5_17_ratio_bio_age_17_": 3.0235241865739226e-07,
+              "total_enrollment": 0.0
+            }
+          }
+        },
+        "best_model": {
+          "name": "linear_regression",
+          "r2": 1.0
+        },
+        "training_info": {
+          "train_samples": 24000,
+          "test_samples": 6000,
+          "n_features": 16,
+          "feature_columns": [
+            "bio_age_5_17",
+            "bio_age_17_",
+            "day_of_week",
+            "day_of_month",
+            "month",
+            "year",
+            "is_weekend",
+            "quarter",
+            "state_encoded",
+            "district_encoded",
+            "pincode_numeric",
+            "pincode_region",
+            "pincode_zone",
+            "bio_age_5_17_plus_bio_age_17_",
+            "bio_age_5_17_ratio_bio_age_17_",
+            "total_enrollment"
+          ],
+          "target_column": "pincode",
+          "target_mean": 526734.5048,
+          "target_std": 200535.18705453794
+        },
+        "interpretations": {
+          "summary": "Regression achieved R\u00b2=1.0000 using linear_regression",
+          "model_insights": {
+            "linear_regression": "Explains 100.0% of variance in pincode"
+          },
+          "prediction_insights": "Model can predict pincode with reasonable accuracy"
+        }
+      },
+      "clustering": {
+        "models": {
+          "kmeans_k3": {
+            "n_clusters": 3,
+            "silhouette_score": 0.2606509690721309,
+            "calinski_harabasz_score": 9711.30465632414,
+            "inertia": 273143.73176820436,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 9507,
+                "percentage": 0.3169
+              },
+              {
+                "cluster_id": 1,
+                "size": 7881,
+                "percentage": 0.2627
+              },
+              {
+                "cluster_id": 2,
+                "size": 12612,
+                "percentage": 0.4204
+              }
+            ]
+          },
+          "kmeans_k5": {
+            "n_clusters": 5,
+            "silhouette_score": 0.28328814303158234,
+            "calinski_harabasz_score": 9501.523725970937,
+            "inertia": 198493.13031506978,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 5818,
+                "percentage": 0.19393333333333335
+              },
+              {
+                "cluster_id": 1,
+                "size": 3436,
+                "percentage": 0.11453333333333333
+              },
+              {
+                "cluster_id": 2,
+                "size": 7444,
+                "percentage": 0.24813333333333334
+              },
+              {
+                "cluster_id": 3,
+                "size": 746,
+                "percentage": 0.024866666666666665
+              },
+              {
+                "cluster_id": 4,
+                "size": 12556,
+                "percentage": 0.4185333333333333
+              }
+            ]
+          },
+          "kmeans_k7": {
+            "n_clusters": 7,
+            "silhouette_score": 0.26839657836457603,
+            "calinski_harabasz_score": 8313.060513386194,
+            "inertia": 168982.44469341557,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 2522,
+                "percentage": 0.08406666666666666
+              },
+              {
+                "cluster_id": 1,
+                "size": 746,
+                "percentage": 0.024866666666666665
+              },
+              {
+                "cluster_id": 2,
+                "size": 5946,
+                "percentage": 0.1982
+              },
+              {
+                "cluster_id": 3,
+                "size": 3436,
+                "percentage": 0.11453333333333333
+              },
+              {
+                "cluster_id": 4,
+                "size": 8258,
+                "percentage": 0.27526666666666666
+              },
+              {
+                "cluster_id": 5,
+                "size": 3274,
+                "percentage": 0.10913333333333333
+              },
+              {
+                "cluster_id": 6,
+                "size": 5818,
+                "percentage": 0.19393333333333335
+              }
+            ]
+          },
+          "kmeans_k10": {
+            "n_clusters": 10,
+            "silhouette_score": 0.2846252840395286,
+            "calinski_harabasz_score": 7567.217674738377,
+            "inertia": 137575.89849147166,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 5524,
+                "percentage": 0.18413333333333334
+              },
+              {
+                "cluster_id": 1,
+                "size": 1171,
+                "percentage": 0.03903333333333334
+              },
+              {
+                "cluster_id": 2,
+                "size": 1970,
+                "percentage": 0.06566666666666666
+              },
+              {
+                "cluster_id": 3,
+                "size": 3340,
+                "percentage": 0.11133333333333334
+              },
+              {
+                "cluster_id": 4,
+                "size": 5570,
+                "percentage": 0.18566666666666667
+              },
+              {
+                "cluster_id": 5,
+                "size": 5008,
+                "percentage": 0.16693333333333332
+              },
+              {
+                "cluster_id": 6,
+                "size": 222,
+                "percentage": 0.0074
+              },
+              {
+                "cluster_id": 7,
+                "size": 1509,
+                "percentage": 0.0503
+              },
+              {
+                "cluster_id": 8,
+                "size": 3037,
+                "percentage": 0.10123333333333333
+              },
+              {
+                "cluster_id": 9,
+                "size": 2649,
+                "percentage": 0.0883
+              }
+            ]
+          },
+          "gmm_n3": {
+            "n_components": 3,
+            "silhouette_score": 0.11497762687818852,
+            "bic": -2589692.8265410876,
+            "aic": -2593947.0103033376
+          },
+          "gmm_n5": {
+            "n_components": 5,
+            "silhouette_score": 0.07423307344826678,
+            "bic": -2644314.6291573658,
+            "aic": -2651410.474729556
+          },
+          "agglomerative": {
+            "n_clusters": 5,
+            "silhouette_score": 0.1962519198190294,
+            "sample_size": 10000
+          }
+        },
+        "best_model": {
+          "name": "kmeans_k10",
+          "n_clusters": 10,
+          "silhouette_score": 0.2846252840395286
+        },
+        "cluster_profiles": [
+          {
+            "cluster_id": 0,
+            "size": 5524,
+            "percentage": 0.18413333333333334
+          },
+          {
+            "cluster_id": 1,
+            "size": 1171,
+            "percentage": 0.03903333333333334
+          },
+          {
+            "cluster_id": 2,
+            "size": 1970,
+            "percentage": 0.06566666666666666
+          },
+          {
+            "cluster_id": 3,
+            "size": 3340,
+            "percentage": 0.11133333333333334
+          },
+          {
+            "cluster_id": 4,
+            "size": 5570,
+            "percentage": 0.18566666666666667
+          },
+          {
+            "cluster_id": 5,
+            "size": 5008,
+            "percentage": 0.16693333333333332
+          },
+          {
+            "cluster_id": 6,
+            "size": 222,
+            "percentage": 0.0074
+          },
+          {
+            "cluster_id": 7,
+            "size": 1509,
+            "percentage": 0.0503
+          },
+          {
+            "cluster_id": 8,
+            "size": 3037,
+            "percentage": 0.10123333333333333
+          },
+          {
+            "cluster_id": 9,
+            "size": 2649,
+            "percentage": 0.0883
+          }
+        ],
+        "interpretations": {
+          "summary": "Best clustering with silhouette score 0.285",
+          "use_cases": [
+            "Segment districts by enrollment patterns",
+            "Identify similar regions for targeted policies",
+            "Discover natural groupings in the data"
+          ]
+        }
+      },
+      "anomaly_detection": {
+        "models": {
+          "isolation_forest": {
+            "n_samples": 30000,
+            "n_anomalies": 3000,
+            "anomaly_percentage": 10.0,
+            "contamination": 0.1
+          },
+          "local_outlier_factor": {
+            "n_samples": 30000,
+            "n_anomalies": 3000,
+            "anomaly_percentage": 10.0,
+            "contamination": 0.1
+          },
+          "elliptic_envelope": {
+            "n_samples": 10000,
+            "n_anomalies": 1000,
+            "anomaly_percentage": 10.0,
+            "contamination": 0.1
+          }
+        },
+        "interpretations": {
+          "summary": "Multiple anomaly detection methods applied to identify outliers",
+          "anomaly_meaning": "Records that deviate significantly from normal patterns",
+          "use_cases": [
+            "Detect data quality issues",
+            "Identify unusual enrollment patterns",
+            "Flag records for manual review"
+          ]
+        }
+      }
+    },
+    "demographic": {
+      "n_records": 30000,
+      "n_columns": 6,
+      "n_features": 17,
+      "feature_columns": [
+        "pincode",
+        "demo_age_5_17",
+        "demo_age_17_",
+        "day_of_week",
+        "day_of_month",
+        "month",
+        "year",
+        "is_weekend",
+        "quarter",
+        "state_encoded",
+        "district_encoded",
+        "pincode_numeric",
+        "pincode_region",
+        "pincode_zone",
+        "demo_age_5_17_plus_demo_age_17_",
+        "demo_age_5_17_ratio_demo_age_17_",
+        "total_enrollment"
+      ],
+      "classification": {
+        "target": "region",
+        "n_classes": 7,
+        "class_names": [
+          "Central",
+          "East",
+          "North",
+          "Northeast",
+          "Other",
+          "South",
+          "West"
+        ],
+        "models": {
+          "logistic_regression": {
+            "accuracy": 0.9791666666666666,
+            "precision": 0.9684923045923024,
+            "recall": 0.9791666666666666,
+            "f1_score": 0.9735049599986599,
+            "cv_mean": 0.9794166666666667,
+            "cv_std": 0.0025624153102536238,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 2.031872854415271,
+              "demo_age_5_17": 0.13188792874819327,
+              "demo_age_17_": 0.0553216331597217,
+              "day_of_week": 0.1179045966284713,
+              "day_of_month": 0.05761351721260087,
+              "month": 0.007731376123809516,
+              "year": 0.0,
+              "is_weekend": 0.1390667278188299,
+              "quarter": 0.16295809193196178,
+              "state_encoded": 0.7328203846726734,
+              "district_encoded": 0.0035056815692142635,
+              "pincode_numeric": 2.031872854415271,
+              "pincode_region": 1.8339684606872029,
+              "pincode_zone": 10.045467302791037,
+              "demo_age_5_17_plus_demo_age_17_": 0.034841058142096655,
+              "demo_age_5_17_ratio_demo_age_17_": 0.04473505289230692,
+              "total_enrollment": 0.034841058142096655
+            }
+          },
+          "ridge_classifier": {
+            "accuracy": 0.605,
+            "precision": 0.5942908779882858,
+            "recall": 0.605,
+            "f1_score": 0.5220196318179611,
+            "cv_mean": 0.60675,
+            "cv_std": 0.002038688303787484,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.309110037218995,
+              "demo_age_5_17": 0.025274594526071115,
+              "demo_age_17_": 0.0012756245433493713,
+              "day_of_week": 0.028693447276450335,
+              "day_of_month": 0.014215842088225617,
+              "month": 0.012437340832965743,
+              "year": 0.0,
+              "is_weekend": 0.02309473211232447,
+              "quarter": 0.014568777444818165,
+              "state_encoded": 0.03338238485875224,
+              "district_encoded": 0.0034701914392788057,
+              "pincode_numeric": 0.3091100372192358,
+              "pincode_region": 0.2704644264745753,
+              "pincode_zone": 0.9283134700565648,
+              "demo_age_5_17_plus_demo_age_17_": 0.004026140430733553,
+              "demo_age_5_17_ratio_demo_age_17_": 0.002166161840338267,
+              "total_enrollment": 0.004026140431192279
+            }
+          },
+          "sgd_classifier": {
+            "accuracy": 0.7876666666666666,
+            "precision": 0.7770559850418015,
+            "recall": 0.7876666666666666,
+            "f1_score": 0.7806904899258594,
+            "cv_mean": 0.7725416666666667,
+            "cv_std": 0.024068118031029238,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.4053109042730709,
+              "demo_age_5_17": 0.015836271465855704,
+              "demo_age_17_": 0.09651918469335753,
+              "day_of_week": 0.004470796964365524,
+              "day_of_month": 0.010182105783954426,
+              "month": 0.0019067622391296336,
+              "year": 0.0,
+              "is_weekend": 0.0006598250804482696,
+              "quarter": 0.04938171862755437,
+              "state_encoded": 0.05982712441687614,
+              "district_encoded": 0.01443060143686753,
+              "pincode_numeric": 0.4053109042730709,
+              "pincode_region": 0.29995424099089973,
+              "pincode_zone": 1.1228193877866848,
+              "demo_age_5_17_plus_demo_age_17_": 0.08877866024658247,
+              "demo_age_5_17_ratio_demo_age_17_": 0.018434481229218837,
+              "total_enrollment": 0.08877866024658247
+            }
+          },
+          "decision_tree": {
+            "accuracy": 0.9995,
+            "precision": 0.9995005743775691,
+            "recall": 0.9995,
+            "f1_score": 0.9995000600089315,
+            "cv_mean": 0.9992916666666667,
+            "cv_std": 0.000482326537616283,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.11772424763606801,
+              "demo_age_5_17": 0.0,
+              "demo_age_17_": 0.0,
+              "day_of_week": 0.0,
+              "day_of_month": 0.0,
+              "month": 1.917084305481593e-06,
+              "year": 0.0,
+              "is_weekend": 3.8744238705067906e-05,
+              "quarter": 0.0,
+              "state_encoded": 0.09841302795064212,
+              "district_encoded": 0.0031118593508123373,
+              "pincode_numeric": 0.5264721110116727,
+              "pincode_region": 0.2542172165024689,
+              "pincode_zone": 0.0,
+              "demo_age_5_17_plus_demo_age_17_": 0.0,
+              "demo_age_5_17_ratio_demo_age_17_": 1.745337148135927e-05,
+              "total_enrollment": 3.4228538439905257e-06
+            }
+          },
+          "random_forest": {
+            "accuracy": 0.9993333333333333,
+            "precision": 0.9993339099910579,
+            "recall": 0.9993333333333333,
+            "f1_score": 0.9993235273168234,
+            "cv_mean": 0.9991666666666666,
+            "cv_std": 0.00023570226039554222,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.22880262611700627,
+              "demo_age_5_17": 0.0008108823988946562,
+              "demo_age_17_": 0.005368847271316871,
+              "day_of_week": 0.0007982468537800262,
+              "day_of_month": 0.0004103397168920451,
+              "month": 0.0009716713667317957,
+              "year": 0.0,
+              "is_weekend": 0.00032866176327127144,
+              "quarter": 0.00020353096976676458,
+              "state_encoded": 0.07530219095987938,
+              "district_encoded": 0.008180376337296222,
+              "pincode_numeric": 0.24482028078522922,
+              "pincode_region": 0.24343540051759888,
+              "pincode_zone": 0.18448724513193096,
+              "demo_age_5_17_plus_demo_age_17_": 0.002074282867616215,
+              "demo_age_5_17_ratio_demo_age_17_": 0.00140966632729492,
+              "total_enrollment": 0.002595750615494572
+            }
+          },
+          "extra_trees": {
+            "accuracy": 0.992,
+            "precision": 0.9922335569360226,
+            "recall": 0.992,
+            "f1_score": 0.9903410731530078,
+            "cv_mean": 0.9912083333333334,
+            "cv_std": 0.0005621140651346284,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.20451334846522612,
+              "demo_age_5_17": 0.0006995102003816987,
+              "demo_age_17_": 0.0006195753486340162,
+              "day_of_week": 0.001960521754287074,
+              "day_of_month": 0.0011738741857239298,
+              "month": 0.0031809806575146837,
+              "year": 0.0,
+              "is_weekend": 0.0026824598394969918,
+              "quarter": 0.0011727610857658664,
+              "state_encoded": 0.08546306244243738,
+              "district_encoded": 0.0040048254019104034,
+              "pincode_numeric": 0.20129148419549084,
+              "pincode_region": 0.21013416732980822,
+              "pincode_zone": 0.2808687509039091,
+              "demo_age_5_17_plus_demo_age_17_": 0.0008224700277397878,
+              "demo_age_5_17_ratio_demo_age_17_": 0.0007245942003219913,
+              "total_enrollment": 0.0006876139613520116
+            }
+          },
+          "gradient_boosting": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "cv_mean": 0.9999166666666667,
+            "cv_std": 0.00011785113019774494,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.3077586128300347,
+              "demo_age_5_17": 1.4346678764167795e-06,
+              "demo_age_17_": 1.0769941945844344e-06,
+              "day_of_week": 2.790848761404306e-06,
+              "day_of_month": 1.4022809421935477e-06,
+              "month": 6.9267405146613e-06,
+              "year": 0.0,
+              "is_weekend": 6.721630780780573e-10,
+              "quarter": 2.7180086009258494e-12,
+              "state_encoded": 0.04942711388724717,
+              "district_encoded": 0.001069245590936918,
+              "pincode_numeric": 0.1273919781281213,
+              "pincode_region": 0.15019587054350328,
+              "pincode_zone": 0.36410971620048627,
+              "demo_age_5_17_plus_demo_age_17_": 2.2901984283968065e-05,
+              "demo_age_5_17_ratio_demo_age_17_": 9.251278571071221e-06,
+              "total_enrollment": 1.6773496449743698e-06
+            }
+          },
+          "adaboost": {
+            "accuracy": 0.464,
+            "precision": 0.3337755504837367,
+            "recall": 0.464,
+            "f1_score": 0.35595764194541235,
+            "cv_mean": 0.69575,
+            "cv_std": 0.1774164415999825,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.22117921973602758,
+              "demo_age_5_17": 0.0,
+              "demo_age_17_": 0.0,
+              "day_of_week": 0.0,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.013000407950896223,
+              "district_encoded": 0.0,
+              "pincode_numeric": 0.21206538406481626,
+              "pincode_region": 0.2802801614672234,
+              "pincode_zone": 0.27347482678103646,
+              "demo_age_5_17_plus_demo_age_17_": 0.0,
+              "demo_age_5_17_ratio_demo_age_17_": 0.0,
+              "total_enrollment": 0.0
+            }
+          },
+          "bagging": {
+            "accuracy": 0.9996666666666667,
+            "precision": 0.9996672410442358,
+            "recall": 0.9996666666666667,
+            "f1_score": 0.9996661648283474,
+            "cv_mean": 0.9994999999999999,
+            "cv_std": 0.0003679900360969783,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "knn": {
+            "accuracy": 0.974,
+            "precision": 0.972868376924448,
+            "recall": 0.974,
+            "f1_score": 0.9727380308962476,
+            "cv_mean": 0.965,
+            "cv_std": 0.002835783254528956,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "naive_bayes": {
+            "accuracy": 0.9253333333333333,
+            "precision": 0.9343013030855049,
+            "recall": 0.9253333333333333,
+            "f1_score": 0.9253620121015284,
+            "cv_mean": 0.9269166666666666,
+            "cv_std": 0.00684982765395512,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "linear_svc": {
+            "accuracy": 0.8345,
+            "precision": 0.8230416183912683,
+            "recall": 0.8345,
+            "f1_score": 0.81468391168511,
+            "cv_mean": 0.8359166666666665,
+            "cv_std": 0.0032312493283902025,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.9105270555170849,
+              "demo_age_5_17": 0.014033004833118461,
+              "demo_age_17_": 0.009255369529004579,
+              "day_of_week": 0.05009458505693635,
+              "day_of_month": 0.029799894524209187,
+              "month": 0.023380035514338576,
+              "year": 0.0,
+              "is_weekend": 0.031507661840792685,
+              "quarter": 0.013329188265071698,
+              "state_encoded": 0.13791167955585582,
+              "district_encoded": 0.004135020861048548,
+              "pincode_numeric": 0.9105270555170849,
+              "pincode_region": 0.08070682373905437,
+              "pincode_zone": 1.8571346722015138,
+              "demo_age_5_17_plus_demo_age_17_": 0.009937455082714876,
+              "demo_age_5_17_ratio_demo_age_17_": 0.0059245486890171515,
+              "total_enrollment": 0.009937455082714798
+            }
+          },
+          "xgboost": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "cv_mean": 0.9999166666666667,
+            "cv_std": 0.00011785113019774494,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.024878045544028282,
+              "demo_age_5_17": 1.0394168384664226e-05,
+              "demo_age_17_": 0.004000065848231316,
+              "day_of_week": 0.0005473672645166516,
+              "day_of_month": 0.0014702178305014968,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.05193602293729782,
+              "district_encoded": 0.0025218804366886616,
+              "pincode_numeric": 0.0,
+              "pincode_region": 0.9135549664497375,
+              "pincode_zone": 0.0,
+              "demo_age_5_17_plus_demo_age_17_": 0.0009486799244768918,
+              "demo_age_5_17_ratio_demo_age_17_": 0.00013239127292763442,
+              "total_enrollment": 0.0
+            }
+          }
+        },
+        "best_model": {
+          "name": "gradient_boosting",
+          "accuracy": 1.0
+        },
+        "training_info": {
+          "train_samples": 24000,
+          "test_samples": 6000,
+          "n_features": 17,
+          "feature_columns": [
+            "pincode",
+            "demo_age_5_17",
+            "demo_age_17_",
+            "day_of_week",
+            "day_of_month",
+            "month",
+            "year",
+            "is_weekend",
+            "quarter",
+            "state_encoded",
+            "district_encoded",
+            "pincode_numeric",
+            "pincode_region",
+            "pincode_zone",
+            "demo_age_5_17_plus_demo_age_17_",
+            "demo_age_5_17_ratio_demo_age_17_",
+            "total_enrollment"
+          ],
+          "n_classes": 7,
+          "class_names": [
+            "Central",
+            "East",
+            "North",
+            "Northeast",
+            "Other",
+            "South",
+            "West"
+          ]
+        },
+        "interpretations": {
+          "summary": "Classification achieved 100.0% accuracy using gradient_boosting",
+          "model_insights": {
+            "gradient_boosting": "Best performing model with 100.0% accuracy"
+          },
+          "feature_insights": "Geographic and demographic features are most predictive of regional classification"
+        }
+      },
+      "regression": {
+        "target": "pincode",
+        "models": {
+          "linear_regression": {
+            "mse": 5.274191818236777e-21,
+            "rmse": 7.262363126584057e-11,
+            "mae": 4.42960299551487e-11,
+            "r2": 1.0,
+            "cv_mean": 1.0,
+            "cv_std": 0.0,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 2.4327825528119507e-11,
+              "demo_age_17_": 1.6370904631912708e-11,
+              "day_of_week": 3.385025593161117e-11,
+              "day_of_month": 2.319211489520967e-11,
+              "month": 9.094947017729282e-12,
+              "year": 1.2369127944111824e-10,
+              "is_weekend": 3.979039320256561e-12,
+              "quarter": 1.4296119843493216e-11,
+              "state_encoded": 1.3031353773840237e-11,
+              "district_encoded": 4.249045559845399e-12,
+              "pincode_numeric": 197103.205816766,
+              "pincode_region": 5.684341886080801e-13,
+              "pincode_zone": 7.742073648842052e-11,
+              "demo_age_5_17_plus_demo_age_17_": 3.9108272176235914e-11,
+              "demo_age_5_17_ratio_demo_age_17_": 1.9042545318370685e-11,
+              "total_enrollment": 7.275957614183426e-11
+            }
+          },
+          "ridge": {
+            "mse": 182564.76056427092,
+            "rmse": 427.27597705027944,
+            "mae": 360.3491356513878,
+            "r2": 0.9999953624773856,
+            "cv_mean": 0.9999923086758536,
+            "cv_std": 1.1428823508187131e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 24.189968597215408,
+              "demo_age_17_": 3.095580363499224,
+              "day_of_week": 9.617745550264639,
+              "day_of_month": 7.591107366769806,
+              "month": 21.251090149839143,
+              "year": 0.0,
+              "is_weekend": 12.691222312667938,
+              "quarter": 17.604313562181776,
+              "state_encoded": 7.498818540991406,
+              "district_encoded": 0.4149907154956755,
+              "pincode_numeric": 164757.3237460442,
+              "pincode_region": 32236.215130638127,
+              "pincode_zone": 102.52192618503081,
+              "demo_age_5_17_plus_demo_age_17_": 0.036327994297651975,
+              "demo_age_5_17_ratio_demo_age_17_": 18.400819126331285,
+              "total_enrollment": 0.03632799429773095
+            }
+          },
+          "lasso": {
+            "mse": 3855.256276306084,
+            "rmse": 62.09071006443785,
+            "mae": 49.710238719737916,
+            "r2": 0.9999999020685147,
+            "cv_mean": 0.9999999034715312,
+            "cv_std": 1.2685506404286988e-08,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 2288.3119972436534,
+              "demo_age_17_": 17764.189554590463,
+              "day_of_week": 60.91491062881919,
+              "day_of_month": 12.33166307653821,
+              "month": 21.6238980848605,
+              "year": 0.0,
+              "is_weekend": 50.6327445748228,
+              "quarter": 19.15677698446304,
+              "state_encoded": 10.502677763826698,
+              "district_encoded": 2.2628558378042474,
+              "pincode_numeric": 196738.46558542913,
+              "pincode_region": 27.8330055878835,
+              "pincode_zone": 327.67424607204197,
+              "demo_age_5_17_plus_demo_age_17_": 19755.656533566613,
+              "demo_age_5_17_ratio_demo_age_17_": 2.5950167391172507,
+              "total_enrollment": 2.0690245619730794
+            }
+          },
+          "elastic_net": {
+            "mse": 907898493.3687567,
+            "rmse": 30131.353991627337,
+            "mae": 25868.348795444508,
+            "r2": 0.9769374999777625,
+            "cv_mean": 0.976777059263508,
+            "cv_std": 5.803565485100163e-05,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 1002.9131154478741,
+              "demo_age_17_": 383.2516255734571,
+              "day_of_week": 499.80431908387555,
+              "day_of_month": 327.4011450984316,
+              "month": 279.36238667191634,
+              "year": 0.0,
+              "is_weekend": 1230.0183112787374,
+              "quarter": 184.79290423237018,
+              "state_encoded": 4654.1734564376675,
+              "district_encoded": 709.1957071340879,
+              "pincode_numeric": 56948.49697595412,
+              "pincode_region": 56914.192346288306,
+              "pincode_zone": 54036.031381109104,
+              "demo_age_5_17_plus_demo_age_17_": 459.5299782394484,
+              "demo_age_5_17_ratio_demo_age_17_": 384.74561642520246,
+              "total_enrollment": 459.5540028146275
+            }
+          },
+          "bayesian_ridge": {
+            "mse": 29389016122.833084,
+            "rmse": 171432.2493664278,
+            "mae": 132908.8857475278,
+            "r2": 0.2534581895036975,
+            "cv_mean": -7563.379726435571,
+            "cv_std": 8652.357473374488,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 4.054885306657703e+18,
+              "demo_age_17_": 3.2104402154328695e+19,
+              "day_of_week": 183963.47320388025,
+              "day_of_month": 69875.91472002576,
+              "month": 448.9408748029564,
+              "year": 8.251149817862864e+20,
+              "is_weekend": 194094.5170650938,
+              "quarter": 61741.97553678074,
+              "state_encoded": 61774.59163621382,
+              "district_encoded": 50849.77620016419,
+              "pincode_numeric": 642513.6295183925,
+              "pincode_region": 202126.4265000166,
+              "pincode_zone": 239592.50810266868,
+              "demo_age_5_17_plus_demo_age_17_": 1.0496277111137116e+20,
+              "demo_age_5_17_ratio_demo_age_17_": 53007.843278652326,
+              "total_enrollment": 6.93359101439076e+19
+            }
+          },
+          "huber": {
+            "mse": 5.362727414530848e-13,
+            "rmse": 7.323064532373621e-07,
+            "mae": 5.471656719843547e-07,
+            "r2": 1.0,
+            "cv_mean": 1.0,
+            "cv_std": 0.0,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 6.212116879588733e-07,
+              "demo_age_17_": 3.0658828250654646e-07,
+              "day_of_week": 5.619588288761194e-07,
+              "day_of_month": 4.828444674670744e-08,
+              "month": 6.533520985972512e-07,
+              "year": 0.0,
+              "is_weekend": 3.0203336654268294e-07,
+              "quarter": 3.8036973244545314e-07,
+              "state_encoded": 2.3880537049680843e-07,
+              "district_encoded": 1.5950127762408934e-07,
+              "pincode_numeric": 197103.20582225986,
+              "pincode_region": 3.1772865319268205e-06,
+              "pincode_zone": 2.179418156982344e-06,
+              "demo_age_5_17_plus_demo_age_17_": 2.0388084725417587e-07,
+              "demo_age_5_17_ratio_demo_age_17_": 1.997282865503596e-07,
+              "total_enrollment": 2.0388084725417587e-07
+            }
+          },
+          "sgd_regressor": {
+            "mse": 921105.8364362385,
+            "rmse": 959.7425886331389,
+            "mae": 808.3032244915306,
+            "r2": 0.99997660200614,
+            "cv_mean": 0.9999734126216211,
+            "cv_std": 2.73557656684154e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 51.54478356681831,
+              "demo_age_17_": 10.906316007831267,
+              "day_of_week": 21.875044107895484,
+              "day_of_month": 17.861331497064118,
+              "month": 51.40490074468275,
+              "year": 0.0,
+              "is_weekend": 27.72317828272877,
+              "quarter": 28.092893872935022,
+              "state_encoded": 15.037034170956657,
+              "district_encoded": 3.7814373742655416,
+              "pincode_numeric": 124504.32627447353,
+              "pincode_region": 72322.76162692475,
+              "pincode_zone": 255.67873705178712,
+              "demo_age_5_17_plus_demo_age_17_": 3.96140905445086,
+              "demo_age_5_17_ratio_demo_age_17_": 51.567105591628206,
+              "total_enrollment": 3.96140905445086
+            }
+          },
+          "decision_tree": {
+            "mse": 8340.993657861323,
+            "rmse": 91.32904060517292,
+            "mae": 53.2951387215415,
+            "r2": 0.9999997881215049,
+            "cv_mean": 0.9999997791800813,
+            "cv_std": 1.0336378174898252e-08,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 1.8652147319894195e-12,
+              "demo_age_17_": 2.0577673922700821e-10,
+              "day_of_week": 8.070746623472689e-15,
+              "day_of_month": 1.0797941560613293e-11,
+              "month": 1.6141493246945379e-13,
+              "year": 0.0,
+              "is_weekend": 3.09100187525332e-11,
+              "quarter": 0.0,
+              "state_encoded": 0.0001704896114874585,
+              "district_encoded": 5.270523105334627e-07,
+              "pincode_numeric": 0.966766398344625,
+              "pincode_region": 0.03305519831629758,
+              "pincode_zone": 7.386409199330132e-06,
+              "demo_age_5_17_plus_demo_age_17_": 6.293547182994695e-13,
+              "demo_age_5_17_ratio_demo_age_17_": 1.4069472939618808e-11,
+              "total_enrollment": 1.861812168134312e-12
+            }
+          },
+          "random_forest": {
+            "mse": 4797.4471765644075,
+            "rmse": 69.26360643631263,
+            "mae": 42.21880058522504,
+            "r2": 0.9999998781349166,
+            "cv_mean": 0.9999998705983236,
+            "cv_std": 1.963295457409634e-08,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 3.1707426484873963e-10,
+              "demo_age_17_": 5.981261512320658e-10,
+              "day_of_week": 6.155441519971042e-11,
+              "day_of_month": 6.56110109346575e-11,
+              "month": 9.725585047842122e-11,
+              "year": 0.0,
+              "is_weekend": 3.014322460127411e-11,
+              "quarter": 1.0987209682766711e-13,
+              "state_encoded": 0.00011628709024822627,
+              "district_encoded": 8.712398279584702e-07,
+              "pincode_numeric": 0.8344219577706217,
+              "pincode_region": 0.14069015369858134,
+              "pincode_zone": 0.02477072777915896,
+              "demo_age_5_17_plus_demo_age_17_": 4.3702547757405335e-10,
+              "demo_age_5_17_ratio_demo_age_17_": 1.82283111979082e-10,
+              "total_enrollment": 6.32378528487579e-10
+            }
+          },
+          "extra_trees": {
+            "mse": 35126.93648382889,
+            "rmse": 187.4218143222098,
+            "mae": 146.17147268990934,
+            "r2": 0.9999991077031415,
+            "cv_mean": 0.9999986100684182,
+            "cv_std": 6.585942209981466e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 3.5762890893905947e-09,
+              "demo_age_17_": 1.4421340587035569e-09,
+              "day_of_week": 2.924724301092494e-10,
+              "day_of_month": 5.549661436614842e-10,
+              "month": 4.173679834758846e-10,
+              "year": 0.0,
+              "is_weekend": 4.459233589146422e-10,
+              "quarter": 3.8952830558409266e-11,
+              "state_encoded": 0.004806766686841842,
+              "district_encoded": 3.909577619865509e-06,
+              "pincode_numeric": 0.2800083526585245,
+              "pincode_region": 0.3282156012561891,
+              "pincode_zone": 0.3869653590224123,
+              "demo_age_5_17_plus_demo_age_17_": 9.919552568187886e-10,
+              "demo_age_5_17_ratio_demo_age_17_": 1.8302145873551522e-09,
+              "total_enrollment": 1.2081368406548087e-09
+            }
+          },
+          "gradient_boosting": {
+            "mse": 25310.1121915646,
+            "rmse": 159.09152143205054,
+            "mae": 97.08439234300775,
+            "r2": 0.9999993570707879,
+            "cv_mean": 0.9999993407997415,
+            "cv_std": 2.6961814267784834e-08,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 5.656221458243123e-10,
+              "demo_age_17_": 4.0754617043985815e-10,
+              "day_of_week": 2.0593578160520435e-11,
+              "day_of_month": 1.1854461488353958e-10,
+              "month": 1.5287077998031108e-10,
+              "year": 0.0,
+              "is_weekend": 3.525172715885204e-12,
+              "quarter": 0.0,
+              "state_encoded": 0.001771403803249255,
+              "district_encoded": 9.206694314907228e-08,
+              "pincode_numeric": 0.827559726975604,
+              "pincode_region": 0.15339440020268635,
+              "pincode_zone": 0.01727437458262574,
+              "demo_age_5_17_plus_demo_age_17_": 5.629690312763832e-10,
+              "demo_age_5_17_ratio_demo_age_17_": 1.1986236825563397e-10,
+              "total_enrollment": 4.1735758483030714e-10
+            }
+          },
+          "adaboost": {
+            "mse": 287390716.4589868,
+            "rmse": 16952.602055701856,
+            "mae": 13940.623160122268,
+            "r2": 0.9926996812384463,
+            "cv_mean": 0.9908653922138592,
+            "cv_std": 0.0020803939703571573,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 0.0,
+              "demo_age_17_": 0.0,
+              "day_of_week": 0.0,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.0007012358862461515,
+              "district_encoded": 0.0,
+              "pincode_numeric": 0.5598959495344985,
+              "pincode_region": 0.3728545994574178,
+              "pincode_zone": 0.06654821512183748,
+              "demo_age_5_17_plus_demo_age_17_": 0.0,
+              "demo_age_5_17_ratio_demo_age_17_": 0.0,
+              "total_enrollment": 0.0
+            }
+          },
+          "bagging": {
+            "mse": 372.0100053333243,
+            "rmse": 19.287560896425557,
+            "mae": 4.910726666667086,
+            "r2": 0.9999999905501762,
+            "cv_mean": 0.999999955812111,
+            "cv_std": 3.964707567526815e-08,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "knn": {
+            "mse": 175837642.74526665,
+            "rmse": 13260.37868031176,
+            "mae": 6122.702,
+            "r2": 0.9955333600954928,
+            "cv_mean": 0.994206557085767,
+            "cv_std": 0.0008498431141933116,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "linear_svr": {
+            "mse": 292304494728.52716,
+            "rmse": 540651.9164199154,
+            "mae": 502980.20599425345,
+            "r2": -6.425138895388293,
+            "cv_mean": -6.775579377890517,
+            "cv_std": 0.0958672597865386,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 36.876273600947805,
+              "demo_age_17_": 33.88972354708188,
+              "day_of_week": 2.9930964971137,
+              "day_of_month": 47.031388490460266,
+              "month": 62.434014693236605,
+              "year": 0.0,
+              "is_weekend": 21.291649317726318,
+              "quarter": 99.92516099052163,
+              "state_encoded": 40.73420475914154,
+              "district_encoded": 64.24763395366722,
+              "pincode_numeric": 28.86303029129282,
+              "pincode_region": 29.768679200770247,
+              "pincode_zone": 46.72060795580634,
+              "demo_age_5_17_plus_demo_age_17_": 34.73610472652405,
+              "demo_age_5_17_ratio_demo_age_17_": 156.02888296015098,
+              "total_enrollment": 34.73610472652405
+            }
+          },
+          "xgboost": {
+            "mse": 206699.60272732543,
+            "rmse": 454.6422799601082,
+            "mae": 316.10681119791667,
+            "r2": 0.9999947494024637,
+            "cv_mean": 0.999994029760538,
+            "cv_std": 4.7490790956051256e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "demo_age_5_17": 3.1702046499049175e-07,
+              "demo_age_17_": 3.606844245496177e-07,
+              "day_of_week": 1.9257487338109058e-07,
+              "day_of_month": 2.000778778210588e-07,
+              "month": 4.6483424398502393e-07,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.011947663500905037,
+              "district_encoded": 1.4433068145081052e-06,
+              "pincode_numeric": 0.26586616039276123,
+              "pincode_region": 0.7221823334693909,
+              "pincode_zone": 0.0,
+              "demo_age_5_17_plus_demo_age_17_": 3.991071082509734e-07,
+              "demo_age_5_17_ratio_demo_age_17_": 4.399773558816378e-07,
+              "total_enrollment": 0.0
+            }
+          }
+        },
+        "best_model": {
+          "name": "linear_regression",
+          "r2": 1.0
+        },
+        "training_info": {
+          "train_samples": 24000,
+          "test_samples": 6000,
+          "n_features": 16,
+          "feature_columns": [
+            "demo_age_5_17",
+            "demo_age_17_",
+            "day_of_week",
+            "day_of_month",
+            "month",
+            "year",
+            "is_weekend",
+            "quarter",
+            "state_encoded",
+            "district_encoded",
+            "pincode_numeric",
+            "pincode_region",
+            "pincode_zone",
+            "demo_age_5_17_plus_demo_age_17_",
+            "demo_age_5_17_ratio_demo_age_17_",
+            "total_enrollment"
+          ],
+          "target_column": "pincode",
+          "target_mean": 527919.1198,
+          "target_std": 197103.2058167659
+        },
+        "interpretations": {
+          "summary": "Regression achieved R\u00b2=1.0000 using linear_regression",
+          "model_insights": {
+            "linear_regression": "Explains 100.0% of variance in pincode"
+          },
+          "prediction_insights": "Model can predict pincode with reasonable accuracy"
+        }
+      },
+      "clustering": {
+        "models": {
+          "kmeans_k3": {
+            "n_clusters": 3,
+            "silhouette_score": 0.2235630932480826,
+            "calinski_harabasz_score": 6806.525397496684,
+            "inertia": 330166.091016176,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 635,
+                "percentage": 0.021166666666666667
+              },
+              {
+                "cluster_id": 1,
+                "size": 10090,
+                "percentage": 0.3363333333333333
+              },
+              {
+                "cluster_id": 2,
+                "size": 19275,
+                "percentage": 0.6425
+              }
+            ]
+          },
+          "kmeans_k5": {
+            "n_clusters": 5,
+            "silhouette_score": 0.21908888811536903,
+            "calinski_harabasz_score": 6379.367048598003,
+            "inertia": 259357.95089461355,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 6492,
+                "percentage": 0.2164
+              },
+              {
+                "cluster_id": 1,
+                "size": 13295,
+                "percentage": 0.44316666666666665
+              },
+              {
+                "cluster_id": 2,
+                "size": 8708,
+                "percentage": 0.2902666666666667
+              },
+              {
+                "cluster_id": 3,
+                "size": 610,
+                "percentage": 0.02033333333333333
+              },
+              {
+                "cluster_id": 4,
+                "size": 895,
+                "percentage": 0.029833333333333333
+              }
+            ]
+          },
+          "kmeans_k7": {
+            "n_clusters": 7,
+            "silhouette_score": 0.2399606041679733,
+            "calinski_harabasz_score": 6688.379492025556,
+            "inertia": 205304.74220225794,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 895,
+                "percentage": 0.029833333333333333
+              },
+              {
+                "cluster_id": 1,
+                "size": 7166,
+                "percentage": 0.23886666666666667
+              },
+              {
+                "cluster_id": 2,
+                "size": 6866,
+                "percentage": 0.22886666666666666
+              },
+              {
+                "cluster_id": 3,
+                "size": 229,
+                "percentage": 0.007633333333333333
+              },
+              {
+                "cluster_id": 4,
+                "size": 6276,
+                "percentage": 0.2092
+              },
+              {
+                "cluster_id": 5,
+                "size": 3410,
+                "percentage": 0.11366666666666667
+              },
+              {
+                "cluster_id": 6,
+                "size": 5158,
+                "percentage": 0.17193333333333333
+              }
+            ]
+          },
+          "kmeans_k10": {
+            "n_clusters": 10,
+            "silhouette_score": 0.25176593911054507,
+            "calinski_harabasz_score": 6402.971556657207,
+            "inertia": 164297.3630516443,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 673,
+                "percentage": 0.022433333333333333
+              },
+              {
+                "cluster_id": 1,
+                "size": 6452,
+                "percentage": 0.21506666666666666
+              },
+              {
+                "cluster_id": 2,
+                "size": 6027,
+                "percentage": 0.2009
+              },
+              {
+                "cluster_id": 3,
+                "size": 2812,
+                "percentage": 0.09373333333333334
+              },
+              {
+                "cluster_id": 4,
+                "size": 800,
+                "percentage": 0.02666666666666667
+              },
+              {
+                "cluster_id": 5,
+                "size": 5960,
+                "percentage": 0.19866666666666666
+              },
+              {
+                "cluster_id": 6,
+                "size": 895,
+                "percentage": 0.029833333333333333
+              },
+              {
+                "cluster_id": 7,
+                "size": 2934,
+                "percentage": 0.0978
+              },
+              {
+                "cluster_id": 8,
+                "size": 55,
+                "percentage": 0.0018333333333333333
+              },
+              {
+                "cluster_id": 9,
+                "size": 3392,
+                "percentage": 0.11306666666666666
+              }
+            ]
+          },
+          "gmm_n3": {
+            "n_components": 3,
+            "silhouette_score": 0.22621326024164826,
+            "bic": -1591218.5254010458,
+            "aic": -1595472.7091632956
+          },
+          "gmm_n5": {
+            "n_components": 5,
+            "silhouette_score": 0.11853124993575766,
+            "bic": -2262860.9888063874,
+            "aic": -2269956.834378578
+          },
+          "agglomerative": {
+            "n_clusters": 5,
+            "silhouette_score": 0.22545221152434206,
+            "sample_size": 10000
+          }
+        },
+        "best_model": {
+          "name": "kmeans_k10",
+          "n_clusters": 10,
+          "silhouette_score": 0.25176593911054507
+        },
+        "cluster_profiles": [
+          {
+            "cluster_id": 0,
+            "size": 673,
+            "percentage": 0.022433333333333333
+          },
+          {
+            "cluster_id": 1,
+            "size": 6452,
+            "percentage": 0.21506666666666666
+          },
+          {
+            "cluster_id": 2,
+            "size": 6027,
+            "percentage": 0.2009
+          },
+          {
+            "cluster_id": 3,
+            "size": 2812,
+            "percentage": 0.09373333333333334
+          },
+          {
+            "cluster_id": 4,
+            "size": 800,
+            "percentage": 0.02666666666666667
+          },
+          {
+            "cluster_id": 5,
+            "size": 5960,
+            "percentage": 0.19866666666666666
+          },
+          {
+            "cluster_id": 6,
+            "size": 895,
+            "percentage": 0.029833333333333333
+          },
+          {
+            "cluster_id": 7,
+            "size": 2934,
+            "percentage": 0.0978
+          },
+          {
+            "cluster_id": 8,
+            "size": 55,
+            "percentage": 0.0018333333333333333
+          },
+          {
+            "cluster_id": 9,
+            "size": 3392,
+            "percentage": 0.11306666666666666
+          }
+        ],
+        "interpretations": {
+          "summary": "Best clustering with silhouette score 0.252",
+          "use_cases": [
+            "Segment districts by enrollment patterns",
+            "Identify similar regions for targeted policies",
+            "Discover natural groupings in the data"
+          ]
+        }
+      },
+      "anomaly_detection": {
+        "models": {
+          "isolation_forest": {
+            "n_samples": 30000,
+            "n_anomalies": 3000,
+            "anomaly_percentage": 10.0,
+            "contamination": 0.1
+          },
+          "local_outlier_factor": {
+            "n_samples": 30000,
+            "n_anomalies": 3000,
+            "anomaly_percentage": 10.0,
+            "contamination": 0.1
+          },
+          "elliptic_envelope": {
+            "n_samples": 10000,
+            "n_anomalies": 1000,
+            "anomaly_percentage": 10.0,
+            "contamination": 0.1
+          }
+        },
+        "interpretations": {
+          "summary": "Multiple anomaly detection methods applied to identify outliers",
+          "anomaly_meaning": "Records that deviate significantly from normal patterns",
+          "use_cases": [
+            "Detect data quality issues",
+            "Identify unusual enrollment patterns",
+            "Flag records for manual review"
+          ]
+        }
+      }
+    },
+    "enrollment": {
+      "n_records": 26029,
+      "n_columns": 7,
+      "n_features": 15,
+      "feature_columns": [
+        "pincode",
+        "age_0_5",
+        "age_5_17",
+        "age_18_greater",
+        "day_of_week",
+        "day_of_month",
+        "month",
+        "year",
+        "is_weekend",
+        "quarter",
+        "state_encoded",
+        "district_encoded",
+        "pincode_numeric",
+        "pincode_region",
+        "pincode_zone"
+      ],
+      "classification": {
+        "target": "region",
+        "n_classes": 7,
+        "class_names": [
+          "Central",
+          "East",
+          "North",
+          "Northeast",
+          "Other",
+          "South",
+          "West"
+        ],
+        "models": {
+          "logistic_regression": {
+            "accuracy": 0.9894352669996158,
+            "precision": 0.9811600988999077,
+            "recall": 0.9894352669996158,
+            "f1_score": 0.9852464429225538,
+            "cv_mean": 0.9895308072804111,
+            "cv_std": 0.00037813993536049245,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 2.13894321132234,
+              "age_0_5": 0.17799309606865657,
+              "age_5_17": 0.4502510591844461,
+              "age_18_greater": 0.2672671796717562,
+              "day_of_week": 0.13999257912742502,
+              "day_of_month": 0.10728809071951795,
+              "month": 0.030193061580544495,
+              "year": 0.0,
+              "is_weekend": 0.009442511492941561,
+              "quarter": 0.030697179895517943,
+              "state_encoded": 0.19843563240945145,
+              "district_encoded": 0.00180877515423244,
+              "pincode_numeric": 2.13894321132234,
+              "pincode_region": 1.9416570970030544,
+              "pincode_zone": 11.845982700472382
+            }
+          },
+          "ridge_classifier": {
+            "accuracy": 0.6162120630042259,
+            "precision": 0.6513558156477897,
+            "recall": 0.6162120630042259,
+            "f1_score": 0.5554286111254741,
+            "cv_mean": 0.6207558949238822,
+            "cv_std": 0.006062805167799082,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.41909624329689327,
+              "age_0_5": 0.046291782239648464,
+              "age_5_17": 0.009191132119233352,
+              "age_18_greater": 0.023877183243942352,
+              "day_of_week": 0.004585862194142526,
+              "day_of_month": 0.03164082703759838,
+              "month": 0.018349405995238207,
+              "year": 0.0,
+              "is_weekend": 0.0014330335908962221,
+              "quarter": 0.02406463955024689,
+              "state_encoded": 0.030823096089567213,
+              "district_encoded": 0.0028710854753000513,
+              "pincode_numeric": 0.4190962432989641,
+              "pincode_region": 0.14713270763737904,
+              "pincode_zone": 1.0393824893646706
+            }
+          },
+          "sgd_classifier": {
+            "accuracy": 0.8307721859393008,
+            "precision": 0.829668573801885,
+            "recall": 0.8307721859393008,
+            "f1_score": 0.8283267613852701,
+            "cv_mean": 0.7629544253949959,
+            "cv_std": 0.03582956751092275,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.2597076865938821,
+              "age_0_5": 0.0014158761318525455,
+              "age_5_17": 0.09222562086385447,
+              "age_18_greater": 0.01397006538317335,
+              "day_of_week": 0.01577949985745422,
+              "day_of_month": 0.1088706261610082,
+              "month": 0.2093918371394876,
+              "year": 0.0,
+              "is_weekend": 0.025785799396465522,
+              "quarter": 0.029226879689383686,
+              "state_encoded": 0.0012510891704361896,
+              "district_encoded": 0.02156825227504002,
+              "pincode_numeric": 0.2597076865938821,
+              "pincode_region": 0.003314574051025962,
+              "pincode_zone": 0.5694689868801703
+            }
+          },
+          "decision_tree": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "cv_mean": 0.9997118570811123,
+            "cv_std": 0.00011763385404520798,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.204508513336535,
+              "age_0_5": 0.0,
+              "age_5_17": 0.0,
+              "age_18_greater": 0.010145820035841585,
+              "day_of_week": 0.0,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.1402995203933135,
+              "district_encoded": 0.0007197951860756411,
+              "pincode_numeric": 0.2870703657677598,
+              "pincode_region": 0.35582720674347734,
+              "pincode_zone": 0.0014287785369971196
+            }
+          },
+          "random_forest": {
+            "accuracy": 0.9996158278908951,
+            "precision": 0.9996162268072664,
+            "recall": 0.9996158278908951,
+            "f1_score": 0.9996114605545644,
+            "cv_mean": 0.9991355712433366,
+            "cv_std": 0.0005127540821222125,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.2168538900289653,
+              "age_0_5": 0.004928586428217543,
+              "age_5_17": 0.008550760018861672,
+              "age_18_greater": 0.004620457556296333,
+              "day_of_week": 0.0002863503084906086,
+              "day_of_month": 0.0017078999597062547,
+              "month": 4.4708762542717395e-06,
+              "year": 0.0,
+              "is_weekend": 0.0002677133797088608,
+              "quarter": 3.4238398114071957e-06,
+              "state_encoded": 0.09530712765695161,
+              "district_encoded": 0.008839582856780772,
+              "pincode_numeric": 0.25403330766381743,
+              "pincode_region": 0.21042488570449985,
+              "pincode_zone": 0.19417154372163814
+            }
+          },
+          "extra_trees": {
+            "accuracy": 0.9940453323088744,
+            "precision": 0.9941390018845181,
+            "recall": 0.9940453323088744,
+            "f1_score": 0.9924497287362379,
+            "cv_mean": 0.9927003793881765,
+            "cv_std": 0.0004897487887041421,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.2341035232109304,
+              "age_0_5": 0.0017538481059414643,
+              "age_5_17": 0.0014533369273003877,
+              "age_18_greater": 0.0011414506457507057,
+              "day_of_week": 0.0022464992162238235,
+              "day_of_month": 0.005288824837862239,
+              "month": 2.3832915834461607e-05,
+              "year": 0.0,
+              "is_weekend": 0.003369350963288067,
+              "quarter": 1.764797663638104e-05,
+              "state_encoded": 0.1059508511601784,
+              "district_encoded": 0.006405759155683883,
+              "pincode_numeric": 0.18368271717714235,
+              "pincode_region": 0.18532275269986553,
+              "pincode_zone": 0.26923960500736194
+            }
+          },
+          "gradient_boosting": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "cv_mean": 0.9998559285405562,
+            "cv_std": 0.00011763385404520798,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.16827538971123723,
+              "age_0_5": 0.0001307733300988218,
+              "age_5_17": 7.582851695408515e-05,
+              "age_18_greater": 0.005128295394729889,
+              "day_of_week": 2.6706453216160905e-07,
+              "day_of_month": 2.6098388994231857e-07,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 3.275206427574503e-13,
+              "quarter": 0.0,
+              "state_encoded": 0.058116522770365116,
+              "district_encoded": 0.0009689720577970806,
+              "pincode_numeric": 0.19663610321611477,
+              "pincode_region": 0.2523866486460627,
+              "pincode_zone": 0.3182809383078906
+            }
+          },
+          "adaboost": {
+            "accuracy": 0.8638109873223204,
+            "precision": 0.8104552002075668,
+            "recall": 0.8638109873223204,
+            "f1_score": 0.8258624623616238,
+            "cv_mean": 0.873457234788455,
+            "cv_std": 0.02397548021722645,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.23511957175399356,
+              "age_0_5": 0.0,
+              "age_5_17": 0.0,
+              "age_18_greater": 0.0,
+              "day_of_week": 0.0,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.012398044024422275,
+              "district_encoded": 0.0,
+              "pincode_numeric": 0.30306984956424793,
+              "pincode_region": 0.2789336290053901,
+              "pincode_zone": 0.1704789056519462
+            }
+          },
+          "bagging": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "cv_mean": 0.9998079047207415,
+            "cv_std": 0.00013583187459762796,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "knn": {
+            "accuracy": 0.9882827506723012,
+            "precision": 0.9882339326357662,
+            "recall": 0.9882827506723012,
+            "f1_score": 0.9882326651700665,
+            "cv_mean": 0.9841521394611726,
+            "cv_std": 0.0026513324193136877,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "naive_bayes": {
+            "accuracy": 0.17402996542451019,
+            "precision": 0.9322627495923713,
+            "recall": 0.17402996542451019,
+            "f1_score": 0.23129618491733958,
+            "cv_mean": 0.2139941410939826,
+            "cv_std": 0.0648605735087247,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "linear_svc": {
+            "accuracy": 0.8267383787936996,
+            "precision": 0.8173215191692479,
+            "recall": 0.8267383787936996,
+            "f1_score": 0.8101730320602062,
+            "cv_mean": 0.8327330355856505,
+            "cv_std": 0.0012393495558338109,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.9854135861445341,
+              "age_0_5": 0.06607243212229913,
+              "age_5_17": 0.01246635158983516,
+              "age_18_greater": 0.08468583320048235,
+              "day_of_week": 0.011139922649561578,
+              "day_of_month": 0.024054970818322224,
+              "month": 0.00396538291491284,
+              "year": 0.0,
+              "is_weekend": 0.012787112161233679,
+              "quarter": 0.0035787521958524572,
+              "state_encoded": 0.07663088488936222,
+              "district_encoded": 0.0005344676386467421,
+              "pincode_numeric": 0.9854135861445341,
+              "pincode_region": 0.4461087582881362,
+              "pincode_zone": 1.628195146075246
+            }
+          },
+          "xgboost": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "cv_mean": 0.9996638332612976,
+            "cv_std": 6.791593729878781e-05,
+            "training_time": "fast",
+            "feature_importance": {
+              "pincode": 0.021260922774672508,
+              "age_0_5": 0.0006247357814572752,
+              "age_5_17": 0.003904914017766714,
+              "age_18_greater": 0.08099602907896042,
+              "day_of_week": 0.0006327807204797864,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.04252871498465538,
+              "district_encoded": 0.0036038951948285103,
+              "pincode_numeric": 0.0,
+              "pincode_region": 0.8464480042457581,
+              "pincode_zone": 0.0
+            }
+          }
+        },
+        "best_model": {
+          "name": "decision_tree",
+          "accuracy": 1.0
+        },
+        "training_info": {
+          "train_samples": 20823,
+          "test_samples": 5206,
+          "n_features": 15,
+          "feature_columns": [
+            "pincode",
+            "age_0_5",
+            "age_5_17",
+            "age_18_greater",
+            "day_of_week",
+            "day_of_month",
+            "month",
+            "year",
+            "is_weekend",
+            "quarter",
+            "state_encoded",
+            "district_encoded",
+            "pincode_numeric",
+            "pincode_region",
+            "pincode_zone"
+          ],
+          "n_classes": 7,
+          "class_names": [
+            "Central",
+            "East",
+            "North",
+            "Northeast",
+            "Other",
+            "South",
+            "West"
+          ]
+        },
+        "interpretations": {
+          "summary": "Classification achieved 100.0% accuracy using decision_tree",
+          "model_insights": {
+            "decision_tree": "Best performing model with 100.0% accuracy"
+          },
+          "feature_insights": "Geographic and demographic features are most predictive of regional classification"
+        }
+      },
+      "regression": {
+        "target": "pincode",
+        "models": {
+          "linear_regression": {
+            "mse": 4.31404325583141e-20,
+            "rmse": 2.077027504832666e-10,
+            "mae": 1.5097542168931048e-10,
+            "r2": 1.0,
+            "cv_mean": 1.0,
+            "cv_std": 0.0,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 4.90938091791626e-12,
+              "age_5_17": 9.458744898438454e-11,
+              "age_18_greater": 2.9103830456733704e-11,
+              "day_of_week": 3.1377567211166024e-11,
+              "day_of_month": 1.5370460459962487e-10,
+              "month": 3.6857628060715797e-10,
+              "year": 3.637978807091713e-11,
+              "is_weekend": 1.8417267710901797e-10,
+              "quarter": 3.6903102795804443e-10,
+              "state_encoded": 2.4130031306413002e-11,
+              "district_encoded": 5.9685589803848416e-12,
+              "pincode_numeric": 206763.5720294225,
+              "pincode_region": 4.18367562815547e-11,
+              "pincode_zone": 9.754330676514655e-11
+            }
+          },
+          "ridge": {
+            "mse": 245781.19362930837,
+            "rmse": 495.76324352387036,
+            "mae": 419.88289781034734,
+            "r2": 0.9999941389606928,
+            "cv_mean": 0.9999910287780073,
+            "cv_std": 4.815908644252864e-08,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 29.27862398245233,
+              "age_5_17": 25.4099384603579,
+              "age_18_greater": 13.405785774553554,
+              "day_of_week": 6.4376992557536825,
+              "day_of_month": 17.562463590915524,
+              "month": 18.61854397377559,
+              "year": 0.0,
+              "is_weekend": 6.310967230331146,
+              "quarter": 14.630130370823796,
+              "state_encoded": 12.106579477667573,
+              "district_encoded": 6.593492610968026,
+              "pincode_numeric": 167497.7130622929,
+              "pincode_region": 39286.39951297089,
+              "pincode_zone": 22.03902432777978
+            }
+          },
+          "lasso": {
+            "mse": 20368.426587391557,
+            "rmse": 142.7179967186744,
+            "mae": 122.00588639636405,
+            "r2": 0.9999995142828176,
+            "cv_mean": 0.999999505082725,
+            "cv_std": 1.3601864966203031e-08,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 4.404939291365995,
+              "age_5_17": 4.287938441340934,
+              "age_18_greater": 17.393851216134102,
+              "day_of_week": 0.0,
+              "day_of_month": 11.512033272559458,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 2.5965472106054635,
+              "state_encoded": 49.921119386642474,
+              "district_encoded": 10.429104370421523,
+              "pincode_numeric": 205704.81532267304,
+              "pincode_region": 0.0,
+              "pincode_zone": 1034.8461018241671
+            }
+          },
+          "elastic_net": {
+            "mse": 943229358.8101358,
+            "rmse": 30712.03931376319,
+            "mae": 26643.254323577876,
+            "r2": 0.9775072117354465,
+            "cv_mean": 0.9773973079284229,
+            "cv_std": 0.00013618387094384014,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 2621.516656530191,
+              "age_5_17": 70.14978712525262,
+              "age_18_greater": 2157.9299203555192,
+              "day_of_week": 237.31416387419986,
+              "day_of_month": 566.424147216194,
+              "month": 281.7966551696279,
+              "year": 0.0,
+              "is_weekend": 324.0793208722013,
+              "quarter": 297.86869560515737,
+              "state_encoded": 7283.797065051881,
+              "district_encoded": 1302.3528034403612,
+              "pincode_numeric": 59294.78628826731,
+              "pincode_region": 59240.97869348363,
+              "pincode_zone": 56824.012550484964
+            }
+          },
+          "bayesian_ridge": {
+            "mse": 326503634758423.44,
+            "rmse": 18069411.57753687,
+            "mae": 13816958.88699014,
+            "r2": -7784.992935474983,
+            "cv_mean": -3.2900919561857865e+25,
+            "cv_std": 4.652892665892566e+25,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 648156.2354681222,
+              "age_5_17": 3683245.991418681,
+              "age_18_greater": 861168.760830217,
+              "day_of_week": 1.2924747271484798e+20,
+              "day_of_month": 1.8290617784663684e+20,
+              "month": 1.2959710524566615e+20,
+              "year": 7.474572825916685e+22,
+              "is_weekend": 2.4296449481467055e+20,
+              "quarter": 1.025731323304416e+20,
+              "state_encoded": 13533421.400251199,
+              "district_encoded": 7630597.441766592,
+              "pincode_numeric": 13888477.336057425,
+              "pincode_region": 32815257.067286637,
+              "pincode_zone": 21013920.471058466
+            }
+          },
+          "huber": {
+            "mse": 6.966368651242707e-11,
+            "rmse": 8.346477491279005e-06,
+            "mae": 5.517899086666689e-07,
+            "r2": 1.0,
+            "cv_mean": 0.9996903662593564,
+            "cv_std": 0.00043788823538643505,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 2.6763910342885316e-07,
+              "age_5_17": 1.1547891729824789e-06,
+              "age_18_greater": 4.264214909256297e-07,
+              "day_of_week": 54.715821285804935,
+              "day_of_month": 77.43177848687031,
+              "month": 194.072524337404,
+              "year": 0.0,
+              "is_weekend": 102.85695754467224,
+              "quarter": 205.45325229288798,
+              "state_encoded": 8.982263459221544e-08,
+              "district_encoded": 1.6727952340672933e-07,
+              "pincode_numeric": 206763.57202951604,
+              "pincode_region": 9.513361454207719e-07,
+              "pincode_zone": 8.604858578547487e-07
+            }
+          },
+          "sgd_regressor": {
+            "mse": 1008714.8594139072,
+            "rmse": 1004.3479772538535,
+            "mae": 850.5456488331355,
+            "r2": 0.9999759456069298,
+            "cv_mean": 0.9999741713409853,
+            "cv_std": 1.8643807455083772e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 55.524022605575304,
+              "age_5_17": 56.332754838735376,
+              "age_18_greater": 25.278426956093135,
+              "day_of_week": 8.773061655397008,
+              "day_of_month": 30.00178067321269,
+              "month": 29.55571788346973,
+              "year": 0.0,
+              "is_weekend": 6.877509416414067,
+              "quarter": 21.392250139079657,
+              "state_encoded": 18.19394151357785,
+              "district_encoded": 8.937259319387131,
+              "pincode_numeric": 127214.38206034288,
+              "pincode_region": 79577.70377850784,
+              "pincode_zone": 32.64605519924923
+            }
+          },
+          "decision_tree": {
+            "mse": 8804.41905794946,
+            "rmse": 93.8318658982622,
+            "mae": 55.781031345799114,
+            "r2": 0.9999997900447735,
+            "cv_mean": 0.9999997326449156,
+            "cv_std": 6.122745638336148e-08,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 9.37237934316336e-11,
+              "age_5_17": 8.384669817368666e-11,
+              "age_18_greater": 0.0,
+              "day_of_week": 0.0,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 6.1904596594706815e-06,
+              "district_encoded": 2.443616999045192e-07,
+              "pincode_numeric": 0.9173740959899369,
+              "pincode_region": 0.08261262226315949,
+              "pincode_zone": 6.846747973635167e-06
+            }
+          },
+          "random_forest": {
+            "mse": 4929.669861050214,
+            "rmse": 70.21160773725535,
+            "mae": 42.537020917295266,
+            "r2": 0.9999998824442652,
+            "cv_mean": 0.9999998658694382,
+            "cv_std": 3.258013571034007e-08,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 4.2670959457185775e-10,
+              "age_5_17": 1.428459100485023e-10,
+              "age_18_greater": 5.04763489098828e-11,
+              "day_of_week": 1.140343607203912e-11,
+              "day_of_month": 4.998810672975043e-12,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 2.0638158007090505e-12,
+              "quarter": 0.0,
+              "state_encoded": 0.001244622717841787,
+              "district_encoded": 8.630263987120616e-07,
+              "pincode_numeric": 0.48394181599227776,
+              "pincode_region": 0.5137471387923198,
+              "pincode_zone": 0.0010655588326641543
+            }
+          },
+          "extra_trees": {
+            "mse": 44462.76321546209,
+            "rmse": 210.86195298218712,
+            "mae": 163.95528512205527,
+            "r2": 0.9999989397154474,
+            "cv_mean": 0.9999989144144007,
+            "cv_std": 1.9538431714035124e-08,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 2.3327180569194452e-09,
+              "age_5_17": 1.0495455346210754e-07,
+              "age_18_greater": 4.131773028508732e-09,
+              "day_of_week": 1.0422647829890609e-07,
+              "day_of_month": 3.256017913474766e-07,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 7.095746251460002e-10,
+              "quarter": 0.0,
+              "state_encoded": 0.0032447590527097787,
+              "district_encoded": 5.9615038235756635e-06,
+              "pincode_numeric": 0.38255352886949284,
+              "pincode_region": 0.336216698867786,
+              "pincode_zone": 0.27797850974929916
+            }
+          },
+          "gradient_boosting": {
+            "mse": 25226.888878025362,
+            "rmse": 158.829748089032,
+            "mae": 95.93922447770785,
+            "r2": 0.9999993984251393,
+            "cv_mean": 0.9999992974929032,
+            "cv_std": 9.938797767985413e-08,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 8.077945499189205e-11,
+              "age_5_17": 4.5483942081994067e-10,
+              "age_18_greater": 5.23024680375569e-11,
+              "day_of_week": 0.0,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.0014552312411723334,
+              "district_encoded": 1.1665189514783968e-07,
+              "pincode_numeric": 0.7949282456199049,
+              "pincode_region": 0.2029762818275593,
+              "pincode_zone": 0.0006401240715468453
+            }
+          },
+          "adaboost": {
+            "mse": 226057514.8388232,
+            "rmse": 15035.20917176822,
+            "mae": 11623.168546704044,
+            "r2": 0.9946093028494204,
+            "cv_mean": 0.9947348053480259,
+            "cv_std": 0.0005129959188921425,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 0.0,
+              "age_5_17": 0.0,
+              "age_18_greater": 0.0,
+              "day_of_week": 0.0,
+              "day_of_month": 0.0,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.002582952631694728,
+              "district_encoded": 0.0,
+              "pincode_numeric": 0.6435358564729285,
+              "pincode_region": 0.33433756945984294,
+              "pincode_zone": 0.019543621435533797
+            }
+          },
+          "bagging": {
+            "mse": 245.2932962735219,
+            "rmse": 15.661842045989415,
+            "mae": 3.9132270457174414,
+            "r2": 0.9999999941505954,
+            "cv_mean": 0.999999965084286,
+            "cv_std": 2.899090162532644e-08,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "knn": {
+            "mse": 165666235.47200924,
+            "rmse": 12871.139633770168,
+            "mae": 2465.1836342681513,
+            "r2": 0.9960494279336701,
+            "cv_mean": 0.99641186047914,
+            "cv_std": 0.0004879745543079591,
+            "training_time": "fast",
+            "feature_importance": {}
+          },
+          "linear_svr": {
+            "mse": 312351987397.0576,
+            "rmse": 558884.5921986556,
+            "mae": 519811.9099865557,
+            "r2": -6.4485246360410375,
+            "cv_mean": -6.258480693333809,
+            "cv_std": 0.10703035504736089,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 1.125611276733403,
+              "age_5_17": 19.376671979405135,
+              "age_18_greater": 23.329819025587653,
+              "day_of_week": 33.845600509106596,
+              "day_of_month": 45.217404269787046,
+              "month": 97.72568184952918,
+              "year": 0.0,
+              "is_weekend": 40.88368254696743,
+              "quarter": 97.03562336894893,
+              "state_encoded": 36.339457132668976,
+              "district_encoded": 3.1731003212487447,
+              "pincode_numeric": 172.46673902454276,
+              "pincode_region": 172.25020093367695,
+              "pincode_zone": 173.98856202763127
+            }
+          },
+          "xgboost": {
+            "mse": 185545.46454903204,
+            "rmse": 430.7498863018214,
+            "mae": 310.52148362466386,
+            "r2": 0.9999955753764357,
+            "cv_mean": 0.9999951072373546,
+            "cv_std": 2.7091182319302703e-07,
+            "training_time": "fast",
+            "feature_importance": {
+              "age_0_5": 1.7116414596785035e-07,
+              "age_5_17": 2.6160813604292343e-07,
+              "age_18_greater": 3.033357529602654e-07,
+              "day_of_week": 1.0374434822324474e-07,
+              "day_of_month": 2.2162164725614275e-07,
+              "month": 0.0,
+              "year": 0.0,
+              "is_weekend": 0.0,
+              "quarter": 0.0,
+              "state_encoded": 0.011621769517660141,
+              "district_encoded": 1.2486826790336636e-06,
+              "pincode_numeric": 0.09587059170007706,
+              "pincode_region": 0.8925052881240845,
+              "pincode_zone": 0.0
+            }
+          }
+        },
+        "best_model": {
+          "name": "linear_regression",
+          "r2": 1.0
+        },
+        "training_info": {
+          "train_samples": 20823,
+          "test_samples": 5206,
+          "n_features": 14,
+          "feature_columns": [
+            "age_0_5",
+            "age_5_17",
+            "age_18_greater",
+            "day_of_week",
+            "day_of_month",
+            "month",
+            "year",
+            "is_weekend",
+            "quarter",
+            "state_encoded",
+            "district_encoded",
+            "pincode_numeric",
+            "pincode_region",
+            "pincode_zone"
+          ],
+          "target_column": "pincode",
+          "target_mean": 533762.915094702,
+          "target_std": 206763.5720294222
+        },
+        "interpretations": {
+          "summary": "Regression achieved R\u00b2=1.0000 using linear_regression",
+          "model_insights": {
+            "linear_regression": "Explains 100.0% of variance in pincode"
+          },
+          "prediction_insights": "Model can predict pincode with reasonable accuracy"
+        }
+      },
+      "clustering": {
+        "models": {
+          "kmeans_k3": {
+            "n_clusters": 3,
+            "silhouette_score": 0.3406508135116894,
+            "calinski_harabasz_score": 7772.27271334155,
+            "inertia": 228143.0387466704,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 11119,
+                "percentage": 0.4271773790771831
+              },
+              {
+                "cluster_id": 1,
+                "size": 1484,
+                "percentage": 0.0570133312843367
+              },
+              {
+                "cluster_id": 2,
+                "size": 13426,
+                "percentage": 0.5158092896384802
+              }
+            ]
+          },
+          "kmeans_k5": {
+            "n_clusters": 5,
+            "silhouette_score": 0.364301810141625,
+            "calinski_harabasz_score": 10125.217924578144,
+            "inertia": 142552.72504705278,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 12771,
+                "percentage": 0.49064504975219947
+              },
+              {
+                "cluster_id": 1,
+                "size": 1395,
+                "percentage": 0.05359406815475047
+              },
+              {
+                "cluster_id": 2,
+                "size": 10291,
+                "percentage": 0.39536670636597643
+              },
+              {
+                "cluster_id": 3,
+                "size": 1540,
+                "percentage": 0.05916477774789658
+              },
+              {
+                "cluster_id": 4,
+                "size": 32,
+                "percentage": 0.0012293979791770718
+              }
+            ]
+          },
+          "kmeans_k7": {
+            "n_clusters": 7,
+            "silhouette_score": 0.3362847184104966,
+            "calinski_harabasz_score": 9711.52916993899,
+            "inertia": 112497.83028472989,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 2939,
+                "percentage": 0.11291252065004419
+              },
+              {
+                "cluster_id": 1,
+                "size": 7981,
+                "percentage": 0.30661953974413153
+              },
+              {
+                "cluster_id": 2,
+                "size": 32,
+                "percentage": 0.0012293979791770718
+              },
+              {
+                "cluster_id": 3,
+                "size": 5176,
+                "percentage": 0.19885512313189135
+              },
+              {
+                "cluster_id": 4,
+                "size": 1293,
+                "percentage": 0.049675362096123554
+              },
+              {
+                "cluster_id": 5,
+                "size": 1394,
+                "percentage": 0.05355564946790119
+              },
+              {
+                "cluster_id": 6,
+                "size": 7214,
+                "percentage": 0.2771524069307311
+              }
+            ]
+          },
+          "kmeans_k10": {
+            "n_clusters": 10,
+            "silhouette_score": 0.3438467577857826,
+            "calinski_harabasz_score": 9726.068276311653,
+            "inertia": 83497.8239737298,
+            "cluster_profiles": [
+              {
+                "cluster_id": 0,
+                "size": 732,
+                "percentage": 0.028122478773675515
+              },
+              {
+                "cluster_id": 1,
+                "size": 7112,
+                "percentage": 0.2732337008721042
+              },
+              {
+                "cluster_id": 2,
+                "size": 7897,
+                "percentage": 0.3033923700487917
+              },
+              {
+                "cluster_id": 3,
+                "size": 2723,
+                "percentage": 0.10461408429059894
+              },
+              {
+                "cluster_id": 4,
+                "size": 32,
+                "percentage": 0.0012293979791770718
+              },
+              {
+                "cluster_id": 5,
+                "size": 625,
+                "percentage": 0.02401167928080218
+              },
+              {
+                "cluster_id": 6,
+                "size": 311,
+                "percentage": 0.011948211610127166
+              },
+              {
+                "cluster_id": 7,
+                "size": 5169,
+                "percentage": 0.19858619232394636
+              },
+              {
+                "cluster_id": 8,
+                "size": 1363,
+                "percentage": 0.0523646701755734
+              },
+              {
+                "cluster_id": 9,
+                "size": 65,
+                "percentage": 0.002497214645203427
+              }
+            ]
+          },
+          "gmm_n3": {
+            "n_components": 3,
+            "silhouette_score": 0.1468345201125319,
+            "bic": -2191743.4484027093,
+            "aic": -2195067.4038007855
+          },
+          "gmm_n5": {
+            "n_components": 5,
+            "silhouette_score": 0.336467249071261,
+            "bic": -2336138.017942641,
+            "aic": -2341683.388250488
+          },
+          "agglomerative": {
+            "n_clusters": 5,
+            "silhouette_score": 0.3034593253119804,
+            "sample_size": 10000
+          }
+        },
+        "best_model": {
+          "name": "kmeans_k5",
+          "n_clusters": 5,
+          "silhouette_score": 0.364301810141625
+        },
+        "cluster_profiles": [
+          {
+            "cluster_id": 0,
+            "size": 12771,
+            "percentage": 0.49064504975219947
+          },
+          {
+            "cluster_id": 1,
+            "size": 1395,
+            "percentage": 0.05359406815475047
+          },
+          {
+            "cluster_id": 2,
+            "size": 10291,
+            "percentage": 0.39536670636597643
+          },
+          {
+            "cluster_id": 3,
+            "size": 1540,
+            "percentage": 0.05916477774789658
+          },
+          {
+            "cluster_id": 4,
+            "size": 32,
+            "percentage": 0.0012293979791770718
+          }
+        ],
+        "interpretations": {
+          "summary": "Best clustering with silhouette score 0.364",
+          "use_cases": [
+            "Segment districts by enrollment patterns",
+            "Identify similar regions for targeted policies",
+            "Discover natural groupings in the data"
+          ]
+        }
+      },
+      "anomaly_detection": {
+        "models": {
+          "isolation_forest": {
+            "n_samples": 26029,
+            "n_anomalies": 2603,
+            "anomaly_percentage": 10.000384186868493,
+            "contamination": 0.1
+          },
+          "local_outlier_factor": {
+            "n_samples": 26029,
+            "n_anomalies": 2603,
+            "anomaly_percentage": 10.000384186868493,
+            "contamination": 0.1
+          },
+          "elliptic_envelope": {
+            "n_samples": 10000,
+            "n_anomalies": 1000,
+            "anomaly_percentage": 10.0,
+            "contamination": 0.1
+          }
+        },
+        "interpretations": {
+          "summary": "Multiple anomaly detection methods applied to identify outliers",
+          "anomaly_meaning": "Records that deviate significantly from normal patterns",
+          "use_cases": [
+            "Detect data quality issues",
+            "Identify unusual enrollment patterns",
+            "Flag records for manual review"
+          ]
+        }
+      }
+    }
+  },
+  "model_explanations": {
+    "classification": {
+      "purpose": "Predict categorical outcomes like region, state, or enrollment type",
+      "models_used": [
+        "logistic_regression",
+        "ridge_classifier",
+        "sgd_classifier",
+        "decision_tree",
+        "random_forest",
+        "extra_trees",
+        "gradient_boosting",
+        "adaboost",
+        "bagging",
+        "knn",
+        "naive_bayes",
+        "linear_svc",
+        "xgboost"
+      ],
+      "metrics": {
+        "accuracy": "Proportion of correct predictions",
+        "precision": "Proportion of positive predictions that are correct",
+        "recall": "Proportion of actual positives identified correctly",
+        "f1_score": "Harmonic mean of precision and recall"
+      }
+    },
+    "regression": {
+      "purpose": "Predict continuous values like population, enrollment count",
+      "models_used": [
+        "linear_regression",
+        "ridge",
+        "lasso",
+        "elastic_net",
+        "bayesian_ridge",
+        "huber",
+        "sgd_regressor",
+        "decision_tree",
+        "random_forest",
+        "extra_trees",
+        "gradient_boosting",
+        "adaboost",
+        "bagging",
+        "knn",
+        "linear_svr",
+        "xgboost"
+      ],
+      "metrics": {
+        "r2": "Coefficient of determination (variance explained)",
+        "rmse": "Root mean squared error",
+        "mae": "Mean absolute error",
+        "mse": "Mean squared error"
+      }
+    },
+    "clustering": {
+      "purpose": "Group similar records together to discover patterns",
+      "methods": {
+        "kmeans": "Partition data into k clusters based on distance to centroids",
+        "gmm": "Probabilistic clustering using Gaussian distributions",
+        "agglomerative": "Hierarchical clustering building from individual points"
+      }
+    },
+    "anomaly_detection": {
+      "purpose": "Identify unusual or outlier records in the data",
+      "methods": {
+        "isolation_forest": "Isolates anomalies by random partitioning",
+        "local_outlier_factor": "Compares local density to neighbors",
+        "elliptic_envelope": "Fits Gaussian and identifies outliers"
+      }
+    }
+  },
+  "summary": {
+    "total_models_trained": 117,
+    "model_types": [
+      "classification",
+      "regression",
+      "clustering",
+      "anomaly_detection"
+    ],
+    "datasets_processed": [
+      "biometric",
+      "demographic",
+      "enrollment"
+    ]
+  }
+}

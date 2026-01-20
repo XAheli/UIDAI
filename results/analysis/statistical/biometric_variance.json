@@ -1,0 +1,243 @@
+{
+  "dataset_name": "biometric",
+  "overall_variance": 974.8610211421143,
+  "overall_std": 31.222764469888222,
+  "overall_cv": 159.41,
+  "state_variance": {
+    "highest_cv_states": [
+      {
+        "state": "Uttarakhand",
+        "variance": 5816.14883397146,
+        "std": 76.26367965140064,
+        "mean": 36.92941176470588,
+        "cv": 206.51
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "variance": 1464.9999999999998,
+        "std": 38.27531841800927,
+        "mean": 22.666666666666668,
+        "cv": 168.86
+      },
+      {
+        "state": "Karnataka",
+        "variance": 146.26478234060917,
+        "std": 12.093997781569549,
+        "mean": 8.25305216426193,
+        "cv": 146.54
+      },
+      {
+        "state": "Punjab",
+        "variance": 583.1139500613996,
+        "std": 24.14775248468063,
+        "mean": 16.545714285714286,
+        "cv": 145.95
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "variance": 1477.8402777777776,
+        "std": 38.44268822257072,
+        "mean": 27.42361111111111,
+        "cv": 140.18
+      },
+      {
+        "state": "Haryana",
+        "variance": 2426.5493628923655,
+        "std": 49.26001789374792,
+        "mean": 35.95939086294416,
+        "cv": 136.99
+      },
+      {
+        "state": "Manipur",
+        "variance": 188.37891737891738,
+        "std": 13.725119940420097,
+        "mean": 10.074074074074074,
+        "cv": 136.24
+      },
+      {
+        "state": "Assam",
+        "variance": 308.306358565737,
+        "std": 17.558654805130633,
+        "mean": 13.298804780876495,
+        "cv": 132.03
+      },
+      {
+        "state": "Gujarat",
+        "variance": 959.791059553601,
+        "std": 30.98049482422127,
+        "mean": 23.530571992110453,
+        "cv": 131.66
+      },
+      {
+        "state": "Bihar",
+        "variance": 1902.3854573934848,
+        "std": 43.61634392511005,
+        "mean": 33.3975,
+        "cv": 130.6
+      }
+    ],
+    "lowest_cv_states": [
+      {
+        "state": "Kerala",
+        "variance": 35.533066163759216,
+        "std": 5.960961848876338,
+        "mean": 6.174257425742574,
+        "cv": 96.55
+      },
+      {
+        "state": "Ladakh",
+        "variance": 5.666666666666667,
+        "std": 2.3804761428476167,
+        "mean": 2.5,
+        "cv": 95.22
+      },
+      {
+        "state": "Puducherry",
+        "variance": 69.92592592592592,
+        "std": 8.36217232098968,
+        "mean": 9.185185185185185,
+        "cv": 91.04
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "variance": 16.673333333333332,
+        "std": 4.083299319586225,
+        "mean": 4.56,
+        "cv": 89.55
+      },
+      {
+        "state": "Tripura",
+        "variance": 162.465978928885,
+        "std": 12.746214297935094,
+        "mean": 15.161764705882353,
+        "cv": 84.07
+      },
+      {
+        "state": "Goa",
+        "variance": 5.114379084967319,
+        "std": 2.2614993002358674,
+        "mean": 2.9444444444444446,
+        "cv": 76.81
+      },
+      {
+        "state": "Mizoram",
+        "variance": 5.264705882352942,
+        "std": 2.294494689981422,
+        "mean": 3.4705882352941178,
+        "cv": 66.11
+      },
+      {
+        "state": "Andaman And Nicobar Islands",
+        "variance": 5.866666666666666,
+        "std": 2.422120283277993,
+        "mean": 5.666666666666667,
+        "cv": 42.74
+      },
+      {
+        "state": "Lakshadweep",
+        "variance": 0.5,
+        "std": 0.7071067811865476,
+        "mean": 2.5,
+        "cv": 28.28
+      },
+      {
+        "state": "Sikkim",
+        "variance": 0.0,
+        "std": 0.0,
+        "mean": 1.0,
+        "cv": 0.0
+      }
+    ],
+    "mean_cv": 109.80222222222223
+  },
+  "variance_decomposition": {
+    "between_state_variance": 270.9996195366459,
+    "within_state_variance": 949.8802327480506,
+    "variance_ratio": 0.2852987252431084
+  },
+  "district_variance": {
+    "highest_cv_districts": [
+      {
+        "state": "Uttarakhand",
+        "district": "Nainital",
+        "variance": 13059.60606060606,
+        "std": 114.27863343865317,
+        "mean": 62.833333333333336,
+        "cv": 181.88
+      },
+      {
+        "state": "Haryana",
+        "district": "Panipat",
+        "variance": 11418.0,
+        "std": 106.85504199615477,
+        "mean": 60.5,
+        "cv": 176.62
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Lohardaga",
+        "variance": 1816.2666666666664,
+        "std": 42.617680212168594,
+        "mean": 24.333333333333332,
+        "cv": 175.14
+      },
+      {
+        "state": "Uttar Pradesh",
+        "district": "Saharanpur",
+        "variance": 19002.418181818182,
+        "std": 137.84925890920917,
+        "mean": 79.72727272727273,
+        "cv": 172.9
+      },
+      {
+        "state": "Jharkhand",
+        "district": "Pashchimi Singhbhum",
+        "variance": 780.7000000000002,
+        "std": 27.941009287425537,
+        "mean": 16.2,
+        "cv": 172.48
+      },
+      {
+        "state": "Punjab",
+        "district": "Kapurthala",
+        "variance": 672.3589743589744,
+        "std": 25.929885737483964,
+        "mean": 15.23076923076923,
+        "cv": 170.25
+      },
+      {
+        "state": "Assam",
+        "district": "Golaghat",
+        "variance": 418.26515151515156,
+        "std": 20.451531764519537,
+        "mean": 12.416666666666666,
+        "cv": 164.71
+      },
+      {
+        "state": "Punjab",
+        "district": "Ludhiana",
+        "variance": 562.5301268498943,
+        "std": 23.71771757252148,
+        "mean": 14.431818181818182,
+        "cv": 164.34
+      },
+      {
+        "state": "Punjab",
+        "district": "Hoshiarpur",
+        "variance": 610.0604838709676,
+        "std": 24.699402500282623,
+        "mean": 15.0625,
+        "cv": 163.98
+      },
+      {
+        "state": "Punjab",
+        "district": "Fatehgarh Sahib",
+        "variance": 979.1428571428572,
+        "std": 31.291258478093482,
+        "mean": 19.142857142857142,
+        "cv": 163.46
+      }
+    ],
+    "mean_cv": 84.46544287548139
+  }
+}

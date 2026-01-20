@@ -1,0 +1,263 @@
+{
+  "dataset_name": "enrollment",
+  "clusters": {
+    "High": {
+      "states": [
+        "Andhra Pradesh",
+        "Assam",
+        "Chhattisgarh",
+        "Delhi",
+        "Haryana",
+        "Kerala",
+        "Odisha",
+        "Tamil Nadu",
+        "Telangana"
+      ],
+      "total_enrollment": 13111,
+      "mean_enrollment": 1456.7777777777778
+    },
+    "Low": {
+      "states": [
+        "Andaman And Nicobar Islands",
+        "Arunachal Pradesh",
+        "Chandigarh",
+        "Dadra And Nagar Haveli And Daman And Diu",
+        "Ladakh",
+        "Lakshadweep",
+        "Nagaland",
+        "Puducherry",
+        "Sikkim"
+      ],
+      "total_enrollment": 162,
+      "mean_enrollment": 18.0
+    },
+    "Medium": {
+      "states": [
+        "Goa",
+        "Himachal Pradesh",
+        "Jammu And Kashmir",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Punjab",
+        "Tripura",
+        "Uttarakhand"
+      ],
+      "total_enrollment": 2817,
+      "mean_enrollment": 313.0
+    },
+    "Very High": {
+      "states": [
+        "Bihar",
+        "Gujarat",
+        "Jharkhand",
+        "Karnataka",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Rajasthan",
+        "Uttar Pradesh",
+        "West Bengal"
+      ],
+      "total_enrollment": 36082,
+      "mean_enrollment": 4009.1111111111113
+    }
+  },
+  "state_clusters": [
+    {
+      "state": "Andaman And Nicobar Islands",
+      "cluster": "Low",
+      "total": 5
+    },
+    {
+      "state": "Andhra Pradesh",
+      "cluster": "High",
+      "total": 1551
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "cluster": "Low",
+      "total": 34
+    },
+    {
+      "state": "Assam",
+      "cluster": "High",
+      "total": 1783
+    },
+    {
+      "state": "Bihar",
+      "cluster": "Very High",
+      "total": 6106
+    },
+    {
+      "state": "Chandigarh",
+      "cluster": "Low",
+      "total": 28
+    },
+    {
+      "state": "Chhattisgarh",
+      "cluster": "High",
+      "total": 1748
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "cluster": "Low",
+      "total": 15
+    },
+    {
+      "state": "Delhi",
+      "cluster": "High",
+      "total": 932
+    },
+    {
+      "state": "Goa",
+      "cluster": "Medium",
+      "total": 63
+    },
+    {
+      "state": "Gujarat",
+      "cluster": "Very High",
+      "total": 3708
+    },
+    {
+      "state": "Haryana",
+      "cluster": "High",
+      "total": 1500
+    },
+    {
+      "state": "Himachal Pradesh",
+      "cluster": "Medium",
+      "total": 384
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "cluster": "Medium",
+      "total": 749
+    },
+    {
+      "state": "Jharkhand",
+      "cluster": "Very High",
+      "total": 2631
+    },
+    {
+      "state": "Karnataka",
+      "cluster": "Very High",
+      "total": 2722
+    },
+    {
+      "state": "Kerala",
+      "cluster": "High",
+      "total": 1035
+    },
+    {
+      "state": "Ladakh",
+      "cluster": "Low",
+      "total": 9
+    },
+    {
+      "state": "Lakshadweep",
+      "cluster": "Low",
+      "total": 2
+    },
+    {
+      "state": "Madhya Pradesh",
+      "cluster": "Very High",
+      "total": 3192
+    },
+    {
+      "state": "Maharashtra",
+      "cluster": "Very High",
+      "total": 2136
+    },
+    {
+      "state": "Manipur",
+      "cluster": "Medium",
+      "total": 162
+    },
+    {
+      "state": "Meghalaya",
+      "cluster": "Medium",
+      "total": 226
+    },
+    {
+      "state": "Mizoram",
+      "cluster": "Medium",
+      "total": 44
+    },
+    {
+      "state": "Nagaland",
+      "cluster": "Low",
+      "total": 34
+    },
+    {
+      "state": "Odisha",
+      "cluster": "High",
+      "total": 1182
+    },
+    {
+      "state": "Puducherry",
+      "cluster": "Low",
+      "total": 24
+    },
+    {
+      "state": "Punjab",
+      "cluster": "Medium",
+      "total": 660
+    },
+    {
+      "state": "Rajasthan",
+      "cluster": "Very High",
+      "total": 2373
+    },
+    {
+      "state": "Sikkim",
+      "cluster": "Low",
+      "total": 11
+    },
+    {
+      "state": "Tamil Nadu",
+      "cluster": "High",
+      "total": 1985
+    },
+    {
+      "state": "Telangana",
+      "cluster": "High",
+      "total": 1395
+    },
+    {
+      "state": "Tripura",
+      "cluster": "Medium",
+      "total": 131
+    },
+    {
+      "state": "Uttar Pradesh",
+      "cluster": "Very High",
+      "total": 9671
+    },
+    {
+      "state": "Uttarakhand",
+      "cluster": "Medium",
+      "total": 398
+    },
+    {
+      "state": "West Bengal",
+      "cluster": "Very High",
+      "total": 3543
+    }
+  ],
+  "thresholds": {
+    "percentiles": [
+      0,
+      25,
+      50,
+      75,
+      100
+    ],
+    "values": [
+      2.0,
+      41.5,
+      840.5,
+      2022.75,
+      9671.0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "dataset_name": "biometric",
+  "day_of_week": {
+    "stats": [
+      {
+        "day_of_week": 4,
+        "day_name": "Friday",
+        "total": 195864,
+        "mean": 19.5864,
+        "std": 31.222764469888137,
+        "count": 10000
+      }
+    ],
+    "anova_f_stat": null,
+    "anova_p_value": null,
+    "significant_effect": false,
+    "best_day": "Friday",
+    "worst_day": "Friday"
+  },
+  "monthly": {
+    "stats": [
+      {
+        "month": 12,
+        "month_name": "December",
+        "total": 195864,
+        "mean": 19.5864,
+        "std": 31.222764469888137,
+        "count": 10000
+      }
+    ],
+    "best_month": "December",
+    "worst_month": "December"
+  },
+  "weekend_effect": {
+    "weekday_mean": 19.5864,
+    "weekend_mean": null
+  }
+}

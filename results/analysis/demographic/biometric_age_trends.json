@@ -1,0 +1,17 @@
+{
+  "dataset_name": "biometric",
+  "age_columns": {
+    "children": "bio_age_5_17",
+    "adults": "bio_age_17_"
+  },
+  "monthly_trends": [
+    {
+      "month": "2025-12",
+      "bio_age_5_17": 110514,
+      "bio_age_17_": 85350,
+      "bio_age_5_17_pct": 56.42,
+      "bio_age_17__pct": 43.58
+    }
+  ],
+  "trend_directions": {}
+}

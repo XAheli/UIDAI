@@ -1,0 +1,31 @@
+{
+  "dataset_name": "biometric",
+  "tests": {
+    "state_anova": {
+      "description": "One-way ANOVA for state differences",
+      "f_statistic": 66.65007015156506,
+      "p_value": 0.0,
+      "significant": "True",
+      "interpretation": "Significant state-level differences"
+    },
+    "literacy_correlation": {
+      "description": "Pearson correlation: Literacy vs Enrollment",
+      "correlation": -0.12421346561815663,
+      "p_value": 1.1144484923231938e-35,
+      "significant": "True"
+    },
+    "chi_square": {
+      "description": "Chi-square: State vs Enrollment Quartile",
+      "chi2_statistic": 2326.7834401145146,
+      "p_value": 0.0,
+      "degrees_of_freedom": 105,
+      "significant": "True"
+    },
+    "kruskal_wallis": {
+      "description": "Kruskal-Wallis: Non-parametric state comparison",
+      "h_statistic": 2072.4132383143724,
+      "p_value": 0.0,
+      "significant": "True"
+    }
+  }
+}

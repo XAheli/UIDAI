@@ -1,0 +1,238 @@
+/**
+ * Global Styles - Coffee Green Theme
+ * Author: Shuvam Banerji Seal's Team
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Coffee Green Theme */
+    --color-primary: #4a7c59;
+    --color-secondary: #6F4E37;
+    --color-accent: #8B9556;
+    --color-background: #f5f7f5;
+    --color-surface: #ffffff;
+    --color-text: #2a382a;
+    --color-text-muted: #5a7d5a;
+    --color-border: #c7d4c7;
+  }
+
+  .dark {
+    --color-primary: #7a9a7a;
+    --color-secondary: #a08060;
+    --color-accent: #8B9556;
+    --color-background: #151e15;
+    --color-surface: #1e2d1e;
+    --color-text: #e6ebe6;
+    --color-text-muted: #a3b8a3;
+    --color-border: #3b523b;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-coffee-50 dark:bg-coffee-950 text-coffee-900 dark:text-coffee-100;
+    @apply font-sans antialiased;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-coffee-900 rounded-xl shadow-lg;
+    @apply border border-coffee-200 dark:border-coffee-700;
+    @apply transition-all duration-300;
+  }
+
+  .card:hover {
+    @apply shadow-xl transform -translate-y-1;
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply bg-coffee-600 hover:bg-coffee-700 text-white;
+    @apply focus:ring-coffee-500;
+  }
+
+  .btn-secondary {
+    @apply bg-coffee-200 dark:bg-coffee-700 hover:bg-coffee-300 dark:hover:bg-coffee-600;
+    @apply text-coffee-900 dark:text-coffee-100;
+    @apply focus:ring-coffee-500;
+  }
+
+  .btn-outline {
+    @apply border-2 border-coffee-600 text-coffee-600;
+    @apply hover:bg-coffee-600 hover:text-white;
+    @apply dark:border-coffee-400 dark:text-coffee-400;
+    @apply dark:hover:bg-coffee-400 dark:hover:text-coffee-900;
+  }
+
+  .stat-card {
+    @apply card p-6;
+    @apply flex flex-col items-start;
+  }
+
+  .stat-value {
+    @apply text-3xl font-bold text-coffee-900 dark:text-white;
+  }
+
+  .stat-label {
+    @apply text-sm text-coffee-500 dark:text-coffee-400 mt-1;
+  }
+
+  .stat-change {
+    @apply text-sm font-medium mt-2;
+  }
+
+  .stat-change.positive {
+    @apply text-primary-600 dark:text-primary-400;
+  }
+
+  .stat-change.negative {
+    @apply text-red-600 dark:text-red-400;
+  }
+
+  .nav-link {
+    @apply px-4 py-2 rounded-lg text-coffee-600 dark:text-coffee-300;
+    @apply hover:bg-coffee-100 dark:hover:bg-coffee-800;
+    @apply hover:text-coffee-900 dark:hover:text-white;
+    @apply transition-colors duration-200;
+  }
+
+  .nav-link.active {
+    @apply bg-coffee-100 dark:bg-coffee-800 text-coffee-700 dark:text-coffee-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-bold text-coffee-900 dark:text-white mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-coffee-500 dark:text-coffee-400 mb-6;
+  }
+
+  .table {
+    @apply w-full border-collapse;
+  }
+
+  .table th {
+    @apply px-4 py-3 text-left text-sm font-semibold;
+    @apply text-coffee-700 dark:text-coffee-300;
+    @apply bg-coffee-50 dark:bg-coffee-800;
+    @apply border-b border-coffee-200 dark:border-coffee-700;
+  }
+
+  .table td {
+    @apply px-4 py-3 text-sm;
+    @apply text-coffee-600 dark:text-coffee-400;
+    @apply border-b border-coffee-100 dark:border-coffee-800;
+  }
+
+  .table tr:hover td {
+    @apply bg-coffee-50 dark:bg-coffee-800/50;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full;
+    @apply text-xs font-medium;
+  }
+
+  .badge-blue {
+    @apply bg-sage-100 dark:bg-sage-900/30 text-sage-800 dark:text-sage-300;
+  }
+
+  .badge-green {
+    @apply bg-primary-100 dark:bg-primary-900/30 text-primary-800 dark:text-primary-300;
+  }
+
+  .badge-orange {
+    @apply bg-amber-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-300;
+  }
+
+  .badge-red {
+    @apply bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300;
+  }
+
+  .skeleton {
+    @apply bg-coffee-200 dark:bg-coffee-700 animate-pulse rounded;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-coffee-600 to-primary-500 bg-clip-text text-transparent;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-br from-coffee-600 via-coffee-500 to-primary-600;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100 dark:bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 dark:bg-slate-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400 dark:bg-slate-500;
+}
+
+/* Chart customization */
+.recharts-responsive-container {
+  @apply w-full;
+}
+
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  @apply stroke-slate-200 dark:stroke-slate-700;
+}
+
+.recharts-text {
+  @apply fill-slate-600 dark:fill-slate-400;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Loading spinner */
+.spinner {
+  @apply w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin;
+}

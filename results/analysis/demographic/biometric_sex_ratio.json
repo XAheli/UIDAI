@@ -1,0 +1,326 @@
+{
+  "dataset_name": "biometric",
+  "by_category": [
+    {
+      "category": "Very Low (<900)",
+      "total_enrollment": 19788,
+      "mean_enrollment": 26.00262812089356,
+      "unique_states": 9,
+      "unique_districts": 92
+    },
+    {
+      "category": "Low (900-950)",
+      "total_enrollment": 112965,
+      "mean_enrollment": 26.040802213001385,
+      "unique_states": 11,
+      "unique_districts": 402
+    },
+    {
+      "category": "Near Equal (950-1000)",
+      "total_enrollment": 59745,
+      "mean_enrollment": 13.674753948271915,
+      "unique_states": 14,
+      "unique_districts": 336
+    },
+    {
+      "category": "Female Surplus (1000-1050)",
+      "total_enrollment": 248,
+      "mean_enrollment": 9.185185185185185,
+      "unique_states": 1,
+      "unique_districts": 4
+    },
+    {
+      "category": "High Female (>1050)",
+      "total_enrollment": 3118,
+      "mean_enrollment": 6.174257425742574,
+      "unique_states": 1,
+      "unique_districts": 15
+    }
+  ],
+  "state_sex_ratio": [
+    {
+      "state": "Kerala",
+      "total_enrollment": 3118,
+      "sex_ratio": 1084.0
+    },
+    {
+      "state": "Puducherry",
+      "total_enrollment": 248,
+      "sex_ratio": 1037.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "total_enrollment": 7513,
+      "sex_ratio": 996.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "total_enrollment": 9773,
+      "sex_ratio": 993.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "total_enrollment": 11017,
+      "sex_ratio": 991.0
+    },
+    {
+      "state": "Meghalaya",
+      "total_enrollment": 207,
+      "sex_ratio": 989.0
+    },
+    {
+      "state": "Telangana",
+      "total_enrollment": 6910,
+      "sex_ratio": 988.0
+    },
+    {
+      "state": "Manipur",
+      "total_enrollment": 272,
+      "sex_ratio": 985.0
+    },
+    {
+      "state": "Odisha",
+      "total_enrollment": 4672,
+      "sex_ratio": 979.0
+    },
+    {
+      "state": "Mizoram",
+      "total_enrollment": 59,
+      "sex_ratio": 976.0
+    },
+    {
+      "state": "Goa",
+      "total_enrollment": 53,
+      "sex_ratio": 973.0
+    },
+    {
+      "state": "Karnataka",
+      "total_enrollment": 7436,
+      "sex_ratio": 973.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "total_enrollment": 1186,
+      "sex_ratio": 972.0
+    },
+    {
+      "state": "Uttarakhand",
+      "total_enrollment": 6278,
+      "sex_ratio": 963.0
+    },
+    {
+      "state": "Tripura",
+      "total_enrollment": 1031,
+      "sex_ratio": 960.0
+    },
+    {
+      "state": "Assam",
+      "total_enrollment": 3338,
+      "sex_ratio": 958.0
+    },
+    {
+      "state": "West Bengal",
+      "total_enrollment": 8517,
+      "sex_ratio": 950.0
+    },
+    {
+      "state": "Jharkhand",
+      "total_enrollment": 6996,
+      "sex_ratio": 948.0
+    },
+    {
+      "state": "Lakshadweep",
+      "total_enrollment": 5,
+      "sex_ratio": 946.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "total_enrollment": 114,
+      "sex_ratio": 938.0
+    },
+    {
+      "state": "Nagaland",
+      "total_enrollment": 139,
+      "sex_ratio": 931.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "total_enrollment": 7926,
+      "sex_ratio": 931.0
+    },
+    {
+      "state": "Maharashtra",
+      "total_enrollment": 14391,
+      "sex_ratio": 929.0
+    },
+    {
+      "state": "Rajasthan",
+      "total_enrollment": 12063,
+      "sex_ratio": 928.0
+    },
+    {
+      "state": "Gujarat",
+      "total_enrollment": 11930,
+      "sex_ratio": 919.0
+    },
+    {
+      "state": "Bihar",
+      "total_enrollment": 13359,
+      "sex_ratio": 918.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "total_enrollment": 37525,
+      "sex_ratio": 912.0
+    },
+    {
+      "state": "Punjab",
+      "total_enrollment": 5791,
+      "sex_ratio": 895.0
+    },
+    {
+      "state": "Sikkim",
+      "total_enrollment": 2,
+      "sex_ratio": 890.0
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "total_enrollment": 3949,
+      "sex_ratio": 889.0
+    },
+    {
+      "state": "Haryana",
+      "total_enrollment": 7084,
+      "sex_ratio": 879.0
+    },
+    {
+      "state": "Andaman And Nicobar Islands",
+      "total_enrollment": 34,
+      "sex_ratio": 876.0
+    },
+    {
+      "state": "Delhi",
+      "total_enrollment": 2647,
+      "sex_ratio": 868.0
+    },
+    {
+      "state": "Chandigarh",
+      "total_enrollment": 67,
+      "sex_ratio": 818.0
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "total_enrollment": 204,
+      "sex_ratio": 774.0
+    },
+    {
+      "state": "Ladakh",
+      "total_enrollment": 10,
+      "sex_ratio": 690.0
+    }
+  ],
+  "top_sex_ratio_states": [
+    {
+      "state": "Kerala",
+      "total_enrollment": 3118,
+      "sex_ratio": 1084.0
+    },
+    {
+      "state": "Puducherry",
+      "total_enrollment": 248,
+      "sex_ratio": 1037.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "total_enrollment": 7513,
+      "sex_ratio": 996.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "total_enrollment": 9773,
+      "sex_ratio": 993.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "total_enrollment": 11017,
+      "sex_ratio": 991.0
+    },
+    {
+      "state": "Meghalaya",
+      "total_enrollment": 207,
+      "sex_ratio": 989.0
+    },
+    {
+      "state": "Telangana",
+      "total_enrollment": 6910,
+      "sex_ratio": 988.0
+    },
+    {
+      "state": "Manipur",
+      "total_enrollment": 272,
+      "sex_ratio": 985.0
+    },
+    {
+      "state": "Odisha",
+      "total_enrollment": 4672,
+      "sex_ratio": 979.0
+    },
+    {
+      "state": "Mizoram",
+      "total_enrollment": 59,
+      "sex_ratio": 976.0
+    }
+  ],
+  "lowest_sex_ratio_states": [
+    {
+      "state": "Uttar Pradesh",
+      "total_enrollment": 37525,
+      "sex_ratio": 912.0
+    },
+    {
+      "state": "Punjab",
+      "total_enrollment": 5791,
+      "sex_ratio": 895.0
+    },
+    {
+      "state": "Sikkim",
+      "total_enrollment": 2,
+      "sex_ratio": 890.0
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "total_enrollment": 3949,
+      "sex_ratio": 889.0
+    },
+    {
+      "state": "Haryana",
+      "total_enrollment": 7084,
+      "sex_ratio": 879.0
+    },
+    {
+      "state": "Andaman And Nicobar Islands",
+      "total_enrollment": 34,
+      "sex_ratio": 876.0
+    },
+    {
+      "state": "Delhi",
+      "total_enrollment": 2647,
+      "sex_ratio": 868.0
+    },
+    {
+      "state": "Chandigarh",
+      "total_enrollment": 67,
+      "sex_ratio": 818.0
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "total_enrollment": 204,
+      "sex_ratio": 774.0
+    },
+    {
+      "state": "Ladakh",
+      "total_enrollment": 10,
+      "sex_ratio": 690.0
+    }
+  ]
+}

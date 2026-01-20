@@ -1,0 +1,43 @@
+{
+  "dataset_name": "enrollment",
+  "daily_growth": {
+    "mean_pct_change": 2.988094311726708,
+    "std_pct_change": NaN,
+    "positive_days": 1,
+    "negative_days": 0
+  },
+  "weekly_growth": {
+    "mean_wow_growth": null,
+    "data": [
+      {
+        "year": 2025,
+        "week": 47,
+        "total_enrollment": 52172,
+        "wow_growth": NaN
+      }
+    ]
+  },
+  "monthly_growth": {
+    "mean_mom_growth": null,
+    "data": [
+      {
+        "month": "2025-11",
+        "total": 52172,
+        "mom_growth": null
+      }
+    ]
+  },
+  "cumulative": {
+    "total": 52172,
+    "data": [
+      {
+        "date": "2025-11-18 00:00:00",
+        "cumulative": 25702
+      },
+      {
+        "date": "2025-11-19 00:00:00",
+        "cumulative": 52172
+      }
+    ]
+  }
+}

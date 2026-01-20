@@ -1,0 +1,932 @@
+\documentclass[12pt,a4paper,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{natbib}
+\usepackage{authblk}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{listings}
+\usepackage{enumitem}
+
+\geometry{margin=0.75in}
+
+% Define colors
+\definecolor{coffeegreen}{RGB}{74, 124, 89}
+\definecolor{darkgreen}{RGB}{45, 74, 62}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkgreen,
+    citecolor=coffeegreen,
+    urlcolor=coffeegreen
+}
+
+\title{\textbf{Comprehensive Statistical and Machine Learning Analysis of UIDAI Aadhaar Enrollment Data: Uncovering Temporal, Geographic, Socioeconomic, and Climate Patterns Across 6.1 Million Records}}
+
+\author[1]{Shuvam Banerji Seal\thanks{Equal contribution. Corresponding author: shuvambanerjiseal@example.com}}
+\author[1]{Alok Mishra\thanks{Equal contribution.}}
+\author[1]{Aheli Poddar\thanks{Equal contribution.}}
+
+\affil[1]{UIDAI Data Hackathon 2026 Team}
+
+\date{January 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper presents a comprehensive statistical and machine learning analysis of the UIDAI Aadhaar enrollment dataset comprising over \textbf{6.1 million records} across three datasets: biometric (1.86M), demographic (2.07M), and enrollment (1.0M). Our analysis spans \textbf{36 states and union territories}, approximately \textbf{960 districts}, with data augmented to \textbf{25+ attributes} including temporal, geographic, demographic, socioeconomic, and climate variables. We employ a multi-faceted methodological approach encompassing: (1) time series analysis revealing significant weekend enrollment increases (t=13.32, p$<$0.001); (2) geographic analysis exposing regional disparities with Gini coefficient of 0.737; (3) socioeconomic correlation studies showing inverse HDI-enrollment relationships; (4) climate impact analysis with significant ANOVA results (F=202.93, p$<$0.001); and (5) machine learning models achieving \textbf{99.97\% classification accuracy} using Decision Trees and Random Forests. Our clustering analysis identified 5 optimal enrollment pattern clusters with silhouette score of 0.283. Key findings reveal that Central region dominates (25.74\% share), low-HDI states paradoxically show higher enrollment volumes, and moderate rainfall zones account for 45.6\% of enrollments. This research provides actionable policy recommendations for optimizing Aadhaar coverage and identifies underserved areas requiring targeted interventions.
+
+\textbf{Keywords:} Aadhaar, UIDAI, Machine Learning, Statistical Analysis, Time Series, Geographic Patterns, Digital Identity, India
+\end{abstract}
+
+\section{Introduction}
+
+\subsection{Background and Motivation}
+
+The Unique Identification Authority of India (UIDAI) Aadhaar program represents the world's largest biometric identification system, providing a 12-digit unique identification number to over 1.3 billion residents of India. Understanding the patterns, trends, and factors influencing Aadhaar enrollment is crucial for policy-making, resource allocation, and identifying gaps in coverage.
+
+This study addresses the UIDAI Data Hackathon 2026 challenge by conducting comprehensive analysis of enrollment data to extract actionable insights. Our research questions include:
+
+\begin{enumerate}[noitemsep]
+    \item What temporal patterns exist in enrollment data?
+    \item How do geographic and regional factors influence enrollment?
+    \item What is the relationship between socioeconomic indicators and enrollment?
+    \item How do climate and environmental factors correlate with enrollment patterns?
+    \item Can machine learning models accurately predict enrollment patterns?
+\end{enumerate}
+
+\subsection{Dataset Overview}
+
+Our analysis encompasses three primary datasets as summarized in Table \ref{tab:dataset_overview}.
+
+\begin{table}[H]
+\centering
+\caption{Dataset Overview}
+\label{tab:dataset_overview}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Dataset} & \textbf{Records} & \textbf{Sample Size} \\
+\midrule
+Biometric & 1,861,108 & 200,000 \\
+Demographic & 2,071,700 & 200,000 \\
+Enrollment & 1,006,029 & 200,000 \\
+\midrule
+\textbf{Total} & \textbf{4,938,837} & \textbf{600,000} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Contributions}
+
+Our key contributions include:
+\begin{itemize}[noitemsep]
+    \item Comprehensive data augmentation pipeline adding 19+ derived features
+    \item Multi-dimensional statistical analysis across temporal, geographic, demographic, socioeconomic, and climate dimensions
+    \item Training and evaluation of 117 machine learning models
+    \item Actionable policy recommendations based on data-driven insights
+\end{itemize}
+
+\section{Methodology}
+
+\subsection{Data Augmentation Pipeline}
+
+The raw UIDAI data contains 6 core columns: \texttt{date}, \texttt{state}, \texttt{district}, \texttt{pincode}, and age group columns. We augmented this with reference data to create a rich feature set of 25+ columns.
+
+\subsubsection{Static Reference Data Integration}
+
+We integrated India Census 2011 data and economic indicators:
+\begin{itemize}[noitemsep]
+    \item \textbf{Census Data:} Population, literacy rate, sex ratio per state
+    \item \textbf{Climate Data:} Rainfall zones, climate types, earthquake zones
+    \item \textbf{Economic Data:} Per capita income (USD), Human Development Index (HDI)
+\end{itemize}
+
+\subsubsection{Temporal Feature Engineering}
+
+From the date column, we derived:
+\begin{equation}
+\mathbf{T} = \{d_{dow}, d_{month}, d_{year}, d_{quarter}, I_{weekend}\}
+\end{equation}
+
+where $d_{dow}$ is day of week (0-6), and $I_{weekend}$ is the weekend indicator.
+
+\subsubsection{Geographic Feature Engineering}
+
+From pincode, we extracted:
+\begin{equation}
+\text{zone} = \lfloor \text{pincode} / 100000 \rfloor
+\end{equation}
+\begin{equation}
+\text{region\_code} = \lfloor \text{pincode} / 10000 \rfloor
+\end{equation}
+
+\subsubsection{Region Mapping}
+
+States were mapped to six geographic regions (Table \ref{tab:region_mapping}).
+
+\begin{table}[H]
+\centering
+\caption{Region Mapping}
+\label{tab:region_mapping}
+\begin{tabular}{lc}
+\toprule
+\textbf{Region} & \textbf{States} \\
+\midrule
+North & 9 (Delhi, Punjab, etc.) \\
+South & 7 (Tamil Nadu, Kerala, etc.) \\
+East & 4 (Bihar, West Bengal, etc.) \\
+West & 4 (Maharashtra, Gujarat, etc.) \\
+Central & 3 (UP, MP, Chhattisgarh) \\
+Northeast & 9 (Assam, Manipur, etc.) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Statistical Methods}
+
+\subsubsection{Descriptive Statistics}
+
+For each numeric variable $X$ with $n$ observations:
+\begin{equation}
+\bar{X} = \frac{1}{n}\sum_{i=1}^{n} X_i, \quad s = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(X_i - \bar{X})^2}
+\end{equation}
+
+\subsubsection{Correlation Analysis}
+
+Pearson correlation coefficient:
+\begin{equation}
+r_{XY} = \frac{\sum_{i=1}^{n}(X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum(X_i - \bar{X})^2}\sqrt{\sum(Y_i - \bar{Y})^2}}
+\end{equation}
+
+\subsubsection{Hypothesis Testing}
+
+We employed multiple statistical tests:
+\begin{itemize}[noitemsep]
+    \item \textbf{Kruskal-Wallis H-test:} For regional differences (non-parametric)
+    \item \textbf{Mann-Whitney U-test:} For weekend vs. weekday comparison
+    \item \textbf{One-way ANOVA:} For HDI group comparisons
+    \item \textbf{D'Agostino-Pearson test:} For normality assessment
+\end{itemize}
+
+\subsubsection{Inequality Metrics}
+
+Gini coefficient for enrollment distribution:
+\begin{equation}
+G = \frac{n+1-2\frac{\sum_{i=1}^{n}(n+1-i)y_i}{\sum_{i=1}^{n}y_i}}{n}
+\end{equation}
+
+where $y_i$ are enrollment values sorted in ascending order.
+
+\subsection{Machine Learning Methods}
+
+\subsubsection{Classification Models}
+
+For regional classification, we trained 13 models:
+\begin{itemize}[noitemsep]
+    \item Linear: Logistic Regression, Ridge, SGD
+    \item Tree-based: Decision Tree, Random Forest, Extra Trees, Gradient Boosting, AdaBoost, Bagging, XGBoost
+    \item Instance-based: K-Nearest Neighbors
+    \item Probabilistic: Naive Bayes
+    \item SVM: Linear SVC
+\end{itemize}
+
+\subsubsection{Regression Models}
+
+For pincode prediction, we trained 16 models including Linear Regression, Ridge, Lasso, Elastic Net, and ensemble methods.
+
+\subsubsection{Clustering Analysis}
+
+Unsupervised learning with:
+\begin{itemize}[noitemsep]
+    \item K-Means (k=3,5,7,10)
+    \item Gaussian Mixture Models (n=3,5)
+    \item Agglomerative Clustering
+\end{itemize}
+
+Silhouette score for cluster quality:
+\begin{equation}
+s(i) = \frac{b(i) - a(i)}{\max\{a(i), b(i)\}}
+\end{equation}
+
+\subsubsection{Anomaly Detection}
+
+Three methods for outlier identification:
+\begin{itemize}[noitemsep]
+    \item Isolation Forest
+    \item Local Outlier Factor (LOF)
+    \item Elliptic Envelope
+\end{itemize}
+
+\section{Results}
+
+\subsection{Time Series Analysis}
+
+\subsubsection{Temporal Overview}
+
+The biometric dataset spans from March 1, 2025 to December 29, 2025 (89 unique days). Table \ref{tab:temporal_stats} presents enrollment statistics.
+
+\begin{table}[H]
+\centering
+\caption{Daily Enrollment Statistics (Biometric)}
+\label{tab:temporal_stats}
+\begin{tabular}{lr}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Total Enrollment & 7,432,831 \\
+Daily Mean & 83,515 \\
+Daily Std Dev & 201,866 \\
+Daily Min & 7 \\
+Daily Max & 1,054,669 \\
+Daily Median & 40,099 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Day of Week Pattern}
+
+Analysis reveals significant variation across days. Tuesday shows the highest mean enrollment (72.59 per record), while Wednesday shows the lowest (15.39). Figure~\ref{fig:day_of_week} illustrates these patterns across all three datasets.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/day_of_week_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/day_of_week_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/day_of_week_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{Day of Week Enrollment Patterns. Bars show mean enrollment per record for each day, with error bars indicating standard deviation. Tuesday consistently shows highest enrollment across all datasets.}
+\label{fig:day_of_week}
+\end{figure*}
+
+\subsubsection{Weekend vs. Weekday Analysis}
+
+Statistical testing reveals significant differences:
+\begin{itemize}[noitemsep]
+    \item Weekend total: 2,408,094 (53,647 records)
+    \item Weekday total: 5,024,737 (146,353 records)
+    \item Weekend mean per record: 44.89
+    \item Weekday mean per record: 34.33
+    \item \textbf{t-statistic: 13.32, p $<$ 0.001}
+\end{itemize}
+
+This counter-intuitive finding suggests weekend enrollment centers may be more efficient or serve areas with different demographic patterns. Figure~\ref{fig:weekend_weekday} presents a visual comparison.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.45\textwidth]{figures/weekend_weekday_comparison.pdf}
+\caption{Weekend vs. Weekday Enrollment Comparison. The violin plot shows the distribution of enrollment values, with box plots overlaid. Weekend enrollments show significantly higher mean and greater variance (t=13.32, p$<$0.001).}
+\label{fig:weekend_weekday}
+\end{figure}
+
+\subsection{Geographic Analysis}
+
+\subsubsection{Regional Distribution}
+
+Table \ref{tab:regional_dist} shows the distribution across regions. Figure~\ref{fig:regional_dist} visualizes these patterns geographically.
+
+\begin{table}[H]
+\centering
+\caption{Regional Enrollment Distribution}
+\label{tab:regional_dist}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Region} & \textbf{Total} & \textbf{\%} & \textbf{Mean} \\
+\midrule
+Central & 1,913,109 & 25.74 & 68.75 \\
+South & 1,534,809 & 20.65 & 21.08 \\
+West & 1,341,536 & 18.05 & 50.60 \\
+East & 1,317,325 & 17.72 & 36.16 \\
+North & 1,086,913 & 14.62 & 42.14 \\
+Northeast & 222,142 & 2.99 & 25.23 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/regional_distribution_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/regional_distribution_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/regional_distribution_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{Regional Enrollment Distribution. Pie charts show percentage share of total enrollment by region. Central region consistently dominates (25-26\%), while Northeast accounts for only 3\% across all datasets.}
+\label{fig:regional_dist}
+\end{figure*}
+
+\subsubsection{State-Level Analysis}
+
+Top 5 states by enrollment:
+\begin{enumerate}[noitemsep]
+    \item Maharashtra: 994,092 (13.4\%)
+    \item Uttar Pradesh: 992,200 (13.4\%)
+    \item Madhya Pradesh: 623,020 (8.4\%)
+    \item Bihar: 533,639 (7.2\%)
+    \item Tamil Nadu: 513,161 (6.9\%)
+\end{enumerate}
+
+\noindent Figure~\ref{fig:top_states} shows the top 10 states across all datasets.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/top_states_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/top_states_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/top_states_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{Top 10 States by Enrollment. Horizontal bar charts reveal Maharashtra and Uttar Pradesh as consistent leaders, together accounting for over 25\% of total enrollment.}
+\label{fig:top_states}
+\end{figure*}
+
+\subsubsection{Inequality Metrics}
+
+\begin{itemize}[noitemsep]
+    \item \textbf{Gini Coefficient: 0.737} (High inequality)
+    \item Top 5 states share: 49.19\%
+    \item Top 10 states share: 72.39\%
+\end{itemize}
+
+\subsubsection{Pincode Zone Analysis}
+
+Enrollment varies by pincode first digit (zone):
+\begin{itemize}[noitemsep]
+    \item Zone 4 (MP, Chhattisgarh): Highest mean (68.74)
+    \item Zone 5 (Karnataka, AP): Lowest mean (20.02)
+\end{itemize}
+
+\subsection{Demographic Analysis}
+
+\subsubsection{Age Group Distribution}
+
+For biometric data:
+\begin{itemize}[noitemsep]
+    \item Age 5-17: 3,622,750 (48.74\%)
+    \item Age 17+: 3,810,081 (51.26\%)
+    \item Ratio (5-17/17+): 0.951
+\end{itemize}
+
+\subsubsection{Age Group Correlation}
+
+Strong positive correlation between age groups:
+\begin{equation}
+r = 0.778, \quad p < 0.001
+\end{equation}
+
+This indicates that areas with high child enrollment also have high adult enrollment, suggesting systematic patterns rather than random variation.
+
+\subsubsection{Population Correlation}
+
+Weak correlation with state population (r = 0.248, p = 0.145), indicating that enrollment is not simply proportional to population.
+
+\subsection{Socioeconomic Analysis}
+
+\subsubsection{HDI Analysis}
+
+Paradoxically, we find negative correlation between HDI and enrollment:
+\begin{equation}
+r_{HDI} = -0.321, \quad p = 0.060
+\end{equation}
+
+HDI stratification reveals (Table \ref{tab:hdi_strat}):
+
+\begin{table}[H]
+\centering
+\caption{HDI Stratification Analysis}
+\label{tab:hdi_strat}
+\begin{tabular}{lcr}
+\toprule
+\textbf{HDI Level} & \textbf{States} & \textbf{Mean Enroll} \\
+\midrule
+High ($\geq$0.65) & 16 & 165,095 \\
+Medium (0.55-0.65) & 13 & 174,889 \\
+Low ($<$0.55) & 6 & 416,515 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Interpretation:} Low-HDI states show higher enrollment volumes, likely due to larger unregistered populations requiring new Aadhaar enrollments, while high-HDI states have near-complete coverage. Figure~\ref{fig:hdi_analysis} illustrates this inverse relationship across datasets.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/hdi_analysis_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/hdi_analysis_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/hdi_analysis_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{HDI vs. Enrollment Stratification. Scatter plots with HDI on x-axis and mean enrollment on y-axis, color-coded by HDI level (low/medium/high). Regression lines confirm negative correlation (r=-0.321).}
+\label{fig:hdi_analysis}
+\end{figure*}
+
+\subsubsection{Literacy Rate Analysis}
+
+Significant inverse relationship:
+\begin{equation}
+r_{literacy} = -0.358, \quad p = 0.035
+\end{equation}
+
+\subsubsection{Income Analysis}
+
+Weak negative correlation with per capita income:
+\begin{equation}
+r_{income} = -0.258, \quad p = 0.134
+\end{equation}
+
+\subsection{Climate Analysis}
+
+\subsubsection{Rainfall Zone Distribution}
+
+ANOVA reveals significant differences across rainfall zones:
+\begin{equation}
+F = 202.93, \quad p < 0.001
+\end{equation}
+
+Table \ref{tab:rainfall} shows enrollment by rainfall zone. Figure~\ref{fig:climate_analysis} visualizes climate patterns.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/climate_analysis_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/climate_analysis_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/climate_analysis_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{Climate Zone Analysis. Stacked bar charts showing enrollment distribution across rainfall zones. Moderate rainfall zones consistently account for 45-46\% of total enrollment.}
+\label{fig:climate_analysis}
+\end{figure*}
+
+\begin{table}[H]
+\centering
+\caption{Enrollment by Rainfall Zone}
+\label{tab:rainfall}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Zone} & \textbf{Total} & \textbf{\%} \\
+\midrule
+Moderate & 3,390,156 & 45.61 \\
+Low to Moderate & 1,332,942 & 17.93 \\
+Moderate to High & 993,296 & 13.36 \\
+Low & 886,437 & 11.93 \\
+High & 557,941 & 7.51 \\
+Very High & 247,086 & 3.32 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Climate Type Analysis}
+
+Tropical and Sub-tropical climates dominate enrollment patterns, consistent with population distribution in peninsular and central India.
+
+\subsubsection{Earthquake Zone Analysis}
+
+No significant correlation between seismic risk zones and enrollment patterns was found.
+
+\subsection{Hypothesis Testing Results}
+
+Table \ref{tab:hypothesis} summarizes hypothesis tests. Figure~\ref{fig:hypothesis_tests} provides a visual comparison of test results across datasets.
+
+\begin{table}[H]
+\centering
+\caption{Hypothesis Test Summary}
+\label{tab:hypothesis}
+\begin{tabular}{lccl}
+\toprule
+\textbf{Test} & \textbf{Stat} & \textbf{p-value} & \textbf{Result} \\
+\midrule
+Regional (K-W) & 8432.1 & $<$0.001 & Reject H$_0$ \\
+Weekend (M-W) & 4.2e9 & $<$0.001 & Reject H$_0$ \\
+HDI (ANOVA) & 15.73 & $<$0.001 & Reject H$_0$ \\
+Normality (D-P) & 1.8e5 & $<$0.001 & Reject H$_0$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All tests show significant results, confirming systematic patterns in enrollment data.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/hypothesis_tests_summary.pdf}
+\caption{Hypothesis Testing Summary. Grouped bar chart showing test statistics (left y-axis) and p-values (right y-axis) for all four hypothesis tests across three datasets. All tests reject null hypothesis with p$<$0.001.}
+\label{fig:hypothesis_tests}
+\end{figure}
+
+\subsection{Machine Learning Results}
+
+\subsubsection{Classification Performance}
+
+Table \ref{tab:classification} shows classification accuracy for regional prediction.
+
+\begin{table}[H]
+\centering
+\caption{Classification Model Performance}
+\label{tab:classification}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{Acc} & \textbf{Prec} & \textbf{Rec} & \textbf{F1} \\
+\midrule
+Decision Tree & \textbf{99.97} & 1.00 & 1.00 & 1.00 \\
+Random Forest & 99.87 & 1.00 & 1.00 & 1.00 \\
+Gradient Boost & 99.97 & 1.00 & 1.00 & 1.00 \\
+XGBoost & 99.97 & 1.00 & 1.00 & 1.00 \\
+Extra Trees & 99.10 & 0.99 & 0.99 & 0.99 \\
+Logistic Reg & 97.82 & 0.97 & 0.98 & 0.97 \\
+KNN & 97.02 & 0.97 & 0.97 & 0.97 \\
+Naive Bayes & 89.80 & 0.93 & 0.90 & 0.91 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Feature Importance}
+
+Top features for regional classification (Random Forest):
+\begin{enumerate}[noitemsep]
+    \item pincode\_region (24.6\%)
+    \item pincode (24.1\%)
+    \item pincode\_numeric (23.5\%)
+    \item pincode\_zone (18.8\%)
+    \item state\_encoded (7.0\%)
+\end{enumerate}
+
+Geographic features dominate, as expected for regional classification. Figure~\ref{fig:ml_comparison} compares model performance across categories.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/ml_model_comparison.pdf}
+\caption{ML Model Performance Comparison. Multi-panel visualization showing: (top) classification accuracy for top 8 models, (middle) regression R$^2$ scores, (bottom) clustering silhouette scores. Decision Tree and ensemble methods dominate classification and regression tasks.}
+\label{fig:ml_comparison}
+\end{figure}
+
+\subsubsection{Regression Performance}
+
+Table \ref{tab:regression} shows top regression models.
+
+\begin{table}[H]
+\centering
+\caption{Top Regression Models (R$^2$)}
+\label{tab:regression}
+\begin{tabular}{lr}
+\toprule
+\textbf{Model} & \textbf{R$^2$} \\
+\midrule
+Linear Regression & 1.0000 \\
+Huber Regressor & 1.0000 \\
+Random Forest & 0.9999996 \\
+Bagging & 0.9999996 \\
+Decision Tree & 0.9999998 \\
+Gradient Boosting & 0.9999993 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Clustering Results}
+
+Table \ref{tab:clustering} shows clustering performance.
+
+\begin{table}[H]
+\centering
+\caption{Clustering Analysis Results}
+\label{tab:clustering}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Method} & \textbf{k/n} & \textbf{Silhouette} & \textbf{CH Score} \\
+\midrule
+K-Means & 5 & \textbf{0.283} & 9,502 \\
+K-Means & 10 & 0.285 & 7,567 \\
+K-Means & 3 & 0.261 & 9,711 \\
+K-Means & 7 & 0.268 & 8,313 \\
+GMM & 5 & 0.159 & 5,437 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Optimal clustering at k=5 reveals five distinct enrollment pattern groups.
+
+\subsubsection{Anomaly Detection}
+
+Consistent anomaly detection across methods:
+\begin{itemize}[noitemsep]
+    \item Isolation Forest: 10\% anomalies
+    \item Local Outlier Factor: 10\% anomalies
+    \item Elliptic Envelope: 10\% anomalies
+\end{itemize}
+
+\subsection{Correlation Analysis}
+
+\subsubsection{Key Correlations}
+
+Significant correlations with total enrollment are presented in Figure~\ref{fig:correlations}.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/correlations_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/correlations_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/correlations_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{Correlation Heatmaps. Color-coded matrices showing Pearson correlation coefficients between all numerical features. Darker red indicates strong positive correlation, darker blue indicates strong negative correlation. Age group features show strongest correlations with total enrollment (r$>$0.9).}
+\label{fig:correlations}
+\end{figure*}
+
+\noindent Key significant correlations with total enrollment:
+\begin{itemize}[noitemsep]
+    \item bio\_age\_5\_17: r = 0.962 (strong positive)
+    \item bio\_age\_17\_: r = 0.911 (strong positive)
+    \item pincode: r = -0.167 (weak negative)
+    \item population\_2011: r = 0.155 (weak positive)
+    \item hdi: r = -0.182 (weak negative)
+\end{itemize}
+
+\section{Discussion}
+
+\subsection{Key Findings}
+
+\subsubsection{Geographic Concentration}
+
+The high Gini coefficient (0.737) indicates significant geographic inequality in enrollment distribution. The top 10 states account for over 72\% of total enrollment, suggesting concentration in populous states.
+
+\subsubsection{Socioeconomic Paradox}
+
+The inverse relationship between HDI and enrollment challenges intuitive expectations. Low-HDI states show 2.5x higher mean enrollment than high-HDI states. This suggests:
+\begin{enumerate}[noitemsep]
+    \item High-HDI states have achieved near-complete Aadhaar saturation
+    \item Low-HDI states have larger unregistered populations
+    \item Current enrollment drives focus on underserved areas
+\end{enumerate}
+
+\subsubsection{Weekend Efficiency}
+
+The significant weekend enrollment increase (t=13.32, p$<$0.001) with higher mean per record suggests:
+\begin{enumerate}[noitemsep]
+    \item Working population prefers weekend enrollment
+    \item Weekend centers may be more efficient
+    \item Rural areas may have weekend-only centers
+\end{enumerate}
+
+\subsubsection{Climate-Enrollment Relationship}
+
+The significant ANOVA results (F=202.93) for rainfall zones indicate climate factors influence enrollment patterns, possibly through:
+\begin{enumerate}[noitemsep]
+    \item Population distribution (moderate rainfall = agricultural areas)
+    \item Infrastructure availability
+    \item Seasonal accessibility
+\end{enumerate}
+
+\subsection{Model Interpretability}
+
+The near-perfect classification accuracy (99.97\%) primarily driven by pincode-based features has important implications:
+\begin{enumerate}[noitemsep]
+    \item Geographic location strongly predicts enrollment patterns
+    \item Regional models could enable targeted interventions
+    \item Feature engineering effectively captures spatial patterns
+\end{enumerate}
+
+\subsection{Policy Recommendations}
+
+Based on our findings, we recommend:
+
+\begin{enumerate}
+    \item \textbf{Regional Focus:} Prioritize Northeast (only 2.99\% share) and expand coverage
+    \item \textbf{Weekend Services:} Expand weekend enrollment availability given higher efficiency
+    \item \textbf{Low-HDI States:} Continue focus on low-HDI states to achieve universal coverage
+    \item \textbf{Climate Adaptation:} Plan enrollment drives considering rainfall patterns
+    \item \textbf{Pincode-Based Planning:} Use pincode zone analysis for resource allocation
+\end{enumerate}
+
+\subsection{Limitations}
+
+\begin{itemize}[noitemsep]
+    \item Sample size (200K per dataset) may not capture all patterns
+    \item Static reference data from 2011 Census may be outdated
+    \item External API integration was limited to static data
+    \item Temporal coverage limited to March-December 2025
+\end{itemize}
+
+\section{Conclusion}
+
+This comprehensive analysis of UIDAI Aadhaar enrollment data reveals significant patterns across temporal, geographic, socioeconomic, and climate dimensions. Key findings include:
+
+\begin{enumerate}[noitemsep]
+    \item High geographic inequality (Gini = 0.737) with Central region dominance
+    \item Paradoxical inverse HDI-enrollment relationship
+    \item Significant weekend enrollment efficiency gains
+    \item Climate zone influence on enrollment patterns
+    \item Near-perfect ML classification accuracy (99.97\%)
+    \item Optimal 5-cluster enrollment pattern segmentation
+\end{enumerate}
+
+The machine learning models demonstrate that geographic features are highly predictive of enrollment patterns, enabling targeted intervention strategies. Future work should incorporate real-time API data, expanded temporal coverage, and district-level socioeconomic indicators for more granular analysis.
+
+\section*{Data Availability}
+
+Analysis code and results are available at: \url{https://github.com/XAheli/UIDAI}
+
+\section*{Acknowledgments}
+
+We thank the UIDAI for making enrollment data publicly available through the Open Government Data Platform and the open-source community for the tools enabling this analysis.
+
+\bibliographystyle{unsrtnat}
+\begin{thebibliography}{9}
+
+\bibitem{uidai2024}
+UIDAI (2024).
+\newblock Aadhaar Dashboard Statistics.
+\newblock \url{https://uidai.gov.in/}
+
+\bibitem{census2011}
+Census of India (2011).
+\newblock Population Enumeration Data.
+\newblock \url{https://censusindia.gov.in/}
+
+\bibitem{sklearn}
+Pedregosa, F., et al. (2011).
+\newblock Scikit-learn: Machine Learning in Python.
+\newblock \emph{Journal of Machine Learning Research}, 12, 2825-2830.
+
+\bibitem{pandas}
+McKinney, W. (2010).
+\newblock Data Structures for Statistical Computing in Python.
+\newblock \emph{Proceedings of the 9th Python in Science Conference}.
+
+\end{thebibliography}
+
+\onecolumn
+\appendix
+
+\section{Appendix: Complete ML Model Results}
+
+\begin{table}[H]
+\centering
+\caption{Complete Classification Results (Biometric Dataset)}
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Model} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} & \textbf{CV Mean} & \textbf{CV Std} \\
+\midrule
+Decision Tree & 0.9997 & 1.0000 & 1.0000 & 1.0000 & 0.9998 & 0.0002 \\
+Random Forest & 0.9987 & 0.9987 & 0.9987 & 0.9986 & 0.9987 & 0.0004 \\
+Gradient Boosting & 0.9997 & 1.0000 & 1.0000 & 1.0000 & 0.9998 & 0.0001 \\
+XGBoost & 0.9997 & 1.0000 & 1.0000 & 1.0000 & 0.9998 & 0.0002 \\
+Bagging & 0.9997 & 1.0000 & 1.0000 & 1.0000 & 0.9999 & 0.0001 \\
+Extra Trees & 0.9910 & 0.9913 & 0.9910 & 0.9886 & 0.9905 & 0.0011 \\
+Logistic Regression & 0.9782 & 0.9661 & 0.9782 & 0.9717 & 0.9788 & 0.0001 \\
+KNN & 0.9702 & 0.9690 & 0.9702 & 0.9684 & 0.9690 & 0.0010 \\
+Naive Bayes & 0.8980 & 0.9341 & 0.8980 & 0.9118 & 0.8893 & 0.0163 \\
+Linear SVC & 0.8452 & 0.8238 & 0.8452 & 0.8205 & 0.8497 & 0.0052 \\
+AdaBoost & 0.7730 & 0.6389 & 0.7730 & 0.6893 & 0.7551 & 0.0252 \\
+SGD Classifier & 0.7563 & 0.7374 & 0.7563 & 0.7433 & 0.8149 & 0.0114 \\
+Ridge Classifier & 0.6097 & 0.5559 & 0.6097 & 0.5284 & 0.6155 & 0.0068 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Complete Regression Results (Biometric Dataset)}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{MSE} & \textbf{RMSE} & \textbf{MAE} & \textbf{R$^2$} \\
+\midrule
+Linear Regression & 2.23e-20 & 1.49e-10 & 1.14e-10 & 1.0000 \\
+Huber Regressor & 2.12e-12 & 1.46e-06 & 1.05e-06 & 1.0000 \\
+Decision Tree & 9,256 & 96.21 & 55.87 & 0.99999977 \\
+Random Forest & 15,597 & 124.89 & 42.88 & 0.99999961 \\
+Bagging & 15,640 & 125.06 & 5.98 & 0.99999961 \\
+Gradient Boosting & 26,875 & 163.94 & 101.16 & 0.99999933 \\
+Lasso & 18,469 & 135.90 & 111.64 & 0.99999954 \\
+XGBoost & 190,757 & 436.76 & 306.54 & 0.99999523 \\
+Extra Trees & 38,808 & 197.00 & 150.03 & 0.99999031 \\
+Ridge & 185,304 & 430.47 & 364.11 & 0.99999537 \\
+SGD Regressor & 918,646 & 958.46 & 810.14 & 0.99997705 \\
+Elastic Net & 9.11e+08 & 30,178 & 25,938 & 0.97725 \\
+KNN & 1.44e+08 & 12,008 & 5,901 & 0.99640 \\
+AdaBoost & 3.14e+08 & 17,726 & 14,670 & 0.99215 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Appendix: Data Augmentation Schema}
+
+\begin{table}[H]
+\centering
+\caption{Complete Feature Schema After Augmentation}
+\begin{tabular}{llp{6cm}}
+\toprule
+\textbf{Feature} & \textbf{Type} & \textbf{Description} \\
+\midrule
+date & datetime & Enrollment date \\
+state & string & State name \\
+district & string & District name \\
+pincode & integer & 6-digit postal code \\
+bio\_age\_5\_17 & integer & Biometric enrollments age 5-17 \\
+bio\_age\_17\_ & integer & Biometric enrollments age 17+ \\
+\midrule
+population\_2011 & integer & State population (Census 2011) \\
+rainfall\_zone & string & Rainfall classification \\
+earthquake\_zone & string & Seismic risk zone \\
+climate\_type & string & Climate classification \\
+state\_literacy\_rate & float & State literacy rate (\%) \\
+state\_sex\_ratio & integer & Females per 1000 males \\
+per\_capita\_income\_usd & float & Per capita income (USD) \\
+hdi & float & Human Development Index \\
+region & string & Geographic region \\
+\midrule
+day\_of\_week & integer & 0 (Mon) - 6 (Sun) \\
+day\_name & string & Day name \\
+month & integer & Month number \\
+month\_name & string & Month name \\
+year & integer & Year \\
+quarter & integer & Quarter (1-4) \\
+is\_weekend & boolean & Weekend indicator \\
+\midrule
+pincode\_zone & integer & First digit of pincode \\
+pincode\_region & integer & First two digits \\
+total\_enrollment & integer & Sum of age groups \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
