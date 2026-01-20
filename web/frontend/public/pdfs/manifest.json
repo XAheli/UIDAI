@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-01-20T18:17:15.047755",
+  "author": "Shuvam Banerji Seal's Team",
+  "pdfs": [
+    {
+      "id": "summary",
+      "name": "Executive Summary",
+      "filename": "analysis_summary.pdf",
+      "description": "High-level overview of all analyses and key findings"
+    },
+    {
+      "id": "time_series",
+      "name": "Time Series Analysis",
+      "filename": "time_series_analysis.pdf",
+      "description": "Temporal patterns, trends, seasonality, and anomaly detection"
+    },
+    {
+      "id": "statistical",
+      "name": "Statistical Analysis",
+      "filename": "statistical_analysis.pdf",
+      "description": "Descriptive statistics, correlations, hypothesis tests"
+    },
+    {
+      "id": "geographic",
+      "name": "Geographic Analysis",
+      "filename": "geographic_analysis.pdf",
+      "description": "State-wise distribution, regional patterns, clustering"
+    },
+    {
+      "id": "demographic",
+      "name": "Demographic Analysis",
+      "filename": "demographic_analysis.pdf",
+      "description": "Age distribution, literacy patterns, population analysis"
+    },
+    {
+      "id": "ml_results",
+      "name": "Machine Learning Results",
+      "filename": "ml_results.pdf",
+      "description": "Classification, regression, clustering, and anomaly detection"
+    }
+  ]
+}

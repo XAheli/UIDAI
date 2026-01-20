@@ -1,0 +1,78 @@
+{
+  "dataset_name": "demographic",
+  "day_of_week": {
+    "stats": [
+      {
+        "day_of_week": 0,
+        "day_name": "Monday",
+        "total": 1527,
+        "mean": 13.633928571428571,
+        "std": 23.27315103723729,
+        "count": 112
+      },
+      {
+        "day_of_week": 1,
+        "day_name": "Tuesday",
+        "total": 43285,
+        "mean": 13.73255076142132,
+        "std": 23.178125393576472,
+        "count": 3152
+      },
+      {
+        "day_of_week": 2,
+        "day_name": "Wednesday",
+        "total": 23842,
+        "mean": 14.191666666666666,
+        "std": 20.62115065359688,
+        "count": 1680
+      },
+      {
+        "day_of_week": 3,
+        "day_name": "Thursday",
+        "total": 1381,
+        "mean": 3.3117505995203835,
+        "std": 3.5203639801921756,
+        "count": 417
+      },
+      {
+        "day_of_week": 5,
+        "day_name": "Saturday",
+        "total": 50188,
+        "mean": 10.818710929079543,
+        "std": 16.392544345227606,
+        "count": 4639
+      }
+    ],
+    "anova_f_stat": 37.48197357953464,
+    "anova_p_value": 3.6271186395813053e-31,
+    "significant_effect": "True",
+    "best_day": "Wednesday",
+    "worst_day": "Thursday"
+  },
+  "monthly": {
+    "stats": [
+      {
+        "month": 11,
+        "month_name": "November",
+        "total": 34868,
+        "mean": 11.072721498888535,
+        "std": 17.04249814259985,
+        "count": 3149
+      },
+      {
+        "month": 12,
+        "month_name": "December",
+        "total": 85355,
+        "mean": 12.458765143774631,
+        "std": 20.417707718779514,
+        "count": 6851
+      }
+    ],
+    "best_month": "December",
+    "worst_month": "November"
+  },
+  "weekend_effect": {
+    "weekday_mean": 13.063794068270845,
+    "weekend_mean": 10.818710929079543
+  }
+}

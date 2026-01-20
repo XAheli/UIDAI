@@ -1,0 +1,83 @@
+{
+  "dataset_name": "demographic",
+  "date_range": {
+    "start": "2025-11-25",
+    "end": "2025-12-20",
+    "total_days": 6
+  },
+  "enrollment_stats": {
+    "total": 120223,
+    "daily_mean": 20037.166666666668,
+    "daily_std": 19208.34540939606,
+    "daily_min": 1381,
+    "daily_max": 50188,
+    "daily_median": 17434.0
+  },
+  "coverage": {
+    "avg_states_per_day": 15.833333333333334,
+    "avg_districts_per_day": 308.0,
+    "avg_pincodes_per_day": 1592.6666666666667
+  },
+  "trend": {
+    "slope": 4547.400000000001,
+    "r_squared": 0.19616180353922572,
+    "p_value": 0.3790878259006649,
+    "direction": "increasing"
+  },
+  "daily_data": [
+    {
+      "date": "2025-11-25 00:00:00",
+      "total_enrollment": 11026,
+      "unique_states": 19,
+      "unique_districts": 327,
+      "unique_pincodes": 1432,
+      "ma_7": 11026.0,
+      "ma_30": 11026.0
+    },
+    {
+      "date": "2025-11-26 00:00:00",
+      "total_enrollment": 23842,
+      "unique_states": 21,
+      "unique_districts": 343,
+      "unique_pincodes": 1612,
+      "ma_7": 17434.0,
+      "ma_30": 17434.0
+    },
+    {
+      "date": "2025-12-15 00:00:00",
+      "total_enrollment": 1527,
+      "unique_states": 2,
+      "unique_districts": 13,
+      "unique_pincodes": 109,
+      "ma_7": 12131.666666666666,
+      "ma_30": 12131.666666666666
+    },
+    {
+      "date": "2025-12-16 00:00:00",
+      "total_enrollment": 32259,
+      "unique_states": 13,
+      "unique_districts": 284,
+      "unique_pincodes": 1601,
+      "ma_7": 17163.5,
+      "ma_30": 17163.5
+    },
+    {
+      "date": "2025-12-18 00:00:00",
+      "total_enrollment": 1381,
+      "unique_states": 4,
+      "unique_districts": 101,
+      "unique_pincodes": 413,
+      "ma_7": 14007.0,
+      "ma_30": 14007.0
+    },
+    {
+      "date": "2025-12-20 00:00:00",
+      "total_enrollment": 50188,
+      "unique_states": 36,
+      "unique_districts": 780,
+      "unique_pincodes": 4389,
+      "ma_7": 20037.166666666668,
+      "ma_30": 20037.166666666668
+    }
+  ]
+}

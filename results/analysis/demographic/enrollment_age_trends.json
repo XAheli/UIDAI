@@ -1,0 +1,20 @@
+{
+  "dataset_name": "enrollment",
+  "age_columns": {
+    "infants": "age_0_5",
+    "children": "age_5_17",
+    "adults": "age_18_greater"
+  },
+  "monthly_trends": [
+    {
+      "month": "2025-11",
+      "age_0_5": 37501,
+      "age_5_17": 13297,
+      "age_18_greater": 1374,
+      "age_0_5_pct": 71.88,
+      "age_5_17_pct": 25.49,
+      "age_18_greater_pct": 2.63
+    }
+  ],
+  "trend_directions": {}
+}

@@ -1,0 +1,17 @@
+{
+  "dataset_name": "demographic",
+  "method": {
+    "zscore_threshold": 2.0,
+    "mean": 20037.166666666668,
+    "std": 19208.34540939606,
+    "iqr_lower": -35477.75,
+    "iqr_upper": 69534.25
+  },
+  "anomalies": {
+    "total_count": 0,
+    "high_anomalies": 0,
+    "low_anomalies": 0,
+    "iqr_anomalies": 0,
+    "details": []
+  }
+}

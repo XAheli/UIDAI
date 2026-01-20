@@ -1,0 +1,135 @@
+{
+  "dataset_name": "demographic",
+  "regional_stats": [
+    {
+      "region": "West",
+      "total_enrollment": 33136,
+      "mean_enrollment": 13.647446457990116,
+      "record_count": 2428,
+      "unique_states": 4,
+      "unique_districts": 135,
+      "unique_pincodes": 1790,
+      "share_pct": 27.56
+    },
+    {
+      "region": "East",
+      "total_enrollment": 29333,
+      "mean_enrollment": 11.435867446393763,
+      "record_count": 2565,
+      "unique_states": 5,
+      "unique_districts": 149,
+      "unique_pincodes": 1824,
+      "share_pct": 24.4
+    },
+    {
+      "region": "North",
+      "total_enrollment": 27187,
+      "mean_enrollment": 21.662948207171315,
+      "record_count": 1255,
+      "unique_states": 6,
+      "unique_districts": 158,
+      "unique_pincodes": 1088,
+      "share_pct": 22.61
+    },
+    {
+      "region": "South",
+      "total_enrollment": 11759,
+      "mean_enrollment": 5.342571558382553,
+      "record_count": 2201,
+      "unique_states": 7,
+      "unique_districts": 177,
+      "unique_pincodes": 1916,
+      "share_pct": 9.78
+    },
+    {
+      "region": "Central",
+      "total_enrollment": 11328,
+      "mean_enrollment": 15.04382470119522,
+      "record_count": 753,
+      "unique_states": 2,
+      "unique_districts": 98,
+      "unique_pincodes": 541,
+      "share_pct": 9.42
+    },
+    {
+      "region": "Northeast",
+      "total_enrollment": 4729,
+      "mean_enrollment": 7.165151515151515,
+      "record_count": 660,
+      "unique_states": 7,
+      "unique_districts": 99,
+      "unique_pincodes": 468,
+      "share_pct": 3.93
+    },
+    {
+      "region": "Unknown",
+      "total_enrollment": 2751,
+      "mean_enrollment": 19.934782608695652,
+      "record_count": 138,
+      "unique_states": 5,
+      "unique_districts": 31,
+      "unique_pincodes": 106,
+      "share_pct": 2.29
+    }
+  ],
+  "region_ranking": [
+    "West",
+    "East",
+    "North",
+    "South",
+    "Central",
+    "Northeast",
+    "Unknown"
+  ],
+  "dominant_region": "West",
+  "regions_by_state": {
+    "North": [
+      "Jammu & Kashmir",
+      "Himachal Pradesh",
+      "Punjab",
+      "Chandigarh",
+      "Uttarakhand",
+      "Haryana",
+      "NCT of Delhi",
+      "Uttar Pradesh"
+    ],
+    "South": [
+      "Andhra Pradesh",
+      "Karnataka",
+      "Kerala",
+      "Tamil Nadu",
+      "Telangana",
+      "Puducherry",
+      "Lakshadweep",
+      "Andaman & Nicobar Islands"
+    ],
+    "East": [
+      "Bihar",
+      "Jharkhand",
+      "Odisha",
+      "West Bengal",
+      "Sikkim"
+    ],
+    "West": [
+      "Rajasthan",
+      "Gujarat",
+      "Maharashtra",
+      "Goa",
+      "Dadra & Nagar Haveli",
+      "Daman & Diu"
+    ],
+    "Central": [
+      "Madhya Pradesh",
+      "Chhattisgarh"
+    ],
+    "Northeast": [
+      "Assam",
+      "Arunachal Pradesh",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Tripura"
+    ]
+  }
+}

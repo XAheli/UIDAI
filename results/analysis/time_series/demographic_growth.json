@@ -1,0 +1,70 @@
+{
+  "dataset_name": "demographic",
+  "daily_growth": {
+    "mean_pct_change": 1094.7343601418747,
+    "std_pct_change": 1626.3520457921677,
+    "positive_days": 3,
+    "negative_days": 2
+  },
+  "weekly_growth": {
+    "mean_wow_growth": 144.79465412412526,
+    "data": [
+      {
+        "year": 2025,
+        "week": 48,
+        "total_enrollment": 34868,
+        "wow_growth": NaN
+      },
+      {
+        "year": 2025,
+        "week": 51,
+        "total_enrollment": 85355,
+        "wow_growth": 144.79465412412526
+      }
+    ]
+  },
+  "monthly_growth": {
+    "mean_mom_growth": 144.79465412412526,
+    "data": [
+      {
+        "month": "2025-11",
+        "total": 34868,
+        "mom_growth": null
+      },
+      {
+        "month": "2025-12",
+        "total": 85355,
+        "mom_growth": 144.79465412412526
+      }
+    ]
+  },
+  "cumulative": {
+    "total": 120223,
+    "data": [
+      {
+        "date": "2025-11-25 00:00:00",
+        "cumulative": 11026
+      },
+      {
+        "date": "2025-11-26 00:00:00",
+        "cumulative": 34868
+      },
+      {
+        "date": "2025-12-15 00:00:00",
+        "cumulative": 36395
+      },
+      {
+        "date": "2025-12-16 00:00:00",
+        "cumulative": 68654
+      },
+      {
+        "date": "2025-12-18 00:00:00",
+        "cumulative": 70035
+      },
+      {
+        "date": "2025-12-20 00:00:00",
+        "cumulative": 120223
+      }
+    ]
+  }
+}

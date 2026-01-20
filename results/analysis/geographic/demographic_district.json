@@ -1,0 +1,1959 @@
+{
+  "dataset_name": "demographic",
+  "summary": {
+    "total_districts": 841,
+    "avg_districts_per_state": 23.833333333333332,
+    "max_districts_in_state": 82,
+    "min_districts_in_state": 1
+  },
+  "top_districts": [
+    {
+      "state": "Maharashtra",
+      "district": "Thane",
+      "total_enrollment": 2573,
+      "mean_enrollment": 38.40298507462686,
+      "record_count": 67,
+      "unique_pincodes": 49,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Pune",
+      "total_enrollment": 2181,
+      "mean_enrollment": 21.594059405940595,
+      "record_count": 101,
+      "unique_pincodes": 77,
+      "region": "West"
+    },
+    {
+      "state": "West Bengal",
+      "district": "South 24 Parganas",
+      "total_enrollment": 1541,
+      "mean_enrollment": 28.01818181818182,
+      "record_count": 55,
+      "unique_pincodes": 44,
+      "region": "East"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Solapur",
+      "total_enrollment": 1334,
+      "mean_enrollment": 25.169811320754718,
+      "record_count": 53,
+      "unique_pincodes": 38,
+      "region": "West"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Lucknow",
+      "total_enrollment": 1161,
+      "mean_enrollment": 61.10526315789474,
+      "record_count": 19,
+      "unique_pincodes": 16,
+      "region": "North"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "total_enrollment": 1041,
+      "mean_enrollment": 19.27777777777778,
+      "record_count": 54,
+      "unique_pincodes": 42,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Mumbai",
+      "total_enrollment": 973,
+      "mean_enrollment": 13.14864864864865,
+      "record_count": 74,
+      "unique_pincodes": 55,
+      "region": "West"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Uttar Dinajpur",
+      "total_enrollment": 953,
+      "mean_enrollment": 52.94444444444444,
+      "record_count": 18,
+      "unique_pincodes": 13,
+      "region": "East"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Ahmadnagar",
+      "total_enrollment": 922,
+      "mean_enrollment": 14.184615384615384,
+      "record_count": 65,
+      "unique_pincodes": 52,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "total_enrollment": 915,
+      "mean_enrollment": 14.758064516129032,
+      "record_count": 62,
+      "unique_pincodes": 43,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "total_enrollment": 908,
+      "mean_enrollment": 12.971428571428572,
+      "record_count": 70,
+      "unique_pincodes": 50,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Mumbai Suburban",
+      "total_enrollment": 877,
+      "mean_enrollment": 17.54,
+      "record_count": 50,
+      "unique_pincodes": 41,
+      "region": "West"
+    },
+    {
+      "state": "Gujarat",
+      "district": "Surat",
+      "total_enrollment": 872,
+      "mean_enrollment": 24.914285714285715,
+      "record_count": 35,
+      "unique_pincodes": 31,
+      "region": "West"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Jaipur",
+      "total_enrollment": 827,
+      "mean_enrollment": 27.566666666666666,
+      "record_count": 30,
+      "unique_pincodes": 27,
+      "region": "West"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Moradabad",
+      "total_enrollment": 825,
+      "mean_enrollment": 137.5,
+      "record_count": 6,
+      "unique_pincodes": 5,
+      "region": "North"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Yavatmal",
+      "total_enrollment": 774,
+      "mean_enrollment": 38.7,
+      "record_count": 20,
+      "unique_pincodes": 17,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Nanded",
+      "total_enrollment": 773,
+      "mean_enrollment": 22.085714285714285,
+      "record_count": 35,
+      "unique_pincodes": 28,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Jalgaon",
+      "total_enrollment": 762,
+      "mean_enrollment": 13.607142857142858,
+      "record_count": 56,
+      "unique_pincodes": 37,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Sangli",
+      "total_enrollment": 761,
+      "mean_enrollment": 15.854166666666666,
+      "record_count": 48,
+      "unique_pincodes": 40,
+      "region": "West"
+    },
+    {
+      "state": "West Bengal",
+      "district": "North 24 Parganas",
+      "total_enrollment": 754,
+      "mean_enrollment": 13.0,
+      "record_count": 58,
+      "unique_pincodes": 55,
+      "region": "East"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Murshidabad",
+      "total_enrollment": 707,
+      "mean_enrollment": 20.2,
+      "record_count": 35,
+      "unique_pincodes": 30,
+      "region": "East"
+    },
+    {
+      "state": "Bihar",
+      "district": "Samastipur",
+      "total_enrollment": 682,
+      "mean_enrollment": 20.058823529411764,
+      "record_count": 34,
+      "unique_pincodes": 24,
+      "region": "East"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Sitapur",
+      "total_enrollment": 674,
+      "mean_enrollment": 56.166666666666664,
+      "record_count": 12,
+      "unique_pincodes": 12,
+      "region": "North"
+    },
+    {
+      "state": "Bihar",
+      "district": "East Champaran",
+      "total_enrollment": 665,
+      "mean_enrollment": 20.151515151515152,
+      "record_count": 33,
+      "unique_pincodes": 26,
+      "region": "East"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Palghar",
+      "total_enrollment": 652,
+      "mean_enrollment": 22.482758620689655,
+      "record_count": 29,
+      "unique_pincodes": 25,
+      "region": "West"
+    },
+    {
+      "state": "Bihar",
+      "district": "Madhubani",
+      "total_enrollment": 640,
+      "mean_enrollment": 14.883720930232558,
+      "record_count": 43,
+      "unique_pincodes": 30,
+      "region": "East"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Puruliya",
+      "total_enrollment": 621,
+      "mean_enrollment": 27.0,
+      "record_count": 23,
+      "unique_pincodes": 21,
+      "region": "East"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Paschim Medinipur",
+      "total_enrollment": 616,
+      "mean_enrollment": 12.833333333333334,
+      "record_count": 48,
+      "unique_pincodes": 41,
+      "region": "East"
+    },
+    {
+      "state": "Bihar",
+      "district": "Gaya",
+      "total_enrollment": 610,
+      "mean_enrollment": 27.727272727272727,
+      "record_count": 22,
+      "unique_pincodes": 16,
+      "region": "East"
+    },
+    {
+      "state": "Bihar",
+      "district": "Muzaffarpur",
+      "total_enrollment": 580,
+      "mean_enrollment": 14.146341463414634,
+      "record_count": 41,
+      "unique_pincodes": 30,
+      "region": "East"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Aurangabad",
+      "total_enrollment": 572,
+      "mean_enrollment": 16.34285714285714,
+      "record_count": 35,
+      "unique_pincodes": 23,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Latur",
+      "total_enrollment": 571,
+      "mean_enrollment": 30.05263157894737,
+      "record_count": 19,
+      "unique_pincodes": 16,
+      "region": "West"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Saharanpur",
+      "total_enrollment": 569,
+      "mean_enrollment": 71.125,
+      "record_count": 8,
+      "unique_pincodes": 8,
+      "region": "North"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Beed",
+      "total_enrollment": 558,
+      "mean_enrollment": 31.0,
+      "record_count": 18,
+      "unique_pincodes": 13,
+      "region": "West"
+    },
+    {
+      "state": "Bihar",
+      "district": "Patna",
+      "total_enrollment": 554,
+      "mean_enrollment": 13.85,
+      "record_count": 40,
+      "unique_pincodes": 32,
+      "region": "East"
+    },
+    {
+      "state": "Gujarat",
+      "district": "Ahmedabad",
+      "total_enrollment": 550,
+      "mean_enrollment": 13.095238095238095,
+      "record_count": 42,
+      "unique_pincodes": 35,
+      "region": "West"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Jalpaiguri",
+      "total_enrollment": 535,
+      "mean_enrollment": 20.576923076923077,
+      "record_count": 26,
+      "unique_pincodes": 25,
+      "region": "East"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Bareilly",
+      "total_enrollment": 534,
+      "mean_enrollment": 53.4,
+      "record_count": 10,
+      "unique_pincodes": 8,
+      "region": "North"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Unnao",
+      "total_enrollment": 528,
+      "mean_enrollment": 33.0,
+      "record_count": 16,
+      "unique_pincodes": 13,
+      "region": "North"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Barddhaman",
+      "total_enrollment": 523,
+      "mean_enrollment": 9.339285714285714,
+      "record_count": 56,
+      "unique_pincodes": 50,
+      "region": "East"
+    },
+    {
+      "state": "Delhi",
+      "district": "North West Delhi",
+      "total_enrollment": 489,
+      "mean_enrollment": 40.75,
+      "record_count": 12,
+      "unique_pincodes": 10,
+      "region": "Unknown"
+    },
+    {
+      "state": "Bihar",
+      "district": "West Champaran",
+      "total_enrollment": 482,
+      "mean_enrollment": 34.42857142857143,
+      "record_count": 14,
+      "unique_pincodes": 11,
+      "region": "East"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Bulandshahr",
+      "total_enrollment": 478,
+      "mean_enrollment": 36.76923076923077,
+      "record_count": 13,
+      "unique_pincodes": 12,
+      "region": "North"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Hooghly",
+      "total_enrollment": 477,
+      "mean_enrollment": 13.628571428571428,
+      "record_count": 35,
+      "unique_pincodes": 32,
+      "region": "East"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Budaun",
+      "total_enrollment": 477,
+      "mean_enrollment": 47.7,
+      "record_count": 10,
+      "unique_pincodes": 9,
+      "region": "North"
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Bastar",
+      "total_enrollment": 474,
+      "mean_enrollment": 52.666666666666664,
+      "record_count": 9,
+      "unique_pincodes": 7,
+      "region": "Central"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Pratapgarh",
+      "total_enrollment": 463,
+      "mean_enrollment": 25.72222222222222,
+      "record_count": 18,
+      "unique_pincodes": 15,
+      "region": "North"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Raigarh",
+      "total_enrollment": 460,
+      "mean_enrollment": 9.787234042553191,
+      "record_count": 47,
+      "unique_pincodes": 37,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "total_enrollment": 458,
+      "mean_enrollment": 9.346938775510203,
+      "record_count": 49,
+      "unique_pincodes": 40,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Amravati",
+      "total_enrollment": 454,
+      "mean_enrollment": 14.1875,
+      "record_count": 32,
+      "unique_pincodes": 24,
+      "region": "West"
+    },
+    {
+      "state": "Odisha",
+      "district": "Ganjam",
+      "total_enrollment": 451,
+      "mean_enrollment": 6.632352941176471,
+      "record_count": 68,
+      "unique_pincodes": 45,
+      "region": "East"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Gorakhpur",
+      "total_enrollment": 448,
+      "mean_enrollment": 32.0,
+      "record_count": 14,
+      "unique_pincodes": 13,
+      "region": "North"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Gautam Buddha Nagar",
+      "total_enrollment": 445,
+      "mean_enrollment": 34.23076923076923,
+      "record_count": 13,
+      "unique_pincodes": 11,
+      "region": "North"
+    },
+    {
+      "state": "Bihar",
+      "district": "Begusarai",
+      "total_enrollment": 444,
+      "mean_enrollment": 17.76,
+      "record_count": 25,
+      "unique_pincodes": 17,
+      "region": "East"
+    },
+    {
+      "state": "Bihar",
+      "district": "Vaishali",
+      "total_enrollment": 443,
+      "mean_enrollment": 17.72,
+      "record_count": 25,
+      "unique_pincodes": 22,
+      "region": "East"
+    },
+    {
+      "state": "Bihar",
+      "district": "Gopalganj",
+      "total_enrollment": 441,
+      "mean_enrollment": 16.96153846153846,
+      "record_count": 26,
+      "unique_pincodes": 16,
+      "region": "East"
+    },
+    {
+      "state": "Bihar",
+      "district": "Saran",
+      "total_enrollment": 437,
+      "mean_enrollment": 9.5,
+      "record_count": 46,
+      "unique_pincodes": 32,
+      "region": "East"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Malda",
+      "total_enrollment": 437,
+      "mean_enrollment": 23.0,
+      "record_count": 19,
+      "unique_pincodes": 17,
+      "region": "East"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Birbhum",
+      "total_enrollment": 429,
+      "mean_enrollment": 23.833333333333332,
+      "record_count": 18,
+      "unique_pincodes": 16,
+      "region": "East"
+    },
+    {
+      "state": "Bihar",
+      "district": "Madhepura",
+      "total_enrollment": 413,
+      "mean_enrollment": 21.736842105263158,
+      "record_count": 19,
+      "unique_pincodes": 12,
+      "region": "East"
+    },
+    {
+      "state": "Haryana",
+      "district": "Gurgaon",
+      "total_enrollment": 410,
+      "mean_enrollment": 27.333333333333332,
+      "record_count": 15,
+      "unique_pincodes": 12,
+      "region": "North"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Bijnor",
+      "total_enrollment": 409,
+      "mean_enrollment": 37.18181818181818,
+      "record_count": 11,
+      "unique_pincodes": 10,
+      "region": "North"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Purba Medinipur",
+      "total_enrollment": 409,
+      "mean_enrollment": 6.932203389830509,
+      "record_count": 59,
+      "unique_pincodes": 43,
+      "region": "East"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Gonda",
+      "total_enrollment": 407,
+      "mean_enrollment": 27.133333333333333,
+      "record_count": 15,
+      "unique_pincodes": 14,
+      "region": "North"
+    },
+    {
+      "state": "Manipur",
+      "district": "Imphal East",
+      "total_enrollment": 406,
+      "mean_enrollment": 58.0,
+      "record_count": 7,
+      "unique_pincodes": 6,
+      "region": "Northeast"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Maharajganj",
+      "total_enrollment": 400,
+      "mean_enrollment": 50.0,
+      "record_count": 8,
+      "unique_pincodes": 7,
+      "region": "North"
+    },
+    {
+      "state": "Bihar",
+      "district": "Darbhanga",
+      "total_enrollment": 395,
+      "mean_enrollment": 14.62962962962963,
+      "record_count": 27,
+      "unique_pincodes": 21,
+      "region": "East"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Sambhal",
+      "total_enrollment": 394,
+      "mean_enrollment": 49.25,
+      "record_count": 8,
+      "unique_pincodes": 7,
+      "region": "North"
+    },
+    {
+      "state": "Bihar",
+      "district": "Bhagalpur",
+      "total_enrollment": 391,
+      "mean_enrollment": 14.481481481481481,
+      "record_count": 27,
+      "unique_pincodes": 21,
+      "region": "East"
+    },
+    {
+      "state": "Delhi",
+      "district": "East Delhi",
+      "total_enrollment": 387,
+      "mean_enrollment": 55.285714285714285,
+      "record_count": 7,
+      "unique_pincodes": 5,
+      "region": "Unknown"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Hardoi",
+      "total_enrollment": 385,
+      "mean_enrollment": 35.0,
+      "record_count": 11,
+      "unique_pincodes": 10,
+      "region": "North"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Jalna",
+      "total_enrollment": 382,
+      "mean_enrollment": 18.19047619047619,
+      "record_count": 21,
+      "unique_pincodes": 14,
+      "region": "West"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Vidisha",
+      "total_enrollment": 380,
+      "mean_enrollment": 25.333333333333332,
+      "record_count": 15,
+      "unique_pincodes": 9,
+      "region": "Central"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Sultanpur",
+      "total_enrollment": 379,
+      "mean_enrollment": 25.266666666666666,
+      "record_count": 15,
+      "unique_pincodes": 12,
+      "region": "North"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Alwar",
+      "total_enrollment": 377,
+      "mean_enrollment": 15.708333333333334,
+      "record_count": 24,
+      "unique_pincodes": 23,
+      "region": "West"
+    },
+    {
+      "state": "Bihar",
+      "district": "Nalanda",
+      "total_enrollment": 375,
+      "mean_enrollment": 13.88888888888889,
+      "record_count": 27,
+      "unique_pincodes": 19,
+      "region": "East"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Parbhani",
+      "total_enrollment": 373,
+      "mean_enrollment": 23.3125,
+      "record_count": 16,
+      "unique_pincodes": 13,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Chandrapur",
+      "total_enrollment": 372,
+      "mean_enrollment": 16.17391304347826,
+      "record_count": 23,
+      "unique_pincodes": 20,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Buldhana",
+      "total_enrollment": 370,
+      "mean_enrollment": 17.61904761904762,
+      "record_count": 21,
+      "unique_pincodes": 17,
+      "region": "West"
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Rajnandgaon",
+      "total_enrollment": 369,
+      "mean_enrollment": 33.54545454545455,
+      "record_count": 11,
+      "unique_pincodes": 9,
+      "region": "Central"
+    },
+    {
+      "state": "Delhi",
+      "district": "South Delhi",
+      "total_enrollment": 368,
+      "mean_enrollment": 28.307692307692307,
+      "record_count": 13,
+      "unique_pincodes": 10,
+      "region": "Unknown"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Kolkata",
+      "total_enrollment": 356,
+      "mean_enrollment": 11.125,
+      "record_count": 32,
+      "unique_pincodes": 30,
+      "region": "East"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Hingoli",
+      "total_enrollment": 348,
+      "mean_enrollment": 38.666666666666664,
+      "record_count": 9,
+      "unique_pincodes": 8,
+      "region": "West"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Kanpur Nagar",
+      "total_enrollment": 346,
+      "mean_enrollment": 34.6,
+      "record_count": 10,
+      "unique_pincodes": 10,
+      "region": "North"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Shivpuri",
+      "total_enrollment": 345,
+      "mean_enrollment": 18.157894736842106,
+      "record_count": 19,
+      "unique_pincodes": 13,
+      "region": "Central"
+    },
+    {
+      "state": "Bihar",
+      "district": "Bhojpur",
+      "total_enrollment": 344,
+      "mean_enrollment": 11.466666666666667,
+      "record_count": 30,
+      "unique_pincodes": 21,
+      "region": "East"
+    },
+    {
+      "state": "Bihar",
+      "district": "Katihar",
+      "total_enrollment": 343,
+      "mean_enrollment": 22.866666666666667,
+      "record_count": 15,
+      "unique_pincodes": 12,
+      "region": "East"
+    },
+    {
+      "state": "Bihar",
+      "district": "Araria",
+      "total_enrollment": 342,
+      "mean_enrollment": 34.2,
+      "record_count": 10,
+      "unique_pincodes": 8,
+      "region": "East"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Firozabad",
+      "total_enrollment": 342,
+      "mean_enrollment": 28.5,
+      "record_count": 12,
+      "unique_pincodes": 9,
+      "region": "North"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Nadia",
+      "total_enrollment": 341,
+      "mean_enrollment": 14.826086956521738,
+      "record_count": 23,
+      "unique_pincodes": 22,
+      "region": "East"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Kurnool",
+      "total_enrollment": 336,
+      "mean_enrollment": 8.0,
+      "record_count": 42,
+      "unique_pincodes": 37,
+      "region": "South"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Jhansi",
+      "total_enrollment": 335,
+      "mean_enrollment": 27.916666666666668,
+      "record_count": 12,
+      "unique_pincodes": 11,
+      "region": "North"
+    },
+    {
+      "state": "Uttarakhand",
+      "district": "Haridwar",
+      "total_enrollment": 334,
+      "mean_enrollment": 33.4,
+      "record_count": 10,
+      "unique_pincodes": 10,
+      "region": "North"
+    },
+    {
+      "state": "Bihar",
+      "district": "Buxar",
+      "total_enrollment": 332,
+      "mean_enrollment": 13.28,
+      "record_count": 25,
+      "unique_pincodes": 16,
+      "region": "East"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Kheri",
+      "total_enrollment": 331,
+      "mean_enrollment": 36.77777777777778,
+      "record_count": 9,
+      "unique_pincodes": 8,
+      "region": "North"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Meerut",
+      "total_enrollment": 331,
+      "mean_enrollment": 41.375,
+      "record_count": 8,
+      "unique_pincodes": 8,
+      "region": "North"
+    },
+    {
+      "state": "Gujarat",
+      "district": "Vadodara",
+      "total_enrollment": 327,
+      "mean_enrollment": 7.604651162790698,
+      "record_count": 43,
+      "unique_pincodes": 35,
+      "region": "West"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Basti",
+      "total_enrollment": 324,
+      "mean_enrollment": 20.25,
+      "record_count": 16,
+      "unique_pincodes": 14,
+      "region": "North"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Indore",
+      "total_enrollment": 321,
+      "mean_enrollment": 14.590909090909092,
+      "record_count": 22,
+      "unique_pincodes": 18,
+      "region": "Central"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Deoria",
+      "total_enrollment": 321,
+      "mean_enrollment": 26.75,
+      "record_count": 12,
+      "unique_pincodes": 11,
+      "region": "North"
+    }
+  ],
+  "bottom_districts": [
+    {
+      "state": "Tamil Nadu",
+      "district": "Mayiladuthurai",
+      "total_enrollment": 7,
+      "mean_enrollment": 1.1666666666666667,
+      "record_count": 6,
+      "unique_pincodes": 6,
+      "region": "South"
+    },
+    {
+      "state": "Odisha",
+      "district": "Anugul",
+      "total_enrollment": 7,
+      "mean_enrollment": 1.1666666666666667,
+      "record_count": 6,
+      "unique_pincodes": 5,
+      "region": "East"
+    },
+    {
+      "state": "Telangana",
+      "district": "Bhadradri Kothagudem",
+      "total_enrollment": 6,
+      "mean_enrollment": 2.0,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "South"
+    },
+    {
+      "state": "Sikkim",
+      "district": "East",
+      "total_enrollment": 6,
+      "mean_enrollment": 3.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "East"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Jhunjhunu",
+      "total_enrollment": 6,
+      "mean_enrollment": 2.0,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "West"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Dhaulpur",
+      "total_enrollment": 6,
+      "mean_enrollment": 6.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "West"
+    },
+    {
+      "state": "Meghalaya",
+      "district": "North Garo Hills",
+      "total_enrollment": 6,
+      "mean_enrollment": 3.0,
+      "record_count": 2,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "West Siang",
+      "total_enrollment": 6,
+      "mean_enrollment": 6.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Punjab",
+      "district": "Muktsar",
+      "total_enrollment": 6,
+      "mean_enrollment": 6.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "North"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Niwari",
+      "total_enrollment": 6,
+      "mean_enrollment": 2.0,
+      "record_count": 3,
+      "unique_pincodes": 2,
+      "region": "Central"
+    },
+    {
+      "state": "Delhi",
+      "district": "South East Delhi",
+      "total_enrollment": 6,
+      "mean_enrollment": 6.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Unknown"
+    },
+    {
+      "state": "Kerala",
+      "district": "Kasargod",
+      "total_enrollment": 6,
+      "mean_enrollment": 2.0,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "South"
+    },
+    {
+      "state": "Tamil Nadu",
+      "district": "Tenkasi",
+      "total_enrollment": 6,
+      "mean_enrollment": 2.0,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "South"
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "district": "Dadra & Nagar Haveli",
+      "total_enrollment": 6,
+      "mean_enrollment": 6.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Unknown"
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "district": "Dadra And Nagar Haveli",
+      "total_enrollment": 6,
+      "mean_enrollment": 2.0,
+      "record_count": 3,
+      "unique_pincodes": 2,
+      "region": "Unknown"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Balotra",
+      "total_enrollment": 6,
+      "mean_enrollment": 2.0,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "West"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Gondia",
+      "total_enrollment": 6,
+      "mean_enrollment": 1.5,
+      "record_count": 4,
+      "unique_pincodes": 3,
+      "region": "West"
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "district": "Reasi",
+      "total_enrollment": 5,
+      "mean_enrollment": 2.5,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "Unknown"
+    },
+    {
+      "state": "Tamil Nadu",
+      "district": "Ranipet",
+      "total_enrollment": 5,
+      "mean_enrollment": 2.5,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "South"
+    },
+    {
+      "state": "Telangana",
+      "district": "Jayashankar Bhupalpally",
+      "total_enrollment": 5,
+      "mean_enrollment": 5.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "South"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "West Kameng",
+      "total_enrollment": 5,
+      "mean_enrollment": 1.6666666666666667,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "Northeast"
+    },
+    {
+      "state": "Odisha",
+      "district": "Debagarh",
+      "total_enrollment": 5,
+      "mean_enrollment": 5.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "East"
+    },
+    {
+      "state": "Nagaland",
+      "district": "Wokha",
+      "total_enrollment": 5,
+      "mean_enrollment": 2.5,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "Northeast"
+    },
+    {
+      "state": "Assam",
+      "district": "North Cachar Hills",
+      "total_enrollment": 5,
+      "mean_enrollment": 2.5,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "Northeast"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Didwana-Kuchaman",
+      "total_enrollment": 5,
+      "mean_enrollment": 1.6666666666666667,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "West"
+    },
+    {
+      "state": "Punjab",
+      "district": "Faridkot",
+      "total_enrollment": 5,
+      "mean_enrollment": 5.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "North"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Jhabua",
+      "total_enrollment": 5,
+      "mean_enrollment": 5.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Central"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Harda",
+      "total_enrollment": 5,
+      "mean_enrollment": 5.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Central"
+    },
+    {
+      "state": "Nagaland",
+      "district": "Phek",
+      "total_enrollment": 5,
+      "mean_enrollment": 1.25,
+      "record_count": 4,
+      "unique_pincodes": 4,
+      "region": "Northeast"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Deeg",
+      "total_enrollment": 5,
+      "mean_enrollment": 1.6666666666666667,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "West"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "district": "Sirmaur",
+      "total_enrollment": 4,
+      "mean_enrollment": 2.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "North"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "Shi-Yomi",
+      "total_enrollment": 4,
+      "mean_enrollment": 2.0,
+      "record_count": 2,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Beawar",
+      "total_enrollment": 4,
+      "mean_enrollment": 1.3333333333333333,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "West"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Bulandshahar",
+      "total_enrollment": 4,
+      "mean_enrollment": 2.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "North"
+    },
+    {
+      "state": "Meghalaya",
+      "district": "East Garo Hills",
+      "total_enrollment": 4,
+      "mean_enrollment": 4.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Nagaland",
+      "district": "Noklak",
+      "total_enrollment": 4,
+      "mean_enrollment": 4.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Meghalaya",
+      "district": "Eastern West Khasi Hills",
+      "total_enrollment": 4,
+      "mean_enrollment": 2.0,
+      "record_count": 2,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Gujarat",
+      "district": "Dohad",
+      "total_enrollment": 4,
+      "mean_enrollment": 1.3333333333333333,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "West"
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Gaurela-Pendra-Marwahi",
+      "total_enrollment": 4,
+      "mean_enrollment": 4.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Central"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "Longding",
+      "total_enrollment": 3,
+      "mean_enrollment": 3.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Washim *",
+      "total_enrollment": 3,
+      "mean_enrollment": 3.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "West"
+    },
+    {
+      "state": "Sikkim",
+      "district": "East Sikkim",
+      "total_enrollment": 3,
+      "mean_enrollment": 3.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "East"
+    },
+    {
+      "state": "Bihar",
+      "district": "Purba Champaran",
+      "total_enrollment": 3,
+      "mean_enrollment": 1.0,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "East"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "Tawang",
+      "total_enrollment": 3,
+      "mean_enrollment": 1.0,
+      "record_count": 3,
+      "unique_pincodes": 2,
+      "region": "Northeast"
+    },
+    {
+      "state": "Karnataka",
+      "district": "Davanagere",
+      "total_enrollment": 3,
+      "mean_enrollment": 1.5,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "South"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Pandhurna",
+      "total_enrollment": 3,
+      "mean_enrollment": 1.0,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "Central"
+    },
+    {
+      "state": "Gujarat",
+      "district": "Surendranagar",
+      "total_enrollment": 3,
+      "mean_enrollment": 1.5,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "West"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "district": "Kinnaur",
+      "total_enrollment": 3,
+      "mean_enrollment": 3.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "North"
+    },
+    {
+      "state": "Jharkhand",
+      "district": "Sahibganj",
+      "total_enrollment": 3,
+      "mean_enrollment": 3.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "East"
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "district": "Diu",
+      "total_enrollment": 3,
+      "mean_enrollment": 1.5,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "Unknown"
+    },
+    {
+      "state": "Gujarat",
+      "district": "Sabar Kantha",
+      "total_enrollment": 3,
+      "mean_enrollment": 3.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "West"
+    },
+    {
+      "state": "Haryana",
+      "district": "Yamunanagar",
+      "total_enrollment": 3,
+      "mean_enrollment": 3.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "North"
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Janjgir - Champa",
+      "total_enrollment": 3,
+      "mean_enrollment": 3.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Central"
+    },
+    {
+      "state": "Lakshadweep",
+      "district": "Lakshadweep",
+      "total_enrollment": 3,
+      "mean_enrollment": 3.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "South"
+    },
+    {
+      "state": "Karnataka",
+      "district": "Ballari",
+      "total_enrollment": 3,
+      "mean_enrollment": 1.0,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "South"
+    },
+    {
+      "state": "Karnataka",
+      "district": "Gadag *",
+      "total_enrollment": 3,
+      "mean_enrollment": 1.0,
+      "record_count": 3,
+      "unique_pincodes": 3,
+      "region": "South"
+    },
+    {
+      "state": "Ladakh",
+      "district": "Kargil",
+      "total_enrollment": 3,
+      "mean_enrollment": 3.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Unknown"
+    },
+    {
+      "state": "Karnataka",
+      "district": "Chamarajanagar",
+      "total_enrollment": 3,
+      "mean_enrollment": 1.5,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "South"
+    },
+    {
+      "state": "Odisha",
+      "district": "Subarnapur",
+      "total_enrollment": 3,
+      "mean_enrollment": 1.5,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "East"
+    },
+    {
+      "state": "Mizoram",
+      "district": "Mamit",
+      "total_enrollment": 3,
+      "mean_enrollment": 3.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Andaman And Nicobar Islands",
+      "district": "South Andaman",
+      "total_enrollment": 2,
+      "mean_enrollment": 1.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "Unknown"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Sant Ravidas Nagar Bhadohi",
+      "total_enrollment": 2,
+      "mean_enrollment": 1.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "North"
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "district": "Udhampur",
+      "total_enrollment": 2,
+      "mean_enrollment": 2.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Unknown"
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "district": "Kargil",
+      "total_enrollment": 2,
+      "mean_enrollment": 1.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "Unknown"
+    },
+    {
+      "state": "Gujarat",
+      "district": "Banas Kantha",
+      "total_enrollment": 2,
+      "mean_enrollment": 1.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "West"
+    },
+    {
+      "state": "Tamil Nadu",
+      "district": "Thiruvallur",
+      "total_enrollment": 2,
+      "mean_enrollment": 1.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "South"
+    },
+    {
+      "state": "Telangana",
+      "district": "Warangal Urban",
+      "total_enrollment": 2,
+      "mean_enrollment": 2.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "South"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Jalore",
+      "total_enrollment": 2,
+      "mean_enrollment": 1.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "West"
+    },
+    {
+      "state": "Mizoram",
+      "district": "Serchhip",
+      "total_enrollment": 2,
+      "mean_enrollment": 1.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "Northeast"
+    },
+    {
+      "state": "Tripura",
+      "district": "Unakoti",
+      "total_enrollment": 2,
+      "mean_enrollment": 2.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Nandurbar *",
+      "total_enrollment": 2,
+      "mean_enrollment": 2.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "West"
+    },
+    {
+      "state": "Nagaland",
+      "district": "Zunheboto",
+      "total_enrollment": 2,
+      "mean_enrollment": 1.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "Northeast"
+    },
+    {
+      "state": "Karnataka",
+      "district": "Haveri *",
+      "total_enrollment": 2,
+      "mean_enrollment": 1.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "South"
+    },
+    {
+      "state": "Karnataka",
+      "district": "Chikmagalur",
+      "total_enrollment": 2,
+      "mean_enrollment": 2.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "South"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "Tirap",
+      "total_enrollment": 2,
+      "mean_enrollment": 1.0,
+      "record_count": 2,
+      "unique_pincodes": 2,
+      "region": "Northeast"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Karim Nagar",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "South"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Kotputli-Behror",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "West"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "K.V.Rangareddy",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "South"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Medinipur",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "East"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Hawrah",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "East"
+    },
+    {
+      "state": "Nagaland",
+      "district": "Niuland",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Assam",
+      "district": "West Karbi Anglong",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Assam",
+      "district": "Tamulpur District",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Meghalaya",
+      "district": "West Khasi Hills",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "Upper Siang",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Assam",
+      "district": "Bajali",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "Siang",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Manipur",
+      "district": "Jiribam",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Mizoram",
+      "district": "Mammit",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Mizoram",
+      "district": "Lunglei",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Nagaland",
+      "district": "Tseminyu",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Mohalla-Manpur-Ambagarh Chowki",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Central"
+    },
+    {
+      "state": "Karnataka",
+      "district": "Bagalkot *",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "South"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "Kurung Kumey",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "Lower Subansiri",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "Namsai",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "Kra Daadi",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "Northeast"
+    },
+    {
+      "state": "Gujarat",
+      "district": "Panch Mahals",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "West"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Mahabubnagar",
+      "total_enrollment": 1,
+      "mean_enrollment": 1.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "South"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "district": "Una",
+      "total_enrollment": 0,
+      "mean_enrollment": 0.0,
+      "record_count": 1,
+      "unique_pincodes": 1,
+      "region": "North"
+    }
+  ],
+  "districts_per_state": [
+    {
+      "state": "Andaman And Nicobar Islands",
+      "district_count": 1
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district_count": 44
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district_count": 14
+    },
+    {
+      "state": "Assam",
+      "district_count": 35
+    },
+    {
+      "state": "Bihar",
+      "district_count": 40
+    },
+    {
+      "state": "Chandigarh",
+      "district_count": 1
+    },
+    {
+      "state": "Chhattisgarh",
+      "district_count": 38
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "district_count": 4
+    },
+    {
+      "state": "Delhi",
+      "district_count": 12
+    },
+    {
+      "state": "Goa",
+      "district_count": 2
+    },
+    {
+      "state": "Gujarat",
+      "district_count": 39
+    },
+    {
+      "state": "Haryana",
+      "district_count": 23
+    },
+    {
+      "state": "Himachal Pradesh",
+      "district_count": 11
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "district_count": 14
+    },
+    {
+      "state": "Jharkhand",
+      "district_count": 30
+    },
+    {
+      "state": "Karnataka",
+      "district_count": 48
+    },
+    {
+      "state": "Kerala",
+      "district_count": 15
+    },
+    {
+      "state": "Ladakh",
+      "district_count": 1
+    },
+    {
+      "state": "Lakshadweep",
+      "district_count": 1
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district_count": 60
+    },
+    {
+      "state": "Maharashtra",
+      "district_count": 51
+    },
+    {
+      "state": "Manipur",
+      "district_count": 11
+    },
+    {
+      "state": "Meghalaya",
+      "district_count": 10
+    },
+    {
+      "state": "Mizoram",
+      "district_count": 9
+    },
+    {
+      "state": "Nagaland",
+      "district_count": 14
+    },
+    {
+      "state": "Odisha",
+      "district_count": 38
+    },
+    {
+      "state": "Puducherry",
+      "district_count": 3
+    },
+    {
+      "state": "Punjab",
+      "district_count": 27
+    },
+    {
+      "state": "Rajasthan",
+      "district_count": 43
+    },
+    {
+      "state": "Sikkim",
+      "district_count": 2
+    },
+    {
+      "state": "Tamil Nadu",
+      "district_count": 41
+    },
+    {
+      "state": "Telangana",
+      "district_count": 34
+    },
+    {
+      "state": "Tripura",
+      "district_count": 6
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district_count": 82
+    },
+    {
+      "state": "Uttarakhand",
+      "district_count": 15
+    },
+    {
+      "state": "West Bengal",
+      "district_count": 39
+    }
+  ]
+}

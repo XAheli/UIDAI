@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-01-20T16:05:04.131595",
+  "author": "Shuvam Banerji Seal's Team",
+  "total_analyses": 5,
+  "analysis_types": {
+    "time_series": [
+      "Daily trends",
+      "Seasonality",
+      "Anomalies",
+      "Growth metrics"
+    ],
+    "statistical": [
+      "Descriptive stats",
+      "Distribution",
+      "Correlation",
+      "Hypothesis tests",
+      "Outliers",
+      "Variance"
+    ],
+    "geographic": [
+      "State analysis",
+      "Regional analysis",
+      "District analysis",
+      "Urban/Rural",
+      "Zone analysis"
+    ],
+    "demographic": [
+      "Age distribution",
+      "Gender analysis",
+      "Population correlation",
+      "Socioeconomic"
+    ],
+    "ml_models": [
+      "Classification",
+      "Regression",
+      "Time series forecasting",
+      "Anomaly detection"
+    ]
+  }
+}

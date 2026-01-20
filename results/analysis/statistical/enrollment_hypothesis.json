@@ -1,0 +1,24 @@
+{
+  "dataset_name": "enrollment",
+  "tests": {
+    "state_anova": {
+      "description": "One-way ANOVA for state differences",
+      "f_statistic": 50.87630251962403,
+      "p_value": 6.750551935950688e-272,
+      "significant": "True",
+      "interpretation": "Significant state-level differences"
+    },
+    "literacy_correlation": {
+      "description": "Pearson correlation: Literacy vs Enrollment",
+      "correlation": -0.17069128955458354,
+      "p_value": 2.9801427464870864e-66,
+      "significant": "True"
+    },
+    "kruskal_wallis": {
+      "description": "Kruskal-Wallis: Non-parametric state comparison",
+      "h_statistic": 1677.370409629708,
+      "p_value": 0.0,
+      "significant": "True"
+    }
+  }
+}

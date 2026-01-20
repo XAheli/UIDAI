@@ -1,0 +1,17 @@
+{
+  "dataset_name": "enrollment",
+  "method": {
+    "zscore_threshold": 2.0,
+    "mean": 26086.0,
+    "std": 543.0580079512685,
+    "iqr_lower": 25318.0,
+    "iqr_upper": 26854.0
+  },
+  "anomalies": {
+    "total_count": 0,
+    "high_anomalies": 0,
+    "low_anomalies": 0,
+    "iqr_anomalies": 0,
+    "details": []
+  }
+}

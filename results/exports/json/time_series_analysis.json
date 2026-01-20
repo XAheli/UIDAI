@@ -1,0 +1,535 @@
+{
+  "biometric_daily_trends": {
+    "dataset_name": "biometric",
+    "date_range": {
+      "start": "2025-12-19",
+      "end": "2025-12-19",
+      "total_days": 1
+    },
+    "enrollment_stats": {
+      "total": 195864,
+      "daily_mean": 195864.0,
+      "daily_std": null,
+      "daily_min": 195864,
+      "daily_max": 195864,
+      "daily_median": 195864.0
+    },
+    "coverage": {
+      "avg_states_per_day": 36.0,
+      "avg_districts_per_day": 846.0,
+      "avg_pincodes_per_day": 8794.0
+    },
+    "trend": {
+      "slope": null,
+      "r_squared": null,
+      "p_value": null,
+      "direction": "decreasing"
+    },
+    "daily_data": [
+      {
+        "date": "2025-12-19T00:00:00",
+        "total_enrollment": 195864,
+        "unique_states": 36,
+        "unique_districts": 846,
+        "unique_pincodes": 8794,
+        "ma_7": 195864.0,
+        "ma_30": 195864.0
+      }
+    ]
+  },
+  "biometric_seasonality": {
+    "dataset_name": "biometric",
+    "day_of_week": {
+      "stats": [
+        {
+          "day_of_week": 4,
+          "day_name": "Friday",
+          "total": 195864,
+          "mean": 19.5864,
+          "std": 31.222764469888137,
+          "count": 10000
+        }
+      ],
+      "anova_f_stat": null,
+      "anova_p_value": null,
+      "significant_effect": false,
+      "best_day": "Friday",
+      "worst_day": "Friday"
+    },
+    "monthly": {
+      "stats": [
+        {
+          "month": 12,
+          "month_name": "December",
+          "total": 195864,
+          "mean": 19.5864,
+          "std": 31.222764469888137,
+          "count": 10000
+        }
+      ],
+      "best_month": "December",
+      "worst_month": "December"
+    },
+    "weekend_effect": {
+      "weekday_mean": 19.5864,
+      "weekend_mean": null
+    }
+  },
+  "biometric_growth": {
+    "dataset_name": "biometric",
+    "daily_growth": {
+      "mean_pct_change": null,
+      "std_pct_change": null,
+      "positive_days": 0,
+      "negative_days": 0
+    },
+    "weekly_growth": {
+      "mean_wow_growth": null,
+      "data": [
+        {
+          "year": 2025,
+          "week": 51,
+          "total_enrollment": 195864,
+          "wow_growth": null
+        }
+      ]
+    },
+    "monthly_growth": {
+      "mean_mom_growth": null,
+      "data": [
+        {
+          "month": "2025-12",
+          "total": 195864,
+          "mom_growth": null
+        }
+      ]
+    },
+    "cumulative": {
+      "total": 195864,
+      "data": [
+        {
+          "date": "2025-12-19T00:00:00",
+          "cumulative": 195864
+        }
+      ]
+    }
+  },
+  "biometric_anomalies": {
+    "dataset_name": "biometric",
+    "method": {
+      "zscore_threshold": 2.0,
+      "mean": 195864.0,
+      "std": null,
+      "iqr_lower": 195864.0,
+      "iqr_upper": 195864.0
+    },
+    "anomalies": {
+      "total_count": 0,
+      "high_anomalies": 0,
+      "low_anomalies": 0,
+      "iqr_anomalies": 0,
+      "details": []
+    }
+  },
+  "demographic_daily_trends": {
+    "dataset_name": "demographic",
+    "date_range": {
+      "start": "2025-11-25",
+      "end": "2025-12-20",
+      "total_days": 6
+    },
+    "enrollment_stats": {
+      "total": 120223,
+      "daily_mean": 20037.166666666668,
+      "daily_std": 19208.34540939606,
+      "daily_min": 1381,
+      "daily_max": 50188,
+      "daily_median": 17434.0
+    },
+    "coverage": {
+      "avg_states_per_day": 15.833333333333334,
+      "avg_districts_per_day": 308.0,
+      "avg_pincodes_per_day": 1592.6666666666667
+    },
+    "trend": {
+      "slope": 4547.400000000001,
+      "r_squared": 0.19616180353922572,
+      "p_value": 0.3790878259006649,
+      "direction": "increasing"
+    },
+    "daily_data": [
+      {
+        "date": "2025-11-25T00:00:00",
+        "total_enrollment": 11026,
+        "unique_states": 19,
+        "unique_districts": 327,
+        "unique_pincodes": 1432,
+        "ma_7": 11026.0,
+        "ma_30": 11026.0
+      },
+      {
+        "date": "2025-11-26T00:00:00",
+        "total_enrollment": 23842,
+        "unique_states": 21,
+        "unique_districts": 343,
+        "unique_pincodes": 1612,
+        "ma_7": 17434.0,
+        "ma_30": 17434.0
+      },
+      {
+        "date": "2025-12-15T00:00:00",
+        "total_enrollment": 1527,
+        "unique_states": 2,
+        "unique_districts": 13,
+        "unique_pincodes": 109,
+        "ma_7": 12131.666666666666,
+        "ma_30": 12131.666666666666
+      },
+      {
+        "date": "2025-12-16T00:00:00",
+        "total_enrollment": 32259,
+        "unique_states": 13,
+        "unique_districts": 284,
+        "unique_pincodes": 1601,
+        "ma_7": 17163.5,
+        "ma_30": 17163.5
+      },
+      {
+        "date": "2025-12-18T00:00:00",
+        "total_enrollment": 1381,
+        "unique_states": 4,
+        "unique_districts": 101,
+        "unique_pincodes": 413,
+        "ma_7": 14007.0,
+        "ma_30": 14007.0
+      },
+      {
+        "date": "2025-12-20T00:00:00",
+        "total_enrollment": 50188,
+        "unique_states": 36,
+        "unique_districts": 780,
+        "unique_pincodes": 4389,
+        "ma_7": 20037.166666666668,
+        "ma_30": 20037.166666666668
+      }
+    ]
+  },
+  "demographic_seasonality": {
+    "dataset_name": "demographic",
+    "day_of_week": {
+      "stats": [
+        {
+          "day_of_week": 0,
+          "day_name": "Monday",
+          "total": 1527,
+          "mean": 13.633928571428571,
+          "std": 23.27315103723729,
+          "count": 112
+        },
+        {
+          "day_of_week": 1,
+          "day_name": "Tuesday",
+          "total": 43285,
+          "mean": 13.73255076142132,
+          "std": 23.178125393576472,
+          "count": 3152
+        },
+        {
+          "day_of_week": 2,
+          "day_name": "Wednesday",
+          "total": 23842,
+          "mean": 14.191666666666666,
+          "std": 20.62115065359688,
+          "count": 1680
+        },
+        {
+          "day_of_week": 3,
+          "day_name": "Thursday",
+          "total": 1381,
+          "mean": 3.3117505995203835,
+          "std": 3.5203639801921756,
+          "count": 417
+        },
+        {
+          "day_of_week": 5,
+          "day_name": "Saturday",
+          "total": 50188,
+          "mean": 10.818710929079543,
+          "std": 16.392544345227606,
+          "count": 4639
+        }
+      ],
+      "anova_f_stat": 37.48197357953464,
+      "anova_p_value": 3.6271186395813053e-31,
+      "significant_effect": "True",
+      "best_day": "Wednesday",
+      "worst_day": "Thursday"
+    },
+    "monthly": {
+      "stats": [
+        {
+          "month": 11,
+          "month_name": "November",
+          "total": 34868,
+          "mean": 11.072721498888535,
+          "std": 17.04249814259985,
+          "count": 3149
+        },
+        {
+          "month": 12,
+          "month_name": "December",
+          "total": 85355,
+          "mean": 12.458765143774631,
+          "std": 20.417707718779514,
+          "count": 6851
+        }
+      ],
+      "best_month": "December",
+      "worst_month": "November"
+    },
+    "weekend_effect": {
+      "weekday_mean": 13.063794068270845,
+      "weekend_mean": 10.818710929079543
+    }
+  },
+  "demographic_growth": {
+    "dataset_name": "demographic",
+    "daily_growth": {
+      "mean_pct_change": 1094.7343601418747,
+      "std_pct_change": 1626.3520457921677,
+      "positive_days": 3,
+      "negative_days": 2
+    },
+    "weekly_growth": {
+      "mean_wow_growth": 144.79465412412526,
+      "data": [
+        {
+          "year": 2025,
+          "week": 48,
+          "total_enrollment": 34868,
+          "wow_growth": null
+        },
+        {
+          "year": 2025,
+          "week": 51,
+          "total_enrollment": 85355,
+          "wow_growth": 144.79465412412526
+        }
+      ]
+    },
+    "monthly_growth": {
+      "mean_mom_growth": 144.79465412412526,
+      "data": [
+        {
+          "month": "2025-11",
+          "total": 34868,
+          "mom_growth": null
+        },
+        {
+          "month": "2025-12",
+          "total": 85355,
+          "mom_growth": 144.79465412412526
+        }
+      ]
+    },
+    "cumulative": {
+      "total": 120223,
+      "data": [
+        {
+          "date": "2025-11-25T00:00:00",
+          "cumulative": 11026
+        },
+        {
+          "date": "2025-11-26T00:00:00",
+          "cumulative": 34868
+        },
+        {
+          "date": "2025-12-15T00:00:00",
+          "cumulative": 36395
+        },
+        {
+          "date": "2025-12-16T00:00:00",
+          "cumulative": 68654
+        },
+        {
+          "date": "2025-12-18T00:00:00",
+          "cumulative": 70035
+        },
+        {
+          "date": "2025-12-20T00:00:00",
+          "cumulative": 120223
+        }
+      ]
+    }
+  },
+  "demographic_anomalies": {
+    "dataset_name": "demographic",
+    "method": {
+      "zscore_threshold": 2.0,
+      "mean": 20037.166666666668,
+      "std": 19208.34540939606,
+      "iqr_lower": -35477.75,
+      "iqr_upper": 69534.25
+    },
+    "anomalies": {
+      "total_count": 0,
+      "high_anomalies": 0,
+      "low_anomalies": 0,
+      "iqr_anomalies": 0,
+      "details": []
+    }
+  },
+  "enrollment_daily_trends": {
+    "dataset_name": "enrollment",
+    "date_range": {
+      "start": "2025-11-18",
+      "end": "2025-11-19",
+      "total_days": 2
+    },
+    "enrollment_stats": {
+      "total": 52172,
+      "daily_mean": 26086.0,
+      "daily_std": 543.0580079512685,
+      "daily_min": 25702,
+      "daily_max": 26470,
+      "daily_median": 26086.0
+    },
+    "coverage": {
+      "avg_states_per_day": 34.0,
+      "avg_districts_per_day": 748.0,
+      "avg_pincodes_per_day": 4731.5
+    },
+    "trend": {
+      "slope": 768.0,
+      "r_squared": 1.0,
+      "p_value": 0.0,
+      "direction": "increasing"
+    },
+    "daily_data": [
+      {
+        "date": "2025-11-18T00:00:00",
+        "total_enrollment": 25702,
+        "unique_states": 34,
+        "unique_districts": 779,
+        "unique_pincodes": 5666,
+        "ma_7": 25702.0,
+        "ma_30": 25702.0
+      },
+      {
+        "date": "2025-11-19T00:00:00",
+        "total_enrollment": 26470,
+        "unique_states": 34,
+        "unique_districts": 717,
+        "unique_pincodes": 3797,
+        "ma_7": 26086.0,
+        "ma_30": 26086.0
+      }
+    ]
+  },
+  "enrollment_seasonality": {
+    "dataset_name": "enrollment",
+    "day_of_week": {
+      "stats": [
+        {
+          "day_of_week": 1,
+          "day_name": "Tuesday",
+          "total": 25702,
+          "mean": 4.268726125228367,
+          "std": 5.262750710237289,
+          "count": 6021
+        },
+        {
+          "day_of_week": 2,
+          "day_name": "Wednesday",
+          "total": 26470,
+          "mean": 6.65242523247047,
+          "std": 10.008396476172395,
+          "count": 3979
+        }
+      ],
+      "anova_f_stat": 240.79932026010218,
+      "anova_p_value": 1.1100127017074484e-53,
+      "significant_effect": "True",
+      "best_day": "Wednesday",
+      "worst_day": "Tuesday"
+    },
+    "monthly": {
+      "stats": [
+        {
+          "month": 11,
+          "month_name": "November",
+          "total": 52172,
+          "mean": 5.2172,
+          "std": 7.608364665372473,
+          "count": 10000
+        }
+      ],
+      "best_month": "November",
+      "worst_month": "November"
+    },
+    "weekend_effect": {
+      "weekday_mean": 5.2172,
+      "weekend_mean": null
+    }
+  },
+  "enrollment_growth": {
+    "dataset_name": "enrollment",
+    "daily_growth": {
+      "mean_pct_change": 2.988094311726708,
+      "std_pct_change": null,
+      "positive_days": 1,
+      "negative_days": 0
+    },
+    "weekly_growth": {
+      "mean_wow_growth": null,
+      "data": [
+        {
+          "year": 2025,
+          "week": 47,
+          "total_enrollment": 52172,
+          "wow_growth": null
+        }
+      ]
+    },
+    "monthly_growth": {
+      "mean_mom_growth": null,
+      "data": [
+        {
+          "month": "2025-11",
+          "total": 52172,
+          "mom_growth": null
+        }
+      ]
+    },
+    "cumulative": {
+      "total": 52172,
+      "data": [
+        {
+          "date": "2025-11-18T00:00:00",
+          "cumulative": 25702
+        },
+        {
+          "date": "2025-11-19T00:00:00",
+          "cumulative": 52172
+        }
+      ]
+    }
+  },
+  "enrollment_anomalies": {
+    "dataset_name": "enrollment",
+    "method": {
+      "zscore_threshold": 2.0,
+      "mean": 26086.0,
+      "std": 543.0580079512685,
+      "iqr_lower": 25318.0,
+      "iqr_upper": 26854.0
+    },
+    "anomalies": {
+      "total_count": 0,
+      "high_anomalies": 0,
+      "low_anomalies": 0,
+      "iqr_anomalies": 0,
+      "details": []
+    }
+  }
+}

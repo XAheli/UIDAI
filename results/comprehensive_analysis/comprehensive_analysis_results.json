@@ -1,0 +1,2382 @@
+{
+  "generated_at": "2026-01-20T18:43:48.085713",
+  "author": "Shuvam Banerji Seal, Alok Mishra, Aheli Poddar",
+  "sample_size": 200000,
+  "datasets": {
+    "biometric": {
+      "record_count": 200000,
+      "column_count": 25,
+      "time_series": {
+        "dataset": "biometric",
+        "analysis_type": "time_series",
+        "date_range": {
+          "start": "2025-03-01",
+          "end": "2025-12-29",
+          "total_days": 89
+        },
+        "enrollment_stats": {
+          "total": 7432831,
+          "daily_mean": 83514.95505617978,
+          "daily_std": 201865.9613579645,
+          "daily_min": 7,
+          "daily_max": 1054669,
+          "daily_median": 40099.0
+        },
+        "day_of_week_pattern": {
+          "Friday": {
+            "total": 466466,
+            "mean": 15.855404486743712,
+            "records": 29420
+          },
+          "Monday": {
+            "total": 442010,
+            "mean": 15.51837938419408,
+            "records": 28483
+          },
+          "Saturday": {
+            "total": 1334691,
+            "mean": 41.646623814278584,
+            "records": 32048
+          },
+          "Sunday": {
+            "total": 1073403,
+            "mean": 49.696884115005325,
+            "records": 21599
+          },
+          "Thursday": {
+            "total": 1295872,
+            "mean": 43.331505383535074,
+            "records": 29906
+          },
+          "Tuesday": {
+            "total": 2435714,
+            "mean": 72.59086845085534,
+            "records": 33554
+          },
+          "Wednesday": {
+            "total": 384675,
+            "mean": 15.393157262905163,
+            "records": 24990
+          }
+        },
+        "weekend_vs_weekday": {
+          "weekend": {
+            "total": 2408094,
+            "records": 53647,
+            "mean_per_record": 44.88776632430518
+          },
+          "weekday": {
+            "total": 5024737,
+            "records": 146353,
+            "mean_per_record": 34.33299624879572
+          }
+        },
+        "weekend_weekday_ttest": {
+          "t_statistic": 13.319676450001825,
+          "p_value": 1.8509226369370828e-40,
+          "significant": "True"
+        },
+        "monthly_pattern": {
+          "April": {
+            "total": 889842,
+            "mean": 390.1104778605875,
+            "records": 2281
+          },
+          "December": {
+            "total": 939673,
+            "mean": 16.02361748205242,
+            "records": 58643
+          },
+          "July": {
+            "total": 1054669,
+            "mean": 434.91505154639174,
+            "records": 2425
+          },
+          "June": {
+            "total": 831422,
+            "mean": 348.45850796311817,
+            "records": 2386
+          },
+          "March": {
+            "total": 880874,
+            "mean": 369.64918170373477,
+            "records": 2383
+          },
+          "May": {
+            "total": 844680,
+            "mean": 358.0669775328529,
+            "records": 2359
+          },
+          "November": {
+            "total": 787857,
+            "mean": 15.826141979028565,
+            "records": 49782
+          },
+          "October": {
+            "total": 486785,
+            "mean": 13.809503546099291,
+            "records": 35250
+          },
+          "September": {
+            "total": 717029,
+            "mean": 16.11627070643501,
+            "records": 44491
+          }
+        }
+      },
+      "geographic": {
+        "dataset": "biometric",
+        "analysis_type": "geographic",
+        "state_analysis": {
+          "total_states": 53,
+          "top_10_states": [
+            {
+              "state": "Maharashtra",
+              "total_enrollment": 994092,
+              "mean_enrollment": 60.771,
+              "std_enrollment": 199.7215,
+              "record_count": 16358,
+              "unique_districts": 51,
+              "unique_pincodes": 1589
+            },
+            {
+              "state": "Uttar Pradesh",
+              "total_enrollment": 992200,
+              "mean_enrollment": 59.063,
+              "std_enrollment": 213.7453,
+              "record_count": 16799,
+              "unique_districts": 86,
+              "unique_pincodes": 1718
+            },
+            {
+              "state": "Madhya Pradesh",
+              "total_enrollment": 623020,
+              "mean_enrollment": 83.0583,
+              "std_enrollment": 332.0087,
+              "record_count": 7501,
+              "unique_districts": 60,
+              "unique_pincodes": 772
+            },
+            {
+              "state": "Bihar",
+              "total_enrollment": 533639,
+              "mean_enrollment": 59.313,
+              "std_enrollment": 214.4333,
+              "record_count": 8997,
+              "unique_districts": 47,
+              "unique_pincodes": 901
+            },
+            {
+              "state": "Tamil Nadu",
+              "total_enrollment": 513161,
+              "mean_enrollment": 25.8754,
+              "std_enrollment": 84.2832,
+              "record_count": 19832,
+              "unique_districts": 43,
+              "unique_pincodes": 2064
+            },
+            {
+              "state": "Rajasthan",
+              "total_enrollment": 414010,
+              "mean_enrollment": 48.1407,
+              "std_enrollment": 143.2364,
+              "record_count": 8600,
+              "unique_districts": 41,
+              "unique_pincodes": 979
+            },
+            {
+              "state": "Andhra Pradesh",
+              "total_enrollment": 382964,
+              "mean_enrollment": 21.0454,
+              "std_enrollment": 83.1099,
+              "record_count": 18197,
+              "unique_districts": 45,
+              "unique_pincodes": 1795
+            },
+            {
+              "state": "Gujarat",
+              "total_enrollment": 340742,
+              "mean_enrollment": 35.6276,
+              "std_enrollment": 148.973,
+              "record_count": 9564,
+              "unique_districts": 39,
+              "unique_pincodes": 1015
+            },
+            {
+              "state": "Chhattisgarh",
+              "total_enrollment": 297889,
+              "mean_enrollment": 84.4836,
+              "std_enrollment": 290.2151,
+              "record_count": 3526,
+              "unique_districts": 39,
+              "unique_pincodes": 266
+            },
+            {
+              "state": "West Bengal",
+              "total_enrollment": 288931,
+              "mean_enrollment": 20.4959,
+              "std_enrollment": 73.1094,
+              "record_count": 14097,
+              "unique_districts": 49,
+              "unique_pincodes": 1321
+            }
+          ],
+          "bottom_5_states": [
+            {
+              "state": "Westbengal",
+              "total_enrollment": 2,
+              "record_count": 2
+            },
+            {
+              "state": "odisha",
+              "total_enrollment": 2,
+              "record_count": 2
+            },
+            {
+              "state": "West  Bengal",
+              "total_enrollment": 1,
+              "record_count": 1
+            },
+            {
+              "state": "WESTBENGAL",
+              "total_enrollment": 1,
+              "record_count": 1
+            },
+            {
+              "state": "West bengal",
+              "total_enrollment": 1,
+              "record_count": 1
+            }
+          ]
+        },
+        "regional_analysis": {
+          "Central": {
+            "total_enrollment": 1913109,
+            "percentage": 25.738631754172804,
+            "mean_per_record": 68.7525695392798,
+            "record_count": 27826,
+            "unique_states": 3,
+            "unique_districts": 184
+          },
+          "East": {
+            "total_enrollment": 1317325,
+            "percentage": 17.723058683831237,
+            "mean_per_record": 36.157467131446765,
+            "record_count": 36433,
+            "unique_states": 4,
+            "unique_districts": 172
+          },
+          "North": {
+            "total_enrollment": 1086913,
+            "percentage": 14.623136191311225,
+            "mean_per_record": 42.14474602559132,
+            "record_count": 25790,
+            "unique_states": 9,
+            "unique_districts": 159
+          },
+          "Northeast": {
+            "total_enrollment": 222142,
+            "percentage": 2.988659368146538,
+            "mean_per_record": 25.234806316028628,
+            "record_count": 8803,
+            "unique_states": 9,
+            "unique_districts": 135
+          },
+          "Other": {
+            "total_enrollment": 16997,
+            "percentage": 0.22867464630905773,
+            "mean_per_record": 9.354430379746836,
+            "record_count": 1817,
+            "unique_states": 17,
+            "unique_districts": 53
+          },
+          "South": {
+            "total_enrollment": 1534809,
+            "percentage": 20.649050139845773,
+            "mean_per_record": 21.077040332880156,
+            "record_count": 72819,
+            "unique_states": 7,
+            "unique_districts": 191
+          },
+          "West": {
+            "total_enrollment": 1341536,
+            "percentage": 18.04878921638337,
+            "mean_per_record": 50.60108630054315,
+            "record_count": 26512,
+            "unique_states": 4,
+            "unique_districts": 96
+          }
+        },
+        "inequality_metrics": {
+          "gini_coefficient": 0.7370845009528518,
+          "interpretation": "Higher value indicates more inequality in enrollment distribution"
+        },
+        "concentration_ratios": {
+          "top_5_share_pct": 49.18868732519278,
+          "top_10_share_pct": 72.39029112864263
+        },
+        "pincode_zone_analysis": {
+          "1": {
+            "total": 595283,
+            "mean": 40.11881655209597,
+            "records": 14838
+          },
+          "2": {
+            "total": 1069859,
+            "mean": 55.765389627313006,
+            "records": 19185
+          },
+          "3": {
+            "total": 762632,
+            "mean": 41.7080667213563,
+            "records": 18285
+          },
+          "4": {
+            "total": 1921203,
+            "mean": 68.73713774597495,
+            "records": 27950
+          },
+          "5": {
+            "total": 844424,
+            "mean": 20.016688000758545,
+            "records": 42186
+          },
+          "6": {
+            "total": 693056,
+            "mean": 22.451520943341215,
+            "records": 30869
+          },
+          "7": {
+            "total": 771089,
+            "mean": 22.905447956273765,
+            "records": 33664
+          },
+          "8": {
+            "total": 775285,
+            "mean": 59.53198187821547,
+            "records": 13023
+          }
+        }
+      },
+      "demographic": {
+        "dataset": "biometric",
+        "analysis_type": "demographic",
+        "age_group_analysis": {
+          "age_5_17": {
+            "total": 3622750,
+            "percentage": 48.73984084933453,
+            "mean_per_record": 18.11375,
+            "std": 79.95338881910772
+          },
+          "age_17_plus": {
+            "total": 3810081,
+            "percentage": 51.26015915066547,
+            "mean_per_record": 19.050405,
+            "std": 86.60370197250204
+          },
+          "ratio_5_17_to_17_plus": 0.9508328038170317
+        },
+        "age_group_correlation": {
+          "pearson_correlation": 0.7783926785067495,
+          "p_value": 0.0,
+          "interpretation": "Strong positive correlation"
+        },
+        "population_correlation": {
+          "pearson_correlation": 0.24792352691380976,
+          "p_value": 0.1448636655970371,
+          "significant": "False",
+          "interpretation": "Weak population correlation"
+        },
+        "sex_ratio_correlation": {
+          "pearson_correlation": -0.06815838862568255,
+          "p_value": 0.6972471654060768,
+          "interpretation": "Negative correlation with sex ratio"
+        }
+      },
+      "socioeconomic": {
+        "dataset": "biometric",
+        "analysis_type": "socioeconomic",
+        "hdi_analysis": {
+          "correlation_with_enrollment": -0.3209724355267689,
+          "p_value": 0.06010497612671518,
+          "significant": "False"
+        },
+        "hdi_stratification": {
+          "high_hdi_states": {
+            "count": 16,
+            "mean_enrollment": 165094.5,
+            "hdi_range": "0.650 - 0.803"
+          },
+          "medium_hdi_states": {
+            "count": 13,
+            "mean_enrollment": 174888.6923076923
+          },
+          "low_hdi_states": {
+            "count": 6,
+            "mean_enrollment": 416514.5
+          }
+        },
+        "literacy_analysis": {
+          "correlation_with_enrollment": -0.3580098482667911,
+          "p_value": 0.034716258836918513,
+          "interpretation": "Inverse relationship"
+        },
+        "income_analysis": {
+          "correlation_with_enrollment": -0.2584739073958167,
+          "p_value": 0.1338147597478928,
+          "interpretation": "Weak income-enrollment relationship"
+        }
+      },
+      "climate": {
+        "dataset": "biometric",
+        "analysis_type": "climate",
+        "rainfall_zone_analysis": {
+          "Extremely High": {
+            "total_enrollment": 7732,
+            "percentage": 0.10402496706840234,
+            "mean_per_record": 17.375280898876404,
+            "record_count": 445,
+            "unique_states": 1
+          },
+          "High": {
+            "total_enrollment": 557941,
+            "percentage": 7.506440009197034,
+            "mean_per_record": 20.957891969048156,
+            "record_count": 26622,
+            "unique_states": 8
+          },
+          "Low": {
+            "total_enrollment": 886437,
+            "percentage": 11.925967373669602,
+            "mean_per_record": 49.657554198644334,
+            "record_count": 17851,
+            "unique_states": 5
+          },
+          "Low to Moderate": {
+            "total_enrollment": 1332942,
+            "percentage": 17.93316705303807,
+            "mean_per_record": 50.56108940560634,
+            "record_count": 26363,
+            "unique_states": 2
+          },
+          "Moderate": {
+            "total_enrollment": 3390156,
+            "percentage": 45.610562112874625,
+            "mean_per_record": 48.88472963229993,
+            "record_count": 69350,
+            "unique_states": 9
+          },
+          "Moderate to High": {
+            "total_enrollment": 993296,
+            "percentage": 13.363629551109128,
+            "mean_per_record": 22.184165270798438,
+            "record_count": 44775,
+            "unique_states": 4
+          },
+          "Unknown": {
+            "total_enrollment": 16997,
+            "percentage": 0.22867464630905773,
+            "mean_per_record": 9.354430379746836,
+            "record_count": 1817,
+            "unique_states": 17
+          },
+          "Very High": {
+            "total_enrollment": 247086,
+            "percentage": 3.324251553681229,
+            "mean_per_record": 19.444872904698197,
+            "record_count": 12707,
+            "unique_states": 6
+          },
+          "Very Low": {
+            "total_enrollment": 244,
+            "percentage": 0.00328273305285698,
+            "mean_per_record": 3.4857142857142858,
+            "record_count": 70,
+            "unique_states": 1
+          }
+        },
+        "rainfall_zone_anova": {
+          "f_statistic": 202.92800548698676,
+          "p_value": 0.0,
+          "significant": "True",
+          "interpretation": "Significant difference across rainfall zones"
+        },
+        "climate_type_analysis": {
+          "Alpine/Arid": {
+            "total_enrollment": 244,
+            "percentage": 0.00328273305285698,
+            "mean_per_record": 3.4857142857142858
+          },
+          "Arid/Semi-arid": {
+            "total_enrollment": 414010,
+            "percentage": 5.570017668907043,
+            "mean_per_record": 48.140697674418604
+          },
+          "Semi-arid": {
+            "total_enrollment": 291131,
+            "percentage": 3.9168252311938745,
+            "mean_per_record": 75.50077800829875
+          },
+          "Semi-arid/Arid": {
+            "total_enrollment": 340742,
+            "percentage": 4.584282893018824,
+            "mean_per_record": 35.62756168966959
+          },
+          "Sub-tropical": {
+            "total_enrollment": 2148859,
+            "percentage": 28.910370759136057,
+            "mean_per_record": 64.53611436465748
+          },
+          "Temperate": {
+            "total_enrollment": 337145,
+            "percentage": 4.535889488137157,
+            "mean_per_record": 34.0722587165235
+          },
+          "Temperate/Alpine": {
+            "total_enrollment": 46580,
+            "percentage": 0.6266791213199924,
+            "mean_per_record": 12.849655172413794
+          },
+          "Tropical": {
+            "total_enrollment": 1318539,
+            "percentage": 17.739391626151598,
+            "mean_per_record": 34.940217823356384
+          },
+          "Tropical Monsoon": {
+            "total_enrollment": 366476,
+            "percentage": 4.930503599503338,
+            "mean_per_record": 20.365434843011947
+          },
+          "Tropical/Alpine": {
+            "total_enrollment": 8128,
+            "percentage": 0.10935268136730138,
+            "mean_per_record": 16.968684759916492
+          },
+          "Tropical/Sub-tropical": {
+            "total_enrollment": 1838924,
+            "percentage": 24.7405598216884,
+            "mean_per_record": 31.40829049172488
+          },
+          "Tropical/Temperate": {
+            "total_enrollment": 305056,
+            "percentage": 4.104169730214504,
+            "mean_per_record": 21.015155690272803
+          },
+          "Unknown": {
+            "total_enrollment": 16997,
+            "percentage": 0.22867464630905773,
+            "mean_per_record": 9.354430379746836
+          }
+        },
+        "earthquake_zone_analysis": {
+          "II": {
+            "total_enrollment": 871836,
+            "mean_per_record": 22.1283788928653,
+            "record_count": 39399
+          },
+          "II-III": {
+            "total_enrollment": 2830240,
+            "mean_per_record": 40.40025694097495,
+            "record_count": 70055
+          },
+          "III": {
+            "total_enrollment": 249191,
+            "mean_per_record": 53.257319940158155,
+            "record_count": 4679
+          },
+          "III-IV": {
+            "total_enrollment": 2035883,
+            "mean_per_record": 41.497818997146354,
+            "record_count": 49060
+          },
+          "IV": {
+            "total_enrollment": 524978,
+            "mean_per_record": 48.555123936366996,
+            "record_count": 10812
+          },
+          "IV-V": {
+            "total_enrollment": 902024,
+            "mean_per_record": 37.51867565094418,
+            "record_count": 24042
+          },
+          "Unknown": {
+            "total_enrollment": 16997,
+            "mean_per_record": 9.354430379746836,
+            "record_count": 1817
+          },
+          "V (Very High)": {
+            "total_enrollment": 1682,
+            "mean_per_record": 12.367647058823529,
+            "record_count": 136
+          }
+        }
+      },
+      "hypothesis_tests": {
+        "dataset": "biometric",
+        "analysis_type": "hypothesis_testing",
+        "tests": [
+          {
+            "test_name": "Kruskal-Wallis: Regional Differences",
+            "h0": "No difference in enrollment across regions",
+            "h1": "At least one region differs significantly",
+            "statistic": 13823.431801678122,
+            "p_value": 0.0,
+            "result": "Reject H0",
+            "conclusion": "Significant regional differences exist"
+          },
+          {
+            "test_name": "Mann-Whitney U: Weekend vs Weekday",
+            "h0": "No difference between weekend and weekday enrollment",
+            "h1": "Enrollment differs between weekends and weekdays",
+            "statistic": 3888313580.0,
+            "p_value": 0.0010557720297712035,
+            "result": "Reject H0",
+            "weekend_median": 8.0,
+            "weekday_median": 8.0
+          },
+          {
+            "test_name": "One-way ANOVA: HDI Groups",
+            "h0": "No difference in enrollment across HDI groups",
+            "h1": "At least one HDI group differs",
+            "f_statistic": 529.5779491958635,
+            "p_value": 4.165107393583952e-230,
+            "result": "Reject H0"
+          },
+          {
+            "test_name": "D'Agostino-Pearson: Normality Test",
+            "h0": "Data is normally distributed",
+            "h1": "Data is not normally distributed",
+            "statistic": 8158.512447193574,
+            "p_value": 0.0,
+            "result": "Reject H0",
+            "conclusion": "Data is not normally distributed"
+          }
+        ],
+        "total_tests": 4
+      },
+      "correlations": {
+        "dataset": "biometric",
+        "analysis_type": "correlation",
+        "significant_correlations": [
+          {
+            "variable_1": "bio_age_17_",
+            "variable_2": "total_enrollment",
+            "correlation": 0.9475697027147985,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "bio_age_5_17",
+            "variable_2": "total_enrollment",
+            "correlation": 0.938187147982712,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "per_capita_income_usd",
+            "variable_2": "hdi",
+            "correlation": 0.9260972377422391,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "month",
+            "variable_2": "quarter",
+            "correlation": 0.903262009530647,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "state_literacy_rate",
+            "variable_2": "hdi",
+            "correlation": 0.8626065950246018,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "bio_age_5_17",
+            "variable_2": "bio_age_17_",
+            "correlation": 0.7783926785067582,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "day_of_week",
+            "variable_2": "is_weekend",
+            "correlation": 0.7731867655564615,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "state_literacy_rate",
+            "variable_2": "per_capita_income_usd",
+            "correlation": 0.6748929419907056,
+            "strength": "Moderate"
+          },
+          {
+            "variable_1": "state_sex_ratio",
+            "variable_2": "hdi",
+            "correlation": 0.4480167001600863,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "month",
+            "variable_2": "total_enrollment",
+            "correlation": -0.4070443290883928,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "bio_age_17_",
+            "variable_2": "month",
+            "correlation": -0.3933583782432096,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "state_literacy_rate",
+            "variable_2": "state_sex_ratio",
+            "correlation": 0.3910495776803658,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "state_sex_ratio",
+            "variable_2": "per_capita_income_usd",
+            "correlation": 0.37620803691621213,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "population_2011",
+            "variable_2": "state_sex_ratio",
+            "correlation": -0.3744366804396877,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "bio_age_5_17",
+            "variable_2": "month",
+            "correlation": -0.37359148910346934,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "quarter",
+            "variable_2": "total_enrollment",
+            "correlation": -0.3689220558132301,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "population_2011",
+            "variable_2": "hdi",
+            "correlation": -0.3622815797731119,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "bio_age_17_",
+            "variable_2": "quarter",
+            "correlation": -0.3564243752804954,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "bio_age_5_17",
+            "variable_2": "quarter",
+            "correlation": -0.33870356865600765,
+            "strength": "Weak"
+          }
+        ],
+        "total_significant": 19,
+        "enrollment_correlations": [
+          {
+            "variable": "bio_age_17_",
+            "correlation_with_enrollment": 0.9475697027147985
+          },
+          {
+            "variable": "bio_age_5_17",
+            "correlation_with_enrollment": 0.938187147982712
+          },
+          {
+            "variable": "month",
+            "correlation_with_enrollment": -0.4070443290883928
+          },
+          {
+            "variable": "quarter",
+            "correlation_with_enrollment": -0.3689220558132301
+          },
+          {
+            "variable": "state_sex_ratio",
+            "correlation_with_enrollment": -0.07934879271460506
+          },
+          {
+            "variable": "population_2011",
+            "correlation_with_enrollment": 0.05044291518113165
+          },
+          {
+            "variable": "hdi",
+            "correlation_with_enrollment": -0.047024537844581396
+          },
+          {
+            "variable": "per_capita_income_usd",
+            "correlation_with_enrollment": -0.03234430314708326
+          },
+          {
+            "variable": "is_weekend",
+            "correlation_with_enrollment": 0.0297706493864769
+          },
+          {
+            "variable": "state_literacy_rate",
+            "correlation_with_enrollment": -0.027972379135864634
+          }
+        ]
+      }
+    },
+    "demographic": {
+      "record_count": 200000,
+      "column_count": 25,
+      "time_series": {
+        "dataset": "demographic",
+        "analysis_type": "time_series",
+        "date_range": {
+          "start": "2025-03-01",
+          "end": "2025-12-29",
+          "total_days": 95
+        },
+        "enrollment_stats": {
+          "total": 4779090,
+          "daily_mean": 50306.21052631579,
+          "daily_std": 108429.54845564761,
+          "daily_min": 1049,
+          "daily_max": 1045863,
+          "daily_median": 35274.0
+        },
+        "day_of_week_pattern": {
+          "Friday": {
+            "total": 535669,
+            "mean": 16.777405412177398,
+            "records": 31928
+          },
+          "Monday": {
+            "total": 486149,
+            "mean": 15.672114764667956,
+            "records": 31020
+          },
+          "Saturday": {
+            "total": 1476392,
+            "mean": 48.16939641109298,
+            "records": 30650
+          },
+          "Sunday": {
+            "total": 370590,
+            "mean": 18.260162601626018,
+            "records": 20295
+          },
+          "Thursday": {
+            "total": 649628,
+            "mean": 21.84872027713315,
+            "records": 29733
+          },
+          "Tuesday": {
+            "total": 832623,
+            "mean": 28.14341727226635,
+            "records": 29585
+          },
+          "Wednesday": {
+            "total": 428039,
+            "mean": 15.978162678711412,
+            "records": 26789
+          }
+        },
+        "weekend_vs_weekday": {
+          "weekend": {
+            "total": 1846982,
+            "records": 50945,
+            "mean_per_record": 36.25443124938659
+          },
+          "weekday": {
+            "total": 2932108,
+            "records": 149055,
+            "mean_per_record": 19.67131595719701
+          }
+        },
+        "weekend_weekday_ttest": {
+          "t_statistic": 24.628073548812743,
+          "p_value": 1.0019518898771088e-133,
+          "significant": "True"
+        },
+        "monthly_pattern": {
+          "April": {
+            "total": 143055,
+            "mean": 1265.9734513274336,
+            "records": 113
+          },
+          "December": {
+            "total": 925028,
+            "mean": 14.520492896946864,
+            "records": 63705
+          },
+          "July": {
+            "total": 221235,
+            "mean": 1676.0227272727273,
+            "records": 132
+          },
+          "June": {
+            "total": 171131,
+            "mean": 1450.2627118644068,
+            "records": 118
+          },
+          "March": {
+            "total": 1045863,
+            "mean": 582.3290645879732,
+            "records": 1796
+          },
+          "May": {
+            "total": 186209,
+            "mean": 1193.6474358974358,
+            "records": 156
+          },
+          "November": {
+            "total": 904359,
+            "mean": 16.575191070544896,
+            "records": 54561
+          },
+          "October": {
+            "total": 473730,
+            "mean": 13.182602404274265,
+            "records": 35936
+          },
+          "September": {
+            "total": 708480,
+            "mean": 16.29326403422027,
+            "records": 43483
+          }
+        }
+      },
+      "geographic": {
+        "dataset": "demographic",
+        "analysis_type": "geographic",
+        "state_analysis": {
+          "total_states": 55,
+          "top_10_states": [
+            {
+              "state": "Uttar Pradesh",
+              "total_enrollment": 814011,
+              "mean_enrollment": 50.5565,
+              "std_enrollment": 227.9302,
+              "record_count": 16101,
+              "unique_districts": 86,
+              "unique_pincodes": 1732
+            },
+            {
+              "state": "Maharashtra",
+              "total_enrollment": 494756,
+              "mean_enrollment": 31.707,
+              "std_enrollment": 118.2643,
+              "record_count": 15604,
+              "unique_districts": 51,
+              "unique_pincodes": 1583
+            },
+            {
+              "state": "Bihar",
+              "total_enrollment": 459889,
+              "mean_enrollment": 48.8049,
+              "std_enrollment": 140.1741,
+              "record_count": 9423,
+              "unique_districts": 47,
+              "unique_pincodes": 909
+            },
+            {
+              "state": "West Bengal",
+              "total_enrollment": 376496,
+              "mean_enrollment": 23.0654,
+              "std_enrollment": 95.282,
+              "record_count": 16323,
+              "unique_districts": 50,
+              "unique_pincodes": 1343
+            },
+            {
+              "state": "Madhya Pradesh",
+              "total_enrollment": 267354,
+              "mean_enrollment": 36.4988,
+              "std_enrollment": 172.0447,
+              "record_count": 7325,
+              "unique_districts": 60,
+              "unique_pincodes": 780
+            },
+            {
+              "state": "Rajasthan",
+              "total_enrollment": 263550,
+              "mean_enrollment": 30.6347,
+              "std_enrollment": 159.3429,
+              "record_count": 8603,
+              "unique_districts": 46,
+              "unique_pincodes": 976
+            },
+            {
+              "state": "Andhra Pradesh",
+              "total_enrollment": 231293,
+              "mean_enrollment": 11.4666,
+              "std_enrollment": 58.6957,
+              "record_count": 20171,
+              "unique_districts": 45,
+              "unique_pincodes": 1777
+            },
+            {
+              "state": "Tamil Nadu",
+              "total_enrollment": 212685,
+              "mean_enrollment": 11.2004,
+              "std_enrollment": 46.6981,
+              "record_count": 18989,
+              "unique_districts": 44,
+              "unique_pincodes": 2055
+            },
+            {
+              "state": "Chhattisgarh",
+              "total_enrollment": 212549,
+              "mean_enrollment": 61.5371,
+              "std_enrollment": 332.6899,
+              "record_count": 3454,
+              "unique_districts": 39,
+              "unique_pincodes": 264
+            },
+            {
+              "state": "Gujarat",
+              "total_enrollment": 212231,
+              "mean_enrollment": 22.4892,
+              "std_enrollment": 168.4308,
+              "record_count": 9437,
+              "unique_districts": 39,
+              "unique_pincodes": 1020
+            }
+          ],
+          "bottom_5_states": [
+            {
+              "state": "andhra pradesh",
+              "total_enrollment": 2,
+              "record_count": 2
+            },
+            {
+              "state": "WEST BENGAL",
+              "total_enrollment": 2,
+              "record_count": 2
+            },
+            {
+              "state": "Raja Annamalai Puram",
+              "total_enrollment": 1,
+              "record_count": 1
+            },
+            {
+              "state": "Uttaranchal",
+              "total_enrollment": 1,
+              "record_count": 1
+            },
+            {
+              "state": "West bengal",
+              "total_enrollment": 1,
+              "record_count": 1
+            }
+          ]
+        },
+        "regional_analysis": {
+          "Central": {
+            "total_enrollment": 1293914,
+            "percentage": 27.074484891475155,
+            "mean_per_record": 48.13668154761905,
+            "record_count": 26880,
+            "unique_states": 3,
+            "unique_districts": 184
+          },
+          "East": {
+            "total_enrollment": 1071639,
+            "percentage": 22.423494849437866,
+            "mean_per_record": 27.8811270683734,
+            "record_count": 38436,
+            "unique_states": 4,
+            "unique_districts": 174
+          },
+          "North": {
+            "total_enrollment": 692493,
+            "percentage": 14.490059823104398,
+            "mean_per_record": 28.422795928418978,
+            "record_count": 24364,
+            "unique_states": 9,
+            "unique_districts": 164
+          },
+          "Northeast": {
+            "total_enrollment": 158995,
+            "percentage": 3.326888591761193,
+            "mean_per_record": 16.310525235945835,
+            "record_count": 9748,
+            "unique_states": 9,
+            "unique_districts": 138
+          },
+          "Other": {
+            "total_enrollment": 4206,
+            "percentage": 0.08800838653383804,
+            "mean_per_record": 2.381653454133635,
+            "record_count": 1766,
+            "unique_states": 19,
+            "unique_districts": 52
+          },
+          "South": {
+            "total_enrollment": 847481,
+            "percentage": 17.733104000970894,
+            "mean_per_record": 11.586948496739176,
+            "record_count": 73141,
+            "unique_states": 7,
+            "unique_districts": 190
+          },
+          "West": {
+            "total_enrollment": 710362,
+            "percentage": 14.863959456716655,
+            "mean_per_record": 27.678238846678354,
+            "record_count": 25665,
+            "unique_states": 4,
+            "unique_districts": 96
+          }
+        },
+        "inequality_metrics": {
+          "gini_coefficient": 0.758569480420293,
+          "interpretation": "Higher value indicates more inequality in enrollment distribution"
+        },
+        "concentration_ratios": {
+          "top_5_share_pct": 50.48044711440881,
+          "top_10_share_pct": 74.17340958215894
+        },
+        "pincode_zone_analysis": {
+          "1": {
+            "total": 384583,
+            "mean": 28.437074829931973,
+            "records": 13524
+          },
+          "2": {
+            "total": 858410,
+            "mean": 46.72381885477901,
+            "records": 18372
+          },
+          "3": {
+            "total": 476611,
+            "mean": 26.203254714387818,
+            "records": 18189
+          },
+          "4": {
+            "total": 977758,
+            "mean": 36.273715451678726,
+            "records": 26955
+          },
+          "5": {
+            "total": 559991,
+            "mean": 12.834410524385772,
+            "records": 43632
+          },
+          "6": {
+            "total": 288188,
+            "mean": 9.696769851951547,
+            "records": 29720
+          },
+          "7": {
+            "total": 641186,
+            "mean": 17.635833539620982,
+            "records": 36357
+          },
+          "8": {
+            "total": 592363,
+            "mean": 44.7032676779111,
+            "records": 13251
+          }
+        }
+      },
+      "demographic": {
+        "dataset": "demographic",
+        "analysis_type": "demographic",
+        "population_correlation": {
+          "pearson_correlation": 0.2077243598561079,
+          "p_value": 0.22410897407965719,
+          "significant": "False",
+          "interpretation": "Weak population correlation"
+        },
+        "sex_ratio_correlation": {
+          "pearson_correlation": -0.12326719370381874,
+          "p_value": 0.48051690798506674,
+          "interpretation": "Negative correlation with sex ratio"
+        }
+      },
+      "socioeconomic": {
+        "dataset": "demographic",
+        "analysis_type": "socioeconomic",
+        "hdi_analysis": {
+          "correlation_with_enrollment": -0.3819868177654378,
+          "p_value": 0.023547598232363937,
+          "significant": "True"
+        },
+        "hdi_stratification": {
+          "high_hdi_states": {
+            "count": 16,
+            "mean_enrollment": 87012.9375,
+            "hdi_range": "0.650 - 0.803"
+          },
+          "medium_hdi_states": {
+            "count": 13,
+            "mean_enrollment": 123546.61538461539
+          },
+          "low_hdi_states": {
+            "count": 6,
+            "mean_enrollment": 296032.8333333333
+          }
+        },
+        "literacy_analysis": {
+          "correlation_with_enrollment": -0.41457595129494257,
+          "p_value": 0.01328055422838535,
+          "interpretation": "Inverse relationship"
+        },
+        "income_analysis": {
+          "correlation_with_enrollment": -0.305169838941731,
+          "p_value": 0.07464516533738866,
+          "interpretation": "Weak income-enrollment relationship"
+        }
+      },
+      "climate": {
+        "dataset": "demographic",
+        "analysis_type": "climate",
+        "rainfall_zone_analysis": {
+          "Extremely High": {
+            "total_enrollment": 9049,
+            "percentage": 0.18934567041005715,
+            "mean_per_record": 18.280808080808082,
+            "record_count": 495,
+            "unique_states": 1
+          },
+          "High": {
+            "total_enrollment": 549813,
+            "percentage": 11.504554214296027,
+            "mean_per_record": 18.9767369619991,
+            "record_count": 28973,
+            "unique_states": 8
+          },
+          "Low": {
+            "total_enrollment": 594759,
+            "percentage": 12.445026145144787,
+            "mean_per_record": 34.305762242602526,
+            "record_count": 17337,
+            "unique_states": 5
+          },
+          "Low to Moderate": {
+            "total_enrollment": 1026242,
+            "percentage": 21.473585975572757,
+            "mean_per_record": 40.184900931944554,
+            "record_count": 25538,
+            "unique_states": 2
+          },
+          "Moderate": {
+            "total_enrollment": 1949598,
+            "percentage": 40.794335323251914,
+            "mean_per_record": 28.83380906603564,
+            "record_count": 67615,
+            "unique_states": 9
+          },
+          "Moderate to High": {
+            "total_enrollment": 533875,
+            "percentage": 11.17105976242339,
+            "mean_per_record": 11.659459695560068,
+            "record_count": 45789,
+            "unique_states": 4
+          },
+          "Unknown": {
+            "total_enrollment": 4206,
+            "percentage": 0.08800838653383804,
+            "mean_per_record": 2.381653454133635,
+            "record_count": 1766,
+            "unique_states": 19
+          },
+          "Very High": {
+            "total_enrollment": 111249,
+            "percentage": 2.327828101165703,
+            "mean_per_record": 8.96807738814994,
+            "record_count": 12405,
+            "unique_states": 6
+          },
+          "Very Low": {
+            "total_enrollment": 299,
+            "percentage": 0.006256421201525814,
+            "mean_per_record": 3.6463414634146343,
+            "record_count": 82,
+            "unique_states": 1
+          }
+        },
+        "rainfall_zone_anova": {
+          "f_statistic": 156.55543367069978,
+          "p_value": 3.086129344184843e-264,
+          "significant": "True",
+          "interpretation": "Significant difference across rainfall zones"
+        },
+        "climate_type_analysis": {
+          "Alpine/Arid": {
+            "total_enrollment": 299,
+            "percentage": 0.006256421201525814,
+            "mean_per_record": 3.6463414634146343
+          },
+          "Arid/Semi-arid": {
+            "total_enrollment": 263550,
+            "percentage": 5.514648186160963,
+            "mean_per_record": 30.6346623270952
+          },
+          "Semi-arid": {
+            "total_enrollment": 242669,
+            "percentage": 5.077724001849725,
+            "mean_per_record": 64.31725417439704
+          },
+          "Semi-arid/Arid": {
+            "total_enrollment": 212231,
+            "percentage": 4.440824508431521,
+            "mean_per_record": 22.489244463282823
+          },
+          "Sub-tropical": {
+            "total_enrollment": 1541254,
+            "percentage": 32.249947165673795,
+            "mean_per_record": 46.919358275746596
+          },
+          "Temperate": {
+            "total_enrollment": 171697,
+            "percentage": 3.592671408155109,
+            "mean_per_record": 18.583937655590432
+          },
+          "Temperate/Alpine": {
+            "total_enrollment": 15753,
+            "percentage": 0.3296234220322279,
+            "mean_per_record": 5.329161028416779
+          },
+          "Tropical": {
+            "total_enrollment": 666270,
+            "percentage": 13.941357036590649,
+            "mean_per_record": 18.44397076735688
+          },
+          "Tropical Monsoon": {
+            "total_enrollment": 223536,
+            "percentage": 4.677375818408944,
+            "mean_per_record": 11.911120584003836
+          },
+          "Tropical/Alpine": {
+            "total_enrollment": 3306,
+            "percentage": 0.0691763494723891,
+            "mean_per_record": 7.688372093023256
+          },
+          "Tropical/Sub-tropical": {
+            "total_enrollment": 1054925,
+            "percentage": 22.073762996721133,
+            "mean_per_record": 17.801636854539318
+          },
+          "Tropical/Temperate": {
+            "total_enrollment": 379394,
+            "percentage": 7.938624298768175,
+            "mean_per_record": 22.699174344860594
+          },
+          "Unknown": {
+            "total_enrollment": 4206,
+            "percentage": 0.08800838653383804,
+            "mean_per_record": 2.381653454133635
+          }
+        },
+        "earthquake_zone_analysis": {
+          "II": {
+            "total_enrollment": 454894,
+            "mean_per_record": 11.920077564068968,
+            "record_count": 38162
+          },
+          "II-III": {
+            "total_enrollment": 1469911,
+            "mean_per_record": 20.94785520877868,
+            "record_count": 70170
+          },
+          "III": {
+            "total_enrollment": 135964,
+            "mean_per_record": 30.1739902352419,
+            "record_count": 4506
+          },
+          "III-IV": {
+            "total_enrollment": 1666288,
+            "mean_per_record": 33.019340519974634,
+            "record_count": 50464
+          },
+          "IV": {
+            "total_enrollment": 347199,
+            "mean_per_record": 33.85325663026521,
+            "record_count": 10256
+          },
+          "IV-V": {
+            "total_enrollment": 700254,
+            "mean_per_record": 28.498046557056814,
+            "record_count": 24572
+          },
+          "Unknown": {
+            "total_enrollment": 4206,
+            "mean_per_record": 2.381653454133635,
+            "record_count": 1766
+          },
+          "V (Very High)": {
+            "total_enrollment": 374,
+            "mean_per_record": 3.5961538461538463,
+            "record_count": 104
+          }
+        }
+      },
+      "hypothesis_tests": {
+        "dataset": "demographic",
+        "analysis_type": "hypothesis_testing",
+        "tests": [
+          {
+            "test_name": "Kruskal-Wallis: Regional Differences",
+            "h0": "No difference in enrollment across regions",
+            "h1": "At least one region differs significantly",
+            "statistic": 18924.09946023447,
+            "p_value": 0.0,
+            "result": "Reject H0",
+            "conclusion": "Significant regional differences exist"
+          },
+          {
+            "test_name": "Mann-Whitney U: Weekend vs Weekday",
+            "h0": "No difference between weekend and weekday enrollment",
+            "h1": "Enrollment differs between weekends and weekdays",
+            "statistic": 3627627618.0,
+            "p_value": 2.2601478538190978e-51,
+            "result": "Reject H0",
+            "weekend_median": 6.0,
+            "weekday_median": 7.0
+          },
+          {
+            "test_name": "One-way ANOVA: HDI Groups",
+            "h0": "No difference in enrollment across HDI groups",
+            "h1": "At least one HDI group differs",
+            "f_statistic": 462.2712433719617,
+            "p_value": 5.068417485703489e-201,
+            "result": "Reject H0"
+          },
+          {
+            "test_name": "D'Agostino-Pearson: Normality Test",
+            "h0": "Data is normally distributed",
+            "h1": "Data is not normally distributed",
+            "statistic": 11044.80277400344,
+            "p_value": 0.0,
+            "result": "Reject H0",
+            "conclusion": "Data is not normally distributed"
+          }
+        ],
+        "total_tests": 4
+      },
+      "correlations": {
+        "dataset": "demographic",
+        "analysis_type": "correlation",
+        "significant_correlations": [
+          {
+            "variable_1": "demo_age_17_",
+            "variable_2": "total_enrollment",
+            "correlation": 0.9987393721623292,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "per_capita_income_usd",
+            "variable_2": "hdi",
+            "correlation": 0.9249461756164273,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "demo_age_5_17",
+            "variable_2": "total_enrollment",
+            "correlation": 0.9004137028255988,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "demo_age_5_17",
+            "variable_2": "demo_age_17_",
+            "correlation": 0.8774414943041208,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "state_literacy_rate",
+            "variable_2": "hdi",
+            "correlation": 0.8590476945988389,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "month",
+            "variable_2": "quarter",
+            "correlation": 0.8572529433446412,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "day_of_week",
+            "variable_2": "is_weekend",
+            "correlation": 0.7574365364659095,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "state_literacy_rate",
+            "variable_2": "per_capita_income_usd",
+            "correlation": 0.664959942334377,
+            "strength": "Moderate"
+          },
+          {
+            "variable_1": "state_sex_ratio",
+            "variable_2": "hdi",
+            "correlation": 0.44361489376286106,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "state_literacy_rate",
+            "variable_2": "state_sex_ratio",
+            "correlation": 0.3754638424414082,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "state_sex_ratio",
+            "variable_2": "per_capita_income_usd",
+            "correlation": 0.3743536471634905,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "population_2011",
+            "variable_2": "state_sex_ratio",
+            "correlation": -0.37074471841540874,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "population_2011",
+            "variable_2": "hdi",
+            "correlation": -0.357298179118682,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "month",
+            "variable_2": "total_enrollment",
+            "correlation": -0.31561869867556347,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "demo_age_17_",
+            "variable_2": "month",
+            "correlation": -0.31328623772534575,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "demo_age_5_17",
+            "variable_2": "month",
+            "correlation": -0.30095379864430255,
+            "strength": "Weak"
+          }
+        ],
+        "total_significant": 16,
+        "enrollment_correlations": [
+          {
+            "variable": "demo_age_17_",
+            "correlation_with_enrollment": 0.9987393721623292
+          },
+          {
+            "variable": "demo_age_5_17",
+            "correlation_with_enrollment": 0.9004137028255988
+          },
+          {
+            "variable": "month",
+            "correlation_with_enrollment": -0.31561869867556347
+          },
+          {
+            "variable": "quarter",
+            "correlation_with_enrollment": -0.2983604611496556
+          },
+          {
+            "variable": "state_sex_ratio",
+            "correlation_with_enrollment": -0.07733388606960492
+          },
+          {
+            "variable": "population_2011",
+            "correlation_with_enrollment": 0.06006903509137915
+          },
+          {
+            "variable": "is_weekend",
+            "correlation_with_enrollment": 0.05498700443076079
+          },
+          {
+            "variable": "hdi",
+            "correlation_with_enrollment": -0.053558858707055707
+          },
+          {
+            "variable": "per_capita_income_usd",
+            "correlation_with_enrollment": -0.04041150078692756
+          },
+          {
+            "variable": "state_literacy_rate",
+            "correlation_with_enrollment": -0.0379407071414489
+          }
+        ]
+      }
+    },
+    "enrollment": {
+      "record_count": 200000,
+      "column_count": 26,
+      "time_series": {
+        "dataset": "enrollment",
+        "analysis_type": "time_series",
+        "date_range": {
+          "start": "2025-03-02",
+          "end": "2025-12-31",
+          "total_days": 91
+        },
+        "enrollment_stats": {
+          "total": 1081785,
+          "daily_mean": 11887.747252747253,
+          "daily_std": 15125.138350583702,
+          "daily_min": 60,
+          "daily_max": 127438,
+          "daily_median": 9883.0
+        },
+        "day_of_week_pattern": {
+          "Friday": {
+            "total": 111674,
+            "mean": 4.059101482989241,
+            "records": 27512
+          },
+          "Monday": {
+            "total": 164453,
+            "mean": 4.341305667749004,
+            "records": 37881
+          },
+          "Saturday": {
+            "total": 105903,
+            "mean": 4.087340795059823,
+            "records": 25910
+          },
+          "Sunday": {
+            "total": 121873,
+            "mean": 5.648806488991889,
+            "records": 21575
+          },
+          "Thursday": {
+            "total": 140326,
+            "mean": 5.44616937048824,
+            "records": 25766
+          },
+          "Tuesday": {
+            "total": 284826,
+            "mean": 10.048899237933954,
+            "records": 28344
+          },
+          "Wednesday": {
+            "total": 152730,
+            "mean": 4.62649945474373,
+            "records": 33012
+          }
+        },
+        "weekend_vs_weekday": {
+          "weekend": {
+            "total": 227776,
+            "records": 47485,
+            "mean_per_record": 4.79679898915447
+          },
+          "weekday": {
+            "total": 854009,
+            "records": 152515,
+            "mean_per_record": 5.599508245090647
+          }
+        },
+        "weekend_weekday_ttest": {
+          "t_statistic": -4.754380877943958,
+          "p_value": 1.9919370322974594e-06,
+          "significant": "True"
+        },
+        "monthly_pattern": {
+          "April": {
+            "total": 50349,
+            "mean": 301.49101796407183,
+            "records": 167
+          },
+          "December": {
+            "total": 152768,
+            "mean": 4.753796365446851,
+            "records": 32136
+          },
+          "July": {
+            "total": 127438,
+            "mean": 549.301724137931,
+            "records": 232
+          },
+          "June": {
+            "total": 43369,
+            "mean": 364.4453781512605,
+            "records": 119
+          },
+          "March": {
+            "total": 3309,
+            "mean": 106.74193548387096,
+            "records": 31
+          },
+          "May": {
+            "total": 34282,
+            "mean": 314.51376146788994,
+            "records": 109
+          },
+          "November": {
+            "total": 215752,
+            "mean": 3.9906039027097013,
+            "records": 54065
+          },
+          "October": {
+            "total": 161200,
+            "mean": 3.818276564498555,
+            "records": 42218
+          },
+          "September": {
+            "total": 293318,
+            "mean": 4.135724659137375,
+            "records": 70923
+          }
+        }
+      },
+      "geographic": {
+        "dataset": "enrollment",
+        "analysis_type": "geographic",
+        "state_analysis": {
+          "total_states": 52,
+          "top_10_states": [
+            {
+              "state": "Uttar Pradesh",
+              "total_enrollment": 202821,
+              "mean_enrollment": 9.2368,
+              "std_enrollment": 59.4615,
+              "record_count": 21958,
+              "unique_districts": 86,
+              "unique_pincodes": 1705
+            },
+            {
+              "state": "Bihar",
+              "total_enrollment": 127753,
+              "mean_enrollment": 10.5398,
+              "std_enrollment": 51.0119,
+              "record_count": 12121,
+              "unique_districts": 47,
+              "unique_pincodes": 895
+            },
+            {
+              "state": "Madhya Pradesh",
+              "total_enrollment": 96839,
+              "mean_enrollment": 9.7424,
+              "std_enrollment": 38.9064,
+              "record_count": 9940,
+              "unique_districts": 60,
+              "unique_pincodes": 767
+            },
+            {
+              "state": "West Bengal",
+              "total_enrollment": 75408,
+              "mean_enrollment": 4.9467,
+              "std_enrollment": 20.4376,
+              "record_count": 15244,
+              "unique_districts": 48,
+              "unique_pincodes": 1277
+            },
+            {
+              "state": "Maharashtra",
+              "total_enrollment": 70380,
+              "mean_enrollment": 4.5542,
+              "std_enrollment": 22.2374,
+              "record_count": 15454,
+              "unique_districts": 52,
+              "unique_pincodes": 1549
+            },
+            {
+              "state": "Rajasthan",
+              "total_enrollment": 63099,
+              "mean_enrollment": 5.6734,
+              "std_enrollment": 15.0185,
+              "record_count": 11122,
+              "unique_districts": 38,
+              "unique_pincodes": 970
+            },
+            {
+              "state": "Gujarat",
+              "total_enrollment": 57818,
+              "mean_enrollment": 6.2852,
+              "std_enrollment": 38.5673,
+              "record_count": 9199,
+              "unique_districts": 40,
+              "unique_pincodes": 993
+            },
+            {
+              "state": "Assam",
+              "total_enrollment": 44895,
+              "mean_enrollment": 7.2028,
+              "std_enrollment": 34.5619,
+              "record_count": 6233,
+              "unique_districts": 38,
+              "unique_pincodes": 565
+            },
+            {
+              "state": "Karnataka",
+              "total_enrollment": 44402,
+              "mean_enrollment": 3.172,
+              "std_enrollment": 13.3515,
+              "record_count": 13998,
+              "unique_districts": 55,
+              "unique_pincodes": 1298
+            },
+            {
+              "state": "Tamil Nadu",
+              "total_enrollment": 44004,
+              "mean_enrollment": 2.3798,
+              "std_enrollment": 3.5436,
+              "record_count": 18491,
+              "unique_districts": 42,
+              "unique_pincodes": 2012
+            }
+          ],
+          "bottom_5_states": [
+            {
+              "state": "Westbengal",
+              "total_enrollment": 2,
+              "record_count": 2
+            },
+            {
+              "state": "West Bangal",
+              "total_enrollment": 1,
+              "record_count": 1
+            },
+            {
+              "state": "WESTBENGAL",
+              "total_enrollment": 1,
+              "record_count": 1
+            },
+            {
+              "state": "WEST BENGAL",
+              "total_enrollment": 1,
+              "record_count": 1
+            },
+            {
+              "state": "andhra pradesh",
+              "total_enrollment": 1,
+              "record_count": 1
+            }
+          ]
+        },
+        "regional_analysis": {
+          "Central": {
+            "total_enrollment": 318827,
+            "percentage": 29.472307343880715,
+            "mean_per_record": 8.97598536036036,
+            "record_count": 35520,
+            "unique_states": 3,
+            "unique_districts": 184
+          },
+          "East": {
+            "total_enrollment": 257945,
+            "percentage": 23.844386823629467,
+            "mean_per_record": 6.350509626274066,
+            "record_count": 40618,
+            "unique_states": 4,
+            "unique_districts": 173
+          },
+          "North": {
+            "total_enrollment": 140298,
+            "percentage": 12.969120481426529,
+            "mean_per_record": 5.33411907839708,
+            "record_count": 26302,
+            "unique_states": 9,
+            "unique_districts": 157
+          },
+          "Northeast": {
+            "total_enrollment": 79810,
+            "percentage": 7.37762124636596,
+            "mean_per_record": 8.282482357824824,
+            "record_count": 9636,
+            "unique_states": 9,
+            "unique_districts": 135
+          },
+          "Other": {
+            "total_enrollment": 1257,
+            "percentage": 0.1161968413316879,
+            "mean_per_record": 1.3545258620689655,
+            "record_count": 928,
+            "unique_states": 16,
+            "unique_districts": 54
+          },
+          "South": {
+            "total_enrollment": 154990,
+            "percentage": 14.327246171836364,
+            "mean_per_record": 2.4987908296520813,
+            "record_count": 62026,
+            "unique_states": 7,
+            "unique_districts": 191
+          },
+          "West": {
+            "total_enrollment": 128658,
+            "percentage": 11.893121091529277,
+            "mean_per_record": 5.152503003604325,
+            "record_count": 24970,
+            "unique_states": 4,
+            "unique_districts": 98
+          }
+        },
+        "inequality_metrics": {
+          "gini_coefficient": 0.7537433145573857,
+          "interpretation": "Higher value indicates more inequality in enrollment distribution"
+        },
+        "concentration_ratios": {
+          "top_5_share_pct": 52.986591605540845,
+          "top_10_share_pct": 76.4864552568209
+        },
+        "pincode_zone_analysis": {
+          "1": {
+            "total": 69821,
+            "mean": 5.300713634983298,
+            "records": 13172
+          },
+          "2": {
+            "total": 210251,
+            "mean": 8.760093329444606,
+            "records": 24001
+          },
+          "3": {
+            "total": 121055,
+            "mean": 5.936978911230995,
+            "records": 20390
+          },
+          "4": {
+            "total": 186817,
+            "mean": 6.372961724773146,
+            "records": 29314
+          },
+          "5": {
+            "total": 95544,
+            "mean": 2.6860082651598214,
+            "records": 35571
+          },
+          "6": {
+            "total": 59695,
+            "mean": 2.241981521820777,
+            "records": 26626
+          },
+          "7": {
+            "total": 180131,
+            "mean": 5.268066563331676,
+            "records": 34193
+          },
+          "8": {
+            "total": 158471,
+            "mean": 9.470567142771769,
+            "records": 16733
+          }
+        }
+      },
+      "demographic": {
+        "dataset": "enrollment",
+        "analysis_type": "demographic",
+        "population_correlation": {
+          "pearson_correlation": -0.04844499672831945,
+          "p_value": 0.7790352864843605,
+          "significant": "False",
+          "interpretation": "Weak population correlation"
+        },
+        "sex_ratio_correlation": {
+          "pearson_correlation": -0.1503003229591895,
+          "p_value": 0.38879403855770867,
+          "interpretation": "Negative correlation with sex ratio"
+        }
+      },
+      "socioeconomic": {
+        "dataset": "enrollment",
+        "analysis_type": "socioeconomic",
+        "hdi_analysis": {
+          "correlation_with_enrollment": -0.4709193177884543,
+          "p_value": 0.004300898017818949,
+          "significant": "True"
+        },
+        "hdi_stratification": {
+          "high_hdi_states": {
+            "count": 16,
+            "mean_enrollment": 16047.5,
+            "hdi_range": "0.650 - 0.803"
+          },
+          "medium_hdi_states": {
+            "count": 13,
+            "mean_enrollment": 24605.30769230769
+          },
+          "low_hdi_states": {
+            "count": 6,
+            "mean_enrollment": 83969.16666666667
+          }
+        },
+        "literacy_analysis": {
+          "correlation_with_enrollment": -0.44414766801179734,
+          "p_value": 0.007520737527848919,
+          "interpretation": "Inverse relationship"
+        },
+        "income_analysis": {
+          "correlation_with_enrollment": -0.39618846956465326,
+          "p_value": 0.018468519556462278,
+          "interpretation": "Weak income-enrollment relationship"
+        }
+      },
+      "climate": {
+        "dataset": "enrollment",
+        "analysis_type": "climate",
+        "rainfall_zone_analysis": {
+          "Extremely High": {
+            "total_enrollment": 24373,
+            "percentage": 2.253035492265099,
+            "mean_per_record": 33.433470507544584,
+            "record_count": 729,
+            "unique_states": 1
+          },
+          "High": {
+            "total_enrollment": 133797,
+            "percentage": 12.368169275780309,
+            "mean_per_record": 5.021090554283784,
+            "record_count": 26647,
+            "unique_states": 8
+          },
+          "Low": {
+            "total_enrollment": 119549,
+            "percentage": 11.051086861067587,
+            "mean_per_record": 6.0020584396023695,
+            "record_count": 19918,
+            "unique_states": 5
+          },
+          "Low to Moderate": {
+            "total_enrollment": 260639,
+            "percentage": 24.093419672115992,
+            "mean_per_record": 8.365343261546363,
+            "record_count": 31157,
+            "unique_states": 2
+          },
+          "Moderate": {
+            "total_enrollment": 415403,
+            "percentage": 38.39977444686329,
+            "mean_per_record": 5.690218210210539,
+            "record_count": 73003,
+            "unique_states": 9
+          },
+          "Moderate to High": {
+            "total_enrollment": 103244,
+            "percentage": 9.543855756920275,
+            "mean_per_record": 2.722463940089128,
+            "record_count": 37923,
+            "unique_states": 4
+          },
+          "Unknown": {
+            "total_enrollment": 1257,
+            "percentage": 0.1161968413316879,
+            "mean_per_record": 1.3545258620689655,
+            "record_count": 928,
+            "unique_states": 16
+          },
+          "Very High": {
+            "total_enrollment": 23390,
+            "percentage": 2.1621671589086557,
+            "mean_per_record": 2.4276076803321223,
+            "record_count": 9635,
+            "unique_states": 6
+          },
+          "Very Low": {
+            "total_enrollment": 133,
+            "percentage": 0.01229449474710779,
+            "mean_per_record": 2.216666666666667,
+            "record_count": 60,
+            "unique_states": 1
+          }
+        },
+        "rainfall_zone_anova": {
+          "f_statistic": 150.66266124566332,
+          "p_value": 4.112352380631465e-254,
+          "significant": "True",
+          "interpretation": "Significant difference across rainfall zones"
+        },
+        "climate_type_analysis": {
+          "Alpine/Arid": {
+            "total_enrollment": 133,
+            "percentage": 0.01229449474710779,
+            "mean_per_record": 2.216666666666667
+          },
+          "Arid/Semi-arid": {
+            "total_enrollment": 63099,
+            "percentage": 5.832859579306424,
+            "mean_per_record": 5.6733501168854525
+          },
+          "Semi-arid": {
+            "total_enrollment": 41588,
+            "percentage": 3.8443868236294643,
+            "mean_per_record": 9.066492260736865
+          },
+          "Semi-arid/Arid": {
+            "total_enrollment": 57818,
+            "percentage": 5.344684942017129,
+            "mean_per_record": 6.285248396564844
+          },
+          "Sub-tropical": {
+            "total_enrollment": 427413,
+            "percentage": 39.50997656650813,
+            "mean_per_record": 9.70973897635112
+          },
+          "Temperate": {
+            "total_enrollment": 32124,
+            "percentage": 2.96953646057211,
+            "mean_per_record": 3.769537667214269
+          },
+          "Temperate/Alpine": {
+            "total_enrollment": 3697,
+            "percentage": 0.3417499780455451,
+            "mean_per_record": 1.681218735788995
+          },
+          "Tropical": {
+            "total_enrollment": 118867,
+            "percentage": 10.988042910559862,
+            "mean_per_record": 3.306177509526326
+          },
+          "Tropical Monsoon": {
+            "total_enrollment": 91456,
+            "percentage": 8.454175275123985,
+            "mean_per_record": 5.57250792103339
+          },
+          "Tropical/Alpine": {
+            "total_enrollment": 789,
+            "percentage": 0.07293501019148906,
+            "mean_per_record": 2.536977491961415
+          },
+          "Tropical/Sub-tropical": {
+            "total_enrollment": 165934,
+            "percentage": 15.33890745388409,
+            "mean_per_record": 3.2516950813247107
+          },
+          "Tropical/Temperate": {
+            "total_enrollment": 77610,
+            "percentage": 7.174253664082975,
+            "mean_per_record": 4.956571720526249
+          },
+          "Unknown": {
+            "total_enrollment": 1257,
+            "percentage": 0.1161968413316879,
+            "mean_per_record": 1.3545258620689655
+          }
+        },
+        "earthquake_zone_analysis": {
+          "II": {
+            "total_enrollment": 85581,
+            "mean_per_record": 2.4468492680695335,
+            "record_count": 34976
+          },
+          "II-III": {
+            "total_enrollment": 279819,
+            "mean_per_record": 4.326272824255168,
+            "record_count": 64679
+          },
+          "III": {
+            "total_enrollment": 31220,
+            "mean_per_record": 6.298164212225136,
+            "record_count": 4957
+          },
+          "III-IV": {
+            "total_enrollment": 399146,
+            "mean_per_record": 6.938894007614346,
+            "record_count": 57523
+          },
+          "IV": {
+            "total_enrollment": 59964,
+            "mean_per_record": 5.998799519807923,
+            "record_count": 9996
+          },
+          "IV-V": {
+            "total_enrollment": 224714,
+            "mean_per_record": 8.357097697943397,
+            "record_count": 26889
+          },
+          "Unknown": {
+            "total_enrollment": 1257,
+            "mean_per_record": 1.3545258620689655,
+            "record_count": 928
+          },
+          "V (Very High)": {
+            "total_enrollment": 84,
+            "mean_per_record": 1.6153846153846154,
+            "record_count": 52
+          }
+        }
+      },
+      "hypothesis_tests": {
+        "dataset": "enrollment",
+        "analysis_type": "hypothesis_testing",
+        "tests": [
+          {
+            "test_name": "Kruskal-Wallis: Regional Differences",
+            "h0": "No difference in enrollment across regions",
+            "h1": "At least one region differs significantly",
+            "statistic": 19611.80552330249,
+            "p_value": 0.0,
+            "result": "Reject H0",
+            "conclusion": "Significant regional differences exist"
+          },
+          {
+            "test_name": "Mann-Whitney U: Weekend vs Weekday",
+            "h0": "No difference between weekend and weekday enrollment",
+            "h1": "Enrollment differs between weekends and weekdays",
+            "statistic": 3471906423.0,
+            "p_value": 1.7732242165744868e-44,
+            "result": "Reject H0",
+            "weekend_median": 2.0,
+            "weekday_median": 2.0
+          },
+          {
+            "test_name": "One-way ANOVA: HDI Groups",
+            "h0": "No difference in enrollment across HDI groups",
+            "h1": "At least one HDI group differs",
+            "f_statistic": 515.4682142056625,
+            "p_value": 5.160362619037176e-224,
+            "result": "Reject H0"
+          },
+          {
+            "test_name": "D'Agostino-Pearson: Normality Test",
+            "h0": "Data is normally distributed",
+            "h1": "Data is not normally distributed",
+            "statistic": 14321.472756162599,
+            "p_value": 0.0,
+            "result": "Reject H0",
+            "conclusion": "Data is not normally distributed"
+          }
+        ],
+        "total_tests": 4
+      },
+      "correlations": {
+        "dataset": "enrollment",
+        "analysis_type": "correlation",
+        "significant_correlations": [
+          {
+            "variable_1": "age_0_5",
+            "variable_2": "total_enrollment",
+            "correlation": 0.9373851251305535,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "per_capita_income_usd",
+            "variable_2": "hdi",
+            "correlation": 0.9351385659093615,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "age_5_17",
+            "variable_2": "total_enrollment",
+            "correlation": 0.9349511912074939,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "state_literacy_rate",
+            "variable_2": "hdi",
+            "correlation": 0.8659823857372845,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "month",
+            "variable_2": "quarter",
+            "correlation": 0.8381098972339164,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "day_of_week",
+            "variable_2": "is_weekend",
+            "correlation": 0.7698228316787057,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "age_0_5",
+            "variable_2": "age_5_17",
+            "correlation": 0.7662756782402061,
+            "strength": "Strong"
+          },
+          {
+            "variable_1": "state_literacy_rate",
+            "variable_2": "per_capita_income_usd",
+            "correlation": 0.6947315224227115,
+            "strength": "Moderate"
+          },
+          {
+            "variable_1": "age_18_greater",
+            "variable_2": "total_enrollment",
+            "correlation": 0.5383200091562786,
+            "strength": "Moderate"
+          },
+          {
+            "variable_1": "age_5_17",
+            "variable_2": "age_18_greater",
+            "correlation": 0.5159157969831858,
+            "strength": "Moderate"
+          },
+          {
+            "variable_1": "state_sex_ratio",
+            "variable_2": "hdi",
+            "correlation": 0.4379608013136079,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "population_2011",
+            "variable_2": "state_sex_ratio",
+            "correlation": -0.40195755479479867,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "state_literacy_rate",
+            "variable_2": "state_sex_ratio",
+            "correlation": 0.3832959336105364,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "population_2011",
+            "variable_2": "hdi",
+            "correlation": -0.3767302721620616,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "state_sex_ratio",
+            "variable_2": "per_capita_income_usd",
+            "correlation": 0.3625211178089033,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "age_0_5",
+            "variable_2": "age_18_greater",
+            "correlation": 0.3606021235387674,
+            "strength": "Weak"
+          },
+          {
+            "variable_1": "population_2011",
+            "variable_2": "per_capita_income_usd",
+            "correlation": -0.3081099518589943,
+            "strength": "Weak"
+          }
+        ],
+        "total_significant": 17,
+        "enrollment_correlations": [
+          {
+            "variable": "age_0_5",
+            "correlation_with_enrollment": 0.9373851251305535
+          },
+          {
+            "variable": "age_5_17",
+            "correlation_with_enrollment": 0.9349511912074939
+          },
+          {
+            "variable": "age_18_greater",
+            "correlation_with_enrollment": 0.5383200091562786
+          },
+          {
+            "variable": "month",
+            "correlation_with_enrollment": -0.1459617261699631
+          },
+          {
+            "variable": "quarter",
+            "correlation_with_enrollment": -0.09528612968123873
+          },
+          {
+            "variable": "state_sex_ratio",
+            "correlation_with_enrollment": -0.060495459687594504
+          },
+          {
+            "variable": "hdi",
+            "correlation_with_enrollment": -0.059699672189321956
+          },
+          {
+            "variable": "per_capita_income_usd",
+            "correlation_with_enrollment": -0.0529042114722484
+          },
+          {
+            "variable": "population_2011",
+            "correlation_with_enrollment": 0.04074948864117918
+          },
+          {
+            "variable": "state_literacy_rate",
+            "correlation_with_enrollment": -0.04015254569555237
+          }
+        ]
+      }
+    }
+  }
+}

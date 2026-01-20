@@ -1,0 +1,17 @@
+{
+  "dataset_name": "biometric",
+  "method": {
+    "zscore_threshold": 2.0,
+    "mean": 195864.0,
+    "std": NaN,
+    "iqr_lower": 195864.0,
+    "iqr_upper": 195864.0
+  },
+  "anomalies": {
+    "total_count": 0,
+    "high_anomalies": 0,
+    "low_anomalies": 0,
+    "iqr_anomalies": 0,
+    "details": []
+  }
+}

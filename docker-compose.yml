@@ -1,0 +1,65 @@
+# Docker Configuration for UIDAI Analysis
+# Author: Shuvam Banerji Seal's Team
+
+version: '3.8'
+
+services:
+  # Main analysis service
+  analysis:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./Dataset:/app/Dataset:ro
+      - ./analysis:/app/analysis
+      - ./results:/app/results
+      - ./web/frontend/public/data:/app/web/frontend/public/data
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CPU_WORKERS=12
+    command: python -m analysis.codes.run_all_analyses
+
+  # ML inference service
+  ml-inference:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.ml
+    volumes:
+      - ./Dataset:/app/Dataset:ro
+      - ./analysis:/app/analysis
+      - ./results:/app/results
+      - ./web/frontend/public/data:/app/web/frontend/public/data
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CPU_WORKERS=12
+      - TF_CPP_MIN_LOG_LEVEL=2
+    deploy:
+      resources:
+        limits:
+          memory: 16G
+        reservations:
+          memory: 8G
+    command: python -m analysis.codes.ml_models.run_all
+
+  # Web development server
+  web-dev:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./web/frontend:/app
+    ports:
+      - "3000:3000"
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+
+  # Production build
+  web-build:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./web/frontend:/app
+      - ./web/frontend/dist:/app/dist
+    command: sh -c "npm install && npm run build"
+
+networks:
+  default:
+    name: uidai-network

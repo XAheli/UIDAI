@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-01-20T16:05:04.130973",
+  "author": "Shuvam Banerji Seal's Team",
+  "project": "UIDAI Aadhaar Data Analysis",
+  "datasets": {
+    "biometric": {
+      "description": "Biometric authentication data",
+      "records": "See analysis files"
+    },
+    "demographic": {
+      "description": "Demographic authentication data",
+      "records": "See analysis files"
+    },
+    "enrollment": {
+      "description": "Enrollment data",
+      "records": "See analysis files"
+    }
+  },
+  "available_analyses": [
+    "time_series",
+    "statistical",
+    "geographic",
+    "demographic",
+    "ml_results"
+  ],
+  "interpretations_included": true
+}

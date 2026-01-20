@@ -1,0 +1,4810 @@
+{
+  "biometric_descriptive": {
+    "dataset_name": "biometric",
+    "record_count": 10000,
+    "column_count": 26,
+    "numeric_columns": [
+      "pincode",
+      "bio_age_5_17",
+      "bio_age_17_",
+      "district_external_source",
+      "population_2011",
+      "area_sq_km",
+      "density_per_sq_km",
+      "literacy_rate",
+      "sex_ratio",
+      "avg_temp_min_c",
+      "avg_temp_max_c",
+      "avg_rainfall_mm",
+      "per_capita_income_inr",
+      "hdi"
+    ],
+    "statistics": {
+      "pincode": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 505871.3768,
+        "std": 212071.6092,
+        "min": 110002.0,
+        "max": 855117.0,
+        "median": 515766.0,
+        "q1": 322813.75,
+        "q3": 700014.25,
+        "iqr": 377200.5,
+        "skewness": -0.1841,
+        "kurtosis": -1.1131,
+        "variance": 44974367420.4969,
+        "range": 745115.0,
+        "cv": 41.92
+      },
+      "bio_age_5_17": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 11.0514,
+        "std": 19.9138,
+        "min": 0.0,
+        "max": 465.0,
+        "median": 5.0,
+        "q1": 1.0,
+        "q3": 13.0,
+        "iqr": 12.0,
+        "skewness": 6.2684,
+        "kurtosis": 74.3088,
+        "variance": 396.5612,
+        "range": 465.0,
+        "cv": 180.19
+      },
+      "bio_age_17_": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 8.535,
+        "std": 13.2498,
+        "min": 0.0,
+        "max": 253.0,
+        "median": 4.0,
+        "q1": 1.0,
+        "q3": 10.0,
+        "iqr": 9.0,
+        "skewness": 4.8247,
+        "kurtosis": 42.6748,
+        "variance": 175.5575,
+        "range": 253.0,
+        "cv": 155.24
+      },
+      "population_2011": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 71296841.2149,
+        "std": 53665388.6299,
+        "min": 64473.0,
+        "max": 199812341.0,
+        "median": 60439692.0,
+        "q1": 33406061.0,
+        "q3": 91276115.0,
+        "iqr": 57870054.0,
+        "skewness": 1.3535,
+        "kurtosis": 1.0497,
+        "variance": 2879973936794947.5,
+        "range": 199747868.0,
+        "cv": 75.27
+      },
+      "area_sq_km": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 151639.961,
+        "std": 86749.8741,
+        "min": 32.0,
+        "max": 342239.0,
+        "median": 155707.0,
+        "q1": 88752.0,
+        "q3": 196024.0,
+        "iqr": 107272.0,
+        "skewness": 0.4806,
+        "kurtosis": -0.5912,
+        "variance": 7525540651.8209,
+        "range": 342207.0,
+        "cv": 57.21
+      },
+      "density_per_sq_km": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 563.3687,
+        "std": 795.5834,
+        "min": 5.0,
+        "max": 11320.0,
+        "median": 365.0,
+        "q1": 303.0,
+        "q3": 829.0,
+        "iqr": 526.0,
+        "skewness": 11.1187,
+        "kurtosis": 143.7591,
+        "variance": 632952.9753,
+        "range": 11315.0,
+        "cv": 141.22
+      },
+      "literacy_rate": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 73.6367,
+        "std": 7.5179,
+        "min": 61.8,
+        "max": 93.91,
+        "median": 72.87,
+        "q1": 67.02,
+        "q3": 78.03,
+        "iqr": 11.010000000000005,
+        "skewness": 0.8669,
+        "kurtosis": 0.5461,
+        "variance": 56.5189,
+        "range": 32.11,
+        "cv": 10.21
+      },
+      "sex_ratio": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 956.2766,
+        "std": 45.2966,
+        "min": 690.0,
+        "max": 1084.0,
+        "median": 950.0,
+        "q1": 919.0,
+        "q3": 988.0,
+        "iqr": 69.0,
+        "skewness": 0.6545,
+        "kurtosis": 1.689,
+        "variance": 2051.7865,
+        "range": 394.0,
+        "cv": 4.74
+      },
+      "avg_temp_min_c": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 12.4462,
+        "std": 7.0788,
+        "min": -25.0,
+        "max": 25.0,
+        "median": 15.0,
+        "q1": 8.0,
+        "q3": 18.0,
+        "iqr": 10.0,
+        "skewness": -0.953,
+        "kurtosis": 0.8838,
+        "variance": 50.1099,
+        "range": 50.0,
+        "cv": 56.88
+      },
+      "avg_temp_max_c": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 39.6793,
+        "std": 4.3233,
+        "min": 22.0,
+        "max": 48.0,
+        "median": 40.0,
+        "q1": 38.0,
+        "q3": 42.0,
+        "iqr": 4.0,
+        "skewness": -0.3045,
+        "kurtosis": -0.0309,
+        "variance": 18.6905,
+        "range": 26.0,
+        "cv": 10.9
+      },
+      "avg_rainfall_mm": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 1295.375,
+        "std": 615.926,
+        "min": 100.0,
+        "max": 4000.0,
+        "median": 1200.0,
+        "q1": 900.0,
+        "q3": 1500.0,
+        "iqr": 600.0,
+        "skewness": 1.628,
+        "kurtosis": 2.5878,
+        "variance": 379364.7959,
+        "range": 3900.0,
+        "cv": 47.55
+      },
+      "per_capita_income_inr": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 148419.5,
+        "std": 62458.143,
+        "min": 50000.0,
+        "max": 450000.0,
+        "median": 165000.0,
+        "q1": 95000.0,
+        "q3": 200000.0,
+        "iqr": 105000.0,
+        "skewness": 0.256,
+        "kurtosis": -0.1183,
+        "variance": 3901019621.7122,
+        "range": 400000.0,
+        "cv": 42.08
+      },
+      "hdi": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 0.6362,
+        "std": 0.0722,
+        "min": 0.51,
+        "max": 0.78,
+        "median": 0.65,
+        "q1": 0.57,
+        "q3": 0.68,
+        "iqr": 0.1100000000000001,
+        "skewness": -0.1601,
+        "kurtosis": -0.8163,
+        "variance": 0.0052,
+        "range": 0.27,
+        "cv": 11.35
+      }
+    },
+    "categorical_columns": {
+      "date": {
+        "unique_count": 1,
+        "top_values": {
+          "19-12-2025": 10000
+        }
+      },
+      "state": {
+        "unique_count": 36,
+        "top_values": {
+          "Uttar Pradesh": 1146,
+          "Andhra Pradesh": 959,
+          "Karnataka": 901,
+          "West Bengal": 857,
+          "Telangana": 592,
+          "Odisha": 519,
+          "Gujarat": 507,
+          "Maharashtra": 506,
+          "Kerala": 505,
+          "Tamil Nadu": 430
+        }
+      },
+      "district": {
+        "unique_count": 846,
+        "top_values": {
+          "Barddhaman": 80,
+          "Karimnagar": 69,
+          "Bangalore": 67,
+          "Belgaum": 65,
+          "Bengaluru": 63,
+          "Warangal": 63,
+          "North 24 Parganas": 62,
+          "Medak": 61,
+          "Hooghly": 58,
+          "Khammam": 58
+        }
+      },
+      "capital": {
+        "unique_count": 34,
+        "top_values": {
+          "Lucknow": 1146,
+          "Amaravati": 959,
+          "Bengaluru": 901,
+          "Kolkata": 857,
+          "Hyderabad": 592,
+          "Chandigarh": 556,
+          "Bhubaneswar": 519,
+          "Gandhinagar": 507,
+          "Mumbai": 506,
+          "Thiruvananthapuram": 505
+        }
+      },
+      "region": {
+        "unique_count": 7,
+        "top_values": {
+          "South India": 3414,
+          "North India": 2679,
+          "East India": 2060,
+          "West India": 1040,
+          "Northeast India": 438,
+          "Central India": 361,
+          "Island": 8
+        }
+      },
+      "zone": {
+        "unique_count": 7,
+        "top_values": {
+          "Southern": 3414,
+          "Northern": 2679,
+          "Eastern": 2060,
+          "Western": 1040,
+          "Northeastern": 438,
+          "Central": 361,
+          "Islands": 8
+        }
+      },
+      "rainfall_zone": {
+        "unique_count": 5,
+        "top_values": {
+          "Medium": 6143,
+          "High": 1563,
+          "Low": 1103,
+          "Very High": 791,
+          "Very Low": 400
+        }
+      },
+      "earthquake_zone": {
+        "unique_count": 10,
+        "top_values": {
+          "II-III": 2753,
+          "II": 1716,
+          "II-IV": 1146,
+          "III": 1038,
+          "IV": 998,
+          "III-IV": 857,
+          "IV-V": 541,
+          "III-V": 507,
+          "V": 442,
+          "I": 2
+        }
+      },
+      "climate_type": {
+        "unique_count": 11,
+        "top_values": {
+          "Tropical": 5249,
+          "Humid Subtropical": 1555,
+          "Tropical Monsoon": 591,
+          "Semi-arid": 587,
+          "Alpine/Subtropical": 564,
+          "Subtropical": 510,
+          "Semi-arid/Arid": 507,
+          "Arid/Semi-arid": 396,
+          "Subtropical Highland": 29,
+          "Tropical Maritime": 8
+        }
+      },
+      "major_language": {
+        "unique_count": 28,
+        "top_values": {
+          "Hindi": 2289,
+          "Telugu": 1551,
+          "Kannada": 901,
+          "Bengali": 857,
+          "Odia": 519,
+          "Gujarati": 516,
+          "Malayalam": 507,
+          "Marathi": 506,
+          "Tamil": 430,
+          "Hindi/Rajasthani": 396
+        }
+      },
+      "pincode_region": {
+        "unique_count": 30,
+        "top_values": {
+          "Karnataka": 901,
+          "West Bengal": 865,
+          "Telangana": 828,
+          "Eastern UP": 574,
+          "Maharashtra": 524,
+          "Odisha": 519,
+          "Gujarat": 516,
+          "Kerala": 508,
+          "Andhra Pradesh": 473,
+          "Tamil Nadu": 455
+        }
+      }
+    }
+  },
+  "biometric_distribution": {
+    "dataset_name": "biometric",
+    "analysis_column": "total_enrollment",
+    "sample_size": 10000,
+    "normality_tests": {
+      "shapiro_wilk": {
+        "statistic": 0.5306395404125721,
+        "p_value": 8.68328190484848e-79,
+        "is_normal": "False"
+      },
+      "dagostino_pearson": {
+        "statistic": 10551.222593242168,
+        "p_value": 0.0,
+        "is_normal": "False"
+      },
+      "kolmogorov_smirnov": {
+        "statistic": 0.275826954344363,
+        "p_value": 0.0,
+        "is_normal": "False"
+      }
+    },
+    "best_fit_distribution": {
+      "distribution": "lognorm",
+      "parameters": [
+        11.899006161295462,
+        0.9999999999999998,
+        0.16055186152352402
+      ],
+      "aic": 41331.103002570395,
+      "log_likelihood": -20662.551501285197
+    },
+    "percentiles": {
+      "p1": 1.0,
+      "p5": 1.0,
+      "p10": 1.0,
+      "p25": 3.0,
+      "p50": 9.0,
+      "p75": 23.0,
+      "p90": 49.0,
+      "p95": 72.0,
+      "p99": 148.02000000000044
+    },
+    "histogram": {
+      "counts": [
+        5878,
+        1802,
+        805,
+        474,
+        339,
+        183,
+        152,
+        83,
+        63,
+        50,
+        32,
+        18,
+        25,
+        19,
+        12,
+        11,
+        9,
+        2,
+        7,
+        8,
+        6,
+        5,
+        2,
+        1,
+        1,
+        0,
+        1,
+        3,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "bin_edges": [
+        1.0,
+        12.62,
+        24.24,
+        35.86,
+        47.48,
+        59.099999999999994,
+        70.72,
+        82.33999999999999,
+        93.96,
+        105.58,
+        117.19999999999999,
+        128.82,
+        140.44,
+        152.06,
+        163.67999999999998,
+        175.29999999999998,
+        186.92,
+        198.54,
+        210.16,
+        221.77999999999997,
+        233.39999999999998,
+        245.01999999999998,
+        256.64,
+        268.26,
+        279.88,
+        291.5,
+        303.12,
+        314.73999999999995,
+        326.35999999999996,
+        337.97999999999996,
+        349.59999999999997,
+        361.21999999999997,
+        372.84,
+        384.46,
+        396.08,
+        407.7,
+        419.32,
+        430.94,
+        442.55999999999995,
+        454.17999999999995,
+        465.79999999999995,
+        477.41999999999996,
+        489.03999999999996,
+        500.65999999999997,
+        512.28,
+        523.9,
+        535.52,
+        547.14,
+        558.76,
+        570.38,
+        582.0
+      ]
+    }
+  },
+  "biometric_correlation": {
+    "dataset_name": "biometric",
+    "columns_analyzed": [
+      "pincode",
+      "bio_age_5_17",
+      "bio_age_17_",
+      "district_external_source",
+      "population_2011",
+      "area_sq_km",
+      "density_per_sq_km",
+      "literacy_rate",
+      "sex_ratio",
+      "avg_temp_min_c",
+      "avg_temp_max_c",
+      "avg_rainfall_mm",
+      "per_capita_income_inr",
+      "hdi",
+      "total_enrollment"
+    ],
+    "pearson_correlation": {
+      "pincode": {
+        "pincode": 1.0,
+        "bio_age_5_17": -0.17517034983500646,
+        "bio_age_17_": -0.1309972240197192,
+        "district_external_source": null,
+        "population_2011": -0.26704253058453475,
+        "area_sq_km": -0.3159041564143487,
+        "density_per_sq_km": -0.04508424649126188,
+        "literacy_rate": 0.07273025831560403,
+        "sex_ratio": 0.5048519844386612,
+        "avg_temp_min_c": 0.5497793551169488,
+        "avg_temp_max_c": -0.4206294394563419,
+        "avg_rainfall_mm": 0.523717519094262,
+        "per_capita_income_inr": -0.11323774340725377,
+        "hdi": -0.11863393913179424,
+        "total_enrollment": -0.16731394224927046
+      },
+      "bio_age_5_17": {
+        "pincode": -0.17517034983500646,
+        "bio_age_5_17": 1.0,
+        "bio_age_17_": 0.763189479346707,
+        "district_external_source": null,
+        "population_2011": 0.14423720431613188,
+        "area_sq_km": 0.12415300533549156,
+        "density_per_sq_km": 0.07251170154259436,
+        "literacy_rate": -0.13013294268889591,
+        "sex_ratio": -0.19150793821380455,
+        "avg_temp_min_c": -0.18195342980494514,
+        "avg_temp_max_c": 0.22716981564417468,
+        "avg_rainfall_mm": -0.12470514505182768,
+        "per_capita_income_inr": -0.13675732896620094,
+        "hdi": -0.18156151622329458,
+        "total_enrollment": 0.9616689227811155
+      },
+      "bio_age_17_": {
+        "pincode": -0.1309972240197192,
+        "bio_age_5_17": 0.763189479346707,
+        "bio_age_17_": 1.0,
+        "district_external_source": null,
+        "population_2011": 0.1477507303872256,
+        "area_sq_km": 0.14695997684659173,
+        "density_per_sq_km": 0.09097248091833345,
+        "literacy_rate": -0.09712141667518082,
+        "sex_ratio": -0.23326722079900042,
+        "avg_temp_min_c": -0.1501784616320972,
+        "avg_temp_max_c": 0.2625449572040434,
+        "avg_rainfall_mm": -0.1302836066107101,
+        "per_capita_income_inr": -0.12646583325403402,
+        "hdi": -0.17674995584641012,
+        "total_enrollment": 0.9111252573866484
+      },
+      "district_external_source": {
+        "pincode": null,
+        "bio_age_5_17": null,
+        "bio_age_17_": null,
+        "district_external_source": null,
+        "population_2011": null,
+        "area_sq_km": null,
+        "density_per_sq_km": null,
+        "literacy_rate": null,
+        "sex_ratio": null,
+        "avg_temp_min_c": null,
+        "avg_temp_max_c": null,
+        "avg_rainfall_mm": null,
+        "per_capita_income_inr": null,
+        "hdi": null,
+        "total_enrollment": null
+      },
+      "population_2011": {
+        "pincode": -0.26704253058453475,
+        "bio_age_5_17": 0.14423720431613188,
+        "bio_age_17_": 0.1477507303872256,
+        "district_external_source": null,
+        "population_2011": 1.0,
+        "area_sq_km": 0.57327329369688,
+        "density_per_sq_km": 0.12779744796686127,
+        "literacy_rate": -0.2888853749670694,
+        "sex_ratio": -0.40662646240137007,
+        "avg_temp_min_c": -0.20348142139567058,
+        "avg_temp_max_c": 0.5006210791734153,
+        "avg_rainfall_mm": -0.2121995310911075,
+        "per_capita_income_inr": -0.46929021336195814,
+        "hdi": -0.47606165736155476,
+        "total_enrollment": 0.15469439854309397
+      },
+      "area_sq_km": {
+        "pincode": -0.3159041564143487,
+        "bio_age_5_17": 0.12415300533549156,
+        "bio_age_17_": 0.14695997684659173,
+        "district_external_source": null,
+        "population_2011": 0.57327329369688,
+        "area_sq_km": 1.0,
+        "density_per_sq_km": -0.20489550599868225,
+        "literacy_rate": -0.3024114366290546,
+        "sex_ratio": -0.29298119293684083,
+        "avg_temp_min_c": 0.04759109948355733,
+        "avg_temp_max_c": 0.5022181843912604,
+        "avg_rainfall_mm": -0.44049971932393,
+        "per_capita_income_inr": -0.09003609764138497,
+        "hdi": -0.28419493344966207,
+        "total_enrollment": 0.1415491513412035
+      },
+      "density_per_sq_km": {
+        "pincode": -0.04508424649126188,
+        "bio_age_5_17": 0.07251170154259436,
+        "bio_age_17_": 0.09097248091833345,
+        "district_external_source": null,
+        "population_2011": 0.12779744796686127,
+        "area_sq_km": -0.20489550599868225,
+        "density_per_sq_km": 1.0,
+        "literacy_rate": 0.13836835198489622,
+        "sex_ratio": -0.16351205622947412,
+        "avg_temp_min_c": -0.08525704998901192,
+        "avg_temp_max_c": 0.12120752091333947,
+        "avg_rainfall_mm": 0.044933411391269426,
+        "per_capita_income_inr": 0.04189585716010265,
+        "hdi": 0.04885527884018151,
+        "total_enrollment": 0.08485331544697634
+      },
+      "literacy_rate": {
+        "pincode": 0.07273025831560403,
+        "bio_age_5_17": -0.13013294268889591,
+        "bio_age_17_": -0.09712141667518082,
+        "district_external_source": null,
+        "population_2011": -0.2888853749670694,
+        "area_sq_km": -0.3024114366290546,
+        "density_per_sq_km": 0.13836835198489622,
+        "literacy_rate": 1.0,
+        "sex_ratio": 0.42027729529172775,
+        "avg_temp_min_c": 0.21285104789962783,
+        "avg_temp_max_c": -0.525454856240188,
+        "avg_rainfall_mm": 0.5846875888010545,
+        "per_capita_income_inr": 0.4707747631879824,
+        "hdi": 0.7514756132834041,
+        "total_enrollment": -0.12421346561815684
+      },
+      "sex_ratio": {
+        "pincode": 0.5048519844386612,
+        "bio_age_5_17": -0.19150793821380455,
+        "bio_age_17_": -0.23326722079900042,
+        "district_external_source": null,
+        "population_2011": -0.40662646240137007,
+        "area_sq_km": -0.29298119293684083,
+        "density_per_sq_km": -0.16351205622947412,
+        "literacy_rate": 0.42027729529172775,
+        "sex_ratio": 1.0,
+        "avg_temp_min_c": 0.6659462610942247,
+        "avg_temp_max_c": -0.5686705681587962,
+        "avg_rainfall_mm": 0.5188712253185152,
+        "per_capita_income_inr": 0.34853406379747764,
+        "hdi": 0.45468519370431026,
+        "total_enrollment": -0.22113372750311688
+      },
+      "avg_temp_min_c": {
+        "pincode": 0.5497793551169488,
+        "bio_age_5_17": -0.18195342980494514,
+        "bio_age_17_": -0.1501784616320972,
+        "district_external_source": null,
+        "population_2011": -0.20348142139567058,
+        "area_sq_km": 0.04759109948355733,
+        "density_per_sq_km": -0.08525704998901192,
+        "literacy_rate": 0.21285104789962783,
+        "sex_ratio": 0.6659462610942247,
+        "avg_temp_min_c": 1.0,
+        "avg_temp_max_c": -0.21118592731278324,
+        "avg_rainfall_mm": 0.16128847265751287,
+        "per_capita_income_inr": 0.4915397954612359,
+        "hdi": 0.3537700212185735,
+        "total_enrollment": -0.1797800069875368
+      },
+      "avg_temp_max_c": {
+        "pincode": -0.4206294394563419,
+        "bio_age_5_17": 0.22716981564417468,
+        "bio_age_17_": 0.2625449572040434,
+        "district_external_source": null,
+        "population_2011": 0.5006210791734153,
+        "area_sq_km": 0.5022181843912604,
+        "density_per_sq_km": 0.12120752091333947,
+        "literacy_rate": -0.525454856240188,
+        "sex_ratio": -0.5686705681587962,
+        "avg_temp_min_c": -0.21118592731278324,
+        "avg_temp_max_c": 1.0,
+        "avg_rainfall_mm": -0.6379940385718706,
+        "per_capita_income_inr": -0.3289921702336038,
+        "hdi": -0.48610047166621606,
+        "total_enrollment": 0.25630324653108705
+      },
+      "avg_rainfall_mm": {
+        "pincode": 0.523717519094262,
+        "bio_age_5_17": -0.12470514505182768,
+        "bio_age_17_": -0.1302836066107101,
+        "district_external_source": null,
+        "population_2011": -0.2121995310911075,
+        "area_sq_km": -0.44049971932393,
+        "density_per_sq_km": 0.044933411391269426,
+        "literacy_rate": 0.5846875888010545,
+        "sex_ratio": 0.5188712253185152,
+        "avg_temp_min_c": 0.16128847265751287,
+        "avg_temp_max_c": -0.6379940385718706,
+        "avg_rainfall_mm": 1.0,
+        "per_capita_income_inr": -0.03824597207375435,
+        "hdi": 0.20245575553169332,
+        "total_enrollment": -0.1348244567978239
+      },
+      "per_capita_income_inr": {
+        "pincode": -0.11323774340725377,
+        "bio_age_5_17": -0.13675732896620094,
+        "bio_age_17_": -0.12646583325403402,
+        "district_external_source": null,
+        "population_2011": -0.46929021336195814,
+        "area_sq_km": -0.09003609764138497,
+        "density_per_sq_km": 0.04189585716010265,
+        "literacy_rate": 0.4707747631879824,
+        "sex_ratio": 0.34853406379747764,
+        "avg_temp_min_c": 0.4915397954612359,
+        "avg_temp_max_c": -0.3289921702336038,
+        "avg_rainfall_mm": -0.03824597207375435,
+        "per_capita_income_inr": 1.0,
+        "hdi": 0.8362568925337802,
+        "total_enrollment": -0.14089120142958772
+      },
+      "hdi": {
+        "pincode": -0.11863393913179424,
+        "bio_age_5_17": -0.18156151622329458,
+        "bio_age_17_": -0.17674995584641012,
+        "district_external_source": null,
+        "population_2011": -0.47606165736155476,
+        "area_sq_km": -0.28419493344966207,
+        "density_per_sq_km": 0.04885527884018151,
+        "literacy_rate": 0.7514756132834041,
+        "sex_ratio": 0.45468519370431026,
+        "avg_temp_min_c": 0.3537700212185735,
+        "avg_temp_max_c": -0.48610047166621606,
+        "avg_rainfall_mm": 0.20245575553169332,
+        "per_capita_income_inr": 0.8362568925337802,
+        "hdi": 1.0,
+        "total_enrollment": -0.19080602647240516
+      },
+      "total_enrollment": {
+        "pincode": -0.16731394224927046,
+        "bio_age_5_17": 0.9616689227811155,
+        "bio_age_17_": 0.9111252573866484,
+        "district_external_source": null,
+        "population_2011": 0.15469439854309397,
+        "area_sq_km": 0.1415491513412035,
+        "density_per_sq_km": 0.08485331544697634,
+        "literacy_rate": -0.12421346561815684,
+        "sex_ratio": -0.22113372750311688,
+        "avg_temp_min_c": -0.1797800069875368,
+        "avg_temp_max_c": 0.25630324653108705,
+        "avg_rainfall_mm": -0.1348244567978239,
+        "per_capita_income_inr": -0.14089120142958772,
+        "hdi": -0.19080602647240516,
+        "total_enrollment": 1.0
+      }
+    },
+    "spearman_correlation": {
+      "pincode": {
+        "pincode": 1.0,
+        "bio_age_5_17": -0.18971352698378757,
+        "bio_age_17_": -0.17242216111368158,
+        "district_external_source": null,
+        "population_2011": -0.041310944670465484,
+        "area_sq_km": -0.33463237352566816,
+        "density_per_sq_km": 0.21881730776219144,
+        "literacy_rate": -0.028486302907304067,
+        "sex_ratio": 0.49655802884486794,
+        "avg_temp_min_c": 0.44310638408061137,
+        "avg_temp_max_c": -0.4661961521355151,
+        "avg_rainfall_mm": 0.5687978189044511,
+        "per_capita_income_inr": -0.13485765237406197,
+        "hdi": -0.19788682720438566,
+        "total_enrollment": -0.19425168032005374
+      },
+      "bio_age_5_17": {
+        "pincode": -0.18971352698378757,
+        "bio_age_5_17": 1.0,
+        "bio_age_17_": 0.711360844974897,
+        "district_external_source": null,
+        "population_2011": 0.17664859781780423,
+        "area_sq_km": 0.21192058084024443,
+        "density_per_sq_km": 0.01612864792766679,
+        "literacy_rate": -0.17644851566808464,
+        "sex_ratio": -0.2641410059585004,
+        "avg_temp_min_c": -0.2364638802789833,
+        "avg_temp_max_c": 0.34841600763477254,
+        "avg_rainfall_mm": -0.17241200814616756,
+        "per_capita_income_inr": -0.181415036355413,
+        "hdi": -0.22245676068205775,
+        "total_enrollment": 0.9321121911838262
+      },
+      "bio_age_17_": {
+        "pincode": -0.17242216111368158,
+        "bio_age_5_17": 0.711360844974897,
+        "bio_age_17_": 1.0,
+        "district_external_source": null,
+        "population_2011": 0.187234233592371,
+        "area_sq_km": 0.18379795404764,
+        "density_per_sq_km": 0.07797195034156294,
+        "literacy_rate": -0.082731533079389,
+        "sex_ratio": -0.3085178274349752,
+        "avg_temp_min_c": -0.2428070202537857,
+        "avg_temp_max_c": 0.342987693537329,
+        "avg_rainfall_mm": -0.14069657997352483,
+        "per_capita_income_inr": -0.18223956892981805,
+        "hdi": -0.17145763577582593,
+        "total_enrollment": 0.9027544394996381
+      },
+      "district_external_source": {
+        "pincode": null,
+        "bio_age_5_17": null,
+        "bio_age_17_": null,
+        "district_external_source": null,
+        "population_2011": null,
+        "area_sq_km": null,
+        "density_per_sq_km": null,
+        "literacy_rate": null,
+        "sex_ratio": null,
+        "avg_temp_min_c": null,
+        "avg_temp_max_c": null,
+        "avg_rainfall_mm": null,
+        "per_capita_income_inr": null,
+        "hdi": null,
+        "total_enrollment": null
+      },
+      "population_2011": {
+        "pincode": -0.041310944670465484,
+        "bio_age_5_17": 0.17664859781780423,
+        "bio_age_17_": 0.187234233592371,
+        "district_external_source": null,
+        "population_2011": 1.0,
+        "area_sq_km": 0.6900864871445062,
+        "density_per_sq_km": 0.45108526385976055,
+        "literacy_rate": -0.12158932454466925,
+        "sex_ratio": -0.3293670526965531,
+        "avg_temp_min_c": -0.11016706380167474,
+        "avg_temp_max_c": 0.3887763409547489,
+        "avg_rainfall_mm": -0.0473462211644912,
+        "per_capita_income_inr": -0.29786531110586373,
+        "hdi": -0.3536524411756099,
+        "total_enrollment": 0.18859566244855805
+      },
+      "area_sq_km": {
+        "pincode": -0.33463237352566816,
+        "bio_age_5_17": 0.21192058084024443,
+        "bio_age_17_": 0.18379795404764,
+        "district_external_source": null,
+        "population_2011": 0.6900864871445062,
+        "area_sq_km": 1.0,
+        "density_per_sq_km": -0.2369449369610064,
+        "literacy_rate": -0.2715355611087389,
+        "sex_ratio": -0.2257750912229495,
+        "avg_temp_min_c": -0.011632083375062828,
+        "avg_temp_max_c": 0.47631108890052853,
+        "avg_rainfall_mm": -0.3918724839584148,
+        "per_capita_income_inr": -0.030078317143829757,
+        "hdi": -0.2659399987873754,
+        "total_enrollment": 0.21142835592004164
+      },
+      "density_per_sq_km": {
+        "pincode": 0.21881730776219144,
+        "bio_age_5_17": 0.01612864792766679,
+        "bio_age_17_": 0.07797195034156294,
+        "district_external_source": null,
+        "population_2011": 0.45108526385976055,
+        "area_sq_km": -0.2369449369610064,
+        "density_per_sq_km": 1.0,
+        "literacy_rate": 0.17917970373586195,
+        "sex_ratio": -0.2574627637726138,
+        "avg_temp_min_c": -0.07031935478737938,
+        "avg_temp_max_c": 0.08633809181085678,
+        "avg_rainfall_mm": 0.26996583439739835,
+        "per_capita_income_inr": -0.22379351388707175,
+        "hdi": -0.06204770311712709,
+        "total_enrollment": 0.04281261570644493
+      },
+      "literacy_rate": {
+        "pincode": -0.028486302907304067,
+        "bio_age_5_17": -0.17644851566808464,
+        "bio_age_17_": -0.082731533079389,
+        "district_external_source": null,
+        "population_2011": -0.12158932454466925,
+        "area_sq_km": -0.2715355611087389,
+        "density_per_sq_km": 0.17917970373586195,
+        "literacy_rate": 1.0,
+        "sex_ratio": 0.14033470358479633,
+        "avg_temp_min_c": 0.15270113472586314,
+        "avg_temp_max_c": -0.4813230901194209,
+        "avg_rainfall_mm": 0.4412163862556165,
+        "per_capita_income_inr": 0.37022513702109816,
+        "hdi": 0.6826099932092554,
+        "total_enrollment": -0.14240282569085008
+      },
+      "sex_ratio": {
+        "pincode": 0.49655802884486794,
+        "bio_age_5_17": -0.2641410059585004,
+        "bio_age_17_": -0.3085178274349752,
+        "district_external_source": null,
+        "population_2011": -0.3293670526965531,
+        "area_sq_km": -0.2257750912229495,
+        "density_per_sq_km": -0.2574627637726138,
+        "literacy_rate": 0.14033470358479633,
+        "sex_ratio": 1.0,
+        "avg_temp_min_c": 0.8346858385049816,
+        "avg_temp_max_c": -0.6348197922825007,
+        "avg_rainfall_mm": 0.23975726692371882,
+        "per_capita_income_inr": 0.4067601690074202,
+        "hdi": 0.36685393056634474,
+        "total_enrollment": -0.2979066790274464
+      },
+      "avg_temp_min_c": {
+        "pincode": 0.44310638408061137,
+        "bio_age_5_17": -0.2364638802789833,
+        "bio_age_17_": -0.2428070202537857,
+        "district_external_source": null,
+        "population_2011": -0.11016706380167474,
+        "area_sq_km": -0.011632083375062828,
+        "density_per_sq_km": -0.07031935478737938,
+        "literacy_rate": 0.15270113472586314,
+        "sex_ratio": 0.8346858385049816,
+        "avg_temp_min_c": 1.0,
+        "avg_temp_max_c": -0.4819368864483024,
+        "avg_rainfall_mm": 0.043283632874844845,
+        "per_capita_income_inr": 0.5747757427561733,
+        "hdi": 0.44514596003861917,
+        "total_enrollment": -0.2468349199217113
+      },
+      "avg_temp_max_c": {
+        "pincode": -0.4661961521355151,
+        "bio_age_5_17": 0.34841600763477254,
+        "bio_age_17_": 0.342987693537329,
+        "district_external_source": null,
+        "population_2011": 0.3887763409547489,
+        "area_sq_km": 0.47631108890052853,
+        "density_per_sq_km": 0.08633809181085678,
+        "literacy_rate": -0.4813230901194209,
+        "sex_ratio": -0.6348197922825007,
+        "avg_temp_min_c": -0.4819368864483024,
+        "avg_temp_max_c": 1.0,
+        "avg_rainfall_mm": -0.6086461241634697,
+        "per_capita_income_inr": -0.33240304918401253,
+        "hdi": -0.4912450026827039,
+        "total_enrollment": 0.3636890590890706
+      },
+      "avg_rainfall_mm": {
+        "pincode": 0.5687978189044511,
+        "bio_age_5_17": -0.17241200814616756,
+        "bio_age_17_": -0.14069657997352483,
+        "district_external_source": null,
+        "population_2011": -0.0473462211644912,
+        "area_sq_km": -0.3918724839584148,
+        "density_per_sq_km": 0.26996583439739835,
+        "literacy_rate": 0.4412163862556165,
+        "sex_ratio": 0.23975726692371882,
+        "avg_temp_min_c": 0.043283632874844845,
+        "avg_temp_max_c": -0.6086461241634697,
+        "avg_rainfall_mm": 1.0,
+        "per_capita_income_inr": -0.20460471228928717,
+        "hdi": -0.011952837853093118,
+        "total_enrollment": -0.17246429040697647
+      },
+      "per_capita_income_inr": {
+        "pincode": -0.13485765237406197,
+        "bio_age_5_17": -0.181415036355413,
+        "bio_age_17_": -0.18223956892981805,
+        "district_external_source": null,
+        "population_2011": -0.29786531110586373,
+        "area_sq_km": -0.030078317143829757,
+        "density_per_sq_km": -0.22379351388707175,
+        "literacy_rate": 0.37022513702109816,
+        "sex_ratio": 0.4067601690074202,
+        "avg_temp_min_c": 0.5747757427561733,
+        "avg_temp_max_c": -0.33240304918401253,
+        "avg_rainfall_mm": -0.20460471228928717,
+        "per_capita_income_inr": 1.0,
+        "hdi": 0.8313457830088286,
+        "total_enrollment": -0.1846463008175578
+      },
+      "hdi": {
+        "pincode": -0.19788682720438566,
+        "bio_age_5_17": -0.22245676068205775,
+        "bio_age_17_": -0.17145763577582593,
+        "district_external_source": null,
+        "population_2011": -0.3536524411756099,
+        "area_sq_km": -0.2659399987873754,
+        "density_per_sq_km": -0.06204770311712709,
+        "literacy_rate": 0.6826099932092554,
+        "sex_ratio": 0.36685393056634474,
+        "avg_temp_min_c": 0.44514596003861917,
+        "avg_temp_max_c": -0.4912450026827039,
+        "avg_rainfall_mm": -0.011952837853093118,
+        "per_capita_income_inr": 0.8313457830088286,
+        "hdi": 1.0,
+        "total_enrollment": -0.20496009887432892
+      },
+      "total_enrollment": {
+        "pincode": -0.19425168032005374,
+        "bio_age_5_17": 0.9321121911838262,
+        "bio_age_17_": 0.9027544394996381,
+        "district_external_source": null,
+        "population_2011": 0.18859566244855805,
+        "area_sq_km": 0.21142835592004164,
+        "density_per_sq_km": 0.04281261570644493,
+        "literacy_rate": -0.14240282569085008,
+        "sex_ratio": -0.2979066790274464,
+        "avg_temp_min_c": -0.2468349199217113,
+        "avg_temp_max_c": 0.3636890590890706,
+        "avg_rainfall_mm": -0.17246429040697647,
+        "per_capita_income_inr": -0.1846463008175578,
+        "hdi": -0.20496009887432892,
+        "total_enrollment": 1.0
+      }
+    },
+    "strong_correlations": [
+      {
+        "var1": "bio_age_5_17",
+        "var2": "total_enrollment",
+        "correlation": 0.9617,
+        "strength": "strong"
+      },
+      {
+        "var1": "bio_age_17_",
+        "var2": "total_enrollment",
+        "correlation": 0.9111,
+        "strength": "strong"
+      },
+      {
+        "var1": "per_capita_income_inr",
+        "var2": "hdi",
+        "correlation": 0.8363,
+        "strength": "strong"
+      },
+      {
+        "var1": "bio_age_5_17",
+        "var2": "bio_age_17_",
+        "correlation": 0.7632,
+        "strength": "strong"
+      },
+      {
+        "var1": "literacy_rate",
+        "var2": "hdi",
+        "correlation": 0.7515,
+        "strength": "strong"
+      },
+      {
+        "var1": "sex_ratio",
+        "var2": "avg_temp_min_c",
+        "correlation": 0.6659,
+        "strength": "moderate"
+      },
+      {
+        "var1": "avg_temp_max_c",
+        "var2": "avg_rainfall_mm",
+        "correlation": -0.638,
+        "strength": "moderate"
+      },
+      {
+        "var1": "literacy_rate",
+        "var2": "avg_rainfall_mm",
+        "correlation": 0.5847,
+        "strength": "moderate"
+      },
+      {
+        "var1": "population_2011",
+        "var2": "area_sq_km",
+        "correlation": 0.5733,
+        "strength": "moderate"
+      },
+      {
+        "var1": "sex_ratio",
+        "var2": "avg_temp_max_c",
+        "correlation": -0.5687,
+        "strength": "moderate"
+      },
+      {
+        "var1": "pincode",
+        "var2": "avg_temp_min_c",
+        "correlation": 0.5498,
+        "strength": "moderate"
+      },
+      {
+        "var1": "literacy_rate",
+        "var2": "avg_temp_max_c",
+        "correlation": -0.5255,
+        "strength": "moderate"
+      },
+      {
+        "var1": "pincode",
+        "var2": "avg_rainfall_mm",
+        "correlation": 0.5237,
+        "strength": "moderate"
+      },
+      {
+        "var1": "sex_ratio",
+        "var2": "avg_rainfall_mm",
+        "correlation": 0.5189,
+        "strength": "moderate"
+      },
+      {
+        "var1": "pincode",
+        "var2": "sex_ratio",
+        "correlation": 0.5049,
+        "strength": "moderate"
+      },
+      {
+        "var1": "area_sq_km",
+        "var2": "avg_temp_max_c",
+        "correlation": 0.5022,
+        "strength": "moderate"
+      },
+      {
+        "var1": "population_2011",
+        "var2": "avg_temp_max_c",
+        "correlation": 0.5006,
+        "strength": "moderate"
+      }
+    ],
+    "total_strong_correlations": 17
+  },
+  "biometric_hypothesis": {
+    "dataset_name": "biometric",
+    "tests": {
+      "state_anova": {
+        "description": "One-way ANOVA for state differences",
+        "f_statistic": 66.65007015156506,
+        "p_value": 0.0,
+        "significant": "True",
+        "interpretation": "Significant state-level differences"
+      },
+      "literacy_correlation": {
+        "description": "Pearson correlation: Literacy vs Enrollment",
+        "correlation": -0.12421346561815663,
+        "p_value": 1.1144484923231938e-35,
+        "significant": "True"
+      },
+      "chi_square": {
+        "description": "Chi-square: State vs Enrollment Quartile",
+        "chi2_statistic": 2326.7834401145146,
+        "p_value": 0.0,
+        "degrees_of_freedom": 105,
+        "significant": "True"
+      },
+      "kruskal_wallis": {
+        "description": "Kruskal-Wallis: Non-parametric state comparison",
+        "h_statistic": 2072.4132383143724,
+        "p_value": 0.0,
+        "significant": "True"
+      }
+    }
+  },
+  "biometric_outliers": {
+    "dataset_name": "biometric",
+    "analysis_column": "total_enrollment",
+    "total_records": 10000,
+    "methods": {
+      "iqr": {
+        "lower_bound": -27.0,
+        "upper_bound": 53.0,
+        "outlier_count": 850,
+        "outlier_pct": 8.5
+      },
+      "zscore": {
+        "threshold": 3,
+        "outlier_count": 180,
+        "outlier_pct": 1.8
+      },
+      "modified_zscore": {
+        "threshold": 3.5,
+        "outlier_count": 1121,
+        "outlier_pct": 11.21
+      },
+      "percentile": {
+        "lower_pct": 1,
+        "upper_pct": 99,
+        "outlier_count": 100,
+        "outlier_pct": 1.0
+      }
+    },
+    "outliers_by_state": [
+      {
+        "state": "Chhattisgarh",
+        "outlier_count": 73,
+        "total_count": 165,
+        "outlier_pct": 44.24
+      },
+      {
+        "state": "Delhi",
+        "outlier_count": 16,
+        "total_count": 40,
+        "outlier_pct": 40.0
+      },
+      {
+        "state": "Madhya Pradesh",
+        "outlier_count": 53,
+        "total_count": 196,
+        "outlier_pct": 27.04
+      },
+      {
+        "state": "Bihar",
+        "outlier_count": 76,
+        "total_count": 400,
+        "outlier_pct": 19.0
+      },
+      {
+        "state": "Uttar Pradesh",
+        "outlier_count": 216,
+        "total_count": 1146,
+        "outlier_pct": 18.85
+      },
+      {
+        "state": "Haryana",
+        "outlier_count": 35,
+        "total_count": 197,
+        "outlier_pct": 17.77
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "outlier_count": 24,
+        "total_count": 144,
+        "outlier_pct": 16.67
+      },
+      {
+        "state": "Maharashtra",
+        "outlier_count": 81,
+        "total_count": 506,
+        "outlier_pct": 16.01
+      },
+      {
+        "state": "Rajasthan",
+        "outlier_count": 54,
+        "total_count": 396,
+        "outlier_pct": 13.64
+      },
+      {
+        "state": "Uttarakhand",
+        "outlier_count": 23,
+        "total_count": 170,
+        "outlier_pct": 13.53
+      },
+      {
+        "state": "Jharkhand",
+        "outlier_count": 34,
+        "total_count": 284,
+        "outlier_pct": 11.97
+      },
+      {
+        "state": "Gujarat",
+        "outlier_count": 59,
+        "total_count": 507,
+        "outlier_pct": 11.64
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "outlier_count": 1,
+        "total_count": 9,
+        "outlier_pct": 11.11
+      },
+      {
+        "state": "Punjab",
+        "outlier_count": 26,
+        "total_count": 350,
+        "outlier_pct": 7.43
+      },
+      {
+        "state": "Tamil Nadu",
+        "outlier_count": 25,
+        "total_count": 430,
+        "outlier_pct": 5.81
+      },
+      {
+        "state": "Manipur",
+        "outlier_count": 1,
+        "total_count": 27,
+        "outlier_pct": 3.7
+      },
+      {
+        "state": "Assam",
+        "outlier_count": 5,
+        "total_count": 251,
+        "outlier_pct": 1.99
+      },
+      {
+        "state": "Telangana",
+        "outlier_count": 11,
+        "total_count": 592,
+        "outlier_pct": 1.86
+      },
+      {
+        "state": "West Bengal",
+        "outlier_count": 13,
+        "total_count": 857,
+        "outlier_pct": 1.52
+      },
+      {
+        "state": "Tripura",
+        "outlier_count": 1,
+        "total_count": 68,
+        "outlier_pct": 1.47
+      }
+    ]
+  },
+  "biometric_variance": {
+    "dataset_name": "biometric",
+    "overall_variance": 974.8610211421143,
+    "overall_std": 31.222764469888222,
+    "overall_cv": 159.41,
+    "state_variance": {
+      "highest_cv_states": [
+        {
+          "state": "Uttarakhand",
+          "variance": 5816.14883397146,
+          "std": 76.26367965140064,
+          "mean": 36.92941176470588,
+          "cv": 206.51
+        },
+        {
+          "state": "Dadra And Nagar Haveli And Daman And Diu",
+          "variance": 1464.9999999999998,
+          "std": 38.27531841800927,
+          "mean": 22.666666666666668,
+          "cv": 168.86
+        },
+        {
+          "state": "Karnataka",
+          "variance": 146.26478234060917,
+          "std": 12.093997781569549,
+          "mean": 8.25305216426193,
+          "cv": 146.54
+        },
+        {
+          "state": "Punjab",
+          "variance": 583.1139500613996,
+          "std": 24.14775248468063,
+          "mean": 16.545714285714286,
+          "cv": 145.95
+        },
+        {
+          "state": "Jammu And Kashmir",
+          "variance": 1477.8402777777776,
+          "std": 38.44268822257072,
+          "mean": 27.42361111111111,
+          "cv": 140.18
+        },
+        {
+          "state": "Haryana",
+          "variance": 2426.5493628923655,
+          "std": 49.26001789374792,
+          "mean": 35.95939086294416,
+          "cv": 136.99
+        },
+        {
+          "state": "Manipur",
+          "variance": 188.37891737891738,
+          "std": 13.725119940420097,
+          "mean": 10.074074074074074,
+          "cv": 136.24
+        },
+        {
+          "state": "Assam",
+          "variance": 308.306358565737,
+          "std": 17.558654805130633,
+          "mean": 13.298804780876495,
+          "cv": 132.03
+        },
+        {
+          "state": "Gujarat",
+          "variance": 959.791059553601,
+          "std": 30.98049482422127,
+          "mean": 23.530571992110453,
+          "cv": 131.66
+        },
+        {
+          "state": "Bihar",
+          "variance": 1902.3854573934848,
+          "std": 43.61634392511005,
+          "mean": 33.3975,
+          "cv": 130.6
+        }
+      ],
+      "lowest_cv_states": [
+        {
+          "state": "Kerala",
+          "variance": 35.533066163759216,
+          "std": 5.960961848876338,
+          "mean": 6.174257425742574,
+          "cv": 96.55
+        },
+        {
+          "state": "Ladakh",
+          "variance": 5.666666666666667,
+          "std": 2.3804761428476167,
+          "mean": 2.5,
+          "cv": 95.22
+        },
+        {
+          "state": "Puducherry",
+          "variance": 69.92592592592592,
+          "std": 8.36217232098968,
+          "mean": 9.185185185185185,
+          "cv": 91.04
+        },
+        {
+          "state": "Arunachal Pradesh",
+          "variance": 16.673333333333332,
+          "std": 4.083299319586225,
+          "mean": 4.56,
+          "cv": 89.55
+        },
+        {
+          "state": "Tripura",
+          "variance": 162.465978928885,
+          "std": 12.746214297935094,
+          "mean": 15.161764705882353,
+          "cv": 84.07
+        },
+        {
+          "state": "Goa",
+          "variance": 5.114379084967319,
+          "std": 2.2614993002358674,
+          "mean": 2.9444444444444446,
+          "cv": 76.81
+        },
+        {
+          "state": "Mizoram",
+          "variance": 5.264705882352942,
+          "std": 2.294494689981422,
+          "mean": 3.4705882352941178,
+          "cv": 66.11
+        },
+        {
+          "state": "Andaman And Nicobar Islands",
+          "variance": 5.866666666666666,
+          "std": 2.422120283277993,
+          "mean": 5.666666666666667,
+          "cv": 42.74
+        },
+        {
+          "state": "Lakshadweep",
+          "variance": 0.5,
+          "std": 0.7071067811865476,
+          "mean": 2.5,
+          "cv": 28.28
+        },
+        {
+          "state": "Sikkim",
+          "variance": 0.0,
+          "std": 0.0,
+          "mean": 1.0,
+          "cv": 0.0
+        }
+      ],
+      "mean_cv": 109.80222222222223
+    },
+    "variance_decomposition": {
+      "between_state_variance": 270.9996195366459,
+      "within_state_variance": 949.8802327480506,
+      "variance_ratio": 0.2852987252431084
+    },
+    "district_variance": {
+      "highest_cv_districts": [
+        {
+          "state": "Uttarakhand",
+          "district": "Nainital",
+          "variance": 13059.60606060606,
+          "std": 114.27863343865317,
+          "mean": 62.833333333333336,
+          "cv": 181.88
+        },
+        {
+          "state": "Haryana",
+          "district": "Panipat",
+          "variance": 11418.0,
+          "std": 106.85504199615477,
+          "mean": 60.5,
+          "cv": 176.62
+        },
+        {
+          "state": "Jharkhand",
+          "district": "Lohardaga",
+          "variance": 1816.2666666666664,
+          "std": 42.617680212168594,
+          "mean": 24.333333333333332,
+          "cv": 175.14
+        },
+        {
+          "state": "Uttar Pradesh",
+          "district": "Saharanpur",
+          "variance": 19002.418181818182,
+          "std": 137.84925890920917,
+          "mean": 79.72727272727273,
+          "cv": 172.9
+        },
+        {
+          "state": "Jharkhand",
+          "district": "Pashchimi Singhbhum",
+          "variance": 780.7000000000002,
+          "std": 27.941009287425537,
+          "mean": 16.2,
+          "cv": 172.48
+        },
+        {
+          "state": "Punjab",
+          "district": "Kapurthala",
+          "variance": 672.3589743589744,
+          "std": 25.929885737483964,
+          "mean": 15.23076923076923,
+          "cv": 170.25
+        },
+        {
+          "state": "Assam",
+          "district": "Golaghat",
+          "variance": 418.26515151515156,
+          "std": 20.451531764519537,
+          "mean": 12.416666666666666,
+          "cv": 164.71
+        },
+        {
+          "state": "Punjab",
+          "district": "Ludhiana",
+          "variance": 562.5301268498943,
+          "std": 23.71771757252148,
+          "mean": 14.431818181818182,
+          "cv": 164.34
+        },
+        {
+          "state": "Punjab",
+          "district": "Hoshiarpur",
+          "variance": 610.0604838709676,
+          "std": 24.699402500282623,
+          "mean": 15.0625,
+          "cv": 163.98
+        },
+        {
+          "state": "Punjab",
+          "district": "Fatehgarh Sahib",
+          "variance": 979.1428571428572,
+          "std": 31.291258478093482,
+          "mean": 19.142857142857142,
+          "cv": 163.46
+        }
+      ],
+      "mean_cv": 84.46544287548139
+    }
+  },
+  "demographic_descriptive": {
+    "dataset_name": "demographic",
+    "record_count": 10000,
+    "column_count": 25,
+    "numeric_columns": [
+      "pincode",
+      "demo_age_5_17",
+      "demo_age_17_",
+      "population_2011",
+      "area_sq_km",
+      "density_per_sq_km",
+      "literacy_rate",
+      "sex_ratio",
+      "avg_temp_min_c",
+      "avg_temp_max_c",
+      "avg_rainfall_mm",
+      "per_capita_income_inr",
+      "hdi"
+    ],
+    "statistics": {
+      "pincode": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 535254.6933,
+        "std": 203627.5926,
+        "min": 110001.0,
+        "max": 855456.0,
+        "median": 515521.0,
+        "q1": 400101.75,
+        "q3": 738105.0,
+        "iqr": 338003.25,
+        "skewness": -0.1822,
+        "kurtosis": -0.9777,
+        "variance": 41464196450.8627,
+        "range": 745455.0,
+        "cv": 38.04
+      },
+      "demo_age_5_17": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 1.1398,
+        "std": 2.0757,
+        "min": 0.0,
+        "max": 38.0,
+        "median": 0.0,
+        "q1": 0.0,
+        "q3": 1.0,
+        "iqr": 1.0,
+        "skewness": 4.0055,
+        "kurtosis": 29.0638,
+        "variance": 4.3085,
+        "range": 38.0,
+        "cv": 182.11
+      },
+      "demo_age_17_": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 10.8825,
+        "std": 17.932,
+        "min": 0.0,
+        "max": 510.0,
+        "median": 5.0,
+        "q1": 2.0,
+        "q3": 12.0,
+        "iqr": 10.0,
+        "skewness": 6.6236,
+        "kurtosis": 99.7046,
+        "variance": 321.5554,
+        "range": 510.0,
+        "cv": 164.78
+      },
+      "population_2011": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 74195819.3783,
+        "std": 46233454.2197,
+        "min": 64473.0,
+        "max": 199812341.0,
+        "median": 68548437.0,
+        "q1": 41974218.0,
+        "q3": 104099452.0,
+        "iqr": 62125234.0,
+        "skewness": 1.0921,
+        "kurtosis": 1.2492,
+        "variance": 2137532289088927.8,
+        "range": 199747868.0,
+        "cv": 62.31
+      },
+      "area_sq_km": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 169705.0672,
+        "std": 94873.4957,
+        "min": 32.0,
+        "max": 342239.0,
+        "median": 155707.0,
+        "q1": 88752.0,
+        "q3": 240928.0,
+        "iqr": 152176.0,
+        "skewness": 0.3161,
+        "kurtosis": -1.0747,
+        "variance": 9000980193.3982,
+        "range": 342207.0,
+        "cv": 55.9
+      },
+      "density_per_sq_km": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 610.1713,
+        "std": 1093.129,
+        "min": 5.0,
+        "max": 11320.0,
+        "median": 365.0,
+        "q1": 303.0,
+        "q3": 829.0,
+        "iqr": 526.0,
+        "skewness": 8.6613,
+        "kurtosis": 80.3788,
+        "variance": 1194931.0961,
+        "range": 11315.0,
+        "cv": 179.15
+      },
+      "literacy_rate": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 74.005,
+        "std": 7.2555,
+        "min": 61.8,
+        "max": 93.91,
+        "median": 72.87,
+        "q1": 67.68,
+        "q3": 79.55,
+        "iqr": 11.86999999999999,
+        "skewness": 0.358,
+        "kurtosis": -0.1584,
+        "variance": 52.6416,
+        "range": 32.11,
+        "cv": 9.8
+      },
+      "sex_ratio": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 950.2847,
+        "std": 39.1809,
+        "min": 690.0,
+        "max": 1084.0,
+        "median": 948.0,
+        "q1": 919.0,
+        "q3": 979.0,
+        "iqr": 60.0,
+        "skewness": 0.7199,
+        "kurtosis": 2.1734,
+        "variance": 1535.1416,
+        "range": 394.0,
+        "cv": 4.12
+      },
+      "avg_temp_min_c": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 12.9344,
+        "std": 5.5398,
+        "min": -25.0,
+        "max": 25.0,
+        "median": 15.0,
+        "q1": 10.0,
+        "q3": 15.0,
+        "iqr": 5.0,
+        "skewness": -0.922,
+        "kurtosis": 1.686,
+        "variance": 30.689,
+        "range": 50.0,
+        "cv": 42.83
+      },
+      "avg_temp_max_c": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 39.9482,
+        "std": 3.8306,
+        "min": 22.0,
+        "max": 48.0,
+        "median": 40.0,
+        "q1": 38.0,
+        "q3": 42.0,
+        "iqr": 4.0,
+        "skewness": -0.5824,
+        "kurtosis": 1.3586,
+        "variance": 14.6732,
+        "range": 26.0,
+        "cv": 9.59
+      },
+      "avg_rainfall_mm": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 1346.75,
+        "std": 586.8414,
+        "min": 100.0,
+        "max": 4000.0,
+        "median": 1200.0,
+        "q1": 950.0,
+        "q3": 1500.0,
+        "iqr": 550.0,
+        "skewness": 1.5188,
+        "kurtosis": 2.7212,
+        "variance": 344382.8758,
+        "range": 3900.0,
+        "cv": 43.57
+      },
+      "per_capita_income_inr": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 144825.5,
+        "std": 64193.4119,
+        "min": 50000.0,
+        "max": 450000.0,
+        "median": 115000.0,
+        "q1": 95000.0,
+        "q3": 200000.0,
+        "iqr": 105000.0,
+        "skewness": 0.5837,
+        "kurtosis": 0.8943,
+        "variance": 4120794129.1629,
+        "range": 400000.0,
+        "cv": 44.32
+      },
+      "hdi": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 0.629,
+        "std": 0.0721,
+        "min": 0.51,
+        "max": 0.78,
+        "median": 0.65,
+        "q1": 0.57,
+        "q3": 0.7,
+        "iqr": 0.13,
+        "skewness": -0.1121,
+        "kurtosis": -1.1046,
+        "variance": 0.0052,
+        "range": 0.27,
+        "cv": 11.46
+      }
+    },
+    "categorical_columns": {
+      "date": {
+        "unique_count": 6,
+        "top_values": {
+          "20-12-2025": 4639,
+          "16-12-2025": 1683,
+          "26-11-2025": 1680,
+          "25-11-2025": 1469,
+          "18-12-2025": 417,
+          "15-12-2025": 112
+        }
+      },
+      "state": {
+        "unique_count": 36,
+        "top_values": {
+          "Maharashtra": 1449,
+          "West Bengal": 876,
+          "Andhra Pradesh": 861,
+          "Odisha": 826,
+          "Bihar": 764,
+          "Uttar Pradesh": 681,
+          "Gujarat": 621,
+          "Madhya Pradesh": 506,
+          "Assam": 456,
+          "Tamil Nadu": 442
+        }
+      },
+      "district": {
+        "unique_count": 841,
+        "top_values": {
+          "Pune": 101,
+          "West Godavari": 81,
+          "Mumbai": 74,
+          "Kolhapur": 70,
+          "Ganjam": 68,
+          "Thane": 67,
+          "Ahmadnagar": 65,
+          "Nagpur": 62,
+          "Cuttack": 59,
+          "Purba Medinipur": 59
+        }
+      },
+      "capital": {
+        "unique_count": 34,
+        "top_values": {
+          "Mumbai": 1449,
+          "Kolkata": 876,
+          "Amaravati": 861,
+          "Bhubaneswar": 826,
+          "Patna": 764,
+          "Lucknow": 681,
+          "Gandhinagar": 621,
+          "Bhopal": 506,
+          "Dispur": 456,
+          "Chennai": 442
+        }
+      },
+      "region": {
+        "unique_count": 7,
+        "top_values": {
+          "East India": 2562,
+          "South India": 2200,
+          "West India": 2113,
+          "North India": 1706,
+          "Central India": 753,
+          "Northeast India": 663,
+          "Island": 3
+        }
+      },
+      "zone": {
+        "unique_count": 7,
+        "top_values": {
+          "Eastern": 2562,
+          "Southern": 2200,
+          "Western": 2113,
+          "Northern": 1706,
+          "Central": 753,
+          "Northeastern": 663,
+          "Islands": 3
+        }
+      },
+      "rainfall_zone": {
+        "unique_count": 5,
+        "top_values": {
+          "Medium": 5917,
+          "High": 1915,
+          "Low": 1094,
+          "Very High": 748,
+          "Very Low": 326
+        }
+      },
+      "earthquake_zone": {
+        "unique_count": 10,
+        "top_values": {
+          "II-III": 2621,
+          "III": 1744,
+          "II": 1327,
+          "IV": 1240,
+          "III-IV": 876,
+          "II-IV": 681,
+          "V": 662,
+          "III-V": 621,
+          "IV-V": 227,
+          "I": 1
+        }
+      },
+      "climate_type": {
+        "unique_count": 11,
+        "top_values": {
+          "Tropical": 5452,
+          "Humid Subtropical": 1460,
+          "Subtropical": 1085,
+          "Semi-arid/Arid": 621,
+          "Semi-arid": 458,
+          "Arid/Semi-arid": 325,
+          "Tropical Monsoon": 303,
+          "Alpine/Subtropical": 254,
+          "Subtropical Highland": 38,
+          "Tropical Maritime": 3
+        }
+      },
+      "major_language": {
+        "unique_count": 28,
+        "top_values": {
+          "Hindi": 2203,
+          "Marathi": 1449,
+          "Telugu": 1080,
+          "Bengali": 876,
+          "Odia": 826,
+          "Gujarati": 631,
+          "Assamese": 456,
+          "Tamil": 442,
+          "Kannada": 392,
+          "Hindi/Rajasthani": 325
+        }
+      },
+      "pincode_region": {
+        "unique_count": 30,
+        "top_values": {
+          "Maharashtra": 1482,
+          "West Bengal": 881,
+          "Odisha": 826,
+          "Gujarat": 631,
+          "Bihar": 594,
+          "Madhya Pradesh": 506,
+          "Andhra Pradesh": 491,
+          "Tamil Nadu": 471,
+          "Assam": 457,
+          "Telangana": 394
+        }
+      }
+    }
+  },
+  "demographic_distribution": {
+    "dataset_name": "demographic",
+    "analysis_column": "total_enrollment",
+    "sample_size": 10000,
+    "normality_tests": {
+      "shapiro_wilk": {
+        "statistic": 0.5849869637382452,
+        "p_value": 3.578498570102951e-76,
+        "is_normal": "False"
+      },
+      "dagostino_pearson": {
+        "statistic": 12256.693709034433,
+        "p_value": 0.0,
+        "is_normal": "False"
+      },
+      "kolmogorov_smirnov": {
+        "statistic": 0.2839418831289808,
+        "p_value": 0.0,
+        "is_normal": "False"
+      }
+    },
+    "best_fit_distribution": {
+      "distribution": "lognorm",
+      "parameters": [
+        1.2124633431396348,
+        -0.036884613890696416,
+        5.748747035300454
+      ],
+      "aic": 67217.56125105302,
+      "log_likelihood": -33605.78062552651
+    },
+    "percentiles": {
+      "p1": 1.0,
+      "p5": 1.0,
+      "p10": 1.0,
+      "p25": 2.0,
+      "p50": 5.0,
+      "p75": 14.0,
+      "p90": 30.100000000000364,
+      "p95": 45.0,
+      "p99": 88.02000000000044
+    },
+    "histogram": {
+      "counts": [
+        6839,
+        1642,
+        632,
+        351,
+        191,
+        114,
+        73,
+        49,
+        27,
+        28,
+        9,
+        14,
+        6,
+        8,
+        1,
+        2,
+        3,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "bin_edges": [
+        0.0,
+        10.78,
+        21.56,
+        32.339999999999996,
+        43.12,
+        53.9,
+        64.67999999999999,
+        75.46,
+        86.24,
+        97.02,
+        107.8,
+        118.58,
+        129.35999999999999,
+        140.14,
+        150.92,
+        161.7,
+        172.48,
+        183.26,
+        194.04,
+        204.82,
+        215.6,
+        226.38,
+        237.16,
+        247.94,
+        258.71999999999997,
+        269.5,
+        280.28,
+        291.06,
+        301.84,
+        312.62,
+        323.4,
+        334.18,
+        344.96,
+        355.73999999999995,
+        366.52,
+        377.29999999999995,
+        388.08,
+        398.85999999999996,
+        409.64,
+        420.41999999999996,
+        431.2,
+        441.97999999999996,
+        452.76,
+        463.53999999999996,
+        474.32,
+        485.09999999999997,
+        495.88,
+        506.65999999999997,
+        517.4399999999999,
+        528.2199999999999,
+        539.0
+      ]
+    }
+  },
+  "demographic_correlation": {
+    "dataset_name": "demographic",
+    "columns_analyzed": [
+      "pincode",
+      "demo_age_5_17",
+      "demo_age_17_",
+      "population_2011",
+      "area_sq_km",
+      "density_per_sq_km",
+      "literacy_rate",
+      "sex_ratio",
+      "avg_temp_min_c",
+      "avg_temp_max_c",
+      "avg_rainfall_mm",
+      "per_capita_income_inr",
+      "hdi",
+      "total_enrollment"
+    ],
+    "pearson_correlation": {
+      "pincode": {
+        "pincode": 1.0,
+        "demo_age_5_17": -0.10850142869589051,
+        "demo_age_17_": -0.1482589900539136,
+        "population_2011": -0.2413458349502674,
+        "area_sq_km": -0.42153350542494405,
+        "density_per_sq_km": -0.11054954492612683,
+        "literacy_rate": -0.16467230046449033,
+        "sex_ratio": 0.44131717807780807,
+        "avg_temp_min_c": 0.34979671852180405,
+        "avg_temp_max_c": -0.46434509375929517,
+        "avg_rainfall_mm": 0.5110421336145523,
+        "per_capita_income_inr": -0.4022824076524622,
+        "hdi": -0.3496865844641569,
+        "total_enrollment": -0.14843430090244358
+      },
+      "demo_age_5_17": {
+        "pincode": -0.10850142869589051,
+        "demo_age_5_17": 1.0,
+        "demo_age_17_": 0.6929601608691925,
+        "population_2011": 0.1873185544403276,
+        "area_sq_km": 0.08122759007784483,
+        "density_per_sq_km": 0.09781207296851388,
+        "literacy_rate": -0.1344825405200196,
+        "sex_ratio": -0.15530402468457558,
+        "avg_temp_min_c": -0.18182188022609694,
+        "avg_temp_max_c": 0.20848907966370347,
+        "avg_rainfall_mm": -0.1157127290648884,
+        "per_capita_income_inr": -0.12854322408492885,
+        "hdi": -0.16699804602233143,
+        "total_enrollment": 0.7464372543916367
+      },
+      "demo_age_17_": {
+        "pincode": -0.1482589900539136,
+        "demo_age_5_17": 0.6929601608691925,
+        "demo_age_17_": 1.0,
+        "population_2011": 0.28605108194027284,
+        "area_sq_km": 0.12388528157824621,
+        "density_per_sq_km": 0.10098609392333627,
+        "literacy_rate": -0.058477936756207764,
+        "sex_ratio": -0.2100066026374796,
+        "avg_temp_min_c": -0.19100289868247014,
+        "avg_temp_max_c": 0.2104057620778516,
+        "avg_rainfall_mm": -0.06841287799912349,
+        "per_capita_income_inr": -0.10076594239324449,
+        "hdi": -0.11870662508975707,
+        "total_enrollment": 0.9970288608963256
+      },
+      "population_2011": {
+        "pincode": -0.2413458349502674,
+        "demo_age_5_17": 0.1873185544403276,
+        "demo_age_17_": 0.28605108194027284,
+        "population_2011": 1.0,
+        "area_sq_km": 0.5233432373824101,
+        "density_per_sq_km": 0.00414864329532935,
+        "literacy_rate": -0.15469115772554679,
+        "sex_ratio": -0.42960549549784643,
+        "avg_temp_min_c": -0.19594370519018608,
+        "avg_temp_max_c": 0.4483377959148573,
+        "avg_rainfall_mm": -0.2051206746636995,
+        "per_capita_income_inr": -0.25558670871066486,
+        "hdi": -0.23215629583615413,
+        "total_enrollment": 0.28403626240863844
+      },
+      "area_sq_km": {
+        "pincode": -0.42153350542494405,
+        "demo_age_5_17": 0.08122759007784483,
+        "demo_age_17_": 0.12388528157824621,
+        "population_2011": 0.5233432373824101,
+        "area_sq_km": 1.0,
+        "density_per_sq_km": -0.2831122975512793,
+        "literacy_rate": 0.006013284095389146,
+        "sex_ratio": -0.28355712602313826,
+        "avg_temp_min_c": 0.08480869405237244,
+        "avg_temp_max_c": 0.4680243353754907,
+        "avg_rainfall_mm": -0.3390860192538417,
+        "per_capita_income_inr": 0.1265627867980152,
+        "hdi": 0.011076924853845099,
+        "total_enrollment": 0.12302360417021851
+      },
+      "density_per_sq_km": {
+        "pincode": -0.11054954492612683,
+        "demo_age_5_17": 0.09781207296851388,
+        "demo_age_17_": 0.10098609392333627,
+        "population_2011": 0.00414864329532935,
+        "area_sq_km": -0.2831122975512793,
+        "density_per_sq_km": 1.0,
+        "literacy_rate": 0.12689890503239915,
+        "sex_ratio": -0.24955104483901283,
+        "avg_temp_min_c": -0.17341333262914027,
+        "avg_temp_max_c": 0.1320380795658554,
+        "avg_rainfall_mm": -0.049085861436310003,
+        "per_capita_income_inr": 0.18393683350314594,
+        "hdi": 0.11277106041170135,
+        "total_enrollment": 0.10365969288688498
+      },
+      "literacy_rate": {
+        "pincode": -0.16467230046449033,
+        "demo_age_5_17": -0.1344825405200196,
+        "demo_age_17_": -0.058477936756207764,
+        "population_2011": -0.15469115772554679,
+        "area_sq_km": 0.006013284095389146,
+        "density_per_sq_km": 0.12689890503239915,
+        "literacy_rate": 1.0,
+        "sex_ratio": 0.21242957990049272,
+        "avg_temp_min_c": 0.2446364212127169,
+        "avg_temp_max_c": -0.40908509294599166,
+        "avg_rainfall_mm": 0.39714407579656263,
+        "per_capita_income_inr": 0.6424692877883876,
+        "hdi": 0.8021122798571699,
+        "total_enrollment": -0.06834281878913427
+      },
+      "sex_ratio": {
+        "pincode": 0.44131717807780807,
+        "demo_age_5_17": -0.15530402468457558,
+        "demo_age_17_": -0.2100066026374796,
+        "population_2011": -0.42960549549784643,
+        "area_sq_km": -0.28355712602313826,
+        "density_per_sq_km": -0.24955104483901283,
+        "literacy_rate": 0.21242957990049272,
+        "sex_ratio": 1.0,
+        "avg_temp_min_c": 0.6322052299768675,
+        "avg_temp_max_c": -0.5627755766150598,
+        "avg_rainfall_mm": 0.3804809384448332,
+        "per_capita_income_inr": 0.11579837395021636,
+        "hdi": 0.23672302113021418,
+        "total_enrollment": -0.2104273033347946
+      },
+      "avg_temp_min_c": {
+        "pincode": 0.34979671852180405,
+        "demo_age_5_17": -0.18182188022609694,
+        "demo_age_17_": -0.19100289868247014,
+        "population_2011": -0.19594370519018608,
+        "area_sq_km": 0.08480869405237244,
+        "density_per_sq_km": -0.17341333262914027,
+        "literacy_rate": 0.2446364212127169,
+        "sex_ratio": 0.6322052299768675,
+        "avg_temp_min_c": 1.0,
+        "avg_temp_max_c": -0.2693527481386024,
+        "avg_rainfall_mm": 0.09026440195661774,
+        "per_capita_income_inr": 0.43984688430878555,
+        "hdi": 0.38506551030718855,
+        "total_enrollment": -0.19572017607067896
+      },
+      "avg_temp_max_c": {
+        "pincode": -0.46434509375929517,
+        "demo_age_5_17": 0.20848907966370347,
+        "demo_age_17_": 0.2104057620778516,
+        "population_2011": 0.4483377959148573,
+        "area_sq_km": 0.4680243353754907,
+        "density_per_sq_km": 0.1320380795658554,
+        "literacy_rate": -0.40908509294599166,
+        "sex_ratio": -0.5627755766150598,
+        "avg_temp_min_c": -0.2693527481386024,
+        "avg_temp_max_c": 1.0,
+        "avg_rainfall_mm": -0.6778948304275952,
+        "per_capita_income_inr": -0.20105796335469842,
+        "hdi": -0.33366047377452807,
+        "total_enrollment": 0.2164780036096813
+      },
+      "avg_rainfall_mm": {
+        "pincode": 0.5110421336145523,
+        "demo_age_5_17": -0.1157127290648884,
+        "demo_age_17_": -0.06841287799912349,
+        "population_2011": -0.2051206746636995,
+        "area_sq_km": -0.3390860192538417,
+        "density_per_sq_km": -0.049085861436310003,
+        "literacy_rate": 0.39714407579656263,
+        "sex_ratio": 0.3804809384448332,
+        "avg_temp_min_c": 0.09026440195661774,
+        "avg_temp_max_c": -0.6778948304275952,
+        "avg_rainfall_mm": 1.0,
+        "per_capita_income_inr": -0.0828601554337976,
+        "hdi": 0.05009576970263371,
+        "total_enrollment": -0.07550733932586086
+      },
+      "per_capita_income_inr": {
+        "pincode": -0.4022824076524622,
+        "demo_age_5_17": -0.12854322408492885,
+        "demo_age_17_": -0.10076594239324449,
+        "population_2011": -0.25558670871066486,
+        "area_sq_km": 0.1265627867980152,
+        "density_per_sq_km": 0.18393683350314594,
+        "literacy_rate": 0.6424692877883876,
+        "sex_ratio": 0.11579837395021636,
+        "avg_temp_min_c": 0.43984688430878555,
+        "avg_temp_max_c": -0.20105796335469842,
+        "avg_rainfall_mm": -0.0828601554337976,
+        "per_capita_income_inr": 1.0,
+        "hdi": 0.8809207778099354,
+        "total_enrollment": -0.10673980353247017
+      },
+      "hdi": {
+        "pincode": -0.3496865844641569,
+        "demo_age_5_17": -0.16699804602233143,
+        "demo_age_17_": -0.11870662508975707,
+        "population_2011": -0.23215629583615413,
+        "area_sq_km": 0.011076924853845099,
+        "density_per_sq_km": 0.11277106041170135,
+        "literacy_rate": 0.8021122798571699,
+        "sex_ratio": 0.23672302113021418,
+        "avg_temp_min_c": 0.38506551030718855,
+        "avg_temp_max_c": -0.33366047377452807,
+        "avg_rainfall_mm": 0.05009576970263371,
+        "per_capita_income_inr": 0.8809207778099354,
+        "hdi": 1.0,
+        "total_enrollment": -0.12740743512128866
+      },
+      "total_enrollment": {
+        "pincode": -0.14843430090244358,
+        "demo_age_5_17": 0.7464372543916367,
+        "demo_age_17_": 0.9970288608963256,
+        "population_2011": 0.28403626240863844,
+        "area_sq_km": 0.12302360417021851,
+        "density_per_sq_km": 0.10365969288688498,
+        "literacy_rate": -0.06834281878913427,
+        "sex_ratio": -0.2104273033347946,
+        "avg_temp_min_c": -0.19572017607067896,
+        "avg_temp_max_c": 0.2164780036096813,
+        "avg_rainfall_mm": -0.07550733932586086,
+        "per_capita_income_inr": -0.10673980353247017,
+        "hdi": -0.12740743512128866,
+        "total_enrollment": 1.0
+      }
+    },
+    "spearman_correlation": {
+      "pincode": {
+        "pincode": 1.0,
+        "demo_age_5_17": -0.08427408814442071,
+        "demo_age_17_": -0.14558376551629143,
+        "population_2011": -0.16822868669192353,
+        "area_sq_km": -0.4680170200394131,
+        "density_per_sq_km": 0.19493698559507705,
+        "literacy_rate": -0.2518375717649074,
+        "sex_ratio": 0.4467015251659376,
+        "avg_temp_min_c": 0.20488842701275006,
+        "avg_temp_max_c": -0.47305492142941713,
+        "avg_rainfall_mm": 0.5078530055867247,
+        "per_capita_income_inr": -0.417425946839905,
+        "hdi": -0.38303069950963037,
+        "total_enrollment": -0.14261055682453
+      },
+      "demo_age_5_17": {
+        "pincode": -0.08427408814442071,
+        "demo_age_5_17": 1.0,
+        "demo_age_17_": 0.5411921550322422,
+        "population_2011": 0.12799013931686173,
+        "area_sq_km": 0.09649063410462859,
+        "density_per_sq_km": 0.03750677360142158,
+        "literacy_rate": -0.13714774606664132,
+        "sex_ratio": -0.1655196637235391,
+        "avg_temp_min_c": -0.18049215061377485,
+        "avg_temp_max_c": 0.22745996937181417,
+        "avg_rainfall_mm": -0.09804888513658602,
+        "per_capita_income_inr": -0.12873635023024885,
+        "hdi": -0.16380579458054004,
+        "total_enrollment": 0.6389389955155607
+      },
+      "demo_age_17_": {
+        "pincode": -0.14558376551629143,
+        "demo_age_5_17": 0.5411921550322422,
+        "demo_age_17_": 1.0,
+        "population_2011": 0.2769711035452977,
+        "area_sq_km": 0.14502528338182777,
+        "density_per_sq_km": 0.1562794580681058,
+        "literacy_rate": -0.03201169109297491,
+        "sex_ratio": -0.2960412152562796,
+        "avg_temp_min_c": -0.24814593672033822,
+        "avg_temp_max_c": 0.2828991228203366,
+        "avg_rainfall_mm": -0.012080270077316532,
+        "per_capita_income_inr": -0.10076658448689085,
+        "hdi": -0.12364877880154646,
+        "total_enrollment": 0.987734741528392
+      },
+      "population_2011": {
+        "pincode": -0.16822868669192353,
+        "demo_age_5_17": 0.12799013931686173,
+        "demo_age_17_": 0.2769711035452977,
+        "population_2011": 1.0,
+        "area_sq_km": 0.6006043604780578,
+        "density_per_sq_km": 0.41795292251572136,
+        "literacy_rate": 0.029687706214374047,
+        "sex_ratio": -0.45958078097704314,
+        "avg_temp_min_c": -0.13718214381983204,
+        "avg_temp_max_c": 0.3290536696503882,
+        "avg_rainfall_mm": 0.020599718918555353,
+        "per_capita_income_inr": -0.0683065030527689,
+        "hdi": -0.10052986908997938,
+        "total_enrollment": 0.2693667359764286
+      },
+      "area_sq_km": {
+        "pincode": -0.4680170200394131,
+        "demo_age_5_17": 0.09649063410462859,
+        "demo_age_17_": 0.14502528338182777,
+        "population_2011": 0.6006043604780578,
+        "area_sq_km": 1.0,
+        "density_per_sq_km": -0.3865116217424635,
+        "literacy_rate": -0.0262475045272413,
+        "sex_ratio": -0.2242412260567402,
+        "avg_temp_min_c": 0.09359517044418106,
+        "avg_temp_max_c": 0.4502324660312566,
+        "avg_rainfall_mm": -0.32530938826601963,
+        "per_capita_income_inr": 0.190329467698196,
+        "hdi": 0.004354041307202832,
+        "total_enrollment": 0.14783973830928318
+      },
+      "density_per_sq_km": {
+        "pincode": 0.19493698559507705,
+        "demo_age_5_17": 0.03750677360142158,
+        "demo_age_17_": 0.1562794580681058,
+        "population_2011": 0.41795292251572136,
+        "area_sq_km": -0.3865116217424635,
+        "density_per_sq_km": 1.0,
+        "literacy_rate": 0.07361078714993907,
+        "sex_ratio": -0.35270316702236176,
+        "avg_temp_min_c": -0.16969625043300687,
+        "avg_temp_max_c": 0.001241605982288088,
+        "avg_rainfall_mm": 0.1908919868708656,
+        "per_capita_income_inr": -0.1400102103132891,
+        "hdi": 0.003671813010315462,
+        "total_enrollment": 0.1426874365023356
+      },
+      "literacy_rate": {
+        "pincode": -0.2518375717649074,
+        "demo_age_5_17": -0.13714774606664132,
+        "demo_age_17_": -0.03201169109297491,
+        "population_2011": 0.029687706214374047,
+        "area_sq_km": -0.0262475045272413,
+        "density_per_sq_km": 0.07361078714993907,
+        "literacy_rate": 1.0,
+        "sex_ratio": 0.09356038425931375,
+        "avg_temp_min_c": 0.27084417021040325,
+        "avg_temp_max_c": -0.3708344862960386,
+        "avg_rainfall_mm": 0.3909317392574653,
+        "per_capita_income_inr": 0.6220307605774015,
+        "hdi": 0.7767105145344914,
+        "total_enrollment": -0.04701597932734599
+      },
+      "sex_ratio": {
+        "pincode": 0.4467015251659376,
+        "demo_age_5_17": -0.1655196637235391,
+        "demo_age_17_": -0.2960412152562796,
+        "population_2011": -0.45958078097704314,
+        "area_sq_km": -0.2242412260567402,
+        "density_per_sq_km": -0.35270316702236176,
+        "literacy_rate": 0.09356038425931375,
+        "sex_ratio": 1.0,
+        "avg_temp_min_c": 0.7230695539628071,
+        "avg_temp_max_c": -0.6877104640484052,
+        "avg_rainfall_mm": 0.25477151485225047,
+        "per_capita_income_inr": 0.1792956544609042,
+        "hdi": 0.2214485216765094,
+        "total_enrollment": -0.2885432570840929
+      },
+      "avg_temp_min_c": {
+        "pincode": 0.20488842701275006,
+        "demo_age_5_17": -0.18049215061377485,
+        "demo_age_17_": -0.24814593672033822,
+        "population_2011": -0.13718214381983204,
+        "area_sq_km": 0.09359517044418106,
+        "density_per_sq_km": -0.16969625043300687,
+        "literacy_rate": 0.27084417021040325,
+        "sex_ratio": 0.7230695539628071,
+        "avg_temp_min_c": 1.0,
+        "avg_temp_max_c": -0.5081219366134595,
+        "avg_rainfall_mm": 0.019600917140238334,
+        "per_capita_income_inr": 0.5618066471070212,
+        "hdi": 0.5054812490336541,
+        "total_enrollment": -0.24626788336656344
+      },
+      "avg_temp_max_c": {
+        "pincode": -0.47305492142941713,
+        "demo_age_5_17": 0.22745996937181417,
+        "demo_age_17_": 0.2828991228203366,
+        "population_2011": 0.3290536696503882,
+        "area_sq_km": 0.4502324660312566,
+        "density_per_sq_km": 0.001241605982288088,
+        "literacy_rate": -0.3708344862960386,
+        "sex_ratio": -0.6877104640484052,
+        "avg_temp_min_c": -0.5081219366134595,
+        "avg_temp_max_c": 1.0,
+        "avg_rainfall_mm": -0.5876762889630048,
+        "per_capita_income_inr": -0.24129947382894365,
+        "hdi": -0.378076318403393,
+        "total_enrollment": 0.2873032275094716
+      },
+      "avg_rainfall_mm": {
+        "pincode": 0.5078530055867247,
+        "demo_age_5_17": -0.09804888513658602,
+        "demo_age_17_": -0.012080270077316532,
+        "population_2011": 0.020599718918555353,
+        "area_sq_km": -0.32530938826601963,
+        "density_per_sq_km": 0.1908919868708656,
+        "literacy_rate": 0.3909317392574653,
+        "sex_ratio": 0.25477151485225047,
+        "avg_temp_min_c": 0.019600917140238334,
+        "avg_temp_max_c": -0.5876762889630048,
+        "avg_rainfall_mm": 1.0,
+        "per_capita_income_inr": -0.13305543915085305,
+        "hdi": -0.01496036195050603,
+        "total_enrollment": -0.024127902109147056
+      },
+      "per_capita_income_inr": {
+        "pincode": -0.417425946839905,
+        "demo_age_5_17": -0.12873635023024885,
+        "demo_age_17_": -0.10076658448689085,
+        "population_2011": -0.0683065030527689,
+        "area_sq_km": 0.190329467698196,
+        "density_per_sq_km": -0.1400102103132891,
+        "literacy_rate": 0.6220307605774015,
+        "sex_ratio": 0.1792956544609042,
+        "avg_temp_min_c": 0.5618066471070212,
+        "avg_temp_max_c": -0.24129947382894365,
+        "avg_rainfall_mm": -0.13305543915085305,
+        "per_capita_income_inr": 1.0,
+        "hdi": 0.8984650604171242,
+        "total_enrollment": -0.10523174283986612
+      },
+      "hdi": {
+        "pincode": -0.38303069950963037,
+        "demo_age_5_17": -0.16380579458054004,
+        "demo_age_17_": -0.12364877880154646,
+        "population_2011": -0.10052986908997938,
+        "area_sq_km": 0.004354041307202832,
+        "density_per_sq_km": 0.003671813010315462,
+        "literacy_rate": 0.7767105145344914,
+        "sex_ratio": 0.2214485216765094,
+        "avg_temp_min_c": 0.5054812490336541,
+        "avg_temp_max_c": -0.378076318403393,
+        "avg_rainfall_mm": -0.01496036195050603,
+        "per_capita_income_inr": 0.8984650604171242,
+        "hdi": 1.0,
+        "total_enrollment": -0.13258630766212084
+      },
+      "total_enrollment": {
+        "pincode": -0.14261055682453,
+        "demo_age_5_17": 0.6389389955155607,
+        "demo_age_17_": 0.987734741528392,
+        "population_2011": 0.2693667359764286,
+        "area_sq_km": 0.14783973830928318,
+        "density_per_sq_km": 0.1426874365023356,
+        "literacy_rate": -0.04701597932734599,
+        "sex_ratio": -0.2885432570840929,
+        "avg_temp_min_c": -0.24626788336656344,
+        "avg_temp_max_c": 0.2873032275094716,
+        "avg_rainfall_mm": -0.024127902109147056,
+        "per_capita_income_inr": -0.10523174283986612,
+        "hdi": -0.13258630766212084,
+        "total_enrollment": 1.0
+      }
+    },
+    "strong_correlations": [
+      {
+        "var1": "demo_age_17_",
+        "var2": "total_enrollment",
+        "correlation": 0.997,
+        "strength": "strong"
+      },
+      {
+        "var1": "per_capita_income_inr",
+        "var2": "hdi",
+        "correlation": 0.8809,
+        "strength": "strong"
+      },
+      {
+        "var1": "literacy_rate",
+        "var2": "hdi",
+        "correlation": 0.8021,
+        "strength": "strong"
+      },
+      {
+        "var1": "demo_age_5_17",
+        "var2": "total_enrollment",
+        "correlation": 0.7464,
+        "strength": "strong"
+      },
+      {
+        "var1": "demo_age_5_17",
+        "var2": "demo_age_17_",
+        "correlation": 0.693,
+        "strength": "moderate"
+      },
+      {
+        "var1": "avg_temp_max_c",
+        "var2": "avg_rainfall_mm",
+        "correlation": -0.6779,
+        "strength": "moderate"
+      },
+      {
+        "var1": "literacy_rate",
+        "var2": "per_capita_income_inr",
+        "correlation": 0.6425,
+        "strength": "moderate"
+      },
+      {
+        "var1": "sex_ratio",
+        "var2": "avg_temp_min_c",
+        "correlation": 0.6322,
+        "strength": "moderate"
+      },
+      {
+        "var1": "sex_ratio",
+        "var2": "avg_temp_max_c",
+        "correlation": -0.5628,
+        "strength": "moderate"
+      },
+      {
+        "var1": "population_2011",
+        "var2": "area_sq_km",
+        "correlation": 0.5233,
+        "strength": "moderate"
+      },
+      {
+        "var1": "pincode",
+        "var2": "avg_rainfall_mm",
+        "correlation": 0.511,
+        "strength": "moderate"
+      }
+    ],
+    "total_strong_correlations": 11
+  },
+  "demographic_hypothesis": {
+    "dataset_name": "demographic",
+    "tests": {
+      "state_anova": {
+        "description": "One-way ANOVA for state differences",
+        "f_statistic": 52.911748865594774,
+        "p_value": 9.09545486780189e-292,
+        "significant": "True",
+        "interpretation": "Significant state-level differences"
+      },
+      "literacy_correlation": {
+        "description": "Pearson correlation: Literacy vs Enrollment",
+        "correlation": -0.0683428187891338,
+        "p_value": 7.840807317281153e-12,
+        "significant": "True"
+      },
+      "chi_square": {
+        "description": "Chi-square: State vs Enrollment Quartile",
+        "chi2_statistic": 1937.294282046555,
+        "p_value": 0.0,
+        "degrees_of_freedom": 105,
+        "significant": "True"
+      },
+      "kruskal_wallis": {
+        "description": "Kruskal-Wallis: Non-parametric state comparison",
+        "h_statistic": 1748.7976346442076,
+        "p_value": 0.0,
+        "significant": "True"
+      }
+    }
+  },
+  "demographic_outliers": {
+    "dataset_name": "demographic",
+    "analysis_column": "total_enrollment",
+    "total_records": 10000,
+    "methods": {
+      "iqr": {
+        "lower_bound": -16.0,
+        "upper_bound": 32.0,
+        "outlier_count": 887,
+        "outlier_pct": 8.87
+      },
+      "zscore": {
+        "threshold": 3,
+        "outlier_count": 195,
+        "outlier_pct": 1.95
+      },
+      "modified_zscore": {
+        "threshold": 3.5,
+        "outlier_count": 1235,
+        "outlier_pct": 12.35
+      },
+      "percentile": {
+        "lower_pct": 1,
+        "upper_pct": 99,
+        "outlier_count": 113,
+        "outlier_pct": 1.13
+      }
+    },
+    "outliers_by_state": [
+      {
+        "state": "Uttar Pradesh",
+        "outlier_count": 231,
+        "total_count": 681,
+        "outlier_pct": 33.92
+      },
+      {
+        "state": "Delhi",
+        "outlier_count": 25,
+        "total_count": 84,
+        "outlier_pct": 29.76
+      },
+      {
+        "state": "Chhattisgarh",
+        "outlier_count": 43,
+        "total_count": 247,
+        "outlier_pct": 17.41
+      },
+      {
+        "state": "Bihar",
+        "outlier_count": 124,
+        "total_count": 764,
+        "outlier_pct": 16.23
+      },
+      {
+        "state": "Jharkhand",
+        "outlier_count": 15,
+        "total_count": 96,
+        "outlier_pct": 15.62
+      },
+      {
+        "state": "Maharashtra",
+        "outlier_count": 191,
+        "total_count": 1449,
+        "outlier_pct": 13.18
+      },
+      {
+        "state": "Manipur",
+        "outlier_count": 7,
+        "total_count": 56,
+        "outlier_pct": 12.5
+      },
+      {
+        "state": "Haryana",
+        "outlier_count": 17,
+        "total_count": 144,
+        "outlier_pct": 11.81
+      },
+      {
+        "state": "Tripura",
+        "outlier_count": 2,
+        "total_count": 18,
+        "outlier_pct": 11.11
+      },
+      {
+        "state": "Rajasthan",
+        "outlier_count": 34,
+        "total_count": 325,
+        "outlier_pct": 10.46
+      },
+      {
+        "state": "West Bengal",
+        "outlier_count": 80,
+        "total_count": 876,
+        "outlier_pct": 9.13
+      },
+      {
+        "state": "Madhya Pradesh",
+        "outlier_count": 46,
+        "total_count": 506,
+        "outlier_pct": 9.09
+      },
+      {
+        "state": "Punjab",
+        "outlier_count": 13,
+        "total_count": 230,
+        "outlier_pct": 5.65
+      },
+      {
+        "state": "Uttarakhand",
+        "outlier_count": 6,
+        "total_count": 113,
+        "outlier_pct": 5.31
+      },
+      {
+        "state": "Telangana",
+        "outlier_count": 9,
+        "total_count": 219,
+        "outlier_pct": 4.11
+      },
+      {
+        "state": "Assam",
+        "outlier_count": 15,
+        "total_count": 456,
+        "outlier_pct": 3.29
+      },
+      {
+        "state": "Nagaland",
+        "outlier_count": 1,
+        "total_count": 36,
+        "outlier_pct": 2.78
+      },
+      {
+        "state": "Gujarat",
+        "outlier_count": 16,
+        "total_count": 621,
+        "outlier_pct": 2.58
+      },
+      {
+        "state": "Andhra Pradesh",
+        "outlier_count": 7,
+        "total_count": 861,
+        "outlier_pct": 0.81
+      },
+      {
+        "state": "Tamil Nadu",
+        "outlier_count": 3,
+        "total_count": 442,
+        "outlier_pct": 0.68
+      }
+    ]
+  },
+  "demographic_variance": {
+    "dataset_name": "demographic",
+    "overall_variance": 377.44954766476656,
+    "overall_std": 19.428060831301888,
+    "overall_cv": 161.6,
+    "state_variance": {
+      "highest_cv_states": [
+        {
+          "state": "Uttarakhand",
+          "variance": 510.2419405815426,
+          "std": 22.588535600643585,
+          "mean": 11.814159292035399,
+          "cv": 191.2
+        },
+        {
+          "state": "Gujarat",
+          "variance": 186.61140719962586,
+          "std": 13.66057858216942,
+          "mean": 7.483091787439614,
+          "cv": 182.55
+        },
+        {
+          "state": "Nagaland",
+          "variance": 104.29444444444444,
+          "std": 10.212465150219336,
+          "mean": 5.861111111111111,
+          "cv": 174.24
+        },
+        {
+          "state": "Haryana",
+          "variance": 661.1608391608393,
+          "std": 25.71304803326201,
+          "mean": 16.333333333333332,
+          "cv": 157.43
+        },
+        {
+          "state": "Manipur",
+          "variance": 647.9272727272727,
+          "std": 25.45441558408428,
+          "mean": 17.5,
+          "cv": 145.45
+        },
+        {
+          "state": "Assam",
+          "variance": 87.4704019664546,
+          "std": 9.35256125168152,
+          "mean": 6.546052631578948,
+          "cv": 142.87
+        },
+        {
+          "state": "West Bengal",
+          "variance": 314.70241356816706,
+          "std": 17.739853820372,
+          "mean": 12.429223744292237,
+          "cv": 142.73
+        },
+        {
+          "state": "Punjab",
+          "variance": 139.65523068160238,
+          "std": 11.817581422677078,
+          "mean": 8.360869565217392,
+          "cv": 141.34
+        },
+        {
+          "state": "Chhattisgarh",
+          "variance": 776.6725914222708,
+          "std": 27.86884625208354,
+          "mean": 20.534412955465587,
+          "cv": 135.72
+        },
+        {
+          "state": "Maharashtra",
+          "variance": 457.99047733433946,
+          "std": 21.400712075403927,
+          "mean": 16.17184265010352,
+          "cv": 132.33
+        }
+      ],
+      "lowest_cv_states": [
+        {
+          "state": "Chandigarh",
+          "variance": 89.49523809523808,
+          "std": 9.460192286377591,
+          "mean": 10.266666666666667,
+          "cv": 92.14
+        },
+        {
+          "state": "Meghalaya",
+          "variance": 22.06330014224751,
+          "std": 4.697158730791148,
+          "mean": 5.131578947368421,
+          "cv": 91.53
+        },
+        {
+          "state": "Puducherry",
+          "variance": 17.932263814616757,
+          "std": 4.234650376904422,
+          "mean": 4.647058823529412,
+          "cv": 91.13
+        },
+        {
+          "state": "Jammu And Kashmir",
+          "variance": 65.88902439024389,
+          "std": 8.117205454480247,
+          "mean": 9.24390243902439,
+          "cv": 87.81
+        },
+        {
+          "state": "Arunachal Pradesh",
+          "variance": 2.2433333333333336,
+          "std": 1.4977761292440648,
+          "mean": 1.92,
+          "cv": 78.01
+        },
+        {
+          "state": "Dadra And Nagar Haveli And Daman And Diu",
+          "variance": 2.9000000000000004,
+          "std": 1.7029386365926402,
+          "mean": 2.3,
+          "cv": 74.04
+        },
+        {
+          "state": "Andaman And Nicobar Islands",
+          "variance": 0.0,
+          "std": 0.0,
+          "mean": 1.0,
+          "cv": 0.0
+        },
+        {
+          "state": "Sikkim",
+          "variance": 0.0,
+          "std": 0.0,
+          "mean": 3.0,
+          "cv": 0.0
+        },
+        {
+          "state": "Ladakh",
+          "variance": null,
+          "std": null,
+          "mean": 3.0,
+          "cv": null
+        },
+        {
+          "state": "Lakshadweep",
+          "variance": null,
+          "std": null,
+          "mean": 3.0,
+          "cv": null
+        }
+      ],
+      "mean_cv": 111.5494117647059
+    },
+    "variance_decomposition": {
+      "between_state_variance": 51.74133828089879,
+      "within_state_variance": 241.0621958447348,
+      "variance_ratio": 0.21463895696953142
+    },
+    "district_variance": {
+      "highest_cv_districts": [
+        {
+          "state": "Jharkhand",
+          "district": "Bokaro",
+          "variance": 476.6777777777778,
+          "std": 21.8329516506078,
+          "mean": 10.3,
+          "cv": 211.97
+        },
+        {
+          "state": "Chhattisgarh",
+          "district": "Gariyaband",
+          "variance": 1242.314285714286,
+          "std": 35.246479054145055,
+          "mean": 17.8,
+          "cv": 198.01
+        },
+        {
+          "state": "Maharashtra",
+          "district": "Raigarh",
+          "variance": 330.04070305272893,
+          "std": 18.16702240469607,
+          "mean": 9.787234042553191,
+          "cv": 185.62
+        },
+        {
+          "state": "Gujarat",
+          "district": "Surat",
+          "variance": 2134.7277310924364,
+          "std": 46.20311386792493,
+          "mean": 24.914285714285715,
+          "cv": 185.45
+        },
+        {
+          "state": "Haryana",
+          "district": "Kaithal",
+          "variance": 486.47619047619054,
+          "std": 22.056205260111962,
+          "mean": 12.142857142857142,
+          "cv": 181.64
+        },
+        {
+          "state": "Haryana",
+          "district": "Jhajjar",
+          "variance": 362.2857142857143,
+          "std": 19.033804514224535,
+          "mean": 10.571428571428571,
+          "cv": 180.05
+        },
+        {
+          "state": "Uttarakhand",
+          "district": "Dehradun",
+          "variance": 1382.3791208791206,
+          "std": 37.180359343060694,
+          "mean": 21.071428571428573,
+          "cv": 176.45
+        },
+        {
+          "state": "Haryana",
+          "district": "Gurgaon",
+          "variance": 2310.6666666666665,
+          "std": 48.06939428229428,
+          "mean": 27.333333333333332,
+          "cv": 175.86
+        },
+        {
+          "state": "Punjab",
+          "district": "Hoshiarpur",
+          "variance": 86.76470588235293,
+          "std": 9.31475742477242,
+          "mean": 5.529411764705882,
+          "cv": 168.46
+        },
+        {
+          "state": "Punjab",
+          "district": "Ludhiana",
+          "variance": 472.0797101449276,
+          "std": 21.727395383361706,
+          "mean": 12.916666666666666,
+          "cv": 168.21
+        }
+      ],
+      "mean_cv": 85.17085459183673
+    }
+  },
+  "enrollment_descriptive": {
+    "dataset_name": "enrollment",
+    "record_count": 10000,
+    "column_count": 26,
+    "numeric_columns": [
+      "pincode",
+      "age_0_5",
+      "age_5_17",
+      "age_18_greater",
+      "population_2011",
+      "area_sq_km",
+      "density_per_sq_km",
+      "literacy_rate",
+      "sex_ratio",
+      "avg_temp_min_c",
+      "avg_temp_max_c",
+      "avg_rainfall_mm",
+      "per_capita_income_inr",
+      "hdi"
+    ],
+    "statistics": {
+      "pincode": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 521176.6166,
+        "std": 212251.8631,
+        "min": 110002.0,
+        "max": 855116.0,
+        "median": 521183.0,
+        "q1": 364225.0,
+        "q3": 713423.25,
+        "iqr": 349198.25,
+        "skewness": -0.2002,
+        "kurtosis": -1.0626,
+        "variance": 45050853397.5894,
+        "range": 745114.0,
+        "cv": 40.73
+      },
+      "age_0_5": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 3.7501,
+        "std": 5.66,
+        "min": 0.0,
+        "max": 101.0,
+        "median": 2.0,
+        "q1": 1.0,
+        "q3": 4.0,
+        "iqr": 3.0,
+        "skewness": 5.3892,
+        "kurtosis": 48.0972,
+        "variance": 32.0359,
+        "range": 101.0,
+        "cv": 150.93
+      },
+      "age_5_17": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 1.3297,
+        "std": 2.6736,
+        "min": 0.0,
+        "max": 40.0,
+        "median": 0.0,
+        "q1": 0.0,
+        "q3": 1.0,
+        "iqr": 1.0,
+        "skewness": 4.4892,
+        "kurtosis": 30.0797,
+        "variance": 7.1479,
+        "range": 40.0,
+        "cv": 201.07
+      },
+      "age_18_greater": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 0.1374,
+        "std": 1.4123,
+        "min": 0.0,
+        "max": 119.0,
+        "median": 0.0,
+        "q1": 0.0,
+        "q3": 0.0,
+        "iqr": 0.0,
+        "skewness": 61.7073,
+        "kurtosis": 5040.3631,
+        "variance": 1.9945,
+        "range": 119.0,
+        "cv": 1027.87
+      },
+      "population_2011": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 72136704.6638,
+        "std": 50929611.5041,
+        "min": 64473.0,
+        "max": 199812341.0,
+        "median": 61095297.0,
+        "q1": 35003674.0,
+        "q3": 91276115.0,
+        "iqr": 56272441.0,
+        "skewness": 1.3389,
+        "kurtosis": 1.294,
+        "variance": 2593825327957148.0,
+        "range": 199747868.0,
+        "cv": 70.6
+      },
+      "area_sq_km": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 154310.7494,
+        "std": 86894.3849,
+        "min": 32.0,
+        "max": 342239.0,
+        "median": 135191.0,
+        "q1": 88752.0,
+        "q3": 196024.0,
+        "iqr": 107272.0,
+        "skewness": 0.5104,
+        "kurtosis": -0.5742,
+        "variance": 7550634123.3551,
+        "range": 342207.0,
+        "cv": 56.31
+      },
+      "density_per_sq_km": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 595.2162,
+        "std": 972.9121,
+        "min": 5.0,
+        "max": 11320.0,
+        "median": 365.0,
+        "q1": 303.0,
+        "q3": 829.0,
+        "iqr": 526.0,
+        "skewness": 9.6884,
+        "kurtosis": 102.5559,
+        "variance": 946557.9052,
+        "range": 11315.0,
+        "cv": 163.46
+      },
+      "literacy_rate": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 73.4595,
+        "std": 7.3807,
+        "min": 61.8,
+        "max": 93.91,
+        "median": 72.87,
+        "q1": 67.02,
+        "q3": 78.03,
+        "iqr": 11.010000000000005,
+        "skewness": 0.6551,
+        "kurtosis": 0.2974,
+        "variance": 54.4746,
+        "range": 32.11,
+        "cv": 10.05
+      },
+      "sex_ratio": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 953.4779,
+        "std": 42.6848,
+        "min": 690.0,
+        "max": 1084.0,
+        "median": 950.0,
+        "q1": 919.0,
+        "q3": 988.0,
+        "iqr": 69.0,
+        "skewness": 0.6966,
+        "kurtosis": 1.5258,
+        "variance": 1821.9911,
+        "range": 394.0,
+        "cv": 4.48
+      },
+      "avg_temp_min_c": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 12.5235,
+        "std": 6.6753,
+        "min": -25.0,
+        "max": 25.0,
+        "median": 15.0,
+        "q1": 10.0,
+        "q3": 18.0,
+        "iqr": 8.0,
+        "skewness": -0.9955,
+        "kurtosis": 1.2698,
+        "variance": 44.5595,
+        "range": 50.0,
+        "cv": 53.3
+      },
+      "avg_temp_max_c": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 39.8907,
+        "std": 4.2205,
+        "min": 22.0,
+        "max": 48.0,
+        "median": 40.0,
+        "q1": 38.0,
+        "q3": 42.0,
+        "iqr": 4.0,
+        "skewness": -0.435,
+        "kurtosis": 0.3322,
+        "variance": 17.8127,
+        "range": 26.0,
+        "cv": 10.58
+      },
+      "avg_rainfall_mm": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 1279.235,
+        "std": 599.8738,
+        "min": 100.0,
+        "max": 4000.0,
+        "median": 1200.0,
+        "q1": 900.0,
+        "q3": 1500.0,
+        "iqr": 600.0,
+        "skewness": 1.7404,
+        "kurtosis": 3.1596,
+        "variance": 359848.5496,
+        "range": 3900.0,
+        "cv": 46.89
+      },
+      "per_capita_income_inr": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 146081.5,
+        "std": 65305.0483,
+        "min": 50000.0,
+        "max": 450000.0,
+        "median": 145000.0,
+        "q1": 95000.0,
+        "q3": 200000.0,
+        "iqr": 105000.0,
+        "skewness": 0.4034,
+        "kurtosis": 0.2527,
+        "variance": 4264749332.6833,
+        "range": 400000.0,
+        "cv": 44.7
+      },
+      "hdi": {
+        "count": 10000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 0.6308,
+        "std": 0.0746,
+        "min": 0.51,
+        "max": 0.78,
+        "median": 0.65,
+        "q1": 0.55,
+        "q3": 0.68,
+        "iqr": 0.13,
+        "skewness": -0.1413,
+        "kurtosis": -1.0516,
+        "variance": 0.0056,
+        "range": 0.27,
+        "cv": 11.83
+      }
+    },
+    "categorical_columns": {
+      "date": {
+        "unique_count": 2,
+        "top_values": {
+          "18-11-2025": 6021,
+          "19-11-2025": 3979
+        }
+      },
+      "state": {
+        "unique_count": 36,
+        "top_values": {
+          "Uttar Pradesh": 1002,
+          "Karnataka": 767,
+          "West Bengal": 754,
+          "Tamil Nadu": 749,
+          "Gujarat": 713,
+          "Andhra Pradesh": 713,
+          "Bihar": 674,
+          "Maharashtra": 532,
+          "Odisha": 480,
+          "Telangana": 465
+        }
+      },
+      "district": {
+        "unique_count": 832,
+        "top_values": {
+          "Bangalore": 76,
+          "North 24 Parganas": 63,
+          "Hyderabad": 61,
+          "Barddhaman": 58,
+          "Bengaluru": 57,
+          "Medak": 57,
+          "Ahmedabad": 54,
+          "Guntur": 53,
+          "Vadodara": 52,
+          "K.V. Rangareddy": 50
+        }
+      },
+      "capital": {
+        "unique_count": 34,
+        "top_values": {
+          "Lucknow": 1002,
+          "Bengaluru": 767,
+          "Kolkata": 754,
+          "Chennai": 749,
+          "Gandhinagar": 713,
+          "Amaravati": 713,
+          "Patna": 674,
+          "Mumbai": 532,
+          "Bhubaneswar": 480,
+          "Hyderabad": 465
+        }
+      },
+      "region": {
+        "unique_count": 7,
+        "top_values": {
+          "South India": 3079,
+          "North India": 2350,
+          "East India": 2212,
+          "West India": 1276,
+          "Central India": 556,
+          "Northeast India": 520,
+          "Island": 7
+        }
+      },
+      "zone": {
+        "unique_count": 7,
+        "top_values": {
+          "Southern": 3079,
+          "Northern": 2350,
+          "Eastern": 2212,
+          "Western": 1276,
+          "Central": 556,
+          "Northeastern": 520,
+          "Islands": 7
+        }
+      },
+      "rainfall_zone": {
+        "unique_count": 5,
+        "top_values": {
+          "Medium": 6217,
+          "High": 1412,
+          "Low": 1213,
+          "Very High": 749,
+          "Very Low": 409
+        }
+      },
+      "earthquake_zone": {
+        "unique_count": 10,
+        "top_values": {
+          "II-III": 3033,
+          "II": 1424,
+          "IV": 1181,
+          "II-IV": 1002,
+          "III": 932,
+          "III-IV": 754,
+          "III-V": 713,
+          "V": 518,
+          "IV-V": 441,
+          "I": 2
+        }
+      },
+      "climate_type": {
+        "unique_count": 11,
+        "top_values": {
+          "Tropical": 5029,
+          "Humid Subtropical": 1684,
+          "Subtropical": 731,
+          "Semi-arid/Arid": 713,
+          "Semi-arid": 492,
+          "Alpine/Subtropical": 463,
+          "Tropical Monsoon": 436,
+          "Arid/Semi-arid": 407,
+          "Subtropical Highland": 36,
+          "Tropical Maritime": 7
+        }
+      },
+      "major_language": {
+        "unique_count": 28,
+        "top_values": {
+          "Hindi": 2539,
+          "Telugu": 1178,
+          "Kannada": 767,
+          "Bengali": 754,
+          "Tamil": 749,
+          "Gujarati": 716,
+          "Marathi": 532,
+          "Odia": 480,
+          "Hindi/Rajasthani": 407,
+          "Malayalam": 371
+        }
+      },
+      "pincode_region": {
+        "unique_count": 30,
+        "top_values": {
+          "Karnataka": 767,
+          "West Bengal": 766,
+          "Tamil Nadu": 762,
+          "Gujarat": 716,
+          "Bihar": 583,
+          "Telangana": 569,
+          "Maharashtra": 560,
+          "Odisha": 480,
+          "Eastern UP": 479,
+          "Rajasthan": 407
+        }
+      }
+    }
+  },
+  "enrollment_distribution": {
+    "dataset_name": "enrollment",
+    "analysis_column": "total_enrollment",
+    "sample_size": 10000,
+    "normality_tests": {
+      "shapiro_wilk": {
+        "statistic": 0.5437022911424494,
+        "p_value": 3.4870692371808956e-78,
+        "is_normal": "False"
+      },
+      "dagostino_pearson": {
+        "statistic": 10111.458221461293,
+        "p_value": 0.0,
+        "is_normal": "False"
+      },
+      "kolmogorov_smirnov": {
+        "statistic": 0.28969201544581646,
+        "p_value": 0.0,
+        "is_normal": "False"
+      }
+    },
+    "best_fit_distribution": {
+      "distribution": "lognorm",
+      "parameters": [
+        17.108807257254607,
+        0.9999999999999998,
+        4.7861630687822274e-05
+      ],
+      "aic": -113767.28991234681,
+      "log_likelihood": 56886.644956173404
+    },
+    "percentiles": {
+      "p1": 1.0,
+      "p5": 1.0,
+      "p10": 1.0,
+      "p25": 1.0,
+      "p50": 3.0,
+      "p75": 6.0,
+      "p90": 12.0,
+      "p95": 18.0,
+      "p99": 37.01000000000022
+    },
+    "histogram": {
+      "counts": [
+        5913,
+        1848,
+        645,
+        545,
+        230,
+        235,
+        127,
+        125,
+        53,
+        53,
+        29,
+        37,
+        22,
+        33,
+        11,
+        17,
+        11,
+        10,
+        12,
+        7,
+        1,
+        2,
+        5,
+        1,
+        1,
+        5,
+        1,
+        2,
+        6,
+        0,
+        2,
+        1,
+        0,
+        2,
+        3,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "bin_edges": [
+        1.0,
+        3.52,
+        6.04,
+        8.56,
+        11.08,
+        13.6,
+        16.12,
+        18.64,
+        21.16,
+        23.68,
+        26.2,
+        28.72,
+        31.240000000000002,
+        33.76,
+        36.28,
+        38.8,
+        41.32,
+        43.84,
+        46.36,
+        48.88,
+        51.4,
+        53.92,
+        56.44,
+        58.96,
+        61.480000000000004,
+        64.0,
+        66.52,
+        69.04,
+        71.56,
+        74.08,
+        76.6,
+        79.12,
+        81.64,
+        84.16,
+        86.68,
+        89.2,
+        91.72,
+        94.24,
+        96.76,
+        99.28,
+        101.8,
+        104.32000000000001,
+        106.84,
+        109.36,
+        111.88,
+        114.4,
+        116.92,
+        119.44,
+        121.96000000000001,
+        124.48,
+        127.0
+      ]
+    }
+  },
+  "enrollment_correlation": {
+    "dataset_name": "enrollment",
+    "columns_analyzed": [
+      "pincode",
+      "age_0_5",
+      "age_5_17",
+      "age_18_greater",
+      "population_2011",
+      "area_sq_km",
+      "density_per_sq_km",
+      "literacy_rate",
+      "sex_ratio",
+      "avg_temp_min_c",
+      "avg_temp_max_c",
+      "avg_rainfall_mm",
+      "per_capita_income_inr",
+      "hdi",
+      "total_enrollment"
+    ],
+    "pearson_correlation": {
+      "pincode": {
+        "pincode": 1.0,
+        "age_0_5": -0.09106422059448567,
+        "age_5_17": 0.003928974009189109,
+        "age_18_greater": 0.024832939024212845,
+        "population_2011": -0.23515984603472062,
+        "area_sq_km": -0.36323611513737564,
+        "density_per_sq_km": -0.07761735190866123,
+        "literacy_rate": -0.029443737383076072,
+        "sex_ratio": 0.4572167001250498,
+        "avg_temp_min_c": 0.4794836967395503,
+        "avg_temp_max_c": -0.4030934562092313,
+        "avg_rainfall_mm": 0.49936188426270706,
+        "per_capita_income_inr": -0.22387905613846065,
+        "hdi": -0.2108758539204452,
+        "total_enrollment": -0.06175443342789491
+      },
+      "age_0_5": {
+        "pincode": -0.09106422059448567,
+        "age_0_5": 1.0,
+        "age_5_17": 0.5312373920265593,
+        "age_18_greater": 0.021912003050413954,
+        "population_2011": 0.11769559389814388,
+        "area_sq_km": 0.08191284247899666,
+        "density_per_sq_km": 0.11356476570580429,
+        "literacy_rate": -0.10930613914631504,
+        "sex_ratio": -0.19479135542036438,
+        "avg_temp_min_c": -0.14115899602280024,
+        "avg_temp_max_c": 0.19230184972855838,
+        "avg_rainfall_mm": -0.08931451884842488,
+        "per_capita_income_inr": -0.10897241856537261,
+        "hdi": -0.15890951312203844,
+        "total_enrollment": 0.9346636891025368
+      },
+      "age_5_17": {
+        "pincode": 0.003928974009189109,
+        "age_0_5": 0.5312373920265593,
+        "age_5_17": 1.0,
+        "age_18_greater": 0.03718769271286355,
+        "population_2011": 0.3365863521204738,
+        "area_sq_km": 0.07498588672203628,
+        "density_per_sq_km": 0.1116385129137788,
+        "literacy_rate": -0.270253328561101,
+        "sex_ratio": -0.23816877015235713,
+        "avg_temp_min_c": -0.21574668801853317,
+        "avg_temp_max_c": 0.25637892919169925,
+        "avg_rainfall_mm": -0.05787081478130413,
+        "per_capita_income_inr": -0.3444769425114278,
+        "hdi": -0.371330228335463,
+        "total_enrollment": 0.7534986952118355
+      },
+      "age_18_greater": {
+        "pincode": 0.024832939024212845,
+        "age_0_5": 0.021912003050413954,
+        "age_5_17": 0.03718769271286355,
+        "age_18_greater": 1.0,
+        "population_2011": -0.020556715838968755,
+        "area_sq_km": -0.031019822834310727,
+        "density_per_sq_km": 0.011193096695182769,
+        "literacy_rate": 0.030115653575615783,
+        "sex_ratio": 0.018266391590835037,
+        "avg_temp_min_c": -0.01454731953242827,
+        "avg_temp_max_c": -0.06113867007279092,
+        "avg_rainfall_mm": 0.12631077234235755,
+        "per_capita_income_inr": -0.0155780355738704,
+        "hdi": -0.00927097105414257,
+        "total_enrollment": 0.2149898120639136
+      },
+      "population_2011": {
+        "pincode": -0.23515984603472062,
+        "age_0_5": 0.11769559389814388,
+        "age_5_17": 0.3365863521204738,
+        "age_18_greater": -0.020556715838968755,
+        "population_2011": 1.0,
+        "area_sq_km": 0.5286421110937873,
+        "density_per_sq_km": 0.07591044408707973,
+        "literacy_rate": -0.28173178213858063,
+        "sex_ratio": -0.39574034438671474,
+        "avg_temp_min_c": -0.19454923448468553,
+        "avg_temp_max_c": 0.47989626453508843,
+        "avg_rainfall_mm": -0.22065180486191954,
+        "per_capita_income_inr": -0.42667411876332784,
+        "hdi": -0.41251070884371505,
+        "total_enrollment": 0.2020159632458004
+      },
+      "area_sq_km": {
+        "pincode": -0.36323611513737564,
+        "age_0_5": 0.08191284247899666,
+        "age_5_17": 0.07498588672203628,
+        "age_18_greater": -0.031019822834310727,
+        "population_2011": 0.5286421110937873,
+        "area_sq_km": 1.0,
+        "density_per_sq_km": -0.23323986443650294,
+        "literacy_rate": -0.21393904821010995,
+        "sex_ratio": -0.27194298800022204,
+        "avg_temp_min_c": 0.048634550314418185,
+        "avg_temp_max_c": 0.5053369634643796,
+        "avg_rainfall_mm": -0.4261930887928343,
+        "per_capita_income_inr": -0.05241419813046584,
+        "hdi": -0.1911536831622549,
+        "total_enrollment": 0.0815285744024201
+      },
+      "density_per_sq_km": {
+        "pincode": -0.07761735190866123,
+        "age_0_5": 0.11356476570580429,
+        "age_5_17": 0.1116385129137788,
+        "age_18_greater": 0.011193096695182769,
+        "population_2011": 0.07591044408707973,
+        "area_sq_km": -0.23323986443650294,
+        "density_per_sq_km": 1.0,
+        "literacy_rate": 0.12387991741067715,
+        "sex_ratio": -0.21130663373081693,
+        "avg_temp_min_c": -0.11715662377776355,
+        "avg_temp_max_c": 0.1349650496169712,
+        "avg_rainfall_mm": -0.007594582279497969,
+        "per_capita_income_inr": 0.12607053251231184,
+        "hdi": 0.06884333862423711,
+        "total_enrollment": 0.12579035530461927
+      },
+      "literacy_rate": {
+        "pincode": -0.029443737383076072,
+        "age_0_5": -0.10930613914631504,
+        "age_5_17": -0.270253328561101,
+        "age_18_greater": 0.030115653575615783,
+        "population_2011": -0.28173178213858063,
+        "area_sq_km": -0.21393904821010995,
+        "density_per_sq_km": 0.12387991741067715,
+        "literacy_rate": 1.0,
+        "sex_ratio": 0.4052743601536606,
+        "avg_temp_min_c": 0.2740363054178975,
+        "avg_temp_max_c": -0.5063499452154565,
+        "avg_rainfall_mm": 0.456424670896614,
+        "per_capita_income_inr": 0.5716370989457631,
+        "hdi": 0.7846585449442562,
+        "total_enrollment": -0.1706912895545804
+      },
+      "sex_ratio": {
+        "pincode": 0.4572167001250498,
+        "age_0_5": -0.19479135542036438,
+        "age_5_17": -0.23816877015235713,
+        "age_18_greater": 0.018266391590835037,
+        "population_2011": -0.39574034438671474,
+        "area_sq_km": -0.27194298800022204,
+        "density_per_sq_km": -0.21130663373081693,
+        "literacy_rate": 0.4052743601536606,
+        "sex_ratio": 1.0,
+        "avg_temp_min_c": 0.6676008085749737,
+        "avg_temp_max_c": -0.5684908448152299,
+        "avg_rainfall_mm": 0.4608023840005538,
+        "per_capita_income_inr": 0.3027204696566227,
+        "hdi": 0.41302224713120217,
+        "total_enrollment": -0.22521059088571002
+      },
+      "avg_temp_min_c": {
+        "pincode": 0.4794836967395503,
+        "age_0_5": -0.14115899602280024,
+        "age_5_17": -0.21574668801853317,
+        "age_18_greater": -0.01454731953242827,
+        "population_2011": -0.19454923448468553,
+        "area_sq_km": 0.048634550314418185,
+        "density_per_sq_km": -0.11715662377776355,
+        "literacy_rate": 0.2740363054178975,
+        "sex_ratio": 0.6676008085749737,
+        "avg_temp_min_c": 1.0,
+        "avg_temp_max_c": -0.21242846543642938,
+        "avg_rainfall_mm": 0.11047404220891893,
+        "per_capita_income_inr": 0.4790726429123744,
+        "hdi": 0.3759385182254858,
+        "total_enrollment": -0.18352422017601108
+      },
+      "avg_temp_max_c": {
+        "pincode": -0.4030934562092313,
+        "age_0_5": 0.19230184972855838,
+        "age_5_17": 0.25637892919169925,
+        "age_18_greater": -0.06113867007279092,
+        "population_2011": 0.47989626453508843,
+        "area_sq_km": 0.5053369634643796,
+        "density_per_sq_km": 0.1349650496169712,
+        "literacy_rate": -0.5063499452154565,
+        "sex_ratio": -0.5684908448152299,
+        "avg_temp_min_c": -0.21242846543642938,
+        "avg_temp_max_c": 1.0,
+        "avg_rainfall_mm": -0.6408672171068353,
+        "per_capita_income_inr": -0.29148857312339393,
+        "hdi": -0.44973041706522016,
+        "total_enrollment": 0.22179958352880916
+      },
+      "avg_rainfall_mm": {
+        "pincode": 0.49936188426270706,
+        "age_0_5": -0.08931451884842488,
+        "age_5_17": -0.05787081478130413,
+        "age_18_greater": 0.12631077234235755,
+        "population_2011": -0.22065180486191954,
+        "area_sq_km": -0.4261930887928343,
+        "density_per_sq_km": -0.007594582279497969,
+        "literacy_rate": 0.456424670896614,
+        "sex_ratio": 0.4608023840005538,
+        "avg_temp_min_c": 0.11047404220891893,
+        "avg_temp_max_c": -0.6408672171068353,
+        "avg_rainfall_mm": 1.0,
+        "per_capita_income_inr": -0.0860841940875482,
+        "hdi": 0.09934198539591926,
+        "total_enrollment": -0.06333261287255097
+      },
+      "per_capita_income_inr": {
+        "pincode": -0.22387905613846065,
+        "age_0_5": -0.10897241856537261,
+        "age_5_17": -0.3444769425114278,
+        "age_18_greater": -0.0155780355738704,
+        "population_2011": -0.42667411876332784,
+        "area_sq_km": -0.05241419813046584,
+        "density_per_sq_km": 0.12607053251231184,
+        "literacy_rate": 0.5716370989457631,
+        "sex_ratio": 0.3027204696566227,
+        "avg_temp_min_c": 0.4790726429123744,
+        "avg_temp_max_c": -0.29148857312339393,
+        "avg_rainfall_mm": -0.0860841940875482,
+        "per_capita_income_inr": 1.0,
+        "hdi": 0.8628856220433098,
+        "total_enrollment": -0.20500672289183794
+      },
+      "hdi": {
+        "pincode": -0.2108758539204452,
+        "age_0_5": -0.15890951312203844,
+        "age_5_17": -0.371330228335463,
+        "age_18_greater": -0.00927097105414257,
+        "population_2011": -0.41251070884371505,
+        "area_sq_km": -0.1911536831622549,
+        "density_per_sq_km": 0.06884333862423711,
+        "literacy_rate": 0.7846585449442562,
+        "sex_ratio": 0.41302224713120217,
+        "avg_temp_min_c": 0.3759385182254858,
+        "avg_temp_max_c": -0.44973041706522016,
+        "avg_rainfall_mm": 0.09934198539591926,
+        "per_capita_income_inr": 0.8628856220433098,
+        "hdi": 1.0,
+        "total_enrollment": -0.2504214208177842
+      },
+      "total_enrollment": {
+        "pincode": -0.06175443342789491,
+        "age_0_5": 0.9346636891025368,
+        "age_5_17": 0.7534986952118355,
+        "age_18_greater": 0.2149898120639136,
+        "population_2011": 0.2020159632458004,
+        "area_sq_km": 0.0815285744024201,
+        "density_per_sq_km": 0.12579035530461927,
+        "literacy_rate": -0.1706912895545804,
+        "sex_ratio": -0.22521059088571002,
+        "avg_temp_min_c": -0.18352422017601108,
+        "avg_temp_max_c": 0.22179958352880916,
+        "avg_rainfall_mm": -0.06333261287255097,
+        "per_capita_income_inr": -0.20500672289183794,
+        "hdi": -0.2504214208177842,
+        "total_enrollment": 1.0
+      }
+    },
+    "spearman_correlation": {
+      "pincode": {
+        "pincode": 1.0,
+        "age_0_5": -0.10985738427488376,
+        "age_5_17": 0.04333178520293643,
+        "age_18_greater": -0.008633453430936154,
+        "population_2011": -0.021983264952082044,
+        "area_sq_km": -0.40312434346121806,
+        "density_per_sq_km": 0.27705373522769455,
+        "literacy_rate": -0.1110649533678545,
+        "sex_ratio": 0.4467192571133035,
+        "avg_temp_min_c": 0.36878436354740535,
+        "avg_temp_max_c": -0.4498368925082018,
+        "avg_rainfall_mm": 0.5491240097705145,
+        "per_capita_income_inr": -0.24334957254840084,
+        "hdi": -0.2475716167593125,
+        "total_enrollment": -0.06101660436429872
+      },
+      "age_0_5": {
+        "pincode": -0.10985738427488376,
+        "age_0_5": 1.0,
+        "age_5_17": 0.3047878146439946,
+        "age_18_greater": 0.03808640239049433,
+        "population_2011": 0.09979836542799392,
+        "area_sq_km": 0.11539840857398392,
+        "density_per_sq_km": 0.029992553734016447,
+        "literacy_rate": -0.09661764103559255,
+        "sex_ratio": -0.21294269740924981,
+        "avg_temp_min_c": -0.17427043988293808,
+        "avg_temp_max_c": 0.21174174738946633,
+        "avg_rainfall_mm": -0.0821111404370599,
+        "per_capita_income_inr": -0.09264733910364507,
+        "hdi": -0.1419752995078966,
+        "total_enrollment": 0.876441499221937
+      },
+      "age_5_17": {
+        "pincode": 0.04333178520293643,
+        "age_0_5": 0.3047878146439946,
+        "age_5_17": 1.0,
+        "age_18_greater": 0.08306228112234731,
+        "population_2011": 0.2854287707072869,
+        "area_sq_km": 0.08013441281052472,
+        "density_per_sq_km": 0.26243119058406134,
+        "literacy_rate": -0.2763165457277153,
+        "sex_ratio": -0.32532417451520906,
+        "avg_temp_min_c": -0.3253993152141317,
+        "avg_temp_max_c": 0.30863587663036185,
+        "avg_rainfall_mm": 0.020171849822840544,
+        "per_capita_income_inr": -0.40859347556522424,
+        "hdi": -0.4137467314133024,
+        "total_enrollment": 0.6305557877910752
+      },
+      "age_18_greater": {
+        "pincode": -0.008633453430936154,
+        "age_0_5": 0.03808640239049433,
+        "age_5_17": 0.08306228112234731,
+        "age_18_greater": 1.0,
+        "population_2011": -0.03890238672739179,
+        "area_sq_km": -0.04758552580472562,
+        "density_per_sq_km": 0.039622808416620164,
+        "literacy_rate": 0.051590850807773384,
+        "sex_ratio": -0.036390569680687386,
+        "avg_temp_min_c": -0.03414716289746323,
+        "avg_temp_max_c": -0.030198719089179375,
+        "avg_rainfall_mm": 0.0870456429661791,
+        "per_capita_income_inr": -0.015556618026694934,
+        "hdi": 0.014503909030838322,
+        "total_enrollment": 0.17363345099185995
+      },
+      "population_2011": {
+        "pincode": -0.021983264952082044,
+        "age_0_5": 0.09979836542799392,
+        "age_5_17": 0.2854287707072869,
+        "age_18_greater": -0.03890238672739179,
+        "population_2011": 1.0,
+        "area_sq_km": 0.6032005877823623,
+        "density_per_sq_km": 0.49023042794919336,
+        "literacy_rate": -0.12032459230188924,
+        "sex_ratio": -0.3359856247313525,
+        "avg_temp_min_c": -0.12276309419555846,
+        "avg_temp_max_c": 0.366645862609219,
+        "avg_rainfall_mm": -0.039304164249347,
+        "per_capita_income_inr": -0.2979948026489555,
+        "hdi": -0.29808713072097376,
+        "total_enrollment": 0.18441771259751485
+      },
+      "area_sq_km": {
+        "pincode": -0.40312434346121806,
+        "age_0_5": 0.11539840857398392,
+        "age_5_17": 0.08013441281052472,
+        "age_18_greater": -0.04758552580472562,
+        "population_2011": 0.6032005877823623,
+        "area_sq_km": 1.0,
+        "density_per_sq_km": -0.2987821388774474,
+        "literacy_rate": -0.1743143805262397,
+        "sex_ratio": -0.20433940512505158,
+        "avg_temp_min_c": 0.012797250427054624,
+        "avg_temp_max_c": 0.47457048143986613,
+        "avg_rainfall_mm": -0.399563725242479,
+        "per_capita_income_inr": 0.03306428671528688,
+        "hdi": -0.17695658622040883,
+        "total_enrollment": 0.1049530696987241
+      },
+      "density_per_sq_km": {
+        "pincode": 0.27705373522769455,
+        "age_0_5": 0.029992553734016447,
+        "age_5_17": 0.26243119058406134,
+        "age_18_greater": 0.039622808416620164,
+        "population_2011": 0.49023042794919336,
+        "area_sq_km": -0.2987821388774474,
+        "density_per_sq_km": 1.0,
+        "literacy_rate": 0.05938610191967105,
+        "sex_ratio": -0.26192570475425087,
+        "avg_temp_min_c": -0.08681742590998154,
+        "avg_temp_max_c": 0.07267901690445708,
+        "avg_rainfall_mm": 0.21566693048808175,
+        "per_capita_income_inr": -0.24255859112354566,
+        "hdi": -0.08576966100323993,
+        "total_enrollment": 0.13990427454484566
+      },
+      "literacy_rate": {
+        "pincode": -0.1110649533678545,
+        "age_0_5": -0.09661764103559255,
+        "age_5_17": -0.2763165457277153,
+        "age_18_greater": 0.051590850807773384,
+        "population_2011": -0.12032459230188924,
+        "area_sq_km": -0.1743143805262397,
+        "density_per_sq_km": 0.05938610191967105,
+        "literacy_rate": 1.0,
+        "sex_ratio": 0.2505086063468753,
+        "avg_temp_min_c": 0.28839871286140895,
+        "avg_temp_max_c": -0.4714965138369043,
+        "avg_rainfall_mm": 0.2953292105786059,
+        "per_capita_income_inr": 0.5064983817060575,
+        "hdi": 0.7525799856567282,
+        "total_enrollment": -0.18275246267627002
+      },
+      "sex_ratio": {
+        "pincode": 0.4467192571133035,
+        "age_0_5": -0.21294269740924981,
+        "age_5_17": -0.32532417451520906,
+        "age_18_greater": -0.036390569680687386,
+        "population_2011": -0.3359856247313525,
+        "area_sq_km": -0.20433940512505158,
+        "density_per_sq_km": -0.26192570475425087,
+        "literacy_rate": 0.2505086063468753,
+        "sex_ratio": 1.0,
+        "avg_temp_min_c": 0.8174770394180283,
+        "avg_temp_max_c": -0.647916110675151,
+        "avg_rainfall_mm": 0.2311516013277384,
+        "per_capita_income_inr": 0.36566454395164366,
+        "hdi": 0.3990764607799642,
+        "total_enrollment": -0.3037955932299086
+      },
+      "avg_temp_min_c": {
+        "pincode": 0.36878436354740535,
+        "age_0_5": -0.17427043988293808,
+        "age_5_17": -0.3253993152141317,
+        "age_18_greater": -0.03414716289746323,
+        "population_2011": -0.12276309419555846,
+        "area_sq_km": 0.012797250427054624,
+        "density_per_sq_km": -0.08681742590998154,
+        "literacy_rate": 0.28839871286140895,
+        "sex_ratio": 0.8174770394180283,
+        "avg_temp_min_c": 1.0,
+        "avg_temp_max_c": -0.5063425589641685,
+        "avg_rainfall_mm": 0.008114128660903629,
+        "per_capita_income_inr": 0.5687662618878901,
+        "hdi": 0.5001869098864044,
+        "total_enrollment": -0.27881502484170717
+      },
+      "avg_temp_max_c": {
+        "pincode": -0.4498368925082018,
+        "age_0_5": 0.21174174738946633,
+        "age_5_17": 0.30863587663036185,
+        "age_18_greater": -0.030198719089179375,
+        "population_2011": 0.366645862609219,
+        "area_sq_km": 0.47457048143986613,
+        "density_per_sq_km": 0.07267901690445708,
+        "literacy_rate": -0.4714965138369043,
+        "sex_ratio": -0.647916110675151,
+        "avg_temp_min_c": -0.5063425589641685,
+        "avg_temp_max_c": 1.0,
+        "avg_rainfall_mm": -0.5819008386040307,
+        "per_capita_income_inr": -0.29851707592707744,
+        "hdi": -0.4750145928242018,
+        "total_enrollment": 0.27966328861319306
+      },
+      "avg_rainfall_mm": {
+        "pincode": 0.5491240097705145,
+        "age_0_5": -0.0821111404370599,
+        "age_5_17": 0.020171849822840544,
+        "age_18_greater": 0.0870456429661791,
+        "population_2011": -0.039304164249347,
+        "area_sq_km": -0.399563725242479,
+        "density_per_sq_km": 0.21566693048808175,
+        "literacy_rate": 0.2953292105786059,
+        "sex_ratio": 0.2311516013277384,
+        "avg_temp_min_c": 0.008114128660903629,
+        "avg_temp_max_c": -0.5819008386040307,
+        "avg_rainfall_mm": 1.0,
+        "per_capita_income_inr": -0.2545767062585365,
+        "hdi": -0.09452912798897069,
+        "total_enrollment": -0.03355167529938422
+      },
+      "per_capita_income_inr": {
+        "pincode": -0.24334957254840084,
+        "age_0_5": -0.09264733910364507,
+        "age_5_17": -0.40859347556522424,
+        "age_18_greater": -0.015556618026694934,
+        "population_2011": -0.2979948026489555,
+        "area_sq_km": 0.03306428671528688,
+        "density_per_sq_km": -0.24255859112354566,
+        "literacy_rate": 0.5064983817060575,
+        "sex_ratio": 0.36566454395164366,
+        "avg_temp_min_c": 0.5687662618878901,
+        "avg_temp_max_c": -0.29851707592707744,
+        "avg_rainfall_mm": -0.2545767062585365,
+        "per_capita_income_inr": 1.0,
+        "hdi": 0.8491459079892812,
+        "total_enrollment": -0.2461702104119976
+      },
+      "hdi": {
+        "pincode": -0.2475716167593125,
+        "age_0_5": -0.1419752995078966,
+        "age_5_17": -0.4137467314133024,
+        "age_18_greater": 0.014503909030838322,
+        "population_2011": -0.29808713072097376,
+        "area_sq_km": -0.17695658622040883,
+        "density_per_sq_km": -0.08576966100323993,
+        "literacy_rate": 0.7525799856567282,
+        "sex_ratio": 0.3990764607799642,
+        "avg_temp_min_c": 0.5001869098864044,
+        "avg_temp_max_c": -0.4750145928242018,
+        "avg_rainfall_mm": -0.09452912798897069,
+        "per_capita_income_inr": 0.8491459079892812,
+        "hdi": 1.0,
+        "total_enrollment": -0.2805244429211015
+      },
+      "total_enrollment": {
+        "pincode": -0.06101660436429872,
+        "age_0_5": 0.876441499221937,
+        "age_5_17": 0.6305557877910752,
+        "age_18_greater": 0.17363345099185995,
+        "population_2011": 0.18441771259751485,
+        "area_sq_km": 0.1049530696987241,
+        "density_per_sq_km": 0.13990427454484566,
+        "literacy_rate": -0.18275246267627002,
+        "sex_ratio": -0.3037955932299086,
+        "avg_temp_min_c": -0.27881502484170717,
+        "avg_temp_max_c": 0.27966328861319306,
+        "avg_rainfall_mm": -0.03355167529938422,
+        "per_capita_income_inr": -0.2461702104119976,
+        "hdi": -0.2805244429211015,
+        "total_enrollment": 1.0
+      }
+    },
+    "strong_correlations": [
+      {
+        "var1": "age_0_5",
+        "var2": "total_enrollment",
+        "correlation": 0.9347,
+        "strength": "strong"
+      },
+      {
+        "var1": "per_capita_income_inr",
+        "var2": "hdi",
+        "correlation": 0.8629,
+        "strength": "strong"
+      },
+      {
+        "var1": "literacy_rate",
+        "var2": "hdi",
+        "correlation": 0.7847,
+        "strength": "strong"
+      },
+      {
+        "var1": "age_5_17",
+        "var2": "total_enrollment",
+        "correlation": 0.7535,
+        "strength": "strong"
+      },
+      {
+        "var1": "sex_ratio",
+        "var2": "avg_temp_min_c",
+        "correlation": 0.6676,
+        "strength": "moderate"
+      },
+      {
+        "var1": "avg_temp_max_c",
+        "var2": "avg_rainfall_mm",
+        "correlation": -0.6409,
+        "strength": "moderate"
+      },
+      {
+        "var1": "literacy_rate",
+        "var2": "per_capita_income_inr",
+        "correlation": 0.5716,
+        "strength": "moderate"
+      },
+      {
+        "var1": "sex_ratio",
+        "var2": "avg_temp_max_c",
+        "correlation": -0.5685,
+        "strength": "moderate"
+      },
+      {
+        "var1": "age_0_5",
+        "var2": "age_5_17",
+        "correlation": 0.5312,
+        "strength": "moderate"
+      },
+      {
+        "var1": "population_2011",
+        "var2": "area_sq_km",
+        "correlation": 0.5286,
+        "strength": "moderate"
+      },
+      {
+        "var1": "literacy_rate",
+        "var2": "avg_temp_max_c",
+        "correlation": -0.5063,
+        "strength": "moderate"
+      },
+      {
+        "var1": "area_sq_km",
+        "var2": "avg_temp_max_c",
+        "correlation": 0.5053,
+        "strength": "moderate"
+      }
+    ],
+    "total_strong_correlations": 12
+  },
+  "enrollment_hypothesis": {
+    "dataset_name": "enrollment",
+    "tests": {
+      "state_anova": {
+        "description": "One-way ANOVA for state differences",
+        "f_statistic": 50.87630251962403,
+        "p_value": 6.750551935950688e-272,
+        "significant": "True",
+        "interpretation": "Significant state-level differences"
+      },
+      "literacy_correlation": {
+        "description": "Pearson correlation: Literacy vs Enrollment",
+        "correlation": -0.17069128955458354,
+        "p_value": 2.9801427464870864e-66,
+        "significant": "True"
+      },
+      "kruskal_wallis": {
+        "description": "Kruskal-Wallis: Non-parametric state comparison",
+        "h_statistic": 1677.370409629708,
+        "p_value": 0.0,
+        "significant": "True"
+      }
+    }
+  },
+  "enrollment_outliers": {
+    "dataset_name": "enrollment",
+    "analysis_column": "total_enrollment",
+    "total_records": 10000,
+    "methods": {
+      "iqr": {
+        "lower_bound": -6.5,
+        "upper_bound": 13.5,
+        "outlier_count": 819,
+        "outlier_pct": 8.19
+      },
+      "zscore": {
+        "threshold": 3,
+        "outlier_count": 197,
+        "outlier_pct": 1.97
+      },
+      "modified_zscore": {
+        "threshold": 3.5,
+        "outlier_count": 819,
+        "outlier_pct": 8.19
+      },
+      "percentile": {
+        "lower_pct": 1,
+        "upper_pct": 99,
+        "outlier_count": 100,
+        "outlier_pct": 1.0
+      }
+    },
+    "outliers_by_state": [
+      {
+        "state": "Delhi",
+        "outlier_count": 24,
+        "total_count": 68,
+        "outlier_pct": 35.29
+      },
+      {
+        "state": "Madhya Pradesh",
+        "outlier_count": 76,
+        "total_count": 310,
+        "outlier_pct": 24.52
+      },
+      {
+        "state": "Uttar Pradesh",
+        "outlier_count": 212,
+        "total_count": 1002,
+        "outlier_pct": 21.16
+      },
+      {
+        "state": "Bihar",
+        "outlier_count": 138,
+        "total_count": 674,
+        "outlier_pct": 20.47
+      },
+      {
+        "state": "Jharkhand",
+        "outlier_count": 51,
+        "total_count": 304,
+        "outlier_pct": 16.78
+      },
+      {
+        "state": "Meghalaya",
+        "outlier_count": 5,
+        "total_count": 36,
+        "outlier_pct": 13.89
+      },
+      {
+        "state": "Chhattisgarh",
+        "outlier_count": 34,
+        "total_count": 246,
+        "outlier_pct": 13.82
+      },
+      {
+        "state": "Haryana",
+        "outlier_count": 23,
+        "total_count": 216,
+        "outlier_pct": 10.65
+      },
+      {
+        "state": "Gujarat",
+        "outlier_count": 60,
+        "total_count": 713,
+        "outlier_pct": 8.42
+      },
+      {
+        "state": "Rajasthan",
+        "outlier_count": 33,
+        "total_count": 407,
+        "outlier_pct": 8.11
+      },
+      {
+        "state": "West Bengal",
+        "outlier_count": 51,
+        "total_count": 754,
+        "outlier_pct": 6.76
+      },
+      {
+        "state": "Uttarakhand",
+        "outlier_count": 7,
+        "total_count": 109,
+        "outlier_pct": 6.42
+      },
+      {
+        "state": "Assam",
+        "outlier_count": 21,
+        "total_count": 339,
+        "outlier_pct": 6.19
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "outlier_count": 9,
+        "total_count": 149,
+        "outlier_pct": 6.04
+      },
+      {
+        "state": "Manipur",
+        "outlier_count": 2,
+        "total_count": 42,
+        "outlier_pct": 4.76
+      },
+      {
+        "state": "Maharashtra",
+        "outlier_count": 25,
+        "total_count": 532,
+        "outlier_pct": 4.7
+      },
+      {
+        "state": "Karnataka",
+        "outlier_count": 28,
+        "total_count": 767,
+        "outlier_pct": 3.65
+      },
+      {
+        "state": "Punjab",
+        "outlier_count": 6,
+        "total_count": 208,
+        "outlier_pct": 2.88
+      },
+      {
+        "state": "Telangana",
+        "outlier_count": 7,
+        "total_count": 465,
+        "outlier_pct": 1.51
+      },
+      {
+        "state": "Kerala",
+        "outlier_count": 2,
+        "total_count": 369,
+        "outlier_pct": 0.54
+      }
+    ]
+  },
+  "enrollment_variance": {
+    "dataset_name": "enrollment",
+    "overall_variance": 57.887212881288136,
+    "overall_std": 7.608364665372457,
+    "overall_cv": 145.83,
+    "state_variance": {
+      "highest_cv_states": [
+        {
+          "state": "Assam",
+          "variance": 66.65430870468309,
+          "std": 8.164209006675605,
+          "mean": 5.259587020648968,
+          "cv": 155.23
+        },
+        {
+          "state": "Jharkhand",
+          "variance": 144.5898797116554,
+          "std": 12.02455320216329,
+          "mean": 8.654605263157896,
+          "cv": 138.94
+        },
+        {
+          "state": "West Bengal",
+          "variance": 42.33288067887599,
+          "std": 6.506372313269199,
+          "mean": 4.69893899204244,
+          "cv": 138.46
+        },
+        {
+          "state": "Haryana",
+          "variance": 86.70387596899222,
+          "std": 9.31149160816849,
+          "mean": 6.944444444444445,
+          "cv": 134.09
+        },
+        {
+          "state": "Uttarakhand",
+          "variance": 23.41437308868501,
+          "std": 4.838840056117273,
+          "mean": 3.6513761467889907,
+          "cv": 132.52
+        },
+        {
+          "state": "Maharashtra",
+          "variance": 28.08640244679495,
+          "std": 5.299660597320828,
+          "mean": 4.015037593984962,
+          "cv": 132.0
+        },
+        {
+          "state": "Delhi",
+          "variance": 288.5092186128182,
+          "std": 16.98555911981758,
+          "mean": 13.705882352941176,
+          "cv": 123.93
+        },
+        {
+          "state": "Uttar Pradesh",
+          "variance": 140.97646565011837,
+          "std": 11.873351070785297,
+          "mean": 9.651696606786427,
+          "cv": 123.02
+        },
+        {
+          "state": "Dadra And Nagar Haveli And Daman And Diu",
+          "variance": 37.0,
+          "std": 6.082762530298219,
+          "mean": 5.0,
+          "cv": 121.66
+        },
+        {
+          "state": "Madhya Pradesh",
+          "variance": 154.5006368096879,
+          "std": 12.429828510872058,
+          "mean": 10.296774193548387,
+          "cv": 120.72
+        }
+      ],
+      "lowest_cv_states": [
+        {
+          "state": "Goa",
+          "variance": 3.231481481481482,
+          "std": 1.7976321874848264,
+          "mean": 2.25,
+          "cv": 79.89
+        },
+        {
+          "state": "Odisha",
+          "variance": 3.7355427974947792,
+          "std": 1.9327552347606718,
+          "mean": 2.4625,
+          "cv": 78.49
+        },
+        {
+          "state": "Tripura",
+          "variance": 6.920377867746287,
+          "std": 2.6306611084946474,
+          "mean": 3.358974358974359,
+          "cv": 78.32
+        },
+        {
+          "state": "Himachal Pradesh",
+          "variance": 2.7295887047268264,
+          "std": 1.6521466958859392,
+          "mean": 2.1215469613259668,
+          "cv": 77.87
+        },
+        {
+          "state": "Puducherry",
+          "variance": 0.9333333333333333,
+          "std": 0.9660917830792959,
+          "mean": 1.5,
+          "cv": 64.41
+        },
+        {
+          "state": "Mizoram",
+          "variance": 1.0215384615384613,
+          "std": 1.0107118588096518,
+          "mean": 1.6923076923076923,
+          "cv": 59.72
+        },
+        {
+          "state": "Sikkim",
+          "variance": 0.619047619047619,
+          "std": 0.7867957924694431,
+          "mean": 1.5714285714285714,
+          "cv": 50.07
+        },
+        {
+          "state": "Ladakh",
+          "variance": 4.5,
+          "std": 2.1213203435596424,
+          "mean": 4.5,
+          "cv": 47.14
+        },
+        {
+          "state": "Andaman And Nicobar Islands",
+          "variance": 0.0,
+          "std": 0.0,
+          "mean": 1.0,
+          "cv": 0.0
+        },
+        {
+          "state": "Lakshadweep",
+          "variance": 0.0,
+          "std": 0.0,
+          "mean": 1.0,
+          "cv": 0.0
+        }
+      ],
+      "mean_cv": 96.85499999999999
+    },
+    "variance_decomposition": {
+      "between_state_variance": 8.511346407265743,
+      "within_state_variance": 40.07450462498601,
+      "variance_ratio": 0.21238806285727638
+    },
+    "district_variance": {
+      "highest_cv_districts": [
+        {
+          "state": "Assam",
+          "district": "Sonitpur",
+          "variance": 685.9236842105263,
+          "std": 26.190144791706025,
+          "mean": 10.65,
+          "cv": 245.92
+        },
+        {
+          "state": "West Bengal",
+          "district": "North 24 Parganas",
+          "variance": 114.35074244751662,
+          "std": 10.693490657756083,
+          "mean": 5.063492063492063,
+          "cv": 211.19
+        },
+        {
+          "state": "Karnataka",
+          "district": "Kodagu",
+          "variance": 187.94444444444446,
+          "std": 13.709283148452528,
+          "mean": 7.222222222222222,
+          "cv": 189.82
+        },
+        {
+          "state": "Punjab",
+          "district": "Patiala",
+          "variance": 52.41071428571428,
+          "std": 7.239524451627626,
+          "mean": 4.125,
+          "cv": 175.5
+        },
+        {
+          "state": "Maharashtra",
+          "district": "Palghar",
+          "variance": 30.944444444444443,
+          "std": 5.562773089426212,
+          "mean": 3.2222222222222223,
+          "cv": 172.64
+        },
+        {
+          "state": "Rajasthan",
+          "district": "Bharatpur",
+          "variance": 193.14473684210532,
+          "std": 13.897652206114,
+          "mean": 8.25,
+          "cv": 168.46
+        },
+        {
+          "state": "Madhya Pradesh",
+          "district": "Vidisha",
+          "variance": 216.2,
+          "std": 14.703741020570241,
+          "mean": 8.8,
+          "cv": 167.09
+        },
+        {
+          "state": "Uttarakhand",
+          "district": "Dehradun",
+          "variance": 52.82467532467532,
+          "std": 7.268058566403776,
+          "mean": 4.409090909090909,
+          "cv": 164.84
+        },
+        {
+          "state": "Haryana",
+          "district": "Rewari",
+          "variance": 65.81818181818181,
+          "std": 8.112840551753855,
+          "mean": 5.0,
+          "cv": 162.26
+        },
+        {
+          "state": "Uttar Pradesh",
+          "district": "Unnao",
+          "variance": 993.0849673202615,
+          "std": 31.513250662542916,
+          "mean": 19.555555555555557,
+          "cv": 161.15
+        }
+      ],
+      "mean_cv": 75.6750895140665
+    }
+  },
+  "metadata": {
+    "generated_at": "2026-01-20T16:05:03.931826",
+    "author": "Shuvam Banerji Seal's Team",
+    "description": "Comprehensive statistical analysis including descriptive statistics, distributions, correlations, and hypothesis testing"
+  },
+  "interpretations": {
+    "descriptive": {
+      "title": "Descriptive Statistics",
+      "description": "Summary statistics for all numeric variables including central tendency, dispersion, and shape metrics.",
+      "metrics_explained": {
+        "mean": "Average value across all records",
+        "median": "Middle value when sorted (50th percentile)",
+        "std": "Standard deviation - measure of spread",
+        "skewness": "Measure of asymmetry (0 = symmetric, positive = right tail, negative = left tail)",
+        "kurtosis": "Measure of tail heaviness (3 = normal, >3 = heavy tails)",
+        "cv": "Coefficient of variation - relative variability (std/mean * 100)"
+      }
+    },
+    "distribution": {
+      "title": "Distribution Analysis",
+      "description": "Analysis of data distribution shape, normality testing, and best-fit distribution identification.",
+      "insights": [
+        "Enrollment data typically follows a right-skewed distribution",
+        "Non-normal distributions may require non-parametric tests",
+        "Log transformation often normalizes enrollment counts"
+      ]
+    },
+    "correlation": {
+      "title": "Correlation Analysis",
+      "description": "Pearson and Spearman correlations between variables to identify relationships.",
+      "interpretation_guide": {
+        "0.9 to 1.0": "Very strong positive correlation",
+        "0.7 to 0.9": "Strong positive correlation",
+        "0.5 to 0.7": "Moderate positive correlation",
+        "0.3 to 0.5": "Weak positive correlation",
+        "0 to 0.3": "Negligible correlation"
+      }
+    },
+    "hypothesis": {
+      "title": "Hypothesis Testing",
+      "description": "Statistical tests to validate assumptions about enrollment patterns.",
+      "test_explanations": {
+        "t-test": "Compares means between two groups",
+        "ANOVA": "Compares means across multiple groups",
+        "chi-square": "Tests independence between categorical variables",
+        "normality": "Tests if data follows normal distribution"
+      },
+      "p_value_interpretation": "p < 0.05 indicates statistically significant results"
+    },
+    "outliers": {
+      "title": "Outlier Detection",
+      "description": "Identification of unusual values using IQR and Z-score methods.",
+      "methods": {
+        "IQR": "Values below Q1-1.5*IQR or above Q3+1.5*IQR",
+        "Z-score": "Values more than 3 standard deviations from mean"
+      }
+    },
+    "variance": {
+      "title": "Variance Analysis",
+      "description": "Analysis of variability between states and within states.",
+      "insights": [
+        "High between-state variance indicates regional disparities",
+        "High within-state variance suggests local inconsistencies",
+        "CV helps compare variability across different scales"
+      ]
+    }
+  }
+}

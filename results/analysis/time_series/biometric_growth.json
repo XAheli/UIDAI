@@ -1,0 +1,39 @@
+{
+  "dataset_name": "biometric",
+  "daily_growth": {
+    "mean_pct_change": null,
+    "std_pct_change": null,
+    "positive_days": 0,
+    "negative_days": 0
+  },
+  "weekly_growth": {
+    "mean_wow_growth": null,
+    "data": [
+      {
+        "year": 2025,
+        "week": 51,
+        "total_enrollment": 195864,
+        "wow_growth": NaN
+      }
+    ]
+  },
+  "monthly_growth": {
+    "mean_mom_growth": null,
+    "data": [
+      {
+        "month": "2025-12",
+        "total": 195864,
+        "mom_growth": null
+      }
+    ]
+  },
+  "cumulative": {
+    "total": 195864,
+    "data": [
+      {
+        "date": "2025-12-19 00:00:00",
+        "cumulative": 195864
+      }
+    ]
+  }
+}

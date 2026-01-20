@@ -1,0 +1,46 @@
+{
+  "dataset_name": "enrollment",
+  "day_of_week": {
+    "stats": [
+      {
+        "day_of_week": 1,
+        "day_name": "Tuesday",
+        "total": 25702,
+        "mean": 4.268726125228367,
+        "std": 5.262750710237289,
+        "count": 6021
+      },
+      {
+        "day_of_week": 2,
+        "day_name": "Wednesday",
+        "total": 26470,
+        "mean": 6.65242523247047,
+        "std": 10.008396476172395,
+        "count": 3979
+      }
+    ],
+    "anova_f_stat": 240.79932026010218,
+    "anova_p_value": 1.1100127017074484e-53,
+    "significant_effect": "True",
+    "best_day": "Wednesday",
+    "worst_day": "Tuesday"
+  },
+  "monthly": {
+    "stats": [
+      {
+        "month": 11,
+        "month_name": "November",
+        "total": 52172,
+        "mean": 5.2172,
+        "std": 7.608364665372473,
+        "count": 10000
+      }
+    ],
+    "best_month": "November",
+    "worst_month": "November"
+  },
+  "weekend_effect": {
+    "weekday_mean": 5.2172,
+    "weekend_mean": null
+  }
+}

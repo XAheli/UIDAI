@@ -1,0 +1,31 @@
+# ML Dependencies for UIDAI Analysis
+# Author: Shuvam Banerji Seal's Team
+
+# Include base requirements
+-r requirements.txt
+
+# Machine Learning
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+lightgbm>=3.3.0
+
+# Time Series
+statsmodels>=0.14.0
+prophet>=1.1.0
+
+# Deep Learning (optional, uncomment if needed)
+# tensorflow>=2.12.0
+# torch>=2.0.0
+
+# Feature Engineering
+category_encoders>=2.6.0
+imbalanced-learn>=0.10.0
+
+# Model Serialization
+joblib>=1.2.0
+cloudpickle>=2.2.0
+
+# Visualization (for notebooks)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0

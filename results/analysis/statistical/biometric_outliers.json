@@ -1,0 +1,151 @@
+{
+  "dataset_name": "biometric",
+  "analysis_column": "total_enrollment",
+  "total_records": 10000,
+  "methods": {
+    "iqr": {
+      "lower_bound": -27.0,
+      "upper_bound": 53.0,
+      "outlier_count": 850,
+      "outlier_pct": 8.5
+    },
+    "zscore": {
+      "threshold": 3,
+      "outlier_count": 180,
+      "outlier_pct": 1.8
+    },
+    "modified_zscore": {
+      "threshold": 3.5,
+      "outlier_count": 1121,
+      "outlier_pct": 11.21
+    },
+    "percentile": {
+      "lower_pct": 1,
+      "upper_pct": 99,
+      "outlier_count": 100,
+      "outlier_pct": 1.0
+    }
+  },
+  "outliers_by_state": [
+    {
+      "state": "Chhattisgarh",
+      "outlier_count": 73,
+      "total_count": 165,
+      "outlier_pct": 44.24
+    },
+    {
+      "state": "Delhi",
+      "outlier_count": 16,
+      "total_count": 40,
+      "outlier_pct": 40.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "outlier_count": 53,
+      "total_count": 196,
+      "outlier_pct": 27.04
+    },
+    {
+      "state": "Bihar",
+      "outlier_count": 76,
+      "total_count": 400,
+      "outlier_pct": 19.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "outlier_count": 216,
+      "total_count": 1146,
+      "outlier_pct": 18.85
+    },
+    {
+      "state": "Haryana",
+      "outlier_count": 35,
+      "total_count": 197,
+      "outlier_pct": 17.77
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "outlier_count": 24,
+      "total_count": 144,
+      "outlier_pct": 16.67
+    },
+    {
+      "state": "Maharashtra",
+      "outlier_count": 81,
+      "total_count": 506,
+      "outlier_pct": 16.01
+    },
+    {
+      "state": "Rajasthan",
+      "outlier_count": 54,
+      "total_count": 396,
+      "outlier_pct": 13.64
+    },
+    {
+      "state": "Uttarakhand",
+      "outlier_count": 23,
+      "total_count": 170,
+      "outlier_pct": 13.53
+    },
+    {
+      "state": "Jharkhand",
+      "outlier_count": 34,
+      "total_count": 284,
+      "outlier_pct": 11.97
+    },
+    {
+      "state": "Gujarat",
+      "outlier_count": 59,
+      "total_count": 507,
+      "outlier_pct": 11.64
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "outlier_count": 1,
+      "total_count": 9,
+      "outlier_pct": 11.11
+    },
+    {
+      "state": "Punjab",
+      "outlier_count": 26,
+      "total_count": 350,
+      "outlier_pct": 7.43
+    },
+    {
+      "state": "Tamil Nadu",
+      "outlier_count": 25,
+      "total_count": 430,
+      "outlier_pct": 5.81
+    },
+    {
+      "state": "Manipur",
+      "outlier_count": 1,
+      "total_count": 27,
+      "outlier_pct": 3.7
+    },
+    {
+      "state": "Assam",
+      "outlier_count": 5,
+      "total_count": 251,
+      "outlier_pct": 1.99
+    },
+    {
+      "state": "Telangana",
+      "outlier_count": 11,
+      "total_count": 592,
+      "outlier_pct": 1.86
+    },
+    {
+      "state": "West Bengal",
+      "outlier_count": 13,
+      "total_count": 857,
+      "outlier_pct": 1.52
+    },
+    {
+      "state": "Tripura",
+      "outlier_count": 1,
+      "total_count": 68,
+      "outlier_pct": 1.47
+    }
+  ]
+}

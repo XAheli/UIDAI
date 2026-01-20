@@ -1,0 +1,52 @@
+{
+  "generated_at": "2024-01-01T00:00:00Z",
+  "author": "Shuvam Banerji Seal's Team",
+  "summary": {
+    "total_records": 6100000,
+    "datasets": {
+      "biometric": 3500000,
+      "demographic": 1600000,
+      "enrollment": 1000000
+    },
+    "states_covered": 36,
+    "date_range": {
+      "start": "2022-01-01",
+      "end": "2024-12-31"
+    }
+  },
+  "analyses_completed": {
+    "statistical": 15,
+    "time_series": 8,
+    "geographic": 12,
+    "demographic": 10,
+    "ml_models": 5
+  },
+  "key_insights": [
+    {
+      "title": "Enrollment Growth",
+      "description": "15% year-over-year growth in Aadhaar enrollments",
+      "category": "time_series"
+    },
+    {
+      "title": "Regional Disparities",
+      "description": "Southern states show higher enrollment rates compared to national average",
+      "category": "geographic"
+    },
+    {
+      "title": "Demographic Patterns",
+      "description": "Urban areas show 23% higher authentication rates",
+      "category": "demographic"
+    },
+    {
+      "title": "Biometric Success Rate",
+      "description": "97.8% overall biometric authentication success rate",
+      "category": "statistical"
+    }
+  ],
+  "data_quality": {
+    "completeness": 98.5,
+    "accuracy": 99.2,
+    "consistency": 97.8
+  },
+  "note": "This is placeholder data. Run the analysis pipeline to generate actual results."
+}

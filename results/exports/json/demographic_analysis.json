@@ -1,0 +1,3787 @@
+{
+  "biometric_age_groups": {
+    "dataset_name": "biometric",
+    "age_columns": {
+      "children": "bio_age_5_17",
+      "adults": "bio_age_17_"
+    },
+    "totals": {
+      "by_age_group": {
+        "children": 110514,
+        "adults": 85350
+      },
+      "total": 195864
+    },
+    "percentages": {
+      "children": 56.42,
+      "adults": 43.58
+    },
+    "by_state": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "bio_age_5_17": 15,
+        "bio_age_17_": 19,
+        "total": 34,
+        "children_pct": 44.12,
+        "adults_pct": 55.88,
+        "youth_pct": 44.12,
+        "adult_pct": 55.88
+      },
+      {
+        "state": "Andhra Pradesh",
+        "bio_age_5_17": 6014,
+        "bio_age_17_": 3759,
+        "total": 9773,
+        "children_pct": 61.54,
+        "adults_pct": 38.46,
+        "youth_pct": 61.54,
+        "adult_pct": 38.46
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "bio_age_5_17": 82,
+        "bio_age_17_": 32,
+        "total": 114,
+        "children_pct": 71.93,
+        "adults_pct": 28.07,
+        "youth_pct": 71.93,
+        "adult_pct": 28.069999999999993
+      },
+      {
+        "state": "Assam",
+        "bio_age_5_17": 2032,
+        "bio_age_17_": 1306,
+        "total": 3338,
+        "children_pct": 60.87,
+        "adults_pct": 39.13,
+        "youth_pct": 60.87,
+        "adult_pct": 39.13
+      },
+      {
+        "state": "Bihar",
+        "bio_age_5_17": 6404,
+        "bio_age_17_": 6955,
+        "total": 13359,
+        "children_pct": 47.94,
+        "adults_pct": 52.06,
+        "youth_pct": 47.94,
+        "adult_pct": 52.06
+      },
+      {
+        "state": "Chandigarh",
+        "bio_age_5_17": 24,
+        "bio_age_17_": 43,
+        "total": 67,
+        "children_pct": 35.82,
+        "adults_pct": 64.18,
+        "youth_pct": 35.82,
+        "adult_pct": 64.18
+      },
+      {
+        "state": "Chhattisgarh",
+        "bio_age_5_17": 6920,
+        "bio_age_17_": 4097,
+        "total": 11017,
+        "children_pct": 62.81,
+        "adults_pct": 37.19,
+        "youth_pct": 62.81,
+        "adult_pct": 37.19
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "bio_age_5_17": 85,
+        "bio_age_17_": 119,
+        "total": 204,
+        "children_pct": 41.67,
+        "adults_pct": 58.33,
+        "youth_pct": 41.67,
+        "adult_pct": 58.33
+      },
+      {
+        "state": "Delhi",
+        "bio_age_5_17": 1536,
+        "bio_age_17_": 1111,
+        "total": 2647,
+        "children_pct": 58.03,
+        "adults_pct": 41.97,
+        "youth_pct": 58.03,
+        "adult_pct": 41.97
+      },
+      {
+        "state": "Goa",
+        "bio_age_5_17": 34,
+        "bio_age_17_": 19,
+        "total": 53,
+        "children_pct": 64.15,
+        "adults_pct": 35.85,
+        "youth_pct": 64.15,
+        "adult_pct": 35.849999999999994
+      },
+      {
+        "state": "Gujarat",
+        "bio_age_5_17": 6039,
+        "bio_age_17_": 5891,
+        "total": 11930,
+        "children_pct": 50.62,
+        "adults_pct": 49.38,
+        "youth_pct": 50.62,
+        "adult_pct": 49.38
+      },
+      {
+        "state": "Haryana",
+        "bio_age_5_17": 3664,
+        "bio_age_17_": 3420,
+        "total": 7084,
+        "children_pct": 51.72,
+        "adults_pct": 48.28,
+        "youth_pct": 51.72,
+        "adult_pct": 48.28
+      },
+      {
+        "state": "Himachal Pradesh",
+        "bio_age_5_17": 615,
+        "bio_age_17_": 571,
+        "total": 1186,
+        "children_pct": 51.85,
+        "adults_pct": 48.15,
+        "youth_pct": 51.85,
+        "adult_pct": 48.15
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "bio_age_5_17": 2800,
+        "bio_age_17_": 1149,
+        "total": 3949,
+        "children_pct": 70.9,
+        "adults_pct": 29.1,
+        "youth_pct": 70.9,
+        "adult_pct": 29.099999999999994
+      },
+      {
+        "state": "Jharkhand",
+        "bio_age_5_17": 3348,
+        "bio_age_17_": 3648,
+        "total": 6996,
+        "children_pct": 47.86,
+        "adults_pct": 52.14,
+        "youth_pct": 47.86,
+        "adult_pct": 52.14
+      },
+      {
+        "state": "Karnataka",
+        "bio_age_5_17": 4105,
+        "bio_age_17_": 3331,
+        "total": 7436,
+        "children_pct": 55.2,
+        "adults_pct": 44.8,
+        "youth_pct": 55.2,
+        "adult_pct": 44.8
+      },
+      {
+        "state": "Kerala",
+        "bio_age_5_17": 1336,
+        "bio_age_17_": 1782,
+        "total": 3118,
+        "children_pct": 42.85,
+        "adults_pct": 57.15,
+        "youth_pct": 42.85,
+        "adult_pct": 57.15
+      },
+      {
+        "state": "Ladakh",
+        "bio_age_5_17": 3,
+        "bio_age_17_": 7,
+        "total": 10,
+        "children_pct": 30.0,
+        "adults_pct": 70.0,
+        "youth_pct": 30.0,
+        "adult_pct": 70.0
+      },
+      {
+        "state": "Lakshadweep",
+        "bio_age_5_17": 2,
+        "bio_age_17_": 3,
+        "total": 5,
+        "children_pct": 40.0,
+        "adults_pct": 60.0,
+        "youth_pct": 40.0,
+        "adult_pct": 60.0
+      },
+      {
+        "state": "Madhya Pradesh",
+        "bio_age_5_17": 4433,
+        "bio_age_17_": 3493,
+        "total": 7926,
+        "children_pct": 55.93,
+        "adults_pct": 44.07,
+        "youth_pct": 55.93,
+        "adult_pct": 44.07
+      },
+      {
+        "state": "Maharashtra",
+        "bio_age_5_17": 6913,
+        "bio_age_17_": 7478,
+        "total": 14391,
+        "children_pct": 48.04,
+        "adults_pct": 51.96,
+        "youth_pct": 48.04,
+        "adult_pct": 51.96
+      },
+      {
+        "state": "Manipur",
+        "bio_age_5_17": 156,
+        "bio_age_17_": 116,
+        "total": 272,
+        "children_pct": 57.35,
+        "adults_pct": 42.65,
+        "youth_pct": 57.35,
+        "adult_pct": 42.65
+      },
+      {
+        "state": "Meghalaya",
+        "bio_age_5_17": 150,
+        "bio_age_17_": 57,
+        "total": 207,
+        "children_pct": 72.46,
+        "adults_pct": 27.54,
+        "youth_pct": 72.46,
+        "adult_pct": 27.540000000000006
+      },
+      {
+        "state": "Mizoram",
+        "bio_age_5_17": 35,
+        "bio_age_17_": 24,
+        "total": 59,
+        "children_pct": 59.32,
+        "adults_pct": 40.68,
+        "youth_pct": 59.32,
+        "adult_pct": 40.68
+      },
+      {
+        "state": "Nagaland",
+        "bio_age_5_17": 60,
+        "bio_age_17_": 79,
+        "total": 139,
+        "children_pct": 43.17,
+        "adults_pct": 56.83,
+        "youth_pct": 43.17,
+        "adult_pct": 56.83
+      },
+      {
+        "state": "Odisha",
+        "bio_age_5_17": 2636,
+        "bio_age_17_": 2036,
+        "total": 4672,
+        "children_pct": 56.42,
+        "adults_pct": 43.58,
+        "youth_pct": 56.42,
+        "adult_pct": 43.58
+      },
+      {
+        "state": "Puducherry",
+        "bio_age_5_17": 138,
+        "bio_age_17_": 110,
+        "total": 248,
+        "children_pct": 55.65,
+        "adults_pct": 44.35,
+        "youth_pct": 55.65,
+        "adult_pct": 44.35
+      },
+      {
+        "state": "Punjab",
+        "bio_age_5_17": 3082,
+        "bio_age_17_": 2709,
+        "total": 5791,
+        "children_pct": 53.22,
+        "adults_pct": 46.78,
+        "youth_pct": 53.22,
+        "adult_pct": 46.78
+      },
+      {
+        "state": "Rajasthan",
+        "bio_age_5_17": 6715,
+        "bio_age_17_": 5348,
+        "total": 12063,
+        "children_pct": 55.67,
+        "adults_pct": 44.33,
+        "youth_pct": 55.67,
+        "adult_pct": 44.33
+      },
+      {
+        "state": "Sikkim",
+        "bio_age_5_17": 2,
+        "bio_age_17_": 0,
+        "total": 2,
+        "children_pct": 100.0,
+        "adults_pct": 0.0,
+        "youth_pct": 100.0,
+        "adult_pct": 0.0
+      },
+      {
+        "state": "Tamil Nadu",
+        "bio_age_5_17": 4013,
+        "bio_age_17_": 3500,
+        "total": 7513,
+        "children_pct": 53.41,
+        "adults_pct": 46.59,
+        "youth_pct": 53.41,
+        "adult_pct": 46.59
+      },
+      {
+        "state": "Telangana",
+        "bio_age_5_17": 4615,
+        "bio_age_17_": 2295,
+        "total": 6910,
+        "children_pct": 66.79,
+        "adults_pct": 33.21,
+        "youth_pct": 66.79,
+        "adult_pct": 33.209999999999994
+      },
+      {
+        "state": "Tripura",
+        "bio_age_5_17": 497,
+        "bio_age_17_": 534,
+        "total": 1031,
+        "children_pct": 48.21,
+        "adults_pct": 51.79,
+        "youth_pct": 48.21,
+        "adult_pct": 51.79
+      },
+      {
+        "state": "Uttar Pradesh",
+        "bio_age_5_17": 23066,
+        "bio_age_17_": 14459,
+        "total": 37525,
+        "children_pct": 61.47,
+        "adults_pct": 38.53,
+        "youth_pct": 61.47,
+        "adult_pct": 38.53
+      },
+      {
+        "state": "Uttarakhand",
+        "bio_age_5_17": 4275,
+        "bio_age_17_": 2003,
+        "total": 6278,
+        "children_pct": 68.09,
+        "adults_pct": 31.91,
+        "youth_pct": 68.09,
+        "adult_pct": 31.909999999999997
+      },
+      {
+        "state": "West Bengal",
+        "bio_age_5_17": 4670,
+        "bio_age_17_": 3847,
+        "total": 8517,
+        "children_pct": 54.83,
+        "adults_pct": 45.17,
+        "youth_pct": 54.83,
+        "adult_pct": 45.17
+      }
+    ],
+    "top_youth_states": [
+      {
+        "state": "Sikkim",
+        "youth_pct": 100.0
+      },
+      {
+        "state": "Meghalaya",
+        "youth_pct": 72.46
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "youth_pct": 71.93
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "youth_pct": 70.9
+      },
+      {
+        "state": "Uttarakhand",
+        "youth_pct": 68.09
+      },
+      {
+        "state": "Telangana",
+        "youth_pct": 66.79
+      },
+      {
+        "state": "Goa",
+        "youth_pct": 64.15
+      },
+      {
+        "state": "Chhattisgarh",
+        "youth_pct": 62.81
+      },
+      {
+        "state": "Andhra Pradesh",
+        "youth_pct": 61.54
+      },
+      {
+        "state": "Uttar Pradesh",
+        "youth_pct": 61.47
+      }
+    ],
+    "top_adult_states": [
+      {
+        "state": "Ladakh",
+        "adult_pct": 70.0
+      },
+      {
+        "state": "Chandigarh",
+        "adult_pct": 64.18
+      },
+      {
+        "state": "Lakshadweep",
+        "adult_pct": 60.0
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "adult_pct": 58.33
+      },
+      {
+        "state": "Kerala",
+        "adult_pct": 57.15
+      },
+      {
+        "state": "Nagaland",
+        "adult_pct": 56.83
+      },
+      {
+        "state": "Andaman And Nicobar Islands",
+        "adult_pct": 55.88
+      },
+      {
+        "state": "Jharkhand",
+        "adult_pct": 52.14
+      },
+      {
+        "state": "Bihar",
+        "adult_pct": 52.06
+      },
+      {
+        "state": "Maharashtra",
+        "adult_pct": 51.96
+      }
+    ]
+  },
+  "biometric_population": {
+    "dataset_name": "biometric",
+    "available_census_columns": [
+      "literacy_rate"
+    ],
+    "correlations": {
+      "literacy_rate": {
+        "correlation": -0.4833,
+        "p_value": 0.002827,
+        "significant": "True"
+      }
+    },
+    "per_capita_stats": null,
+    "state_details": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 34,
+        "literacy_rate": 86.63
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 9773,
+        "literacy_rate": 67.02
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "total_enrollment": 114,
+        "literacy_rate": 65.38
+      },
+      {
+        "state": "Assam",
+        "total_enrollment": 3338,
+        "literacy_rate": 72.19
+      },
+      {
+        "state": "Bihar",
+        "total_enrollment": 13359,
+        "literacy_rate": 61.8
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 67,
+        "literacy_rate": 86.05
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 11017,
+        "literacy_rate": 70.28
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 204,
+        "literacy_rate": 77.65
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 2647,
+        "literacy_rate": 86.21
+      },
+      {
+        "state": "Goa",
+        "total_enrollment": 53,
+        "literacy_rate": 88.7
+      },
+      {
+        "state": "Gujarat",
+        "total_enrollment": 11930,
+        "literacy_rate": 78.03
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 7084,
+        "literacy_rate": 75.55
+      },
+      {
+        "state": "Himachal Pradesh",
+        "total_enrollment": 1186,
+        "literacy_rate": 82.8
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 3949,
+        "literacy_rate": 67.16
+      },
+      {
+        "state": "Jharkhand",
+        "total_enrollment": 6996,
+        "literacy_rate": 66.41
+      },
+      {
+        "state": "Karnataka",
+        "total_enrollment": 7436,
+        "literacy_rate": 75.36
+      },
+      {
+        "state": "Kerala",
+        "total_enrollment": 3118,
+        "literacy_rate": 93.91
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 10,
+        "literacy_rate": 77.2
+      },
+      {
+        "state": "Lakshadweep",
+        "total_enrollment": 5,
+        "literacy_rate": 91.85
+      },
+      {
+        "state": "Madhya Pradesh",
+        "total_enrollment": 7926,
+        "literacy_rate": 69.32
+      },
+      {
+        "state": "Maharashtra",
+        "total_enrollment": 14391,
+        "literacy_rate": 82.34
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 272,
+        "literacy_rate": 79.85
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 207,
+        "literacy_rate": 74.43
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 59,
+        "literacy_rate": 91.33
+      },
+      {
+        "state": "Nagaland",
+        "total_enrollment": 139,
+        "literacy_rate": 79.55
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 4672,
+        "literacy_rate": 72.87
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 248,
+        "literacy_rate": 85.85
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 5791,
+        "literacy_rate": 75.84
+      },
+      {
+        "state": "Rajasthan",
+        "total_enrollment": 12063,
+        "literacy_rate": 66.11
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 2,
+        "literacy_rate": 81.42
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 7513,
+        "literacy_rate": 80.09
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 6910,
+        "literacy_rate": 66.54
+      },
+      {
+        "state": "Tripura",
+        "total_enrollment": 1031,
+        "literacy_rate": 87.22
+      },
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 37525,
+        "literacy_rate": 67.68
+      },
+      {
+        "state": "Uttarakhand",
+        "total_enrollment": 6278,
+        "literacy_rate": 78.82
+      },
+      {
+        "state": "West Bengal",
+        "total_enrollment": 8517,
+        "literacy_rate": 76.26
+      }
+    ]
+  },
+  "biometric_literacy": {
+    "dataset_name": "biometric",
+    "by_literacy_bin": [
+      {
+        "literacy_bin": "60-70%",
+        "total_enrollment": 98615,
+        "mean_enrollment": 23.808546595847417,
+        "record_count": 4142,
+        "unique_states": 9,
+        "unique_districts": 365
+      },
+      {
+        "literacy_bin": "70-80%",
+        "total_enrollment": 66895,
+        "mean_enrollment": 16.70287141073658,
+        "record_count": 4005,
+        "unique_states": 14,
+        "unique_districts": 335
+      },
+      {
+        "literacy_bin": "80-90%",
+        "total_enrollment": 27172,
+        "mean_enrollment": 20.445447705041385,
+        "record_count": 1329,
+        "unique_states": 10,
+        "unique_districts": 128
+      },
+      {
+        "literacy_bin": "90%+",
+        "total_enrollment": 3182,
+        "mean_enrollment": 6.072519083969466,
+        "record_count": 524,
+        "unique_states": 3,
+        "unique_districts": 25
+      }
+    ],
+    "state_literacy": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 34,
+        "literacy_rate": 86.63
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 9773,
+        "literacy_rate": 67.02
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "total_enrollment": 114,
+        "literacy_rate": 65.38
+      },
+      {
+        "state": "Assam",
+        "total_enrollment": 3338,
+        "literacy_rate": 72.19
+      },
+      {
+        "state": "Bihar",
+        "total_enrollment": 13359,
+        "literacy_rate": 61.8
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 67,
+        "literacy_rate": 86.05
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 11017,
+        "literacy_rate": 70.28
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 204,
+        "literacy_rate": 77.65
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 2647,
+        "literacy_rate": 86.21
+      },
+      {
+        "state": "Goa",
+        "total_enrollment": 53,
+        "literacy_rate": 88.7
+      },
+      {
+        "state": "Gujarat",
+        "total_enrollment": 11930,
+        "literacy_rate": 78.03
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 7084,
+        "literacy_rate": 75.55
+      },
+      {
+        "state": "Himachal Pradesh",
+        "total_enrollment": 1186,
+        "literacy_rate": 82.8
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 3949,
+        "literacy_rate": 67.16
+      },
+      {
+        "state": "Jharkhand",
+        "total_enrollment": 6996,
+        "literacy_rate": 66.41
+      },
+      {
+        "state": "Karnataka",
+        "total_enrollment": 7436,
+        "literacy_rate": 75.36
+      },
+      {
+        "state": "Kerala",
+        "total_enrollment": 3118,
+        "literacy_rate": 93.91
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 10,
+        "literacy_rate": 77.2
+      },
+      {
+        "state": "Lakshadweep",
+        "total_enrollment": 5,
+        "literacy_rate": 91.85
+      },
+      {
+        "state": "Madhya Pradesh",
+        "total_enrollment": 7926,
+        "literacy_rate": 69.32
+      },
+      {
+        "state": "Maharashtra",
+        "total_enrollment": 14391,
+        "literacy_rate": 82.34
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 272,
+        "literacy_rate": 79.85
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 207,
+        "literacy_rate": 74.43
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 59,
+        "literacy_rate": 91.33
+      },
+      {
+        "state": "Nagaland",
+        "total_enrollment": 139,
+        "literacy_rate": 79.55
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 4672,
+        "literacy_rate": 72.87
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 248,
+        "literacy_rate": 85.85
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 5791,
+        "literacy_rate": 75.84
+      },
+      {
+        "state": "Rajasthan",
+        "total_enrollment": 12063,
+        "literacy_rate": 66.11
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 2,
+        "literacy_rate": 81.42
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 7513,
+        "literacy_rate": 80.09
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 6910,
+        "literacy_rate": 66.54
+      },
+      {
+        "state": "Tripura",
+        "total_enrollment": 1031,
+        "literacy_rate": 87.22
+      },
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 37525,
+        "literacy_rate": 67.68
+      },
+      {
+        "state": "Uttarakhand",
+        "total_enrollment": 6278,
+        "literacy_rate": 78.82
+      },
+      {
+        "state": "West Bengal",
+        "total_enrollment": 8517,
+        "literacy_rate": 76.26
+      }
+    ],
+    "regression": {
+      "slope": -402.9055412064861,
+      "intercept": 36617.72128163634,
+      "r_squared": 0.23357746291703005,
+      "p_value": 0.0028273535336699154,
+      "significant": "True"
+    }
+  },
+  "biometric_sex_ratio": {
+    "dataset_name": "biometric",
+    "by_category": [
+      {
+        "category": "Very Low (<900)",
+        "total_enrollment": 19788,
+        "mean_enrollment": 26.00262812089356,
+        "unique_states": 9,
+        "unique_districts": 92
+      },
+      {
+        "category": "Low (900-950)",
+        "total_enrollment": 112965,
+        "mean_enrollment": 26.040802213001385,
+        "unique_states": 11,
+        "unique_districts": 402
+      },
+      {
+        "category": "Near Equal (950-1000)",
+        "total_enrollment": 59745,
+        "mean_enrollment": 13.674753948271915,
+        "unique_states": 14,
+        "unique_districts": 336
+      },
+      {
+        "category": "Female Surplus (1000-1050)",
+        "total_enrollment": 248,
+        "mean_enrollment": 9.185185185185185,
+        "unique_states": 1,
+        "unique_districts": 4
+      },
+      {
+        "category": "High Female (>1050)",
+        "total_enrollment": 3118,
+        "mean_enrollment": 6.174257425742574,
+        "unique_states": 1,
+        "unique_districts": 15
+      }
+    ],
+    "state_sex_ratio": [
+      {
+        "state": "Kerala",
+        "total_enrollment": 3118,
+        "sex_ratio": 1084.0
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 248,
+        "sex_ratio": 1037.0
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 7513,
+        "sex_ratio": 996.0
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 9773,
+        "sex_ratio": 993.0
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 11017,
+        "sex_ratio": 991.0
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 207,
+        "sex_ratio": 989.0
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 6910,
+        "sex_ratio": 988.0
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 272,
+        "sex_ratio": 985.0
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 4672,
+        "sex_ratio": 979.0
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 59,
+        "sex_ratio": 976.0
+      },
+      {
+        "state": "Goa",
+        "total_enrollment": 53,
+        "sex_ratio": 973.0
+      },
+      {
+        "state": "Karnataka",
+        "total_enrollment": 7436,
+        "sex_ratio": 973.0
+      },
+      {
+        "state": "Himachal Pradesh",
+        "total_enrollment": 1186,
+        "sex_ratio": 972.0
+      },
+      {
+        "state": "Uttarakhand",
+        "total_enrollment": 6278,
+        "sex_ratio": 963.0
+      },
+      {
+        "state": "Tripura",
+        "total_enrollment": 1031,
+        "sex_ratio": 960.0
+      },
+      {
+        "state": "Assam",
+        "total_enrollment": 3338,
+        "sex_ratio": 958.0
+      },
+      {
+        "state": "West Bengal",
+        "total_enrollment": 8517,
+        "sex_ratio": 950.0
+      },
+      {
+        "state": "Jharkhand",
+        "total_enrollment": 6996,
+        "sex_ratio": 948.0
+      },
+      {
+        "state": "Lakshadweep",
+        "total_enrollment": 5,
+        "sex_ratio": 946.0
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "total_enrollment": 114,
+        "sex_ratio": 938.0
+      },
+      {
+        "state": "Nagaland",
+        "total_enrollment": 139,
+        "sex_ratio": 931.0
+      },
+      {
+        "state": "Madhya Pradesh",
+        "total_enrollment": 7926,
+        "sex_ratio": 931.0
+      },
+      {
+        "state": "Maharashtra",
+        "total_enrollment": 14391,
+        "sex_ratio": 929.0
+      },
+      {
+        "state": "Rajasthan",
+        "total_enrollment": 12063,
+        "sex_ratio": 928.0
+      },
+      {
+        "state": "Gujarat",
+        "total_enrollment": 11930,
+        "sex_ratio": 919.0
+      },
+      {
+        "state": "Bihar",
+        "total_enrollment": 13359,
+        "sex_ratio": 918.0
+      },
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 37525,
+        "sex_ratio": 912.0
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 5791,
+        "sex_ratio": 895.0
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 2,
+        "sex_ratio": 890.0
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 3949,
+        "sex_ratio": 889.0
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 7084,
+        "sex_ratio": 879.0
+      },
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 34,
+        "sex_ratio": 876.0
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 2647,
+        "sex_ratio": 868.0
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 67,
+        "sex_ratio": 818.0
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 204,
+        "sex_ratio": 774.0
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 10,
+        "sex_ratio": 690.0
+      }
+    ],
+    "top_sex_ratio_states": [
+      {
+        "state": "Kerala",
+        "total_enrollment": 3118,
+        "sex_ratio": 1084.0
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 248,
+        "sex_ratio": 1037.0
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 7513,
+        "sex_ratio": 996.0
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 9773,
+        "sex_ratio": 993.0
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 11017,
+        "sex_ratio": 991.0
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 207,
+        "sex_ratio": 989.0
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 6910,
+        "sex_ratio": 988.0
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 272,
+        "sex_ratio": 985.0
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 4672,
+        "sex_ratio": 979.0
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 59,
+        "sex_ratio": 976.0
+      }
+    ],
+    "lowest_sex_ratio_states": [
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 37525,
+        "sex_ratio": 912.0
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 5791,
+        "sex_ratio": 895.0
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 2,
+        "sex_ratio": 890.0
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 3949,
+        "sex_ratio": 889.0
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 7084,
+        "sex_ratio": 879.0
+      },
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 34,
+        "sex_ratio": 876.0
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 2647,
+        "sex_ratio": 868.0
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 67,
+        "sex_ratio": 818.0
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 204,
+        "sex_ratio": 774.0
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 10,
+        "sex_ratio": 690.0
+      }
+    ]
+  },
+  "biometric_age_trends": {
+    "dataset_name": "biometric",
+    "age_columns": {
+      "children": "bio_age_5_17",
+      "adults": "bio_age_17_"
+    },
+    "monthly_trends": [
+      {
+        "month": "2025-12",
+        "bio_age_5_17": 110514,
+        "bio_age_17_": 85350,
+        "bio_age_5_17_pct": 56.42,
+        "bio_age_17__pct": 43.58
+      }
+    ],
+    "trend_directions": {}
+  },
+  "demographic_age_groups": {
+    "dataset_name": "demographic",
+    "age_columns": {
+      "children": "demo_age_5_17",
+      "adults": "demo_age_17_"
+    },
+    "totals": {
+      "by_age_group": {
+        "children": 11398,
+        "adults": 108825
+      },
+      "total": 120223
+    },
+    "percentages": {
+      "children": 9.48,
+      "adults": 90.52
+    },
+    "by_state": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "demo_age_5_17": 0,
+        "demo_age_17_": 2,
+        "total": 2,
+        "children_pct": 0.0,
+        "adults_pct": 100.0,
+        "youth_pct": 0.0,
+        "adult_pct": 100.0
+      },
+      {
+        "state": "Andhra Pradesh",
+        "demo_age_5_17": 544,
+        "demo_age_17_": 3256,
+        "total": 3800,
+        "children_pct": 14.32,
+        "adults_pct": 85.68,
+        "youth_pct": 14.32,
+        "adult_pct": 85.68
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "demo_age_5_17": 10,
+        "demo_age_17_": 38,
+        "total": 48,
+        "children_pct": 20.83,
+        "adults_pct": 79.17,
+        "youth_pct": 20.83,
+        "adult_pct": 79.17
+      },
+      {
+        "state": "Assam",
+        "demo_age_5_17": 240,
+        "demo_age_17_": 2745,
+        "total": 2985,
+        "children_pct": 8.04,
+        "adults_pct": 91.96,
+        "youth_pct": 8.04,
+        "adult_pct": 91.96000000000001
+      },
+      {
+        "state": "Bihar",
+        "demo_age_5_17": 1203,
+        "demo_age_17_": 11268,
+        "total": 12471,
+        "children_pct": 9.65,
+        "adults_pct": 90.35,
+        "youth_pct": 9.65,
+        "adult_pct": 90.35
+      },
+      {
+        "state": "Chandigarh",
+        "demo_age_5_17": 14,
+        "demo_age_17_": 140,
+        "total": 154,
+        "children_pct": 9.09,
+        "adults_pct": 90.91,
+        "youth_pct": 9.09,
+        "adult_pct": 90.91
+      },
+      {
+        "state": "Chhattisgarh",
+        "demo_age_5_17": 443,
+        "demo_age_17_": 4629,
+        "total": 5072,
+        "children_pct": 8.73,
+        "adults_pct": 91.27,
+        "youth_pct": 8.73,
+        "adult_pct": 91.27
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "demo_age_5_17": 5,
+        "demo_age_17_": 18,
+        "total": 23,
+        "children_pct": 21.74,
+        "adults_pct": 78.26,
+        "youth_pct": 21.74,
+        "adult_pct": 78.26
+      },
+      {
+        "state": "Delhi",
+        "demo_age_5_17": 258,
+        "demo_age_17_": 2086,
+        "total": 2344,
+        "children_pct": 11.01,
+        "adults_pct": 88.99,
+        "youth_pct": 11.01,
+        "adult_pct": 88.99
+      },
+      {
+        "state": "Goa",
+        "demo_age_5_17": 11,
+        "demo_age_17_": 115,
+        "total": 126,
+        "children_pct": 8.73,
+        "adults_pct": 91.27,
+        "youth_pct": 8.73,
+        "adult_pct": 91.27
+      },
+      {
+        "state": "Gujarat",
+        "demo_age_5_17": 445,
+        "demo_age_17_": 4202,
+        "total": 4647,
+        "children_pct": 9.58,
+        "adults_pct": 90.42,
+        "youth_pct": 9.58,
+        "adult_pct": 90.42
+      },
+      {
+        "state": "Haryana",
+        "demo_age_5_17": 259,
+        "demo_age_17_": 2093,
+        "total": 2352,
+        "children_pct": 11.01,
+        "adults_pct": 88.99,
+        "youth_pct": 11.01,
+        "adult_pct": 88.99
+      },
+      {
+        "state": "Himachal Pradesh",
+        "demo_age_5_17": 40,
+        "demo_age_17_": 193,
+        "total": 233,
+        "children_pct": 17.17,
+        "adults_pct": 82.83,
+        "youth_pct": 17.17,
+        "adult_pct": 82.83
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "demo_age_5_17": 58,
+        "demo_age_17_": 321,
+        "total": 379,
+        "children_pct": 15.3,
+        "adults_pct": 84.7,
+        "youth_pct": 15.3,
+        "adult_pct": 84.7
+      },
+      {
+        "state": "Jharkhand",
+        "demo_age_5_17": 184,
+        "demo_age_17_": 1261,
+        "total": 1445,
+        "children_pct": 12.73,
+        "adults_pct": 87.27,
+        "youth_pct": 12.73,
+        "adult_pct": 87.27
+      },
+      {
+        "state": "Karnataka",
+        "demo_age_5_17": 253,
+        "demo_age_17_": 1799,
+        "total": 2052,
+        "children_pct": 12.33,
+        "adults_pct": 87.67,
+        "youth_pct": 12.33,
+        "adult_pct": 87.67
+      },
+      {
+        "state": "Kerala",
+        "demo_age_5_17": 98,
+        "demo_age_17_": 1206,
+        "total": 1304,
+        "children_pct": 7.52,
+        "adults_pct": 92.48,
+        "youth_pct": 7.52,
+        "adult_pct": 92.48
+      },
+      {
+        "state": "Ladakh",
+        "demo_age_5_17": 1,
+        "demo_age_17_": 2,
+        "total": 3,
+        "children_pct": 33.33,
+        "adults_pct": 66.67,
+        "youth_pct": 33.33,
+        "adult_pct": 66.67
+      },
+      {
+        "state": "Lakshadweep",
+        "demo_age_5_17": 1,
+        "demo_age_17_": 2,
+        "total": 3,
+        "children_pct": 33.33,
+        "adults_pct": 66.67,
+        "youth_pct": 33.33,
+        "adult_pct": 66.67
+      },
+      {
+        "state": "Madhya Pradesh",
+        "demo_age_5_17": 814,
+        "demo_age_17_": 5442,
+        "total": 6256,
+        "children_pct": 13.01,
+        "adults_pct": 86.99,
+        "youth_pct": 13.01,
+        "adult_pct": 86.99
+      },
+      {
+        "state": "Maharashtra",
+        "demo_age_5_17": 1424,
+        "demo_age_17_": 22009,
+        "total": 23433,
+        "children_pct": 6.08,
+        "adults_pct": 93.92,
+        "youth_pct": 6.08,
+        "adult_pct": 93.92
+      },
+      {
+        "state": "Manipur",
+        "demo_age_5_17": 156,
+        "demo_age_17_": 824,
+        "total": 980,
+        "children_pct": 15.92,
+        "adults_pct": 84.08,
+        "youth_pct": 15.92,
+        "adult_pct": 84.08
+      },
+      {
+        "state": "Meghalaya",
+        "demo_age_5_17": 13,
+        "demo_age_17_": 182,
+        "total": 195,
+        "children_pct": 6.67,
+        "adults_pct": 93.33,
+        "youth_pct": 6.67,
+        "adult_pct": 93.33
+      },
+      {
+        "state": "Mizoram",
+        "demo_age_5_17": 10,
+        "demo_age_17_": 81,
+        "total": 91,
+        "children_pct": 10.99,
+        "adults_pct": 89.01,
+        "youth_pct": 10.99,
+        "adult_pct": 89.01
+      },
+      {
+        "state": "Nagaland",
+        "demo_age_5_17": 25,
+        "demo_age_17_": 186,
+        "total": 211,
+        "children_pct": 11.85,
+        "adults_pct": 88.15,
+        "youth_pct": 11.85,
+        "adult_pct": 88.15
+      },
+      {
+        "state": "Odisha",
+        "demo_age_5_17": 643,
+        "demo_age_17_": 3877,
+        "total": 4520,
+        "children_pct": 14.23,
+        "adults_pct": 85.77,
+        "youth_pct": 14.23,
+        "adult_pct": 85.77
+      },
+      {
+        "state": "Puducherry",
+        "demo_age_5_17": 15,
+        "demo_age_17_": 143,
+        "total": 158,
+        "children_pct": 9.49,
+        "adults_pct": 90.51,
+        "youth_pct": 9.49,
+        "adult_pct": 90.51
+      },
+      {
+        "state": "Punjab",
+        "demo_age_5_17": 87,
+        "demo_age_17_": 1836,
+        "total": 1923,
+        "children_pct": 4.52,
+        "adults_pct": 95.48,
+        "youth_pct": 4.52,
+        "adult_pct": 95.48
+      },
+      {
+        "state": "Rajasthan",
+        "demo_age_5_17": 668,
+        "demo_age_17_": 4262,
+        "total": 4930,
+        "children_pct": 13.55,
+        "adults_pct": 86.45,
+        "youth_pct": 13.55,
+        "adult_pct": 86.45
+      },
+      {
+        "state": "Sikkim",
+        "demo_age_5_17": 3,
+        "demo_age_17_": 6,
+        "total": 9,
+        "children_pct": 33.33,
+        "adults_pct": 66.67,
+        "youth_pct": 33.33,
+        "adult_pct": 66.67
+      },
+      {
+        "state": "Tamil Nadu",
+        "demo_age_5_17": 287,
+        "demo_age_17_": 2107,
+        "total": 2394,
+        "children_pct": 11.99,
+        "adults_pct": 88.01,
+        "youth_pct": 11.99,
+        "adult_pct": 88.01
+      },
+      {
+        "state": "Telangana",
+        "demo_age_5_17": 270,
+        "demo_age_17_": 1778,
+        "total": 2048,
+        "children_pct": 13.18,
+        "adults_pct": 86.82,
+        "youth_pct": 13.18,
+        "adult_pct": 86.82
+      },
+      {
+        "state": "Tripura",
+        "demo_age_5_17": 19,
+        "demo_age_17_": 200,
+        "total": 219,
+        "children_pct": 8.68,
+        "adults_pct": 91.32,
+        "youth_pct": 8.68,
+        "adult_pct": 91.32
+      },
+      {
+        "state": "Uttar Pradesh",
+        "demo_age_5_17": 1932,
+        "demo_age_17_": 19258,
+        "total": 21190,
+        "children_pct": 9.12,
+        "adults_pct": 90.88,
+        "youth_pct": 9.12,
+        "adult_pct": 90.88
+      },
+      {
+        "state": "Uttarakhand",
+        "demo_age_5_17": 103,
+        "demo_age_17_": 1232,
+        "total": 1335,
+        "children_pct": 7.72,
+        "adults_pct": 92.28,
+        "youth_pct": 7.72,
+        "adult_pct": 92.28
+      },
+      {
+        "state": "West Bengal",
+        "demo_age_5_17": 862,
+        "demo_age_17_": 10026,
+        "total": 10888,
+        "children_pct": 7.92,
+        "adults_pct": 92.08,
+        "youth_pct": 7.92,
+        "adult_pct": 92.08
+      }
+    ],
+    "top_youth_states": [
+      {
+        "state": "Ladakh",
+        "youth_pct": 33.33
+      },
+      {
+        "state": "Lakshadweep",
+        "youth_pct": 33.33
+      },
+      {
+        "state": "Sikkim",
+        "youth_pct": 33.33
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "youth_pct": 21.74
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "youth_pct": 20.83
+      },
+      {
+        "state": "Himachal Pradesh",
+        "youth_pct": 17.17
+      },
+      {
+        "state": "Manipur",
+        "youth_pct": 15.92
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "youth_pct": 15.3
+      },
+      {
+        "state": "Andhra Pradesh",
+        "youth_pct": 14.32
+      },
+      {
+        "state": "Odisha",
+        "youth_pct": 14.23
+      }
+    ],
+    "top_adult_states": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "adult_pct": 100.0
+      },
+      {
+        "state": "Punjab",
+        "adult_pct": 95.48
+      },
+      {
+        "state": "Maharashtra",
+        "adult_pct": 93.92
+      },
+      {
+        "state": "Meghalaya",
+        "adult_pct": 93.33
+      },
+      {
+        "state": "Kerala",
+        "adult_pct": 92.48
+      },
+      {
+        "state": "Uttarakhand",
+        "adult_pct": 92.28
+      },
+      {
+        "state": "West Bengal",
+        "adult_pct": 92.08
+      },
+      {
+        "state": "Assam",
+        "adult_pct": 91.96000000000001
+      },
+      {
+        "state": "Tripura",
+        "adult_pct": 91.32
+      },
+      {
+        "state": "Chhattisgarh",
+        "adult_pct": 91.27
+      }
+    ]
+  },
+  "demographic_population": {
+    "dataset_name": "demographic",
+    "available_census_columns": [
+      "literacy_rate"
+    ],
+    "correlations": {
+      "literacy_rate": {
+        "correlation": -0.3057,
+        "p_value": 0.069842,
+        "significant": "False"
+      }
+    },
+    "per_capita_stats": null,
+    "state_details": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 2,
+        "literacy_rate": 86.63
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 3800,
+        "literacy_rate": 67.02
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "total_enrollment": 48,
+        "literacy_rate": 65.38
+      },
+      {
+        "state": "Assam",
+        "total_enrollment": 2985,
+        "literacy_rate": 72.19
+      },
+      {
+        "state": "Bihar",
+        "total_enrollment": 12471,
+        "literacy_rate": 61.8
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 154,
+        "literacy_rate": 86.05
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 5072,
+        "literacy_rate": 70.28
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 23,
+        "literacy_rate": 77.65
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 2344,
+        "literacy_rate": 86.21
+      },
+      {
+        "state": "Goa",
+        "total_enrollment": 126,
+        "literacy_rate": 88.7
+      },
+      {
+        "state": "Gujarat",
+        "total_enrollment": 4647,
+        "literacy_rate": 78.03
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 2352,
+        "literacy_rate": 75.55
+      },
+      {
+        "state": "Himachal Pradesh",
+        "total_enrollment": 233,
+        "literacy_rate": 82.8
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 379,
+        "literacy_rate": 67.16
+      },
+      {
+        "state": "Jharkhand",
+        "total_enrollment": 1445,
+        "literacy_rate": 66.41
+      },
+      {
+        "state": "Karnataka",
+        "total_enrollment": 2052,
+        "literacy_rate": 75.36
+      },
+      {
+        "state": "Kerala",
+        "total_enrollment": 1304,
+        "literacy_rate": 93.91
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 3,
+        "literacy_rate": 77.2
+      },
+      {
+        "state": "Lakshadweep",
+        "total_enrollment": 3,
+        "literacy_rate": 91.85
+      },
+      {
+        "state": "Madhya Pradesh",
+        "total_enrollment": 6256,
+        "literacy_rate": 69.32
+      },
+      {
+        "state": "Maharashtra",
+        "total_enrollment": 23433,
+        "literacy_rate": 82.34
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 980,
+        "literacy_rate": 79.85
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 195,
+        "literacy_rate": 74.43
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 91,
+        "literacy_rate": 91.33
+      },
+      {
+        "state": "Nagaland",
+        "total_enrollment": 211,
+        "literacy_rate": 79.55
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 4520,
+        "literacy_rate": 72.87
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 158,
+        "literacy_rate": 85.85
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 1923,
+        "literacy_rate": 75.84
+      },
+      {
+        "state": "Rajasthan",
+        "total_enrollment": 4930,
+        "literacy_rate": 66.11
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 9,
+        "literacy_rate": 81.42
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 2394,
+        "literacy_rate": 80.09
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 2048,
+        "literacy_rate": 66.54
+      },
+      {
+        "state": "Tripura",
+        "total_enrollment": 219,
+        "literacy_rate": 87.22
+      },
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 21190,
+        "literacy_rate": 67.68
+      },
+      {
+        "state": "Uttarakhand",
+        "total_enrollment": 1335,
+        "literacy_rate": 78.82
+      },
+      {
+        "state": "West Bengal",
+        "total_enrollment": 10888,
+        "literacy_rate": 76.26
+      }
+    ]
+  },
+  "demographic_literacy": {
+    "dataset_name": "demographic",
+    "by_literacy_bin": [
+      {
+        "literacy_bin": "60-70%",
+        "total_enrollment": 52567,
+        "mean_enrollment": 14.942296759522456,
+        "record_count": 3518,
+        "unique_states": 9,
+        "unique_districts": 351
+      },
+      {
+        "literacy_bin": "70-80%",
+        "total_enrollment": 37186,
+        "mean_enrollment": 9.19080573405833,
+        "record_count": 4046,
+        "unique_states": 14,
+        "unique_districts": 341
+      },
+      {
+        "literacy_bin": "80-90%",
+        "total_enrollment": 29072,
+        "mean_enrollment": 13.509293680297398,
+        "record_count": 2152,
+        "unique_states": 10,
+        "unique_districts": 130
+      },
+      {
+        "literacy_bin": "90%+",
+        "total_enrollment": 1398,
+        "mean_enrollment": 4.922535211267606,
+        "record_count": 284,
+        "unique_states": 3,
+        "unique_districts": 25
+      }
+    ],
+    "state_literacy": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 2,
+        "literacy_rate": 86.63
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 3800,
+        "literacy_rate": 67.02
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "total_enrollment": 48,
+        "literacy_rate": 65.38
+      },
+      {
+        "state": "Assam",
+        "total_enrollment": 2985,
+        "literacy_rate": 72.19
+      },
+      {
+        "state": "Bihar",
+        "total_enrollment": 12471,
+        "literacy_rate": 61.8
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 154,
+        "literacy_rate": 86.05
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 5072,
+        "literacy_rate": 70.28
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 23,
+        "literacy_rate": 77.65
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 2344,
+        "literacy_rate": 86.21
+      },
+      {
+        "state": "Goa",
+        "total_enrollment": 126,
+        "literacy_rate": 88.7
+      },
+      {
+        "state": "Gujarat",
+        "total_enrollment": 4647,
+        "literacy_rate": 78.03
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 2352,
+        "literacy_rate": 75.55
+      },
+      {
+        "state": "Himachal Pradesh",
+        "total_enrollment": 233,
+        "literacy_rate": 82.8
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 379,
+        "literacy_rate": 67.16
+      },
+      {
+        "state": "Jharkhand",
+        "total_enrollment": 1445,
+        "literacy_rate": 66.41
+      },
+      {
+        "state": "Karnataka",
+        "total_enrollment": 2052,
+        "literacy_rate": 75.36
+      },
+      {
+        "state": "Kerala",
+        "total_enrollment": 1304,
+        "literacy_rate": 93.91
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 3,
+        "literacy_rate": 77.2
+      },
+      {
+        "state": "Lakshadweep",
+        "total_enrollment": 3,
+        "literacy_rate": 91.85
+      },
+      {
+        "state": "Madhya Pradesh",
+        "total_enrollment": 6256,
+        "literacy_rate": 69.32
+      },
+      {
+        "state": "Maharashtra",
+        "total_enrollment": 23433,
+        "literacy_rate": 82.34
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 980,
+        "literacy_rate": 79.85
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 195,
+        "literacy_rate": 74.43
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 91,
+        "literacy_rate": 91.33
+      },
+      {
+        "state": "Nagaland",
+        "total_enrollment": 211,
+        "literacy_rate": 79.55
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 4520,
+        "literacy_rate": 72.87
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 158,
+        "literacy_rate": 85.85
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 1923,
+        "literacy_rate": 75.84
+      },
+      {
+        "state": "Rajasthan",
+        "total_enrollment": 4930,
+        "literacy_rate": 66.11
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 9,
+        "literacy_rate": 81.42
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 2394,
+        "literacy_rate": 80.09
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 2048,
+        "literacy_rate": 66.54
+      },
+      {
+        "state": "Tripura",
+        "total_enrollment": 219,
+        "literacy_rate": 87.22
+      },
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 21190,
+        "literacy_rate": 67.68
+      },
+      {
+        "state": "Uttarakhand",
+        "total_enrollment": 1335,
+        "literacy_rate": 78.82
+      },
+      {
+        "state": "West Bengal",
+        "total_enrollment": 10888,
+        "literacy_rate": 76.26
+      }
+    ],
+    "regression": {
+      "slope": -197.4202897644137,
+      "intercept": 18616.019477686867,
+      "r_squared": 0.09343102560926891,
+      "p_value": 0.0698424175142324,
+      "significant": "False"
+    }
+  },
+  "demographic_sex_ratio": {
+    "dataset_name": "demographic",
+    "by_category": [
+      {
+        "category": "Very Low (<900)",
+        "total_enrollment": 7189,
+        "mean_enrollment": 13.564150943396227,
+        "unique_states": 9,
+        "unique_districts": 84
+      },
+      {
+        "category": "Low (900-950)",
+        "total_enrollment": 85522,
+        "mean_enrollment": 15.896282527881041,
+        "unique_states": 11,
+        "unique_districts": 411
+      },
+      {
+        "category": "Near Equal (950-1000)",
+        "total_enrollment": 26050,
+        "mean_enrollment": 6.848054679284963,
+        "unique_states": 14,
+        "unique_districts": 331
+      },
+      {
+        "category": "Female Surplus (1000-1050)",
+        "total_enrollment": 158,
+        "mean_enrollment": 4.647058823529412,
+        "unique_states": 1,
+        "unique_districts": 3
+      },
+      {
+        "category": "High Female (>1050)",
+        "total_enrollment": 1304,
+        "mean_enrollment": 5.174603174603175,
+        "unique_states": 1,
+        "unique_districts": 15
+      }
+    ],
+    "state_sex_ratio": [
+      {
+        "state": "Kerala",
+        "total_enrollment": 1304,
+        "sex_ratio": 1084.0
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 158,
+        "sex_ratio": 1037.0
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 2394,
+        "sex_ratio": 996.0
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 3800,
+        "sex_ratio": 993.0
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 5072,
+        "sex_ratio": 991.0
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 195,
+        "sex_ratio": 989.0
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 2048,
+        "sex_ratio": 988.0
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 980,
+        "sex_ratio": 985.0
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 4520,
+        "sex_ratio": 979.0
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 91,
+        "sex_ratio": 976.0
+      },
+      {
+        "state": "Goa",
+        "total_enrollment": 126,
+        "sex_ratio": 973.0
+      },
+      {
+        "state": "Karnataka",
+        "total_enrollment": 2052,
+        "sex_ratio": 973.0
+      },
+      {
+        "state": "Himachal Pradesh",
+        "total_enrollment": 233,
+        "sex_ratio": 972.0
+      },
+      {
+        "state": "Uttarakhand",
+        "total_enrollment": 1335,
+        "sex_ratio": 963.0
+      },
+      {
+        "state": "Tripura",
+        "total_enrollment": 219,
+        "sex_ratio": 960.0
+      },
+      {
+        "state": "Assam",
+        "total_enrollment": 2985,
+        "sex_ratio": 958.0
+      },
+      {
+        "state": "West Bengal",
+        "total_enrollment": 10888,
+        "sex_ratio": 950.0
+      },
+      {
+        "state": "Jharkhand",
+        "total_enrollment": 1445,
+        "sex_ratio": 948.0
+      },
+      {
+        "state": "Lakshadweep",
+        "total_enrollment": 3,
+        "sex_ratio": 946.0
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "total_enrollment": 48,
+        "sex_ratio": 938.0
+      },
+      {
+        "state": "Nagaland",
+        "total_enrollment": 211,
+        "sex_ratio": 931.0
+      },
+      {
+        "state": "Madhya Pradesh",
+        "total_enrollment": 6256,
+        "sex_ratio": 931.0
+      },
+      {
+        "state": "Maharashtra",
+        "total_enrollment": 23433,
+        "sex_ratio": 929.0
+      },
+      {
+        "state": "Rajasthan",
+        "total_enrollment": 4930,
+        "sex_ratio": 928.0
+      },
+      {
+        "state": "Gujarat",
+        "total_enrollment": 4647,
+        "sex_ratio": 919.0
+      },
+      {
+        "state": "Bihar",
+        "total_enrollment": 12471,
+        "sex_ratio": 918.0
+      },
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 21190,
+        "sex_ratio": 912.0
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 1923,
+        "sex_ratio": 895.0
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 9,
+        "sex_ratio": 890.0
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 379,
+        "sex_ratio": 889.0
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 2352,
+        "sex_ratio": 879.0
+      },
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 2,
+        "sex_ratio": 876.0
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 2344,
+        "sex_ratio": 868.0
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 154,
+        "sex_ratio": 818.0
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 23,
+        "sex_ratio": 774.0
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 3,
+        "sex_ratio": 690.0
+      }
+    ],
+    "top_sex_ratio_states": [
+      {
+        "state": "Kerala",
+        "total_enrollment": 1304,
+        "sex_ratio": 1084.0
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 158,
+        "sex_ratio": 1037.0
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 2394,
+        "sex_ratio": 996.0
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 3800,
+        "sex_ratio": 993.0
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 5072,
+        "sex_ratio": 991.0
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 195,
+        "sex_ratio": 989.0
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 2048,
+        "sex_ratio": 988.0
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 980,
+        "sex_ratio": 985.0
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 4520,
+        "sex_ratio": 979.0
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 91,
+        "sex_ratio": 976.0
+      }
+    ],
+    "lowest_sex_ratio_states": [
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 21190,
+        "sex_ratio": 912.0
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 1923,
+        "sex_ratio": 895.0
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 9,
+        "sex_ratio": 890.0
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 379,
+        "sex_ratio": 889.0
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 2352,
+        "sex_ratio": 879.0
+      },
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 2,
+        "sex_ratio": 876.0
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 2344,
+        "sex_ratio": 868.0
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 154,
+        "sex_ratio": 818.0
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 23,
+        "sex_ratio": 774.0
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 3,
+        "sex_ratio": 690.0
+      }
+    ]
+  },
+  "demographic_age_trends": {
+    "dataset_name": "demographic",
+    "age_columns": {
+      "children": "demo_age_5_17",
+      "adults": "demo_age_17_"
+    },
+    "monthly_trends": [
+      {
+        "month": "2025-11",
+        "demo_age_5_17": 2667,
+        "demo_age_17_": 32201,
+        "demo_age_5_17_pct": 7.65,
+        "demo_age_17__pct": 92.35
+      },
+      {
+        "month": "2025-12",
+        "demo_age_5_17": 8731,
+        "demo_age_17_": 76624,
+        "demo_age_5_17_pct": 10.23,
+        "demo_age_17__pct": 89.77
+      }
+    ],
+    "trend_directions": {
+      "demo_age_5_17": {
+        "slope": 6064.0,
+        "r_squared": 1.0,
+        "direction": "increasing",
+        "significant": true
+      },
+      "demo_age_17_": {
+        "slope": 44423.0,
+        "r_squared": 1.0,
+        "direction": "increasing",
+        "significant": true
+      }
+    }
+  },
+  "enrollment_age_groups": {
+    "dataset_name": "enrollment",
+    "age_columns": {
+      "infants": "age_0_5",
+      "children": "age_5_17",
+      "adults": "age_18_greater"
+    },
+    "totals": {
+      "by_age_group": {
+        "infants": 37501,
+        "children": 13297,
+        "adults": 1374
+      },
+      "total": 52172
+    },
+    "percentages": {
+      "infants": 71.88,
+      "children": 25.49,
+      "adults": 2.63
+    },
+    "by_state": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "age_0_5": 5,
+        "age_5_17": 0,
+        "age_18_greater": 0,
+        "total": 5,
+        "infants_pct": 100.0,
+        "children_pct": 0.0,
+        "adults_pct": 0.0,
+        "youth_pct": 100.0,
+        "adult_pct": 0.0
+      },
+      {
+        "state": "Andhra Pradesh",
+        "age_0_5": 1419,
+        "age_5_17": 127,
+        "age_18_greater": 5,
+        "total": 1551,
+        "infants_pct": 91.49,
+        "children_pct": 8.19,
+        "adults_pct": 0.32,
+        "youth_pct": 99.67999999999999,
+        "adult_pct": 0.3200000000000074
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "age_0_5": 8,
+        "age_5_17": 10,
+        "age_18_greater": 16,
+        "total": 34,
+        "infants_pct": 23.53,
+        "children_pct": 29.41,
+        "adults_pct": 47.06,
+        "youth_pct": 52.94,
+        "adult_pct": 47.06
+      },
+      {
+        "state": "Assam",
+        "age_0_5": 1072,
+        "age_5_17": 428,
+        "age_18_greater": 283,
+        "total": 1783,
+        "infants_pct": 60.12,
+        "children_pct": 24.0,
+        "adults_pct": 15.87,
+        "youth_pct": 84.12,
+        "adult_pct": 15.879999999999995
+      },
+      {
+        "state": "Bihar",
+        "age_0_5": 3290,
+        "age_5_17": 2770,
+        "age_18_greater": 46,
+        "total": 6106,
+        "infants_pct": 53.88,
+        "children_pct": 45.37,
+        "adults_pct": 0.75,
+        "youth_pct": 99.25,
+        "adult_pct": 0.75
+      },
+      {
+        "state": "Chandigarh",
+        "age_0_5": 26,
+        "age_5_17": 2,
+        "age_18_greater": 0,
+        "total": 28,
+        "infants_pct": 92.86,
+        "children_pct": 7.14,
+        "adults_pct": 0.0,
+        "youth_pct": 100.0,
+        "adult_pct": 0.0
+      },
+      {
+        "state": "Chhattisgarh",
+        "age_0_5": 1458,
+        "age_5_17": 275,
+        "age_18_greater": 15,
+        "total": 1748,
+        "infants_pct": 83.41,
+        "children_pct": 15.73,
+        "adults_pct": 0.86,
+        "youth_pct": 99.14,
+        "adult_pct": 0.8599999999999994
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "age_0_5": 14,
+        "age_5_17": 1,
+        "age_18_greater": 0,
+        "total": 15,
+        "infants_pct": 93.33,
+        "children_pct": 6.67,
+        "adults_pct": 0.0,
+        "youth_pct": 100.0,
+        "adult_pct": 0.0
+      },
+      {
+        "state": "Delhi",
+        "age_0_5": 747,
+        "age_5_17": 156,
+        "age_18_greater": 29,
+        "total": 932,
+        "infants_pct": 80.15,
+        "children_pct": 16.74,
+        "adults_pct": 3.11,
+        "youth_pct": 96.89,
+        "adult_pct": 3.1099999999999994
+      },
+      {
+        "state": "Goa",
+        "age_0_5": 47,
+        "age_5_17": 4,
+        "age_18_greater": 12,
+        "total": 63,
+        "infants_pct": 74.6,
+        "children_pct": 6.35,
+        "adults_pct": 19.05,
+        "youth_pct": 80.94999999999999,
+        "adult_pct": 19.05000000000001
+      },
+      {
+        "state": "Gujarat",
+        "age_0_5": 2994,
+        "age_5_17": 629,
+        "age_18_greater": 85,
+        "total": 3708,
+        "infants_pct": 80.74,
+        "children_pct": 16.96,
+        "adults_pct": 2.29,
+        "youth_pct": 97.69999999999999,
+        "adult_pct": 2.3000000000000114
+      },
+      {
+        "state": "Haryana",
+        "age_0_5": 1406,
+        "age_5_17": 83,
+        "age_18_greater": 11,
+        "total": 1500,
+        "infants_pct": 93.73,
+        "children_pct": 5.53,
+        "adults_pct": 0.73,
+        "youth_pct": 99.26,
+        "adult_pct": 0.7399999999999949
+      },
+      {
+        "state": "Himachal Pradesh",
+        "age_0_5": 370,
+        "age_5_17": 8,
+        "age_18_greater": 6,
+        "total": 384,
+        "infants_pct": 96.35,
+        "children_pct": 2.08,
+        "adults_pct": 1.56,
+        "youth_pct": 98.42999999999999,
+        "adult_pct": 1.5700000000000074
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "age_0_5": 605,
+        "age_5_17": 129,
+        "age_18_greater": 15,
+        "total": 749,
+        "infants_pct": 80.77,
+        "children_pct": 17.22,
+        "adults_pct": 2.0,
+        "youth_pct": 97.99,
+        "adult_pct": 2.010000000000005
+      },
+      {
+        "state": "Jharkhand",
+        "age_0_5": 1719,
+        "age_5_17": 875,
+        "age_18_greater": 37,
+        "total": 2631,
+        "infants_pct": 65.34,
+        "children_pct": 33.26,
+        "adults_pct": 1.41,
+        "youth_pct": 98.6,
+        "adult_pct": 1.4000000000000057
+      },
+      {
+        "state": "Karnataka",
+        "age_0_5": 2382,
+        "age_5_17": 291,
+        "age_18_greater": 49,
+        "total": 2722,
+        "infants_pct": 87.51,
+        "children_pct": 10.69,
+        "adults_pct": 1.8,
+        "youth_pct": 98.2,
+        "adult_pct": 1.7999999999999972
+      },
+      {
+        "state": "Kerala",
+        "age_0_5": 648,
+        "age_5_17": 219,
+        "age_18_greater": 168,
+        "total": 1035,
+        "infants_pct": 62.61,
+        "children_pct": 21.16,
+        "adults_pct": 16.23,
+        "youth_pct": 83.77,
+        "adult_pct": 16.230000000000004
+      },
+      {
+        "state": "Ladakh",
+        "age_0_5": 9,
+        "age_5_17": 0,
+        "age_18_greater": 0,
+        "total": 9,
+        "infants_pct": 100.0,
+        "children_pct": 0.0,
+        "adults_pct": 0.0,
+        "youth_pct": 100.0,
+        "adult_pct": 0.0
+      },
+      {
+        "state": "Lakshadweep",
+        "age_0_5": 2,
+        "age_5_17": 0,
+        "age_18_greater": 0,
+        "total": 2,
+        "infants_pct": 100.0,
+        "children_pct": 0.0,
+        "adults_pct": 0.0,
+        "youth_pct": 100.0,
+        "adult_pct": 0.0
+      },
+      {
+        "state": "Madhya Pradesh",
+        "age_0_5": 2643,
+        "age_5_17": 489,
+        "age_18_greater": 60,
+        "total": 3192,
+        "infants_pct": 82.8,
+        "children_pct": 15.32,
+        "adults_pct": 1.88,
+        "youth_pct": 98.12,
+        "adult_pct": 1.8799999999999955
+      },
+      {
+        "state": "Maharashtra",
+        "age_0_5": 1704,
+        "age_5_17": 327,
+        "age_18_greater": 105,
+        "total": 2136,
+        "infants_pct": 79.78,
+        "children_pct": 15.31,
+        "adults_pct": 4.92,
+        "youth_pct": 95.09,
+        "adult_pct": 4.909999999999997
+      },
+      {
+        "state": "Manipur",
+        "age_0_5": 89,
+        "age_5_17": 72,
+        "age_18_greater": 1,
+        "total": 162,
+        "infants_pct": 54.94,
+        "children_pct": 44.44,
+        "adults_pct": 0.62,
+        "youth_pct": 99.38,
+        "adult_pct": 0.6200000000000045
+      },
+      {
+        "state": "Meghalaya",
+        "age_0_5": 31,
+        "age_5_17": 39,
+        "age_18_greater": 156,
+        "total": 226,
+        "infants_pct": 13.72,
+        "children_pct": 17.26,
+        "adults_pct": 69.03,
+        "youth_pct": 30.980000000000004,
+        "adult_pct": 69.02
+      },
+      {
+        "state": "Mizoram",
+        "age_0_5": 38,
+        "age_5_17": 4,
+        "age_18_greater": 2,
+        "total": 44,
+        "infants_pct": 86.36,
+        "children_pct": 9.09,
+        "adults_pct": 4.55,
+        "youth_pct": 95.45,
+        "adult_pct": 4.549999999999997
+      },
+      {
+        "state": "Nagaland",
+        "age_0_5": 15,
+        "age_5_17": 18,
+        "age_18_greater": 1,
+        "total": 34,
+        "infants_pct": 44.12,
+        "children_pct": 52.94,
+        "adults_pct": 2.94,
+        "youth_pct": 97.06,
+        "adult_pct": 2.9399999999999977
+      },
+      {
+        "state": "Odisha",
+        "age_0_5": 967,
+        "age_5_17": 197,
+        "age_18_greater": 18,
+        "total": 1182,
+        "infants_pct": 81.81,
+        "children_pct": 16.67,
+        "adults_pct": 1.52,
+        "youth_pct": 98.48,
+        "adult_pct": 1.519999999999996
+      },
+      {
+        "state": "Puducherry",
+        "age_0_5": 22,
+        "age_5_17": 2,
+        "age_18_greater": 0,
+        "total": 24,
+        "infants_pct": 91.67,
+        "children_pct": 8.33,
+        "adults_pct": 0.0,
+        "youth_pct": 100.0,
+        "adult_pct": 0.0
+      },
+      {
+        "state": "Punjab",
+        "age_0_5": 543,
+        "age_5_17": 89,
+        "age_18_greater": 28,
+        "total": 660,
+        "infants_pct": 82.27,
+        "children_pct": 13.48,
+        "adults_pct": 4.24,
+        "youth_pct": 95.75,
+        "adult_pct": 4.25
+      },
+      {
+        "state": "Rajasthan",
+        "age_0_5": 1648,
+        "age_5_17": 717,
+        "age_18_greater": 8,
+        "total": 2373,
+        "infants_pct": 69.45,
+        "children_pct": 30.21,
+        "adults_pct": 0.34,
+        "youth_pct": 99.66,
+        "adult_pct": 0.3400000000000034
+      },
+      {
+        "state": "Sikkim",
+        "age_0_5": 7,
+        "age_5_17": 4,
+        "age_18_greater": 0,
+        "total": 11,
+        "infants_pct": 63.64,
+        "children_pct": 36.36,
+        "adults_pct": 0.0,
+        "youth_pct": 100.0,
+        "adult_pct": 0.0
+      },
+      {
+        "state": "Tamil Nadu",
+        "age_0_5": 1604,
+        "age_5_17": 362,
+        "age_18_greater": 19,
+        "total": 1985,
+        "infants_pct": 80.81,
+        "children_pct": 18.24,
+        "adults_pct": 0.96,
+        "youth_pct": 99.05,
+        "adult_pct": 0.9500000000000028
+      },
+      {
+        "state": "Telangana",
+        "age_0_5": 1116,
+        "age_5_17": 261,
+        "age_18_greater": 18,
+        "total": 1395,
+        "infants_pct": 80.0,
+        "children_pct": 18.71,
+        "adults_pct": 1.29,
+        "youth_pct": 98.71000000000001,
+        "adult_pct": 1.289999999999992
+      },
+      {
+        "state": "Tripura",
+        "age_0_5": 82,
+        "age_5_17": 45,
+        "age_18_greater": 4,
+        "total": 131,
+        "infants_pct": 62.6,
+        "children_pct": 34.35,
+        "adults_pct": 3.05,
+        "youth_pct": 96.95,
+        "adult_pct": 3.049999999999997
+      },
+      {
+        "state": "Uttar Pradesh",
+        "age_0_5": 5681,
+        "age_5_17": 3827,
+        "age_18_greater": 163,
+        "total": 9671,
+        "infants_pct": 58.74,
+        "children_pct": 39.57,
+        "adults_pct": 1.69,
+        "youth_pct": 98.31,
+        "adult_pct": 1.6899999999999977
+      },
+      {
+        "state": "Uttarakhand",
+        "age_0_5": 331,
+        "age_5_17": 61,
+        "age_18_greater": 6,
+        "total": 398,
+        "infants_pct": 83.17,
+        "children_pct": 15.33,
+        "adults_pct": 1.51,
+        "youth_pct": 98.5,
+        "adult_pct": 1.5
+      },
+      {
+        "state": "West Bengal",
+        "age_0_5": 2759,
+        "age_5_17": 776,
+        "age_18_greater": 8,
+        "total": 3543,
+        "infants_pct": 77.87,
+        "children_pct": 21.9,
+        "adults_pct": 0.23,
+        "youth_pct": 99.77000000000001,
+        "adult_pct": 0.22999999999998977
+      }
+    ],
+    "top_youth_states": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "youth_pct": 100.0
+      },
+      {
+        "state": "Chandigarh",
+        "youth_pct": 100.0
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "youth_pct": 100.0
+      },
+      {
+        "state": "Ladakh",
+        "youth_pct": 100.0
+      },
+      {
+        "state": "Lakshadweep",
+        "youth_pct": 100.0
+      },
+      {
+        "state": "Puducherry",
+        "youth_pct": 100.0
+      },
+      {
+        "state": "Sikkim",
+        "youth_pct": 100.0
+      },
+      {
+        "state": "West Bengal",
+        "youth_pct": 99.77000000000001
+      },
+      {
+        "state": "Andhra Pradesh",
+        "youth_pct": 99.67999999999999
+      },
+      {
+        "state": "Rajasthan",
+        "youth_pct": 99.66
+      }
+    ],
+    "top_adult_states": [
+      {
+        "state": "Meghalaya",
+        "adult_pct": 69.02
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "adult_pct": 47.06
+      },
+      {
+        "state": "Goa",
+        "adult_pct": 19.05000000000001
+      },
+      {
+        "state": "Kerala",
+        "adult_pct": 16.230000000000004
+      },
+      {
+        "state": "Assam",
+        "adult_pct": 15.879999999999995
+      },
+      {
+        "state": "Maharashtra",
+        "adult_pct": 4.909999999999997
+      },
+      {
+        "state": "Mizoram",
+        "adult_pct": 4.549999999999997
+      },
+      {
+        "state": "Punjab",
+        "adult_pct": 4.25
+      },
+      {
+        "state": "Delhi",
+        "adult_pct": 3.1099999999999994
+      },
+      {
+        "state": "Tripura",
+        "adult_pct": 3.049999999999997
+      }
+    ]
+  },
+  "enrollment_population": {
+    "dataset_name": "enrollment",
+    "available_census_columns": [
+      "literacy_rate"
+    ],
+    "correlations": {
+      "literacy_rate": {
+        "correlation": -0.5075,
+        "p_value": 0.00158,
+        "significant": "True"
+      }
+    },
+    "per_capita_stats": null,
+    "state_details": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 5,
+        "literacy_rate": 86.63
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 1551,
+        "literacy_rate": 67.02
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "total_enrollment": 34,
+        "literacy_rate": 65.38
+      },
+      {
+        "state": "Assam",
+        "total_enrollment": 1783,
+        "literacy_rate": 72.19
+      },
+      {
+        "state": "Bihar",
+        "total_enrollment": 6106,
+        "literacy_rate": 61.8
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 28,
+        "literacy_rate": 86.05
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 1748,
+        "literacy_rate": 70.28
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 15,
+        "literacy_rate": 77.65
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 932,
+        "literacy_rate": 86.21
+      },
+      {
+        "state": "Goa",
+        "total_enrollment": 63,
+        "literacy_rate": 88.7
+      },
+      {
+        "state": "Gujarat",
+        "total_enrollment": 3708,
+        "literacy_rate": 78.03
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 1500,
+        "literacy_rate": 75.55
+      },
+      {
+        "state": "Himachal Pradesh",
+        "total_enrollment": 384,
+        "literacy_rate": 82.8
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 749,
+        "literacy_rate": 67.16
+      },
+      {
+        "state": "Jharkhand",
+        "total_enrollment": 2631,
+        "literacy_rate": 66.41
+      },
+      {
+        "state": "Karnataka",
+        "total_enrollment": 2722,
+        "literacy_rate": 75.36
+      },
+      {
+        "state": "Kerala",
+        "total_enrollment": 1035,
+        "literacy_rate": 93.91
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 9,
+        "literacy_rate": 77.2
+      },
+      {
+        "state": "Lakshadweep",
+        "total_enrollment": 2,
+        "literacy_rate": 91.85
+      },
+      {
+        "state": "Madhya Pradesh",
+        "total_enrollment": 3192,
+        "literacy_rate": 69.32
+      },
+      {
+        "state": "Maharashtra",
+        "total_enrollment": 2136,
+        "literacy_rate": 82.34
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 162,
+        "literacy_rate": 79.85
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 226,
+        "literacy_rate": 74.43
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 44,
+        "literacy_rate": 91.33
+      },
+      {
+        "state": "Nagaland",
+        "total_enrollment": 34,
+        "literacy_rate": 79.55
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 1182,
+        "literacy_rate": 72.87000000000002
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 24,
+        "literacy_rate": 85.85
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 660,
+        "literacy_rate": 75.84
+      },
+      {
+        "state": "Rajasthan",
+        "total_enrollment": 2373,
+        "literacy_rate": 66.11
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 11,
+        "literacy_rate": 81.42
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 1985,
+        "literacy_rate": 80.09
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 1395,
+        "literacy_rate": 66.54
+      },
+      {
+        "state": "Tripura",
+        "total_enrollment": 131,
+        "literacy_rate": 87.22
+      },
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 9671,
+        "literacy_rate": 67.68
+      },
+      {
+        "state": "Uttarakhand",
+        "total_enrollment": 398,
+        "literacy_rate": 78.82
+      },
+      {
+        "state": "West Bengal",
+        "total_enrollment": 3543,
+        "literacy_rate": 76.26
+      }
+    ]
+  },
+  "enrollment_literacy": {
+    "dataset_name": "enrollment",
+    "by_literacy_bin": [
+      {
+        "literacy_bin": "60-70%",
+        "total_enrollment": 27702,
+        "mean_enrollment": 6.855233853006681,
+        "record_count": 4041,
+        "unique_states": 9,
+        "unique_districts": 353
+      },
+      {
+        "literacy_bin": "70-80%",
+        "total_enrollment": 17690,
+        "mean_enrollment": 4.502417918045304,
+        "record_count": 3929,
+        "unique_states": 14,
+        "unique_districts": 330
+      },
+      {
+        "literacy_bin": "80-90%",
+        "total_enrollment": 5699,
+        "mean_enrollment": 3.4898958971218614,
+        "record_count": 1633,
+        "unique_states": 10,
+        "unique_districts": 131
+      },
+      {
+        "literacy_bin": "90%+",
+        "total_enrollment": 1081,
+        "mean_enrollment": 2.722921914357683,
+        "record_count": 397,
+        "unique_states": 3,
+        "unique_districts": 24
+      }
+    ],
+    "state_literacy": [
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 5,
+        "literacy_rate": 86.63
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 1551,
+        "literacy_rate": 67.02
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "total_enrollment": 34,
+        "literacy_rate": 65.38
+      },
+      {
+        "state": "Assam",
+        "total_enrollment": 1783,
+        "literacy_rate": 72.19
+      },
+      {
+        "state": "Bihar",
+        "total_enrollment": 6106,
+        "literacy_rate": 61.8
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 28,
+        "literacy_rate": 86.05
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 1748,
+        "literacy_rate": 70.28
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 15,
+        "literacy_rate": 77.65
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 932,
+        "literacy_rate": 86.21
+      },
+      {
+        "state": "Goa",
+        "total_enrollment": 63,
+        "literacy_rate": 88.7
+      },
+      {
+        "state": "Gujarat",
+        "total_enrollment": 3708,
+        "literacy_rate": 78.03
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 1500,
+        "literacy_rate": 75.55
+      },
+      {
+        "state": "Himachal Pradesh",
+        "total_enrollment": 384,
+        "literacy_rate": 82.8
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 749,
+        "literacy_rate": 67.16
+      },
+      {
+        "state": "Jharkhand",
+        "total_enrollment": 2631,
+        "literacy_rate": 66.41
+      },
+      {
+        "state": "Karnataka",
+        "total_enrollment": 2722,
+        "literacy_rate": 75.36
+      },
+      {
+        "state": "Kerala",
+        "total_enrollment": 1035,
+        "literacy_rate": 93.91
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 9,
+        "literacy_rate": 77.2
+      },
+      {
+        "state": "Lakshadweep",
+        "total_enrollment": 2,
+        "literacy_rate": 91.85
+      },
+      {
+        "state": "Madhya Pradesh",
+        "total_enrollment": 3192,
+        "literacy_rate": 69.32
+      },
+      {
+        "state": "Maharashtra",
+        "total_enrollment": 2136,
+        "literacy_rate": 82.34
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 162,
+        "literacy_rate": 79.85
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 226,
+        "literacy_rate": 74.43
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 44,
+        "literacy_rate": 91.33
+      },
+      {
+        "state": "Nagaland",
+        "total_enrollment": 34,
+        "literacy_rate": 79.55
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 1182,
+        "literacy_rate": 72.87000000000002
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 24,
+        "literacy_rate": 85.85
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 660,
+        "literacy_rate": 75.84
+      },
+      {
+        "state": "Rajasthan",
+        "total_enrollment": 2373,
+        "literacy_rate": 66.11
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 11,
+        "literacy_rate": 81.42
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 1985,
+        "literacy_rate": 80.09
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 1395,
+        "literacy_rate": 66.54
+      },
+      {
+        "state": "Tripura",
+        "total_enrollment": 131,
+        "literacy_rate": 87.22
+      },
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 9671,
+        "literacy_rate": 67.68
+      },
+      {
+        "state": "Uttarakhand",
+        "total_enrollment": 398,
+        "literacy_rate": 78.82
+      },
+      {
+        "state": "West Bengal",
+        "total_enrollment": 3543,
+        "literacy_rate": 76.26
+      }
+    ],
+    "regression": {
+      "slope": -118.10646471010378,
+      "intercept": 10588.36607619267,
+      "r_squared": 0.25759182009526127,
+      "p_value": 0.001579937787139651,
+      "significant": "True"
+    }
+  },
+  "enrollment_sex_ratio": {
+    "dataset_name": "enrollment",
+    "by_category": [
+      {
+        "category": "Very Low (<900)",
+        "total_enrollment": 3909,
+        "mean_enrollment": 5.86936936936937,
+        "unique_states": 9,
+        "unique_districts": 95
+      },
+      {
+        "category": "Low (900-950)",
+        "total_enrollment": 33430,
+        "mean_enrollment": 7.069147811376612,
+        "unique_states": 11,
+        "unique_districts": 390
+      },
+      {
+        "category": "Near Equal (950-1000)",
+        "total_enrollment": 13774,
+        "mean_enrollment": 3.2639810426540286,
+        "unique_states": 14,
+        "unique_districts": 331
+      },
+      {
+        "category": "Female Surplus (1000-1050)",
+        "total_enrollment": 24,
+        "mean_enrollment": 1.5,
+        "unique_states": 1,
+        "unique_districts": 4
+      },
+      {
+        "category": "High Female (>1050)",
+        "total_enrollment": 1035,
+        "mean_enrollment": 2.8048780487804876,
+        "unique_states": 1,
+        "unique_districts": 15
+      }
+    ],
+    "state_sex_ratio": [
+      {
+        "state": "Kerala",
+        "total_enrollment": 1035,
+        "sex_ratio": 1084.0
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 24,
+        "sex_ratio": 1037.0
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 1985,
+        "sex_ratio": 996.0
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 1551,
+        "sex_ratio": 993.0
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 1748,
+        "sex_ratio": 991.0
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 226,
+        "sex_ratio": 989.0
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 1395,
+        "sex_ratio": 988.0
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 162,
+        "sex_ratio": 985.0
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 1182,
+        "sex_ratio": 979.0
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 44,
+        "sex_ratio": 976.0
+      },
+      {
+        "state": "Goa",
+        "total_enrollment": 63,
+        "sex_ratio": 973.0
+      },
+      {
+        "state": "Karnataka",
+        "total_enrollment": 2722,
+        "sex_ratio": 973.0
+      },
+      {
+        "state": "Himachal Pradesh",
+        "total_enrollment": 384,
+        "sex_ratio": 972.0
+      },
+      {
+        "state": "Uttarakhand",
+        "total_enrollment": 398,
+        "sex_ratio": 963.0
+      },
+      {
+        "state": "Tripura",
+        "total_enrollment": 131,
+        "sex_ratio": 960.0
+      },
+      {
+        "state": "Assam",
+        "total_enrollment": 1783,
+        "sex_ratio": 958.0
+      },
+      {
+        "state": "West Bengal",
+        "total_enrollment": 3543,
+        "sex_ratio": 950.0
+      },
+      {
+        "state": "Jharkhand",
+        "total_enrollment": 2631,
+        "sex_ratio": 948.0
+      },
+      {
+        "state": "Lakshadweep",
+        "total_enrollment": 2,
+        "sex_ratio": 946.0
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "total_enrollment": 34,
+        "sex_ratio": 938.0
+      },
+      {
+        "state": "Nagaland",
+        "total_enrollment": 34,
+        "sex_ratio": 931.0
+      },
+      {
+        "state": "Madhya Pradesh",
+        "total_enrollment": 3192,
+        "sex_ratio": 931.0
+      },
+      {
+        "state": "Maharashtra",
+        "total_enrollment": 2136,
+        "sex_ratio": 929.0
+      },
+      {
+        "state": "Rajasthan",
+        "total_enrollment": 2373,
+        "sex_ratio": 928.0
+      },
+      {
+        "state": "Gujarat",
+        "total_enrollment": 3708,
+        "sex_ratio": 919.0
+      },
+      {
+        "state": "Bihar",
+        "total_enrollment": 6106,
+        "sex_ratio": 918.0
+      },
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 9671,
+        "sex_ratio": 912.0
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 660,
+        "sex_ratio": 895.0
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 11,
+        "sex_ratio": 890.0
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 749,
+        "sex_ratio": 889.0
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 1500,
+        "sex_ratio": 879.0
+      },
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 5,
+        "sex_ratio": 876.0
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 932,
+        "sex_ratio": 868.0
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 28,
+        "sex_ratio": 818.0
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 15,
+        "sex_ratio": 774.0
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 9,
+        "sex_ratio": 690.0
+      }
+    ],
+    "top_sex_ratio_states": [
+      {
+        "state": "Kerala",
+        "total_enrollment": 1035,
+        "sex_ratio": 1084.0
+      },
+      {
+        "state": "Puducherry",
+        "total_enrollment": 24,
+        "sex_ratio": 1037.0
+      },
+      {
+        "state": "Tamil Nadu",
+        "total_enrollment": 1985,
+        "sex_ratio": 996.0
+      },
+      {
+        "state": "Andhra Pradesh",
+        "total_enrollment": 1551,
+        "sex_ratio": 993.0
+      },
+      {
+        "state": "Chhattisgarh",
+        "total_enrollment": 1748,
+        "sex_ratio": 991.0
+      },
+      {
+        "state": "Meghalaya",
+        "total_enrollment": 226,
+        "sex_ratio": 989.0
+      },
+      {
+        "state": "Telangana",
+        "total_enrollment": 1395,
+        "sex_ratio": 988.0
+      },
+      {
+        "state": "Manipur",
+        "total_enrollment": 162,
+        "sex_ratio": 985.0
+      },
+      {
+        "state": "Odisha",
+        "total_enrollment": 1182,
+        "sex_ratio": 979.0
+      },
+      {
+        "state": "Mizoram",
+        "total_enrollment": 44,
+        "sex_ratio": 976.0
+      }
+    ],
+    "lowest_sex_ratio_states": [
+      {
+        "state": "Uttar Pradesh",
+        "total_enrollment": 9671,
+        "sex_ratio": 912.0
+      },
+      {
+        "state": "Punjab",
+        "total_enrollment": 660,
+        "sex_ratio": 895.0
+      },
+      {
+        "state": "Sikkim",
+        "total_enrollment": 11,
+        "sex_ratio": 890.0
+      },
+      {
+        "state": "Jammu And Kashmir",
+        "total_enrollment": 749,
+        "sex_ratio": 889.0
+      },
+      {
+        "state": "Haryana",
+        "total_enrollment": 1500,
+        "sex_ratio": 879.0
+      },
+      {
+        "state": "Andaman And Nicobar Islands",
+        "total_enrollment": 5,
+        "sex_ratio": 876.0
+      },
+      {
+        "state": "Delhi",
+        "total_enrollment": 932,
+        "sex_ratio": 868.0
+      },
+      {
+        "state": "Chandigarh",
+        "total_enrollment": 28,
+        "sex_ratio": 818.0
+      },
+      {
+        "state": "Dadra And Nagar Haveli And Daman And Diu",
+        "total_enrollment": 15,
+        "sex_ratio": 774.0
+      },
+      {
+        "state": "Ladakh",
+        "total_enrollment": 9,
+        "sex_ratio": 690.0
+      }
+    ]
+  },
+  "enrollment_age_trends": {
+    "dataset_name": "enrollment",
+    "age_columns": {
+      "infants": "age_0_5",
+      "children": "age_5_17",
+      "adults": "age_18_greater"
+    },
+    "monthly_trends": [
+      {
+        "month": "2025-11",
+        "age_0_5": 37501,
+        "age_5_17": 13297,
+        "age_18_greater": 1374,
+        "age_0_5_pct": 71.88,
+        "age_5_17_pct": 25.49,
+        "age_18_greater_pct": 2.63
+      }
+    ],
+    "trend_directions": {}
+  }
+}

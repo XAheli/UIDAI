@@ -1,0 +1,37 @@
+{
+  "dataset_name": "demographic",
+  "age_columns": {
+    "children": "demo_age_5_17",
+    "adults": "demo_age_17_"
+  },
+  "monthly_trends": [
+    {
+      "month": "2025-11",
+      "demo_age_5_17": 2667,
+      "demo_age_17_": 32201,
+      "demo_age_5_17_pct": 7.65,
+      "demo_age_17__pct": 92.35
+    },
+    {
+      "month": "2025-12",
+      "demo_age_5_17": 8731,
+      "demo_age_17_": 76624,
+      "demo_age_5_17_pct": 10.23,
+      "demo_age_17__pct": 89.77
+    }
+  ],
+  "trend_directions": {
+    "demo_age_5_17": {
+      "slope": 6064.0,
+      "r_squared": 1.0,
+      "direction": "increasing",
+      "significant": true
+    },
+    "demo_age_17_": {
+      "slope": 44423.0,
+      "r_squared": 1.0,
+      "direction": "increasing",
+      "significant": true
+    }
+  }
+}
