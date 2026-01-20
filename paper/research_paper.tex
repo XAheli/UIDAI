@@ -261,7 +261,30 @@ Daily Median & 40,099 \\
 
 \subsubsection{Day of Week Pattern}
 
-Analysis reveals significant variation across days (Figure 1). Tuesday shows the highest mean enrollment (72.59 per record), while Wednesday shows the lowest (15.39).
+Analysis reveals significant variation across days. Tuesday shows the highest mean enrollment (72.59 per record), while Wednesday shows the lowest (15.39). Figure~\ref{fig:day_of_week} illustrates these patterns across all three datasets.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/day_of_week_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/day_of_week_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/day_of_week_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{Day of Week Enrollment Patterns. Bars show mean enrollment per record for each day, with error bars indicating standard deviation. Tuesday consistently shows highest enrollment across all datasets.}
+\label{fig:day_of_week}
+\end{figure*}
 
 \subsubsection{Weekend vs. Weekday Analysis}
 
@@ -274,13 +297,20 @@ Statistical testing reveals significant differences:
     \item \textbf{t-statistic: 13.32, p $<$ 0.001}
 \end{itemize}
 
-This counter-intuitive finding suggests weekend enrollment centers may be more efficient or serve areas with different demographic patterns.
+This counter-intuitive finding suggests weekend enrollment centers may be more efficient or serve areas with different demographic patterns. Figure~\ref{fig:weekend_weekday} presents a visual comparison.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.45\textwidth]{figures/weekend_weekday_comparison.pdf}
+\caption{Weekend vs. Weekday Enrollment Comparison. The violin plot shows the distribution of enrollment values, with box plots overlaid. Weekend enrollments show significantly higher mean and greater variance (t=13.32, p$<$0.001).}
+\label{fig:weekend_weekday}
+\end{figure}
 
 \subsection{Geographic Analysis}
 
 \subsubsection{Regional Distribution}
 
-Table \ref{tab:regional_dist} shows the distribution across regions.
+Table \ref{tab:regional_dist} shows the distribution across regions. Figure~\ref{fig:regional_dist} visualizes these patterns geographically.
 
 \begin{table}[H]
 \centering
@@ -300,6 +330,29 @@ Northeast & 222,142 & 2.99 & 25.23 \\
 \end{tabular}
 \end{table}
 
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/regional_distribution_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/regional_distribution_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/regional_distribution_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{Regional Enrollment Distribution. Pie charts show percentage share of total enrollment by region. Central region consistently dominates (25-26\%), while Northeast accounts for only 3\% across all datasets.}
+\label{fig:regional_dist}
+\end{figure*}
+
 \subsubsection{State-Level Analysis}
 
 Top 5 states by enrollment:
@@ -310,6 +363,31 @@ Top 5 states by enrollment:
     \item Bihar: 533,639 (7.2\%)
     \item Tamil Nadu: 513,161 (6.9\%)
 \end{enumerate}
+
+\noindent Figure~\ref{fig:top_states} shows the top 10 states across all datasets.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/top_states_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/top_states_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/top_states_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{Top 10 States by Enrollment. Horizontal bar charts reveal Maharashtra and Uttar Pradesh as consistent leaders, together accounting for over 25\% of total enrollment.}
+\label{fig:top_states}
+\end{figure*}
 
 \subsubsection{Inequality Metrics}
 
@@ -377,7 +455,30 @@ Low ($<$0.55) & 6 & 416,515 \\
 \end{tabular}
 \end{table}
 
-\textbf{Interpretation:} Low-HDI states show higher enrollment volumes, likely due to larger unregistered populations requiring new Aadhaar enrollments, while high-HDI states have near-complete coverage.
+\textbf{Interpretation:} Low-HDI states show higher enrollment volumes, likely due to larger unregistered populations requiring new Aadhaar enrollments, while high-HDI states have near-complete coverage. Figure~\ref{fig:hdi_analysis} illustrates this inverse relationship across datasets.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/hdi_analysis_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/hdi_analysis_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/hdi_analysis_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{HDI vs. Enrollment Stratification. Scatter plots with HDI on x-axis and mean enrollment on y-axis, color-coded by HDI level (low/medium/high). Regression lines confirm negative correlation (r=-0.321).}
+\label{fig:hdi_analysis}
+\end{figure*}
 
 \subsubsection{Literacy Rate Analysis}
 
@@ -402,7 +503,30 @@ ANOVA reveals significant differences across rainfall zones:
 F = 202.93, \quad p < 0.001
 \end{equation}
 
-Table \ref{tab:rainfall} shows enrollment by rainfall zone.
+Table \ref{tab:rainfall} shows enrollment by rainfall zone. Figure~\ref{fig:climate_analysis} visualizes climate patterns.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/climate_analysis_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/climate_analysis_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/climate_analysis_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{Climate Zone Analysis. Stacked bar charts showing enrollment distribution across rainfall zones. Moderate rainfall zones consistently account for 45-46\% of total enrollment.}
+\label{fig:climate_analysis}
+\end{figure*}
 
 \begin{table}[H]
 \centering
@@ -432,7 +556,7 @@ No significant correlation between seismic risk zones and enrollment patterns wa
 
 \subsection{Hypothesis Testing Results}
 
-Table \ref{tab:hypothesis} summarizes hypothesis tests.
+Table \ref{tab:hypothesis} summarizes hypothesis tests. Figure~\ref{fig:hypothesis_tests} provides a visual comparison of test results across datasets.
 
 \begin{table}[H]
 \centering
@@ -451,6 +575,13 @@ Normality (D-P) & 1.8e5 & $<$0.001 & Reject H$_0$ \\
 \end{table}
 
 All tests show significant results, confirming systematic patterns in enrollment data.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/hypothesis_tests_summary.pdf}
+\caption{Hypothesis Testing Summary. Grouped bar chart showing test statistics (left y-axis) and p-values (right y-axis) for all four hypothesis tests across three datasets. All tests reject null hypothesis with p$<$0.001.}
+\label{fig:hypothesis_tests}
+\end{figure}
 
 \subsection{Machine Learning Results}
 
@@ -489,7 +620,14 @@ Top features for regional classification (Random Forest):
     \item state\_encoded (7.0\%)
 \end{enumerate}
 
-Geographic features dominate, as expected for regional classification.
+Geographic features dominate, as expected for regional classification. Figure~\ref{fig:ml_comparison} compares model performance across categories.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/ml_model_comparison.pdf}
+\caption{ML Model Performance Comparison. Multi-panel visualization showing: (top) classification accuracy for top 8 models, (middle) regression R$^2$ scores, (bottom) clustering silhouette scores. Decision Tree and ensemble methods dominate classification and regression tasks.}
+\label{fig:ml_comparison}
+\end{figure}
 
 \subsubsection{Regression Performance}
 
@@ -549,7 +687,32 @@ Consistent anomaly detection across methods:
 
 \subsubsection{Key Correlations}
 
-Significant correlations with total enrollment:
+Significant correlations with total enrollment are presented in Figure~\ref{fig:correlations}.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/correlations_biometric.pdf}
+\caption{Biometric}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/correlations_demographic.pdf}
+\caption{Demographic}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/correlations_enrollment.pdf}
+\caption{Enrollment}
+\end{subfigure}
+\caption{Correlation Heatmaps. Color-coded matrices showing Pearson correlation coefficients between all numerical features. Darker red indicates strong positive correlation, darker blue indicates strong negative correlation. Age group features show strongest correlations with total enrollment (r$>$0.9).}
+\label{fig:correlations}
+\end{figure*}
+
+\noindent Key significant correlations with total enrollment:
 \begin{itemize}[noitemsep]
     \item bio\_age\_5\_17: r = 0.962 (strong positive)
     \item bio\_age\_17\_: r = 0.911 (strong positive)
