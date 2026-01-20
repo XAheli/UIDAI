@@ -362,9 +362,3 @@ ls -la Dataset/corrected_dataset/biometric/
 ls -la Dataset/corrected_dataset/demographic/
 ls -la Dataset/corrected_dataset/enrollement/
 ```
-
----
-
-## 📝 License
-
-MIT License - See [LICENSE](LICENSE) file for details.
