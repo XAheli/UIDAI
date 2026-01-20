@@ -17,14 +17,21 @@ PROJECT_ROOT = Path(__file__).parent.parent.parent
 DATASET_ROOT = PROJECT_ROOT / "Dataset"
 ANALYSIS_ROOT = PROJECT_ROOT / "analysis"
 
-# Input paths
+# Input paths - CLEANED DATA (not dirty original data)
 CORRECTED_DATASET_PATH = DATASET_ROOT / "corrected_dataset"
+CLEANED_DATASET_PATH = DATASET_ROOT / "cleaned"
+
+# Cleaned data file paths (USE THESE - 4.3M total records)
+BIOMETRIC_CLEANED_PATH = CLEANED_DATASET_PATH / "biometric" / "biometric" / "final_cleaned_biometric.csv"
+DEMOGRAPHIC_CLEANED_PATH = CLEANED_DATASET_PATH / "demographic" / "demographic" / "final_cleaned_demographic.csv"
+ENROLLMENT_CLEANED_PATH = CLEANED_DATASET_PATH / "enrollment" / "enrollment" / "final_cleaned_enrollment.csv"
+
+# Legacy paths (corrected but not fully cleaned)
 BIOMETRIC_PATH = CORRECTED_DATASET_PATH / "biometric"
 DEMOGRAPHIC_PATH = CORRECTED_DATASET_PATH / "demographic"
 ENROLLMENT_PATH = CORRECTED_DATASET_PATH / "enrollement"
 
 # Output paths
-CLEANED_DATASET_PATH = DATASET_ROOT / "cleaned"
 AUGMENTED_DATASET_PATH = DATASET_ROOT / "augmented"
 RESULTS_PATH = ANALYSIS_ROOT / "results"
 LOGS_PATH = PROJECT_ROOT / "logs"
@@ -107,6 +114,7 @@ STATE_NAME_MAPPING = {
     "bihar": "Bihar",
     "chhattisgarh": "Chhattisgarh",
     "chattisgarh": "Chhattisgarh",
+    "chhatisgarh": "Chhattisgarh",  # Typo
     "goa": "Goa",
     "gujarat": "Gujarat",
     "haryana": "Haryana",
@@ -133,6 +141,8 @@ STATE_NAME_MAPPING = {
     "uttarakhand": "Uttarakhand",
     "uttaranchal": "Uttarakhand",  # Old name
     "west bengal": "West Bengal",
+    "westbengal": "West Bengal",  # No space
+    "west bangal": "West Bengal",  # Typo
     
     # Union Territories
     "andaman and nicobar islands": "Andaman And Nicobar Islands",
@@ -143,6 +153,7 @@ STATE_NAME_MAPPING = {
     "dadra and nagar haveli and daman and diu": "Dadra And Nagar Haveli And Daman And Diu",
     "dadra & nagar haveli and daman & diu": "Dadra And Nagar Haveli And Daman And Diu",
     "dadra and nagar haveli": "Dadra And Nagar Haveli And Daman And Diu",
+    "dadra & nagar haveli": "Dadra And Nagar Haveli And Daman And Diu",  # Common variation
     "daman and diu": "Dadra And Nagar Haveli And Daman And Diu",
     "daman & diu": "Dadra And Nagar Haveli And Daman And Diu",
     "d & n haveli": "Dadra And Nagar Haveli And Daman And Diu",
@@ -156,6 +167,62 @@ STATE_NAME_MAPPING = {
     "lakshadweep": "Lakshadweep",
     "puducherry": "Puducherry",
     "pondicherry": "Puducherry",
+}
+
+# =============================================================================
+# REGION MAPPING (Geographic Regions of India)
+# =============================================================================
+
+REGION_MAPPING = {
+    # North India
+    "Delhi": "North",
+    "Haryana": "North",
+    "Himachal Pradesh": "North",
+    "Jammu And Kashmir": "North",
+    "Ladakh": "North",
+    "Punjab": "North",
+    "Rajasthan": "North",
+    "Uttarakhand": "North",
+    "Chandigarh": "North",
+    
+    # South India
+    "Andhra Pradesh": "South",
+    "Karnataka": "South",
+    "Kerala": "South",
+    "Tamil Nadu": "South",
+    "Telangana": "South",
+    "Puducherry": "South",
+    "Lakshadweep": "South",
+    
+    # East India
+    "Bihar": "East",
+    "Jharkhand": "East",
+    "Odisha": "East",
+    "West Bengal": "East",
+    "Sikkim": "East",
+    
+    # West India
+    "Goa": "West",
+    "Gujarat": "West",
+    "Maharashtra": "West",
+    "Dadra And Nagar Haveli And Daman And Diu": "West",
+    
+    # Central India
+    "Chhattisgarh": "Central",
+    "Madhya Pradesh": "Central",
+    "Uttar Pradesh": "Central",
+    
+    # Northeast India
+    "Arunachal Pradesh": "Northeast",
+    "Assam": "Northeast",
+    "Manipur": "Northeast",
+    "Meghalaya": "Northeast",
+    "Mizoram": "Northeast",
+    "Nagaland": "Northeast",
+    "Tripura": "Northeast",
+    
+    # Islands
+    "Andaman And Nicobar Islands": "Islands",
 }
 
 # =============================================================================
