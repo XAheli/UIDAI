@@ -1,7 +1,5 @@
 # UIDAI Aadhaar Data Analysis & Visualization Platform
 
-**Authors: Aheli Poddar, Shuvam Banerji Seal, Alok Mishra**
-
 A comprehensive, production-grade data analysis pipeline for Aadhaar enrollment, demographic, and biometric datasets with ML-powered insights and interactive web visualization.
 
 ---
