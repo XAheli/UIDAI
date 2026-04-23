@@ -5,13 +5,13 @@ name: Run Analysis Pipeline
 
 on:
   push:
-    branches: [main]
+    branches: [main, shuvam]
     paths:
       - 'analysis/**'
       - 'Dataset/**'
       - '.github/workflows/analysis.yml'
   pull_request:
-    branches: [main]
+    branches: [main, shuvam]
     paths:
       - 'analysis/**'
   workflow_dispatch:

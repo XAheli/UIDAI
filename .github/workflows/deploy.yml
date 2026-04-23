@@ -5,9 +5,11 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, shuvam]
     paths:
       - 'web/frontend/**'
+      - 'presentation.html'
+      - 'assets/**'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
@@ -50,6 +52,14 @@ jobs:
       - name: Build
         working-directory: web/frontend
         run: npm run build
+
+      - name: Publish presentation and assets in Pages output
+        run: |
+          cp presentation.html web/frontend/dist/presentation.html
+          mkdir -p web/frontend/dist/assets
+          cp assets/*.jpeg web/frontend/dist/assets/ || true
+          cp assets/*.jpg web/frontend/dist/assets/ || true
+          cp assets/*.svg web/frontend/dist/assets/ || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
